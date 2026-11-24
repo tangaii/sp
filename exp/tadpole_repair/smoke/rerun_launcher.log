@@ -1,0 +1,13 @@
+/usr/local/lib/python3.12/site-packages/torch/__init__.py:1551: UserWarning: Please use the new API settings to control TF32 behavior, such as torch.backends.cudnn.conv.fp32_precision = 'tf32' or torch.backends.cuda.matmul.fp32_precision = 'ieee'. Old settings, e.g, torch.backends.cuda.matmul.allow_tf32 = True, torch.backends.cudnn.allow_tf32 = True, allowTF32CuDNN() and allowTF32CuBLAS() will be deprecated after Pytorch 2.9. Please see https://pytorch.org/docs/main/notes/cuda.html#tensorfloat-32-tf32-on-ampere-and-later-devices (Triggered internally at ../aten/src/ATen/Context.cpp:80.)
+  return _C._get_float32_matmul_precision()
+paper_config fold 01 already complete
+paper_config fold 02 already complete
+paper_config fold 03 already complete
+paper_config fold 04 already complete
+paper_config fold 05 already complete
+paper_config fold 06 already complete
+paper_config fold 07 already complete
+paper_config fold 08 already complete
+paper_config fold 09 already complete
+paper_config fold 10 already complete
+paper_config complete  /model/SPromptGL-main/exp/tadpole_repair/runs/paper_config/summary.json

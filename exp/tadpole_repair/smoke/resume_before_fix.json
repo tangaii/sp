@@ -1,0 +1,33 @@
+{
+  "variant": "paper_config",
+  "epochs": 3,
+  "resumed_fold": 2,
+  "continuous_and_resumed_rng_equal": false,
+  "cached_clip_features_equal": true,
+  "max_absolute_history_differences": {
+    "epoch_zero_based": 0.0,
+    "classification_loss": 0.025247573852539062,
+    "graph_structure_loss": 9.41157341003418e-05,
+    "graph_supervision_loss": 0.0,
+    "total_loss": 0.02534174919128418,
+    "train_acc": 0.0018587360594795599,
+    "outer_test_acc": 0.0
+  },
+  "max_absolute_probability_difference": 0.05035775900000006,
+  "best_epoch_continuous_and_resumed": [
+    2,
+    2
+  ],
+  "acc_continuous_and_resumed": [
+    0.5333333333333333,
+    0.5333333333333333
+  ],
+  "hard_auc_continuous_and_resumed": [
+    0.5,
+    0.5
+  ],
+  "probability_auc_continuous_and_resumed": [
+    0.6764696530321531,
+    0.667490086564379
+  ]
+}

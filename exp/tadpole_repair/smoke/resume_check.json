@@ -1,0 +1,11 @@
+{
+  "variant": "paper_config",
+  "epochs": 3,
+  "resumed_fold": 2,
+  "continuous_and_resumed_rng_equal": true,
+  "continuous_and_resumed_model_equal": true,
+  "continuous_and_resumed_artifact_hashes_equal": {
+    "history.csv": "eddd5e589369c1a0327652f1adad7006148a5b959b2bfa7624d462fe31d08013",
+    "predictions.csv": "739572d06122ba9be809e82ed38890cc064e417a579380bb18ce08dbf52b6d3d"
+  }
+}
