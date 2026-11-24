@@ -1,0 +1,31 @@
+__pycache__/
+**/__pycache__/
+**/build/
+*.py[cod]
+*.lock
+
+# Local model checkpoints and downloaded binary weights.
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+
+# Raw or derived subject-level data. Obtain these files locally before running.
+data/ABIDE/modal_feat_dict.npy
+data/ABIDE/processed_standard_data.csv
+data/TADPOLE/modal_feat_dict.npy
+data/TADPOLE/processed_standard_data.csv
+exp/tadpole_repair/data/modal_feat_dict.npy
+exp/tadpole_repair/data/processed_standard_data.csv
+exp/tadpole_repair/data/samples.csv
+
+# Per-subject evaluation and generated graph/attention arrays.
+exp/tadpole_repair/runs/**/predictions.csv
+exp/tadpole_repair/runs/**/out_of_fold_predictions.csv
+attn/*.npy
+attn/*.mat
+graph/*.npz
+
+# Short local smoke runs and their generated artifacts.
+exp/tadpole_repair/smoke/

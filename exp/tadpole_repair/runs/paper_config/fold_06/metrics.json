@@ -1,0 +1,115 @@
+{
+  "acc": 0.9166666666666666,
+  "auc_hard": 0.9329231129147703,
+  "auc_probability": 0.9547127161142734,
+  "sensitivity": {
+    "NC": 0.9523809523809523,
+    "MCI": 0.9032258064516129,
+    "AD": 0.875
+  },
+  "specificity": {
+    "NC": 0.9743589743589743,
+    "MCI": 0.9310344827586207,
+    "AD": 0.9615384615384616
+  },
+  "confusion": [
+    [
+      20,
+      1,
+      0
+    ],
+    [
+      1,
+      28,
+      2
+    ],
+    [
+      0,
+      1,
+      7
+    ]
+  ],
+  "fold": 6,
+  "best_epoch_zero_based": 122,
+  "train_size": 538,
+  "test_size": 60,
+  "class_weight_counter_order": [
+    0,
+    1,
+    2
+  ],
+  "class_weights_in_loss_index_order": [
+    0.9539007092198583,
+    0.6314553990610329,
+    2.7171717171717176
+  ],
+  "seconds": 17.104288011789322,
+  "graph_relations": [
+    {
+      "index": 0,
+      "weight": 0.5164728164672852,
+      "used_for_fusion": false,
+      "off_diagonal_edge_density": 0.0,
+      "train_pair_mse": 0.4501546025276184,
+      "mean_train_cosine_same_label": 0.02095884457230568,
+      "mean_train_cosine_different_label": -0.0006278722430579364,
+      "train_positive_edge_rate": 0.004470072221010923,
+      "train_negative_edge_rate": 0.0
+    },
+    {
+      "index": 1,
+      "weight": 0.6650746464729309,
+      "used_for_fusion": true,
+      "off_diagonal_edge_density": 0.014386312835078402,
+      "train_pair_mse": 0.636089026927948,
+      "mean_train_cosine_same_label": 0.07131706923246384,
+      "mean_train_cosine_different_label": -0.03448347747325897,
+      "train_positive_edge_rate": 0.02082156203687191,
+      "train_negative_edge_rate": 0.012360427528619766
+    },
+    {
+      "index": 2,
+      "weight": 0.5681769847869873,
+      "used_for_fusion": true,
+      "off_diagonal_edge_density": 0.484428833128855,
+      "train_pair_mse": 0.4384520947933197,
+      "mean_train_cosine_same_label": 0.8667736053466797,
+      "mean_train_cosine_different_label": 0.8363763689994812,
+      "train_positive_edge_rate": 0.5329024195671082,
+      "train_negative_edge_rate": 0.4481689929962158
+    },
+    {
+      "index": 3,
+      "weight": 0.631179928779602,
+      "used_for_fusion": true,
+      "off_diagonal_edge_density": 0.038923715567805585,
+      "train_pair_mse": 0.5396062135696411,
+      "mean_train_cosine_same_label": 0.11128540337085724,
+      "mean_train_cosine_different_label": 0.1037769615650177,
+      "train_positive_edge_rate": 0.04571438208222389,
+      "train_negative_edge_rate": 0.03764903545379639
+    },
+    {
+      "index": 4,
+      "weight": 0.7368913292884827,
+      "used_for_fusion": true,
+      "off_diagonal_edge_density": 0.06446390256746386,
+      "train_pair_mse": 0.2683749496936798,
+      "mean_train_cosine_same_label": 0.5973625779151917,
+      "mean_train_cosine_different_label": 0.20667654275894165,
+      "train_positive_edge_rate": 0.12999767065048218,
+      "train_negative_edge_rate": 0.023881055414676666
+    },
+    {
+      "index": 5,
+      "weight": 0.600856363773346,
+      "used_for_fusion": true,
+      "off_diagonal_edge_density": 0.17950398592740738,
+      "train_pair_mse": 0.3666744530200958,
+      "mean_train_cosine_same_label": 0.7697723507881165,
+      "mean_train_cosine_different_label": 0.736627995967865,
+      "train_positive_edge_rate": 0.20866429805755615,
+      "train_negative_edge_rate": 0.15745647251605988
+    }
+  ]
+}

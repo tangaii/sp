@@ -1,0 +1,66 @@
+/usr/local/lib/python3.12/site-packages/torch/__init__.py:1551: UserWarning: Please use the new API settings to control TF32 behavior, such as torch.backends.cudnn.conv.fp32_precision = 'tf32' or torch.backends.cuda.matmul.fp32_precision = 'ieee'. Old settings, e.g, torch.backends.cuda.matmul.allow_tf32 = True, torch.backends.cudnn.allow_tf32 = True, allowTF32CuDNN() and allowTF32CuBLAS() will be deprecated after Pytorch 2.9. Please see https://pytorch.org/docs/main/notes/cuda.html#tensorfloat-32-tf32-on-ampere-and-later-devices (Triggered internally at ../aten/src/ATen/Context.cpp:80.)
+  return _C._get_float32_matmul_precision()
+fold 01 epoch 001/300 loss=0.96512 test_acc=0.4167
+fold 01 epoch 100/300 loss=-0.45427 test_acc=0.9000
+fold 01 epoch 200/300 loss=0.24070 test_acc=0.4333
+fold 01 epoch 300/300 loss=-0.43710 test_acc=0.7833
+graph_supervision fold 01 complete  epoch=81 acc=0.9667 hard_auc=0.9619 prob_auc=0.9881 time=22.7s
+fold 02 epoch 001/300 loss=1.13899 test_acc=0.4667
+fold 02 epoch 100/300 loss=-0.71012 test_acc=0.8500
+fold 02 epoch 200/300 loss=-0.16924 test_acc=0.6833
+fold 02 epoch 300/300 loss=-0.68725 test_acc=0.9000
+graph_supervision fold 02 complete  epoch=62 acc=0.9167 hard_auc=0.9493 prob_auc=0.9725 time=16.9s
+fold 03 epoch 001/300 loss=1.30795 test_acc=0.5333
+fold 03 epoch 100/300 loss=-0.50645 test_acc=0.7667
+fold 03 epoch 200/300 loss=-0.20888 test_acc=0.5000
+fold 03 epoch 300/300 loss=-0.71985 test_acc=0.8667
+graph_supervision fold 03 complete  epoch=75 acc=0.9333 hard_auc=0.9588 prob_auc=0.9766 time=17.5s
+fold 04 epoch 001/300 loss=1.12271 test_acc=0.1167
+fold 04 epoch 100/300 loss=-0.52124 test_acc=0.7833
+fold 04 epoch 200/300 loss=-0.62822 test_acc=0.8000
+fold 04 epoch 300/300 loss=-0.56658 test_acc=0.7667
+graph_supervision fold 04 complete  epoch=39 acc=0.9000 hard_auc=0.9377 prob_auc=0.9766 time=18.0s
+fold 05 epoch 001/300 loss=1.08405 test_acc=0.3500
+fold 05 epoch 100/300 loss=-0.34716 test_acc=0.6167
+fold 05 epoch 200/300 loss=-0.49561 test_acc=0.7333
+fold 05 epoch 300/300 loss=-0.61325 test_acc=0.7333
+graph_supervision fold 05 complete  epoch=153 acc=0.9000 hard_auc=0.9012 prob_auc=0.9740 time=19.1s
+fold 06 epoch 001/300 loss=1.37640 test_acc=0.5167
+fold 06 epoch 100/300 loss=-0.69288 test_acc=0.8500
+fold 06 epoch 200/300 loss=-0.69891 test_acc=0.8333
+fold 06 epoch 300/300 loss=-0.77230 test_acc=0.8500
+graph_supervision fold 06 complete  epoch=85 acc=0.9333 hard_auc=0.9415 prob_auc=0.9569 time=19.4s
+fold 07 epoch 001/300 loss=1.00010 test_acc=0.4000
+fold 07 epoch 100/300 loss=-0.45258 test_acc=0.8000
+fold 07 epoch 200/300 loss=-0.54694 test_acc=0.7667
+fold 07 epoch 300/300 loss=-0.22502 test_acc=0.8000
+graph_supervision fold 07 complete  epoch=140 acc=0.8667 hard_auc=0.8970 prob_auc=0.9322 time=19.2s
+fold 08 epoch 001/300 loss=1.49678 test_acc=0.4833
+fold 08 epoch 100/300 loss=-0.63458 test_acc=0.8000
+fold 08 epoch 200/300 loss=-0.22944 test_acc=0.5833
+fold 08 epoch 300/300 loss=-0.78343 test_acc=0.8333
+graph_supervision fold 08 complete  epoch=177 acc=0.9000 hard_auc=0.8843 prob_auc=0.9386 time=18.7s
+fold 09 epoch 001/300 loss=0.98637 test_acc=0.5424
+fold 09 epoch 100/300 loss=-0.68745 test_acc=0.8136
+fold 09 epoch 200/300 loss=-0.55671 test_acc=0.8983
+fold 09 epoch 300/300 loss=-0.73603 test_acc=0.8644
+graph_supervision fold 09 complete  epoch=283 acc=0.9322 hard_auc=0.9380 prob_auc=0.9665 time=19.0s
+fold 10 epoch 001/300 loss=1.14035 test_acc=0.5424
+fold 10 epoch 100/300 loss=-0.52598 test_acc=0.8305
+fold 10 epoch 200/300 loss=-0.25457 test_acc=0.5254
+fold 10 epoch 300/300 loss=-0.11901 test_acc=0.7797
+graph_supervision fold 10 complete  epoch=263 acc=0.8644 hard_auc=0.8907 prob_auc=0.9390 time=19.2s
+graph_supervision complete  /model/SPromptGL-main/exp/tadpole_repair/runs/graph_supervision/summary.json
+/usr/local/lib/python3.12/site-packages/torch/__init__.py:1551: UserWarning: Please use the new API settings to control TF32 behavior, such as torch.backends.cudnn.conv.fp32_precision = 'tf32' or torch.backends.cuda.matmul.fp32_precision = 'ieee'. Old settings, e.g, torch.backends.cuda.matmul.allow_tf32 = True, torch.backends.cudnn.allow_tf32 = True, allowTF32CuDNN() and allowTF32CuBLAS() will be deprecated after Pytorch 2.9. Please see https://pytorch.org/docs/main/notes/cuda.html#tensorfloat-32-tf32-on-ampere-and-later-devices (Triggered internally at ../aten/src/ATen/Context.cpp:80.)
+  return _C._get_float32_matmul_precision()
+graph_supervision fold 01 already complete
+graph_supervision fold 02 already complete
+graph_supervision fold 03 already complete
+graph_supervision fold 04 already complete
+graph_supervision fold 05 already complete
+graph_supervision fold 06 already complete
+graph_supervision fold 07 already complete
+graph_supervision fold 08 already complete
+graph_supervision fold 09 already complete
+graph_supervision fold 10 already complete
+graph_supervision complete  /model/SPromptGL-main/exp/tadpole_repair/runs/graph_supervision/summary.json

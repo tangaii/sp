@@ -1,0 +1,53 @@
+/usr/local/lib/python3.12/site-packages/torch/__init__.py:1551: UserWarning: Please use the new API settings to control TF32 behavior, such as torch.backends.cudnn.conv.fp32_precision = 'tf32' or torch.backends.cuda.matmul.fp32_precision = 'ieee'. Old settings, e.g, torch.backends.cuda.matmul.allow_tf32 = True, torch.backends.cudnn.allow_tf32 = True, allowTF32CuDNN() and allowTF32CuBLAS() will be deprecated after Pytorch 2.9. Please see https://pytorch.org/docs/main/notes/cuda.html#tensorfloat-32-tf32-on-ampere-and-later-devices (Triggered internally at ../aten/src/ATen/Context.cpp:80.)
+  return _C._get_float32_matmul_precision()
+fold 01 epoch 001/300 loss=1.11999 test_acc=0.1667
+fold 01 epoch 100/300 loss=-0.43418 test_acc=0.8000
+fold 01 epoch 200/300 loss=-0.44769 test_acc=0.8167
+fold 01 epoch 300/300 loss=-0.77900 test_acc=0.8833
+mmgpl_class_full_graph_sup fold 01 complete  epoch=45 acc=0.9500 hard_auc=0.9738 prob_auc=0.9896 time=23.1s
+fold 02 epoch 001/300 loss=1.37171 test_acc=0.5167
+fold 02 epoch 100/300 loss=-0.40371 test_acc=0.8167
+fold 02 epoch 200/300 loss=-0.33400 test_acc=0.7167
+fold 02 epoch 300/300 loss=-0.31766 test_acc=0.6667
+mmgpl_class_full_graph_sup fold 02 complete  epoch=110 acc=0.9333 hard_auc=0.9577 prob_auc=0.9675 time=17.4s
+fold 03 epoch 001/300 loss=1.02142 test_acc=0.3500
+fold 03 epoch 100/300 loss=-0.62126 test_acc=0.8000
+fold 03 epoch 200/300 loss=-0.41600 test_acc=0.6500
+fold 03 epoch 300/300 loss=-0.78025 test_acc=0.7833
+mmgpl_class_full_graph_sup fold 03 complete  epoch=218 acc=0.9000 hard_auc=0.9354 prob_auc=0.9589 time=17.4s
+fold 04 epoch 001/300 loss=1.20746 test_acc=0.1167
+fold 04 epoch 100/300 loss=-0.59970 test_acc=0.8000
+fold 04 epoch 200/300 loss=-0.69323 test_acc=0.7667
+fold 04 epoch 300/300 loss=-0.71988 test_acc=0.8333
+mmgpl_class_full_graph_sup fold 04 complete  epoch=255 acc=0.9000 hard_auc=0.9443 prob_auc=0.9658 time=17.5s
+fold 05 epoch 001/300 loss=1.26450 test_acc=0.3500
+fold 05 epoch 100/300 loss=0.36526 test_acc=0.4333
+fold 05 epoch 200/300 loss=-0.52750 test_acc=0.8167
+fold 05 epoch 300/300 loss=-0.33545 test_acc=0.7167
+mmgpl_class_full_graph_sup fold 05 complete  epoch=276 acc=0.8833 hard_auc=0.8876 prob_auc=0.9335 time=17.5s
+fold 06 epoch 001/300 loss=1.08836 test_acc=0.3833
+fold 06 epoch 100/300 loss=-0.30035 test_acc=0.7667
+fold 06 epoch 200/300 loss=-0.64246 test_acc=0.9500
+fold 06 epoch 300/300 loss=-0.71806 test_acc=0.8667
+mmgpl_class_full_graph_sup fold 06 complete  epoch=198 acc=0.9500 hard_auc=0.9541 prob_auc=0.9607 time=17.6s
+fold 07 epoch 001/300 loss=1.18524 test_acc=0.2333
+fold 07 epoch 100/300 loss=-0.16043 test_acc=0.5167
+fold 07 epoch 200/300 loss=-0.03777 test_acc=0.7667
+fold 07 epoch 300/300 loss=-0.46352 test_acc=0.6167
+mmgpl_class_full_graph_sup fold 07 complete  epoch=184 acc=0.8667 hard_auc=0.8948 prob_auc=0.9385 time=17.5s
+fold 08 epoch 001/300 loss=1.09768 test_acc=0.3667
+fold 08 epoch 100/300 loss=-0.68562 test_acc=0.8000
+fold 08 epoch 200/300 loss=0.44516 test_acc=0.4000
+fold 08 epoch 300/300 loss=-0.67914 test_acc=0.8500
+mmgpl_class_full_graph_sup fold 08 complete  epoch=102 acc=0.8833 hard_auc=0.8916 prob_auc=0.9202 time=17.1s
+fold 09 epoch 001/300 loss=1.18323 test_acc=0.5424
+fold 09 epoch 100/300 loss=-0.17215 test_acc=0.4746
+fold 09 epoch 200/300 loss=-0.76822 test_acc=0.8475
+fold 09 epoch 300/300 loss=-0.73304 test_acc=0.8475
+mmgpl_class_full_graph_sup fold 09 complete  epoch=184 acc=0.8983 hard_auc=0.9144 prob_auc=0.9604 time=17.6s
+fold 10 epoch 001/300 loss=1.32257 test_acc=0.3390
+fold 10 epoch 100/300 loss=-0.32770 test_acc=0.6780
+fold 10 epoch 200/300 loss=0.30002 test_acc=0.5593
+fold 10 epoch 300/300 loss=-0.79214 test_acc=0.8644
+mmgpl_class_full_graph_sup fold 10 complete  epoch=250 acc=0.9153 hard_auc=0.9497 prob_auc=0.9641 time=17.5s
+mmgpl_class_full_graph_sup complete  /model/SPromptGL-main/exp/tadpole_repair/runs/mmgpl_class_full_graph_sup/summary.json

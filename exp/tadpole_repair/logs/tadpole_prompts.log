@@ -1,0 +1,53 @@
+/usr/local/lib/python3.12/site-packages/torch/__init__.py:1551: UserWarning: Please use the new API settings to control TF32 behavior, such as torch.backends.cudnn.conv.fp32_precision = 'tf32' or torch.backends.cuda.matmul.fp32_precision = 'ieee'. Old settings, e.g, torch.backends.cuda.matmul.allow_tf32 = True, torch.backends.cudnn.allow_tf32 = True, allowTF32CuDNN() and allowTF32CuBLAS() will be deprecated after Pytorch 2.9. Please see https://pytorch.org/docs/main/notes/cuda.html#tensorfloat-32-tf32-on-ampere-and-later-devices (Triggered internally at ../aten/src/ATen/Context.cpp:80.)
+  return _C._get_float32_matmul_precision()
+fold 01 epoch 001/300 loss=0.45220 test_acc=0.4333
+fold 01 epoch 100/300 loss=-0.91214 test_acc=0.8000
+fold 01 epoch 200/300 loss=-0.49177 test_acc=0.4667
+fold 01 epoch 300/300 loss=-0.62582 test_acc=0.5667
+tadpole_prompts fold 01 complete  epoch=115 acc=0.9167 hard_auc=0.9313 prob_auc=0.9762 time=20.9s
+fold 02 epoch 001/300 loss=0.62476 test_acc=0.4667
+fold 02 epoch 100/300 loss=-0.59623 test_acc=0.7333
+fold 02 epoch 200/300 loss=-0.44585 test_acc=0.4833
+fold 02 epoch 300/300 loss=-0.67867 test_acc=0.8500
+tadpole_prompts fold 02 complete  epoch=117 acc=0.9000 hard_auc=0.9266 prob_auc=0.9787 time=15.5s
+fold 03 epoch 001/300 loss=0.81136 test_acc=0.5333
+fold 03 epoch 100/300 loss=-0.46691 test_acc=0.6667
+fold 03 epoch 200/300 loss=-0.87874 test_acc=0.6167
+fold 03 epoch 300/300 loss=-0.70817 test_acc=0.5667
+tadpole_prompts fold 03 complete  epoch=157 acc=0.9167 hard_auc=0.9438 prob_auc=0.9856 time=15.4s
+fold 04 epoch 001/300 loss=0.65077 test_acc=0.1167
+fold 04 epoch 100/300 loss=-0.47574 test_acc=0.4667
+fold 04 epoch 200/300 loss=-0.63535 test_acc=0.5500
+fold 04 epoch 300/300 loss=-0.78088 test_acc=0.7500
+tadpole_prompts fold 04 complete  epoch=268 acc=0.8500 hard_auc=0.8845 prob_auc=0.9402 time=15.7s
+fold 05 epoch 001/300 loss=0.56955 test_acc=0.3500
+fold 05 epoch 100/300 loss=-0.49910 test_acc=0.5000
+fold 05 epoch 200/300 loss=-0.79207 test_acc=0.7167
+fold 05 epoch 300/300 loss=-0.87406 test_acc=0.7000
+tadpole_prompts fold 05 complete  epoch=266 acc=0.9500 hard_auc=0.9512 prob_auc=0.9843 time=15.7s
+fold 06 epoch 001/300 loss=0.86364 test_acc=0.5167
+fold 06 epoch 100/300 loss=-0.92829 test_acc=0.7333
+fold 06 epoch 200/300 loss=-0.86187 test_acc=0.6667
+fold 06 epoch 300/300 loss=-0.90310 test_acc=0.7833
+tadpole_prompts fold 06 complete  epoch=244 acc=0.9000 hard_auc=0.8913 prob_auc=0.9555 time=15.5s
+fold 07 epoch 001/300 loss=0.52500 test_acc=0.4167
+fold 07 epoch 100/300 loss=-0.76106 test_acc=0.7500
+fold 07 epoch 200/300 loss=-0.53317 test_acc=0.6167
+fold 07 epoch 300/300 loss=-0.67802 test_acc=0.7000
+tadpole_prompts fold 07 complete  epoch=224 acc=0.8667 hard_auc=0.9198 prob_auc=0.9192 time=15.8s
+fold 08 epoch 001/300 loss=0.98643 test_acc=0.4833
+fold 08 epoch 100/300 loss=-0.30970 test_acc=0.4667
+fold 08 epoch 200/300 loss=-0.57453 test_acc=0.5667
+fold 08 epoch 300/300 loss=-0.41242 test_acc=0.6167
+tadpole_prompts fold 08 complete  epoch=74 acc=0.8667 hard_auc=0.8749 prob_auc=0.9367 time=16.3s
+fold 09 epoch 001/300 loss=0.43148 test_acc=0.5254
+fold 09 epoch 100/300 loss=-0.25134 test_acc=0.4576
+fold 09 epoch 200/300 loss=-0.59854 test_acc=0.4915
+fold 09 epoch 300/300 loss=-0.83886 test_acc=0.8305
+tadpole_prompts fold 09 complete  epoch=261 acc=0.8814 hard_auc=0.9140 prob_auc=0.9396 time=16.2s
+fold 10 epoch 001/300 loss=0.65225 test_acc=0.5424
+fold 10 epoch 100/300 loss=-0.53795 test_acc=0.6441
+fold 10 epoch 200/300 loss=-0.61036 test_acc=0.6102
+fold 10 epoch 300/300 loss=-0.82548 test_acc=0.6610
+tadpole_prompts fold 10 complete  epoch=263 acc=0.8136 hard_auc=0.8662 prob_auc=0.9375 time=16.6s
+tadpole_prompts complete  /model/SPromptGL-main/exp/tadpole_repair/runs/tadpole_prompts/summary.json

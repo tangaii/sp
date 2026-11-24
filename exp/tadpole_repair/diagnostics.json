@@ -1,0 +1,44 @@
+{
+  "clip": {
+    "weights_sha256": "afeb0e10f9e5a86da6080e35cf09123aca3b358a0c3e3b6c78a7b63bc04b6762",
+    "frozen_cached_vs_frozen_live": {
+      "shape": [
+        8,
+        1024
+      ],
+      "exactly_equal": true,
+      "max_absolute_difference": 0.0,
+      "mean_matching_prompt_cosine": 1.0
+    },
+    "frozen_pretrained_vs_xavier": {
+      "shape": [
+        8,
+        1024
+      ],
+      "exactly_equal": false,
+      "max_absolute_difference": 11.23388671875,
+      "mean_matching_prompt_cosine": 0.04066446051001549
+    },
+    "tadpole_prompt_groups": [
+      "NC",
+      "MCI",
+      "AD"
+    ],
+    "tadpole_feature_shape": [
+      12,
+      1024
+    ]
+  },
+  "fusion": {
+    "max_fused_change_after_zeroing_first_relation_message": {
+      "legacy": 0.0,
+      "sigmoid_sum": 2.8173322677612305,
+      "softmax_sum": 0.6422950029373169
+    }
+  },
+  "graph_supervision": {
+    "no_direct_supervision_gradient_for_pairs_with_outer_test_node": true,
+    "below_threshold_same_class_pair_gradient": -0.222222238779068,
+    "mean_to_frobenius_factor": 9
+  }
+}
