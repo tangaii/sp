@@ -1,0 +1,19 @@
+{
+  "status": "EXACT_BASELINE_REPRODUCTION",
+  "prediction_label_exact": true,
+  "probability_max_abs_difference": 0.0,
+  "best_epochs_equal": true,
+  "best_epochs": [
+    121,
+    38,
+    180,
+    156,
+    273,
+    212,
+    111,
+    151,
+    156,
+    287
+  ],
+  "oof_correct": 549
+}
