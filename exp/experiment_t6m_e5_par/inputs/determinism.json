@@ -1,0 +1,15 @@
+{
+  "python_hash_seeds": [
+    1,
+    73
+  ],
+  "sha256_equal": {
+    "features.json": "31257179d55d34b67e4212ff20bd650fe294887b683aa9eb24de4aa9b356b1b0",
+    "modal_feat_dict.npy": "2c0c961496090b27d816e92ba31b37b121788d977d9b1b81080e0903219a3edf",
+    "processed_standard_data.csv": "b10fd48df089789162dda588c7be0b806758cbe1914506121e8b9194bc1c687a",
+    "samples.csv": "90ca952b943654a16235ea0c5dcb440f065502ddc8f771b0b63fb27137313fe4",
+    "preprocessing.json": "6a92bc90e2fc9aeae1819283dd0e5e8500a7fd4c2d0c0ff89311e34662f1b8ab"
+  },
+  "reference_rid_order_equal": true,
+  "reference_sample_manifest": "/model/spromptgl/experiment/experiment83_tadpole_four_group_comparison/preprocessing/sample_ids.csv"
+}
