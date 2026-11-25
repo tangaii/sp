@@ -1,0 +1,15 @@
+{
+  "status": "INCOMPLETE",
+  "groups": [
+    "G0_FULL_LEGACY",
+    "G1_RES_ONLY_LEGACY",
+    "G2_RES_ONLY_R04"
+  ],
+  "checks": {
+    "inputs": true,
+    "all_groups_10_folds": false,
+    "all_reload_match": false,
+    "oof_all_once": false,
+    "source_frozen": true
+  }
+}

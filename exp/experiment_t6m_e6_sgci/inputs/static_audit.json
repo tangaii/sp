@@ -1,0 +1,47 @@
+{
+  "experiment": "E6-SGCI",
+  "scope": "read-only comparison of E5 frozen sources and local paper/public-code materials",
+  "cohort": {
+    "rows": 598,
+    "dimensions": [145, 148, 3, 36, 24, 9],
+    "label_counts_NC_MCI_AD": [209, 315, 74],
+    "raw_visit_level_data_available": false,
+    "cohort_identity": "COHORT_IDENTITY_NOT_ESTABLISHED",
+    "reason": "Raw TADPOLE D1/D2 and dictionary files are absent from the permitted repository. Frozen E5 processed input was hash-verified and copied unchanged.",
+    "DXCHANGE_concatenation_then_keep_last_temporal_visit_audit": "not verifiable without raw visit rows",
+    "duplicate_RID_visit_label_conflict_audit": "not verifiable without raw visit rows",
+    "paper_table_1_demographics": "not verifiable without original cohort variables"
+  },
+  "input_sha256": {
+    "processed_standard_data.csv": "b10fd48df089789162dda588c7be0b806758cbe1914506121e8b9194bc1c687a",
+    "modal_feat_dict.npy": "2c0c961496090b27d816e92ba31b37b121788d977d9b1b81080e0903219a3edf",
+    "samples.csv": "90ca952b943654a16235ea0c5dcb440f065502ddc8f771b0b63fb27137313fe4"
+  },
+  "CAM": {
+    "VariLengthInputLayer": "per-modality Q/K/V linear projections retained; dimensions adapt to six frozen modalities",
+    "attention": "released attention scaling, min-absolute rescaling, feature normalization, softmax, dropout, output projection, residual and LayerNorm retained",
+    "EncodeLayer": "two layers, four heads, width 40, residual and LayerNorm retained",
+    "FeedForwardLayer": "two-layer GELU residual feed-forward and LayerNorm retained",
+    "OutputLayer": "LayerNorm, Linear, GELU, dropout 0, classifier and log_softmax retained",
+    "initialization": "historical fold states restore shared layers and GFR, then restore per-fold CPU/CUDA RNG",
+    "nll": "historical class-weighted NLL retained",
+    "adaptation_assessment": "six-modality dimensions and fixed 40-wide embedding are TADPOLE adaptations; no CAM redesign introduced",
+    "equations_5_6": "paper describes maximum semantic similarity and local-block aggregation; public equations_5_6 branch references undefined local_projection/global_projection and is not selected"
+  },
+  "legacy_semantics": {
+    "legacy_recalibrate": "softmax across class similarities then max; local feature dimension softmax for block fusion",
+    "g0": "public-code-compatible legacy path",
+    "gfr": "legacy fusion retained, including relation 0 message overwritten by relation 1 assignment"
+  },
+  "E5_auditor": {
+    "rebuilds_predictions_by_reloading_best_checkpoints": true,
+    "recomputes_basic_group_metrics": true,
+    "rebuilds_all_audit_results_fields": false,
+    "missing_or_incomplete": ["residual target quantiles", "REAL/NULL gradient verification", "semantic-vector identity and 1/3 softmax max", "six required paired bootstrap/McNemar/error-transition analyses", "source and RNG forensic checks", "independent cohort visit audit"]
+  },
+  "resource_observation": {
+    "gpu": "single NVIDIA PPU-ZW810E, 96 GiB reported",
+    "initial_10_fold_trial_peak": "approximately 5 GiB",
+    "policy": "global queue capped at ten independent fold workers; groups run sequentially to respect the cap"
+  }
+}

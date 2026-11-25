@@ -1,0 +1,13 @@
+{
+  "source_scope": "E6-SGCI frozen source tree",
+  "files": {
+    "run.py": "ac34ff1a95f5daefc2f85c9fdd1f042893061227e3a2130874eb079b3fc91698",
+    "config.py": "533318e85406e4f97ae984b43db5d9b7bae2b0f13c3cc20d505712892aefaf45",
+    "audit.py": "4941e7f5ec3d0f7d214619ff239cb2f3905dae3eeb126e4bfaae3aa8aa43ae51",
+    "src/network.py": "86a0a91617f2f3020f6df3c82a5132fba6f800a9454189dc626c55a389efc38c",
+    "src/layers.py": "851c7e9065d491951a67c870b07e4a76587cdf6e069b65e1f926a7fa6e9770cb",
+    "src/utils.py": "f62458b69529956e264edc3f35de4cc90873c946a69d6719df3905203a12b500"
+  },
+  "hashes_are_written_by": "sha256sum source files > source_manifest.sha256",
+  "historical_directories_modified": false
+}
