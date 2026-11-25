@@ -1,0 +1,830 @@
+{
+  "experiment": "Experiment 83.8.2",
+  "status": "READ_ONLY_VERIFIED",
+  "historical_source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv",
+  "verified_checkpoint_count": 90,
+  "group_fold_counts": {
+    "H1": 10,
+    "H2": 10,
+    "H3": 10,
+    "H4": 10,
+    "H5": 10,
+    "X3": 10,
+    "X4": 10,
+    "X5": 10,
+    "X6": 10
+  },
+  "initialization_policy": "No historical checkpoint was used to initialize a new formal fold",
+  "records": [
+    {
+      "group": "H1",
+      "fold": 1,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_5_tadpole_five_group_fidelity/G1_E28_E0/best_checkpoints/fold01.pt",
+      "sha256": "aea09520b3eaacdd925d02fa51b8382151cd090c2656a7a1acfa6101f99f25f5",
+      "source": "E83.5 verified checkpoint replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "H1",
+      "fold": 2,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_5_tadpole_five_group_fidelity/G1_E28_E0/best_checkpoints/fold02.pt",
+      "sha256": "f9cfc9733ea7ec6f40bb084c5c73ec210b413d509570d1e3807f4af760a98d46",
+      "source": "E83.5 verified checkpoint replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "H1",
+      "fold": 3,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_5_tadpole_five_group_fidelity/G1_E28_E0/best_checkpoints/fold03.pt",
+      "sha256": "9c01aeb09b496dc955b0dc8b003710562c50e59615e83bf78a59224d7076aeef",
+      "source": "E83.5 verified checkpoint replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "H1",
+      "fold": 4,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_5_tadpole_five_group_fidelity/G1_E28_E0/best_checkpoints/fold04.pt",
+      "sha256": "9f93ffa412f14b4ee5e4814de69d32c8b7e2c5e1613bca6ae7f5881d8754da94",
+      "source": "E83.5 verified checkpoint replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "H1",
+      "fold": 5,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_5_tadpole_five_group_fidelity/G1_E28_E0/best_checkpoints/fold05.pt",
+      "sha256": "d8146eec9105edd1f0434ad617c66391a61f5dbf2c4cd2279ab0e30308a81c5a",
+      "source": "E83.5 verified checkpoint replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "H1",
+      "fold": 6,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_5_tadpole_five_group_fidelity/G1_E28_E0/best_checkpoints/fold06.pt",
+      "sha256": "09f86a1ddcc5bf9bda8d9f1524b4208477943dbbaa6c524486d780400881287c",
+      "source": "E83.5 verified checkpoint replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "H1",
+      "fold": 7,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_5_tadpole_five_group_fidelity/G1_E28_E0/best_checkpoints/fold07.pt",
+      "sha256": "dfb0e94db02df259fba5d9bd88bc08c7e39e17b8485e5b7a4a6a53159673915e",
+      "source": "E83.5 verified checkpoint replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "H1",
+      "fold": 8,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_5_tadpole_five_group_fidelity/G1_E28_E0/best_checkpoints/fold08.pt",
+      "sha256": "83b13a27fc5287f5f2fc0cd775c851f6ab47d606646641e8bdca6a3bf8759647",
+      "source": "E83.5 verified checkpoint replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "H1",
+      "fold": 9,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_5_tadpole_five_group_fidelity/G1_E28_E0/best_checkpoints/fold09.pt",
+      "sha256": "e923610b4708417bc5e089fd223d51f3ea89add72588ac78ebaed5c66f8c48ce",
+      "source": "E83.5 verified checkpoint replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "H1",
+      "fold": 10,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_5_tadpole_five_group_fidelity/G1_E28_E0/best_checkpoints/fold10.pt",
+      "sha256": "0eac6f1174a5b665042323c3277fcef6403e89992c7ab43cb9cc18a370dc7cec",
+      "source": "E83.5 verified checkpoint replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "H2",
+      "fold": 1,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_5_tadpole_five_group_fidelity/G2_E43_1_E00/best_checkpoints/fold01.pt",
+      "sha256": "c8dcc1858f44fdb2137e29ccdefd4336141a60a3edc031798d6398ee4c5c1b48",
+      "source": "E83.5 verified checkpoint replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "H2",
+      "fold": 2,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_5_tadpole_five_group_fidelity/G2_E43_1_E00/best_checkpoints/fold02.pt",
+      "sha256": "83866737435d98c76f3b6e4cdc23d5e513f227a8932a3f77d597d1707c8c82e3",
+      "source": "E83.5 verified checkpoint replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "H2",
+      "fold": 3,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_5_tadpole_five_group_fidelity/G2_E43_1_E00/best_checkpoints/fold03.pt",
+      "sha256": "a800b7e09871bf7d2f8dc6af507c3ea71770b25e17a9b543ae54e84b500a5449",
+      "source": "E83.5 verified checkpoint replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "H2",
+      "fold": 4,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_5_tadpole_five_group_fidelity/G2_E43_1_E00/best_checkpoints/fold04.pt",
+      "sha256": "2254107bf5378b0475f95c7caeb1694fc964627a1e5f5176a9dcb950dc4fac03",
+      "source": "E83.5 verified checkpoint replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "H2",
+      "fold": 5,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_5_tadpole_five_group_fidelity/G2_E43_1_E00/best_checkpoints/fold05.pt",
+      "sha256": "f0314eb5a3347f0e33feecb7b5ea38128664ba5705fd80ea199de4b936c734bd",
+      "source": "E83.5 verified checkpoint replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "H2",
+      "fold": 6,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_5_tadpole_five_group_fidelity/G2_E43_1_E00/best_checkpoints/fold06.pt",
+      "sha256": "fdc6225d2f4269f476382ae2ebe93e884cc4b0bedc2bd954826c011f9d95c6f1",
+      "source": "E83.5 verified checkpoint replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "H2",
+      "fold": 7,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_5_tadpole_five_group_fidelity/G2_E43_1_E00/best_checkpoints/fold07.pt",
+      "sha256": "d20a0ef05e170edd0ffd37b5065755f0243e95c65af82330d734d09525f1cc18",
+      "source": "E83.5 verified checkpoint replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "H2",
+      "fold": 8,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_5_tadpole_five_group_fidelity/G2_E43_1_E00/best_checkpoints/fold08.pt",
+      "sha256": "553cd1c9ca9d5c8a9c1af753cf149089498d43d557e3ab66767cdfdebeeab616",
+      "source": "E83.5 verified checkpoint replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "H2",
+      "fold": 9,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_5_tadpole_five_group_fidelity/G2_E43_1_E00/best_checkpoints/fold09.pt",
+      "sha256": "f6811f4d57de848f4d88752f4975eb0fc596a26eba09bd3a7cc4367f73b16a31",
+      "source": "E83.5 verified checkpoint replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "H2",
+      "fold": 10,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_5_tadpole_five_group_fidelity/G2_E43_1_E00/best_checkpoints/fold10.pt",
+      "sha256": "5b2f5643d172d087f1769b54dd4664356cd20972a9dee04a0fa6b4473089ece2",
+      "source": "E83.5 verified checkpoint replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "H3",
+      "fold": 1,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_5_tadpole_five_group_fidelity/G3_E74_4_G2/best_checkpoints/fold01.pt",
+      "sha256": "3a15b5503a4f809d811e0c8212269c8947125ead4d6ba495c12dea648228283d",
+      "source": "E83.5 verified checkpoint replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "H3",
+      "fold": 2,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_5_tadpole_five_group_fidelity/G3_E74_4_G2/best_checkpoints/fold02.pt",
+      "sha256": "64ce479bb6905d7a2990cf74999fc216b36921603b51d7781b06b7dd1df4932e",
+      "source": "E83.5 verified checkpoint replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "H3",
+      "fold": 3,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_5_tadpole_five_group_fidelity/G3_E74_4_G2/best_checkpoints/fold03.pt",
+      "sha256": "12488e5fe53d437486ee3ed669a34ed52d645ec51fc581069dfee0797f57a89e",
+      "source": "E83.5 verified checkpoint replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "H3",
+      "fold": 4,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_5_tadpole_five_group_fidelity/G3_E74_4_G2/best_checkpoints/fold04.pt",
+      "sha256": "fe3a15310730471fe29164669fbd5d1dfc43316382fe56f6d0c52f81dc19c2c8",
+      "source": "E83.5 verified checkpoint replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "H3",
+      "fold": 5,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_5_tadpole_five_group_fidelity/G3_E74_4_G2/best_checkpoints/fold05.pt",
+      "sha256": "168745509189945678d3ee3e1a0d82e986fec37554188a941cae70c1856dd610",
+      "source": "E83.5 verified checkpoint replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "H3",
+      "fold": 6,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_5_tadpole_five_group_fidelity/G3_E74_4_G2/best_checkpoints/fold06.pt",
+      "sha256": "6ce80a45b0b52e661067739f10d97f71abdfab22daa41dba1193b40c2237612a",
+      "source": "E83.5 verified checkpoint replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "H3",
+      "fold": 7,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_5_tadpole_five_group_fidelity/G3_E74_4_G2/best_checkpoints/fold07.pt",
+      "sha256": "f218e641c78fad6b4d87737700d8602f19cefe2354d2b8b6f288d5f083d0fff9",
+      "source": "E83.5 verified checkpoint replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "H3",
+      "fold": 8,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_5_tadpole_five_group_fidelity/G3_E74_4_G2/best_checkpoints/fold08.pt",
+      "sha256": "c5f5049ae474c4ff0d8c58ba41e1e5c7c4627bf58eca9949d1c2bb3b3731c610",
+      "source": "E83.5 verified checkpoint replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "H3",
+      "fold": 9,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_5_tadpole_five_group_fidelity/G3_E74_4_G2/best_checkpoints/fold09.pt",
+      "sha256": "2a44b1a6d21d2b64739f68ac62c995bcfb0988c425ed4f8c742601e2614dd98e",
+      "source": "E83.5 verified checkpoint replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "H3",
+      "fold": 10,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_5_tadpole_five_group_fidelity/G3_E74_4_G2/best_checkpoints/fold10.pt",
+      "sha256": "dabf84d580b10ba7c569dc4834877208adc288e94e5909d122211bbd162f3df8",
+      "source": "E83.5 verified checkpoint replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "H4",
+      "fold": 1,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_5_tadpole_five_group_fidelity/G4_E82_4_6_10_G1/best_checkpoints/fold01.pt",
+      "sha256": "b9f220170178064fe067caaa7db4ace86a321162143d24b8ac4530b4266909ec",
+      "source": "E83.5 verified checkpoint replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "H4",
+      "fold": 2,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_5_tadpole_five_group_fidelity/G4_E82_4_6_10_G1/best_checkpoints/fold02.pt",
+      "sha256": "bd3c868c320ce712d48eaf4cc722d29cb43d84ea5c7a04d0354a1ff2fdccb90e",
+      "source": "E83.5 verified checkpoint replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "H4",
+      "fold": 3,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_5_tadpole_five_group_fidelity/G4_E82_4_6_10_G1/best_checkpoints/fold03.pt",
+      "sha256": "065beb92dcc1da973494e0bcc28d57d5e43f67e527cdfef86c7d64ec368d937a",
+      "source": "E83.5 verified checkpoint replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "H4",
+      "fold": 4,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_5_tadpole_five_group_fidelity/G4_E82_4_6_10_G1/best_checkpoints/fold04.pt",
+      "sha256": "bbbdce5b7ce38ab8d267c5a484cd5c03448a4124935a537df5dd1ac350b4b1aa",
+      "source": "E83.5 verified checkpoint replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "H4",
+      "fold": 5,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_5_tadpole_five_group_fidelity/G4_E82_4_6_10_G1/best_checkpoints/fold05.pt",
+      "sha256": "42161a856c5babeb3a954698f36f56b2314f61a9503c1a90fcfaac6640488604",
+      "source": "E83.5 verified checkpoint replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "H4",
+      "fold": 6,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_5_tadpole_five_group_fidelity/G4_E82_4_6_10_G1/best_checkpoints/fold06.pt",
+      "sha256": "e3f4f3d259fad9ffe4a7ff7b70b2cde9fc19822d4c9027bc37501b9029c25a39",
+      "source": "E83.5 verified checkpoint replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "H4",
+      "fold": 7,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_5_tadpole_five_group_fidelity/G4_E82_4_6_10_G1/best_checkpoints/fold07.pt",
+      "sha256": "12581fea3e96e5ee2daa8cb15abc290dc93b23ceb26ee0e7c3eed2360545343d",
+      "source": "E83.5 verified checkpoint replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "H4",
+      "fold": 8,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_5_tadpole_five_group_fidelity/G4_E82_4_6_10_G1/best_checkpoints/fold08.pt",
+      "sha256": "31584b86d4fa09be63d4e2019157dac8b3c73f8d875b23bdb03aefe388970903",
+      "source": "E83.5 verified checkpoint replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "H4",
+      "fold": 9,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_5_tadpole_five_group_fidelity/G4_E82_4_6_10_G1/best_checkpoints/fold09.pt",
+      "sha256": "80e214a45e8a0fb92ddd2be6ecc3b1497a8732653453f1929002382a94121c07",
+      "source": "E83.5 verified checkpoint replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "H4",
+      "fold": 10,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_5_tadpole_five_group_fidelity/G4_E82_4_6_10_G1/best_checkpoints/fold10.pt",
+      "sha256": "303fc10f85052ec3e3ce2e2430c6d60205769ae604badcbed4065997875a0024",
+      "source": "E83.5 verified checkpoint replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "H5",
+      "fold": 1,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_5_tadpole_five_group_fidelity/G5_E43_4_E0_ANCHORED_PHYSICAL_CAM/best_checkpoints/fold01.pt",
+      "sha256": "c1be9b6806cb44d7c9b235e530a8146734003ef2b323b2964e1a8d3a68eb66c4",
+      "source": "E83.5 verified checkpoint replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "H5",
+      "fold": 2,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_5_tadpole_five_group_fidelity/G5_E43_4_E0_ANCHORED_PHYSICAL_CAM/best_checkpoints/fold02.pt",
+      "sha256": "714ecbd123235b0938c1b968e2bcbe50663acb75ddadf141df7ca87d74fddfbd",
+      "source": "E83.5 verified checkpoint replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "H5",
+      "fold": 3,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_5_tadpole_five_group_fidelity/G5_E43_4_E0_ANCHORED_PHYSICAL_CAM/best_checkpoints/fold03.pt",
+      "sha256": "33121b3269fbf247c97855550cbe64da6ed1396c9f38a3f96a53e1644cc04228",
+      "source": "E83.5 verified checkpoint replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "H5",
+      "fold": 4,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_5_tadpole_five_group_fidelity/G5_E43_4_E0_ANCHORED_PHYSICAL_CAM/best_checkpoints/fold04.pt",
+      "sha256": "844c45981136b211765f58c2487e372587ef894d0e51791c26c6971f00d7dbe8",
+      "source": "E83.5 verified checkpoint replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "H5",
+      "fold": 5,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_5_tadpole_five_group_fidelity/G5_E43_4_E0_ANCHORED_PHYSICAL_CAM/best_checkpoints/fold05.pt",
+      "sha256": "ffcd60d2adfd132ef7471b97dc5aedfb7e9111e15054ec0231f3c866c9e80f09",
+      "source": "E83.5 verified checkpoint replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "H5",
+      "fold": 6,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_5_tadpole_five_group_fidelity/G5_E43_4_E0_ANCHORED_PHYSICAL_CAM/best_checkpoints/fold06.pt",
+      "sha256": "4a1efeb098e10ef00156ddc66b4d740469a476954c3426234b27aec1d99a6fa9",
+      "source": "E83.5 verified checkpoint replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "H5",
+      "fold": 7,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_5_tadpole_five_group_fidelity/G5_E43_4_E0_ANCHORED_PHYSICAL_CAM/best_checkpoints/fold07.pt",
+      "sha256": "dfd81adfff5cf571ef5e9f50dbd005382e1f9ca25a8d58538c24fe0d22f2ec65",
+      "source": "E83.5 verified checkpoint replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "H5",
+      "fold": 8,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_5_tadpole_five_group_fidelity/G5_E43_4_E0_ANCHORED_PHYSICAL_CAM/best_checkpoints/fold08.pt",
+      "sha256": "a087aaf81e1961c132d956a1cfdf3b67a031bc01cac4e0b7a682cbf21d80f1ae",
+      "source": "E83.5 verified checkpoint replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "H5",
+      "fold": 9,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_5_tadpole_five_group_fidelity/G5_E43_4_E0_ANCHORED_PHYSICAL_CAM/best_checkpoints/fold09.pt",
+      "sha256": "ed5a7275244c9431550769f7182a83e83613d9efc170c1a92ee9335733fcf733",
+      "source": "E83.5 verified checkpoint replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "H5",
+      "fold": 10,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_5_tadpole_five_group_fidelity/G5_E43_4_E0_ANCHORED_PHYSICAL_CAM/best_checkpoints/fold10.pt",
+      "sha256": "1a3b98decd456dda26f3eb4f88c466fb59b0bf89c10fce3e6d7ad34fa2ce8f76",
+      "source": "E83.5 verified checkpoint replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "X3",
+      "fold": 1,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/groups/X3/best_checkpoints/fold01.pt",
+      "sha256": "37133790bdf856a07a8293b1c06a922914b906c701163b155c91a2969b803728",
+      "source": "E83.8.1 formal training and replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "X3",
+      "fold": 2,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/groups/X3/best_checkpoints/fold02.pt",
+      "sha256": "9a863659eacfdef34378e824821d20e25aa4826b9d23f3f9735a3b6a75f86c32",
+      "source": "E83.8.1 formal training and replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "X3",
+      "fold": 3,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/groups/X3/best_checkpoints/fold03.pt",
+      "sha256": "8a2440a510098c8db4ad95fe1550fe3e9f677773ef2e1c5c67873db1d15f60ce",
+      "source": "E83.8.1 formal training and replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "X3",
+      "fold": 4,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/groups/X3/best_checkpoints/fold04.pt",
+      "sha256": "abc0c5e6ff4e75af2e418fe548348f65504b020f4378efc4bd36505bd8ed603c",
+      "source": "E83.8.1 formal training and replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "X3",
+      "fold": 5,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/groups/X3/best_checkpoints/fold05.pt",
+      "sha256": "a17c73d9732c1ca7b99aa72c797e31b90a4c0a57dd58f4b76af5998da123dddb",
+      "source": "E83.8.1 formal training and replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "X3",
+      "fold": 6,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/groups/X3/best_checkpoints/fold06.pt",
+      "sha256": "662c4abc5abc3520864e7512a011dc9b12b030a8e6ab907e6ef5c3629603a061",
+      "source": "E83.8.1 formal training and replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "X3",
+      "fold": 7,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/groups/X3/best_checkpoints/fold07.pt",
+      "sha256": "d948d03b3d80cd994bfb5d866f1b5d890bfb6e8c4e9b19ab65c390ee15ecd88d",
+      "source": "E83.8.1 formal training and replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "X3",
+      "fold": 8,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/groups/X3/best_checkpoints/fold08.pt",
+      "sha256": "df0a32920eeb65f7c23978798d1b47220cf3a8f80081bae3ca625b75fee33318",
+      "source": "E83.8.1 formal training and replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "X3",
+      "fold": 9,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/groups/X3/best_checkpoints/fold09.pt",
+      "sha256": "35fa15b36161c80b8301a5a662955b1886881b730cf6ea0140ce90af532f2a0a",
+      "source": "E83.8.1 formal training and replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "X3",
+      "fold": 10,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/groups/X3/best_checkpoints/fold10.pt",
+      "sha256": "40c3a19f5ccaa9828762fe4df832b4fcda845223633f6277088674a8132c6694",
+      "source": "E83.8.1 formal training and replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "X4",
+      "fold": 1,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/groups/X4/best_checkpoints/fold01.pt",
+      "sha256": "0c50d85286f527938844169ab251160e69e7cb9d27735599fdd442df375ef928",
+      "source": "E83.8.1 formal training and replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "X4",
+      "fold": 2,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/groups/X4/best_checkpoints/fold02.pt",
+      "sha256": "c806c16d6c8c1149d03931dafec8548ecee27d3655b44b6364a841eeaa0b543f",
+      "source": "E83.8.1 formal training and replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "X4",
+      "fold": 3,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/groups/X4/best_checkpoints/fold03.pt",
+      "sha256": "5f8bafd12d18e241f2306230b98f2d8ef85de1d74f713c7bbb050b83147d759d",
+      "source": "E83.8.1 formal training and replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "X4",
+      "fold": 4,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/groups/X4/best_checkpoints/fold04.pt",
+      "sha256": "3cdbe924a7971890d564d384aacab75c858ad6227d0aae0239b284c3b4f6193a",
+      "source": "E83.8.1 formal training and replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "X4",
+      "fold": 5,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/groups/X4/best_checkpoints/fold05.pt",
+      "sha256": "cf40394db65f43a397763cc4155f566bc6e7d92589511386059db00de7599a6e",
+      "source": "E83.8.1 formal training and replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "X4",
+      "fold": 6,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/groups/X4/best_checkpoints/fold06.pt",
+      "sha256": "1795187aee1c1b207de25b4b87c60f1fa4cf6177d7f310fc980e573c4881e88b",
+      "source": "E83.8.1 formal training and replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "X4",
+      "fold": 7,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/groups/X4/best_checkpoints/fold07.pt",
+      "sha256": "ba1243e389ec46befb46a0fdf72346909cf757e40e035af81ab0b26cf4525d32",
+      "source": "E83.8.1 formal training and replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "X4",
+      "fold": 8,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/groups/X4/best_checkpoints/fold08.pt",
+      "sha256": "e9132df8f1abf1179f411f320995594526e5d209bba132cce3be663d1169ebde",
+      "source": "E83.8.1 formal training and replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "X4",
+      "fold": 9,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/groups/X4/best_checkpoints/fold09.pt",
+      "sha256": "566316c6c94efebf9154eea1183170b869a7d3144aa3d064498b4063aef52b05",
+      "source": "E83.8.1 formal training and replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "X4",
+      "fold": 10,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/groups/X4/best_checkpoints/fold10.pt",
+      "sha256": "fbdbb48338103a19ff315cd176287028cc256707ecab2723d0918bb01b956fda",
+      "source": "E83.8.1 formal training and replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "X5",
+      "fold": 1,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/groups/X5/best_checkpoints/fold01.pt",
+      "sha256": "7305fec80d9f2e5e7d37c05cceb1f7a2a8cec6ba31a0aace34c64136e158381f",
+      "source": "E83.8.1 formal training and replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "X5",
+      "fold": 2,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/groups/X5/best_checkpoints/fold02.pt",
+      "sha256": "871d1b8053386f81a63e93589b4d67b4915b1a34f37d2baa37efb254cd5d69b8",
+      "source": "E83.8.1 formal training and replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "X5",
+      "fold": 3,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/groups/X5/best_checkpoints/fold03.pt",
+      "sha256": "70e99981db1d125fe9f21ca8d9813ea1d986e20224f5d8de246dd6c333be5067",
+      "source": "E83.8.1 formal training and replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "X5",
+      "fold": 4,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/groups/X5/best_checkpoints/fold04.pt",
+      "sha256": "e24e9f549b7d84131351d44badba6dea575cab56a3c9e714432bf0a8a3958d83",
+      "source": "E83.8.1 formal training and replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "X5",
+      "fold": 5,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/groups/X5/best_checkpoints/fold05.pt",
+      "sha256": "5085cd6596c25011f9c1074a22ec2c117a756e58fbd0467709b70aea4b4a6c8b",
+      "source": "E83.8.1 formal training and replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "X5",
+      "fold": 6,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/groups/X5/best_checkpoints/fold06.pt",
+      "sha256": "e910e509828052feeecf0d86148d047e6440cfa592e150fd5abac6029f7b99ee",
+      "source": "E83.8.1 formal training and replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "X5",
+      "fold": 7,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/groups/X5/best_checkpoints/fold07.pt",
+      "sha256": "eabf40e9812b3456d62191ea90f166b084ee9a12c6cd0392a13b8992d4b43d7c",
+      "source": "E83.8.1 formal training and replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "X5",
+      "fold": 8,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/groups/X5/best_checkpoints/fold08.pt",
+      "sha256": "3dc87c4568568c3995dc026ce846e76570cf70b3a3cacfb16b1e375e0e952df1",
+      "source": "E83.8.1 formal training and replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "X5",
+      "fold": 9,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/groups/X5/best_checkpoints/fold09.pt",
+      "sha256": "2162b6ca290ed995ad5949259272be57524b6acdcdb398502a9feac6cdf1445d",
+      "source": "E83.8.1 formal training and replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "X5",
+      "fold": 10,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/groups/X5/best_checkpoints/fold10.pt",
+      "sha256": "d087846409d344e015fdabae9aa0476879225bf921e7119c8f930c0fb659b39b",
+      "source": "E83.8.1 formal training and replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "X6",
+      "fold": 1,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/groups/X6/best_checkpoints/fold01.pt",
+      "sha256": "5e5270c4d86c637d71a333352354fc285fc55eadc4b9cd18288d041c53fc526a",
+      "source": "E83.8.1 formal training and replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "X6",
+      "fold": 2,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/groups/X6/best_checkpoints/fold02.pt",
+      "sha256": "7bba26c74198240fe0c600fbb703447ea1b39984565c67dacba8ce284cc9f41b",
+      "source": "E83.8.1 formal training and replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "X6",
+      "fold": 3,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/groups/X6/best_checkpoints/fold03.pt",
+      "sha256": "5d6c1960dab842a71c974f309afc2333da792d022a54b2de54e4931f06e581d6",
+      "source": "E83.8.1 formal training and replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "X6",
+      "fold": 4,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/groups/X6/best_checkpoints/fold04.pt",
+      "sha256": "f6ba5a7468ca06d75f57e0999b57ec02a3f36649f6022dcaaae349160e919269",
+      "source": "E83.8.1 formal training and replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "X6",
+      "fold": 5,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/groups/X6/best_checkpoints/fold05.pt",
+      "sha256": "fcd9e9b3b7ad3726e64c574c10bc210be567bdd27dd4d5beb09bc034cc40c336",
+      "source": "E83.8.1 formal training and replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "X6",
+      "fold": 6,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/groups/X6/best_checkpoints/fold06.pt",
+      "sha256": "eedfa7327b5fb519d962954900c1978dad4bcbe0cf67a9b6211fc5e3ee4cc86d",
+      "source": "E83.8.1 formal training and replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "X6",
+      "fold": 7,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/groups/X6/best_checkpoints/fold07.pt",
+      "sha256": "1149f20ade5c351247be10fbd4134080cc5f3ffd3433fa3763515bf7a41fd78c",
+      "source": "E83.8.1 formal training and replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "X6",
+      "fold": 8,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/groups/X6/best_checkpoints/fold08.pt",
+      "sha256": "9d161d4f96fec575a4f1af54f98b7ef3af12af11a9da6118f685a9b75cba70e9",
+      "source": "E83.8.1 formal training and replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "X6",
+      "fold": 9,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/groups/X6/best_checkpoints/fold09.pt",
+      "sha256": "f0a11f9fb38aed4ffaba34f778e0f0164498ac80254748e0e362fb2b8bdd8bb2",
+      "source": "E83.8.1 formal training and replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    },
+    {
+      "group": "X6",
+      "fold": 10,
+      "checkpoint_role": "Best",
+      "absolute_path": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/groups/X6/best_checkpoints/fold10.pt",
+      "sha256": "e5785b3cdad98dc1eac215cae8e7a165c2f1c9610a39d94609f0f5e114d0a345",
+      "source": "E83.8.1 formal training and replay",
+      "source_metrics": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery/results/fold_metrics.csv"
+    }
+  ]
+}

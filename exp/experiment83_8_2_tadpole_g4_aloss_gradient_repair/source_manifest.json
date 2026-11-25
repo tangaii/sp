@@ -1,0 +1,36 @@
+{
+  "experiment": "Experiment 83.8.2",
+  "paper": "https://papers.miccai.org/miccai-2025/paper/5129_paper.pdf",
+  "author_repository": "https://github.com/wanxixi11/SPromptGL",
+  "project_repository": "https://github.com/tangaii/SPromptGL",
+  "historical_root": "/model/spromptgl/experiment/experiment83_5_tadpole_five_group_fidelity",
+  "e8381_reference_root": "/model/spromptgl/experiment/experiment83_8_1_tadpole_six_group_recovery",
+  "author_snapshot": {
+    "network.py": "d0ac59ead2fecdf517845e2c389d361ef9924abff29707386f847e1fbaa22166",
+    "model.py": "254a9d757d5a891e5191b284b9ee4756926804688b1923358e607c1552580cda"
+  },
+  "runtime_snapshot": {
+    "code/common/fidelity_model.py": "84e2b8bba260ca2169c695452a770928844da109bb5f2aca56c03f8582818532",
+    "code/common/run_e833.py": "200abb31371f79eed5a51108661c4ca1d0eeb8c9a214d51fdc002c0fde94c071",
+    "code/common/source_runtime.py": "a26ad4dee4306d3a2edb0de57a453822876c87fee875133810c603eb4020b210",
+    "code/common/scmr_runtime.py": "e659532f073f51a2437ba94ea07b993d658256af98e54f9228406e3cd2cd4077",
+    "code/common/scmr_optimization.py": "d5ddd9bcbc311240a1251cbbebcc8f93ba4008bbbe4adc4225cfbaa6dbf43dfc"
+  },
+  "historical_source_hashes": {
+    "E51/network.py": "5542f52d598e2f4d32aaad0c46b80c214fd562f74110a1d0ffcc619b9aefb3d1",
+    "E51/layers.py": "4f7c07861bdeeb35fe156448aac4b32bae1b2f813c957d679f50dbd0225e819a",
+    "DARG/cadr_gfr.py": "f5032d96c9ac68afda47a253f794ddfe41373fabebbbbe27057f1425f988815d",
+    "DARG/soft_positive_dcr.py": "3374598e5ab5547a853c4298000710bb7e8f11f93ec3bd63ddb8ff330aa36718",
+    "DPSL/common/optimization.py": "6071142cbbabc21dfe31e1a5cb561b214e0430d4b2e75827b3d7b773157591f0",
+    "DPSL/common/spectral.py": "176d9ba7923beed39d583bfd9831ac99ac2e4e5204d1da7cef0bb727567a2e13"
+  },
+  "data_sha256": "0b8a14a9c066752c2d937c93d43c2824c41beaaa7d0a451b083db8dcba07c5bc",
+  "split_sha256": "7c5a4dc9bd8ee7ffc6e5aff8bf841513f26a5ff6cf1b6c110a8153aa6a106ec5",
+  "prompt_files": {
+    "mmGPL12_class_rn50.pt": "92e0cbf0df65343072af0b271ec6512a889f54efc6e63ebc02927132627d77de",
+    "mmGPL12_class_scmr.pt": "7e202ee46b034ddb33714c4c50e1c9ad18751dc79a2f84f5e73bcb733c02ceff",
+    "mmGPL12_rn50.pt": "14ec1779b0bca574eef4a23d559a83f75364810a7f10ba9c8568620bb18db086",
+    "mmGPL12_scmr.pt": "999439580169b9c3422744eb9a68585f0f1c0cb0bb8bfed04c1c63c1cc93bedf"
+  },
+  "checkpoint_policy": "historical checkpoints are read-only absolute-path references and are not copied into this experiment"
+}

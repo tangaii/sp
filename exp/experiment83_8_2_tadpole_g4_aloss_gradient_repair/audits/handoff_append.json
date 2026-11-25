@@ -1,0 +1,14 @@
+{
+  "experiment": "Experiment 83.8.2",
+  "status": "APPENDED_AND_READ_BACK_VERIFIED",
+  "handoff_path": "/model/spromptgl/experiment/handoff.md",
+  "preserved_prefix_bytes": 1447075,
+  "previous_handoff_sha256": "f6f07f380b32f2a3924ac67c9c08e291188fae47ff8b8fd9138e88bb49785769",
+  "appended_handoff_sha256": "7143152bd9d4a2d7ddf27abdf5fbd2659103d46bc295371916d1c526f8a64614",
+  "section_marker_count": 1,
+  "prefix_verified": true,
+  "historical_checkpoint_manifest": "/model/spromptgl/experiment/experiment83_8_2_tadpole_g4_aloss_gradient_repair/audits/historical_checkpoint_manifest.json",
+  "historical_checkpoint_manifest_sha256": "487248f33ac1c5768c641c92521321c525a1ae0a10d761fa9771ae56977038f5",
+  "append_script_sha256": "5d104cfbb5c930ab36c76ffb63cac7e9c90b1673651090020383986e68ec30bd",
+  "appended_utc": "2026-11-25T13:09:41.774312+00:00"
+}

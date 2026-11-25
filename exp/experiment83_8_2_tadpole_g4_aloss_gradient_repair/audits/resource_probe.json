@@ -1,0 +1,206 @@
+{
+  "device": "PPU-ZW810E",
+  "experiment": "Experiment 83.8.2",
+  "groups": {
+    "N0": {
+      "probe_runs": [
+        {
+          "allocated_mib": 158.0908203125,
+          "delta_reserved_mib": 292.0,
+          "device": "PPU-ZW810E",
+          "group": "N0",
+          "loss": 0.8042628765106201,
+          "reserved_mib": 292.0,
+          "seconds": 3.7431781478226185,
+          "status": "PASS"
+        },
+        {
+          "allocated_mib": 158.0908203125,
+          "delta_reserved_mib": 292.0,
+          "device": "PPU-ZW810E",
+          "group": "N0",
+          "loss": 0.8042628765106201,
+          "reserved_mib": 292.0,
+          "seconds": 3.8198152258992195,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS"
+    },
+    "N1": {
+      "probe_runs": [
+        {
+          "allocated_mib": 158.0908203125,
+          "delta_reserved_mib": 292.0,
+          "device": "PPU-ZW810E",
+          "group": "N1",
+          "loss": 0.8042628765106201,
+          "reserved_mib": 292.0,
+          "seconds": 3.748637594282627,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS"
+    },
+    "N2": {
+      "probe_runs": [
+        {
+          "allocated_mib": 158.0908203125,
+          "delta_reserved_mib": 292.0,
+          "device": "PPU-ZW810E",
+          "group": "N2",
+          "loss": 0.8042628765106201,
+          "reserved_mib": 292.0,
+          "seconds": 4.0212126933038235,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS"
+    },
+    "N3": {
+      "probe_runs": [
+        {
+          "allocated_mib": 158.0908203125,
+          "delta_reserved_mib": 292.0,
+          "device": "PPU-ZW810E",
+          "group": "N3",
+          "loss": 0.8042628765106201,
+          "reserved_mib": 292.0,
+          "seconds": 3.745260190218687,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS"
+    },
+    "N4": {
+      "probe_runs": [
+        {
+          "allocated_mib": 158.0908203125,
+          "delta_reserved_mib": 292.0,
+          "device": "PPU-ZW810E",
+          "group": "N4",
+          "loss": 0.8042628765106201,
+          "reserved_mib": 292.0,
+          "seconds": 3.7150892466306686,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS"
+    },
+    "N5": {
+      "probe_runs": [
+        {
+          "allocated_mib": 158.0908203125,
+          "delta_reserved_mib": 292.0,
+          "device": "PPU-ZW810E",
+          "group": "N5",
+          "loss": 0.8042628765106201,
+          "reserved_mib": 292.0,
+          "seconds": 3.8375593088567257,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS"
+    },
+    "N6": {
+      "probe_runs": [
+        {
+          "allocated_mib": 158.0908203125,
+          "delta_reserved_mib": 292.0,
+          "device": "PPU-ZW810E",
+          "group": "N6",
+          "loss": 0.8042628765106201,
+          "reserved_mib": 292.0,
+          "seconds": 3.8265568241477013,
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS"
+    }
+  },
+  "status": "PASS",
+  "training_seal_sha256": "f7136afd0c0f19c4380007285a2ce152a99494cb7b01a712d6abffa6c86c34a2",
+  "worker_count": 8,
+  "workers": {
+    "0": {
+      "allocated_mib": 158.0908203125,
+      "delta_reserved_mib": 292.0,
+      "device": "PPU-ZW810E",
+      "group": "N0",
+      "loss": 0.8042628765106201,
+      "reserved_mib": 292.0,
+      "seconds": 3.7431781478226185,
+      "status": "PASS"
+    },
+    "1": {
+      "allocated_mib": 158.0908203125,
+      "delta_reserved_mib": 292.0,
+      "device": "PPU-ZW810E",
+      "group": "N1",
+      "loss": 0.8042628765106201,
+      "reserved_mib": 292.0,
+      "seconds": 3.748637594282627,
+      "status": "PASS"
+    },
+    "2": {
+      "allocated_mib": 158.0908203125,
+      "delta_reserved_mib": 292.0,
+      "device": "PPU-ZW810E",
+      "group": "N2",
+      "loss": 0.8042628765106201,
+      "reserved_mib": 292.0,
+      "seconds": 4.0212126933038235,
+      "status": "PASS"
+    },
+    "3": {
+      "allocated_mib": 158.0908203125,
+      "delta_reserved_mib": 292.0,
+      "device": "PPU-ZW810E",
+      "group": "N3",
+      "loss": 0.8042628765106201,
+      "reserved_mib": 292.0,
+      "seconds": 3.745260190218687,
+      "status": "PASS"
+    },
+    "4": {
+      "allocated_mib": 158.0908203125,
+      "delta_reserved_mib": 292.0,
+      "device": "PPU-ZW810E",
+      "group": "N4",
+      "loss": 0.8042628765106201,
+      "reserved_mib": 292.0,
+      "seconds": 3.7150892466306686,
+      "status": "PASS"
+    },
+    "5": {
+      "allocated_mib": 158.0908203125,
+      "delta_reserved_mib": 292.0,
+      "device": "PPU-ZW810E",
+      "group": "N5",
+      "loss": 0.8042628765106201,
+      "reserved_mib": 292.0,
+      "seconds": 3.8375593088567257,
+      "status": "PASS"
+    },
+    "6": {
+      "allocated_mib": 158.0908203125,
+      "delta_reserved_mib": 292.0,
+      "device": "PPU-ZW810E",
+      "group": "N6",
+      "loss": 0.8042628765106201,
+      "reserved_mib": 292.0,
+      "seconds": 3.8265568241477013,
+      "status": "PASS"
+    },
+    "7": {
+      "allocated_mib": 158.0908203125,
+      "delta_reserved_mib": 292.0,
+      "device": "PPU-ZW810E",
+      "group": "N0",
+      "loss": 0.8042628765106201,
+      "reserved_mib": 292.0,
+      "seconds": 3.8198152258992195,
+      "status": "PASS"
+    }
+  }
+}

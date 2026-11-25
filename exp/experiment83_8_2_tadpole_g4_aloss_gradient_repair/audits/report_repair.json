@@ -1,0 +1,61 @@
+{
+  "adam_update_vector_folds": {
+    "N1": 10,
+    "N2": 10,
+    "N3": 10,
+    "N4": 10,
+    "N5": 10
+  },
+  "artifacts_regenerated": [
+    "/model/spromptgl/experiment/experiment83_8_2_tadpole_g4_aloss_gradient_repair/results/darg_dpsl_fold_mechanism.csv",
+    "/model/spromptgl/experiment/experiment83_8_2_tadpole_g4_aloss_gradient_repair/audits/gradient_mechanism.json",
+    "/model/spromptgl/experiment/experiment83_8_2_tadpole_g4_aloss_gradient_repair/results/patient_mechanism.csv",
+    "/model/spromptgl/experiment/experiment83_8_2_tadpole_g4_aloss_gradient_repair/results/final_report.md",
+    "/model/spromptgl/experiment/experiment83_8_2_tadpole_g4_aloss_gradient_repair/audits/final_audit.json",
+    "/model/spromptgl/experiment/experiment83_8_2_tadpole_g4_aloss_gradient_repair/audits/warmup_pairing.json"
+  ],
+  "experiment": "Experiment 83.8.2",
+  "independent_followup_artifacts": [
+    "/model/spromptgl/experiment/experiment83_8_2_tadpole_g4_aloss_gradient_repair/audits/checkpoint_continuation.json",
+    "/model/spromptgl/experiment/experiment83_8_2_tadpole_g4_aloss_gradient_repair/audits/gradient_mechanism.json",
+    "/model/spromptgl/experiment/experiment83_8_2_tadpole_g4_aloss_gradient_repair/audits/final_audit.json",
+    "/model/spromptgl/experiment/experiment83_8_2_tadpole_g4_aloss_gradient_repair/results/final_report.md"
+  ],
+  "mechanism_folds": 70,
+  "modified_audit_sources": [
+    {
+      "path": "/model/spromptgl/experiment/experiment83_8_2_tadpole_g4_aloss_gradient_repair/audits/audit_finalize_e8382.py",
+      "scope": "report aggregation, complete Adam-vector collection, CORR sign-count semantics",
+      "sha256": "9c5f7620f0270de91e4387c23af2d69f200ab1837d7feef5b58d6ac7a6dc6e78"
+    },
+    {
+      "path": "/model/spromptgl/experiment/experiment83_8_2_tadpole_g4_aloss_gradient_repair/audits/repair_final_artifacts_e8382.py",
+      "scope": "regenerate independent mechanism and result artifacts from frozen checkpoints",
+      "sha256": "df1e1fc6351303cb5e6a941f5b6bebbb16cb1ad60edb54aa30107a3866538d6c"
+    },
+    {
+      "path": "/model/spromptgl/experiment/experiment83_8_2_tadpole_g4_aloss_gradient_repair/audits/verify_continuation_e8382.py",
+      "scope": "Apply the original post-Best EMA step and check deterministic continuation against the recorded next epoch",
+      "sha256": "dc787b3460deb327864774e359a7c09fa5e51a4208842911dc09b6d8d386cd40"
+    },
+    {
+      "path": "/model/spromptgl/experiment/experiment83_8_2_tadpole_g4_aloss_gradient_repair/audits/verify_aloss_folds_e8382.py",
+      "scope": "Publish per-fold ALoss gradients and held-out-label perturbation checks, including both audited epochs for N4",
+      "sha256": "f75d36df209240700c363ac643d9d7cb4ac7109709ab4338f04d6ba9f496ffa7"
+    }
+  ],
+  "status": "PASS",
+  "training_implementation_sha256": "8f1954825ef9f17838fe6ee397f81149224c068338b90356724199ae4e925386",
+  "training_seal_sha256": "f7136afd0c0f19c4380007285a2ce152a99494cb7b01a712d6abffa6c86c34a2",
+  "training_sources_unmodified": true,
+  "warmup_pairing_groups": {
+    "N0": "BASELINE",
+    "N1": "PASS",
+    "N2": "PASS",
+    "N3": "PASS",
+    "N4": "ALOSS_WARMUP_ONLY_DIFFERENCE",
+    "N5": "PASS",
+    "N6": "PASS"
+  },
+  "warmup_pairing_status": "PASS"
+}
