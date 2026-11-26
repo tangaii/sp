@@ -1,0 +1,169 @@
+{
+  "experiment": "Experiment 83.8.5",
+  "status": "COMPLETE_AUDITED",
+  "verified_utc": "2026-11-26T10:30:17.822815+00:00",
+  "experiment_directory": "/model/spromptgl/experiment/experiment83_8_5_tadpole_cognitive_anchored_darg_dpsl",
+  "EXECUTION_AUDIT": "PASS",
+  "METHOD_FIDELITY": "PASS",
+  "DATA_IDENTITY": "PASS",
+  "WARMUP_PAIRING": "PASS",
+  "CHECKPOINT_REPLAY": "PASS",
+  "RNG_REPLAY": "PASS",
+  "GRAPH_ANCHOR_AUDIT": "PASS",
+  "DARG_MECHANISM_AUDIT": "PASS",
+  "DPSL_MECHANISM_AUDIT": "PASS",
+  "LOG_FORMAT_AUDIT": "PASS",
+  "TRAINING_SEAL": "PASS",
+  "PERFORMANCE_GO_NO_GO": "NO-GO",
+  "dual_primary_improvement_groups": [],
+  "PAPER_REFERENCE_MEAN_REACHED": [],
+  "official_folds": 50,
+  "new_trained_folds": 40,
+  "reused_verified_folds": 10,
+  "best_replayed": 50,
+  "latest_restored": 50,
+  "deterministic_next_steps": 50,
+  "warmup_exact_new_folds": 40,
+  "best_full_rng_by_group": {
+    "R0": 0,
+    "R1": 10,
+    "R2": 10,
+    "R3": 10,
+    "R4": 10
+  },
+  "oof_patients_each_once_per_group": 598,
+  "groups": {
+    "R0": {
+      "folds": 10,
+      "status": "REUSED_VERIFIED_FORMAL",
+      "warmup_exact_folds": 10,
+      "best_epoch_range": [
+        32,
+        298
+      ],
+      "last_epoch_range": [
+        233,
+        450
+      ],
+      "early_stops": 8,
+      "epoch_cap_reached": 2,
+      "epoch_records": 3224,
+      "sum_fold_training_seconds": 1749.1589629463851
+    },
+    "R1": {
+      "folds": 10,
+      "status": "TRAINED_AUDITED_FORMAL",
+      "warmup_exact_folds": 10,
+      "best_epoch_range": [
+        32,
+        308
+      ],
+      "last_epoch_range": [
+        233,
+        450
+      ],
+      "early_stops": 8,
+      "epoch_cap_reached": 2,
+      "epoch_records": 3236,
+      "sum_fold_training_seconds": 1712.45890051499
+    },
+    "R2": {
+      "folds": 10,
+      "status": "TRAINED_AUDITED_FORMAL",
+      "warmup_exact_folds": 10,
+      "best_epoch_range": [
+        32,
+        248
+      ],
+      "last_epoch_range": [
+        233,
+        449
+      ],
+      "early_stops": 10,
+      "epoch_cap_reached": 0,
+      "epoch_records": 3177,
+      "sum_fold_training_seconds": 1669.679772503674
+    },
+    "R3": {
+      "folds": 10,
+      "status": "TRAINED_AUDITED_FORMAL",
+      "warmup_exact_folds": 10,
+      "best_epoch_range": [
+        32,
+        363
+      ],
+      "last_epoch_range": [
+        233,
+        450
+      ],
+      "early_stops": 9,
+      "epoch_cap_reached": 1,
+      "epoch_records": 3300,
+      "sum_fold_training_seconds": 1718.9834460169077
+    },
+    "R4": {
+      "folds": 10,
+      "status": "TRAINED_AUDITED_FORMAL",
+      "warmup_exact_folds": 10,
+      "best_epoch_range": [
+        32,
+        291
+      ],
+      "last_epoch_range": [
+        233,
+        450
+      ],
+      "early_stops": 9,
+      "epoch_cap_reached": 1,
+      "epoch_records": 3373,
+      "sum_fold_training_seconds": 1754.8581535369158
+    }
+  },
+  "data_sha256": "0b8a14a9c066752c2d937c93d43c2824c41beaaa7d0a451b083db8dcba07c5bc",
+  "split_sha256": "7c5a4dc9bd8ee7ffc6e5aff8bf841513f26a5ff6cf1b6c110a8153aa6a106ec5",
+  "training_implementation_sha256": "eedcd81eaedd9dd305a4c217faaabcd235bc36d02f3ef3fd1141579dcf3bc5bc",
+  "historical_implementation_sha256": "2e3609b5aa32a154d3eb7a2c3a8356a4f68c8426087045896b3c0e57e5bb03b0",
+  "historical_y3_git_short_ref_resolved": false,
+  "formal_attempts": {
+    "logs": {
+      "logs/formal_training.log": "6062534e7422d6867cc5f6ddb5e7531a2f9341d9aa9031a3d11e62105397ca81"
+    },
+    "errors": [],
+    "resume_events": [],
+    "additional_attempt_logs": 0
+  },
+  "evidence_sha256": {
+    "audits/method_fidelity.json": "e0e423dd701d5082fcc24d70e1d1c2527f167cd50f22acabc3ddae94675332fc",
+    "audits/warmup_pairing_preflight.json": "ad5773361b66c6007ab061ff2d11d02c299cb4c2970dbc41352fa8c822e17acf",
+    "audits/r0_identity.json": "abfccb42023dfa80e0d49e688992864056d38e1647bd2e9bdce92d336538598f",
+    "audits/r0_regression.json": "f33cddb0fa274d1e3662ec6d75c42c66bc2f6779728746355cf65c48d93ea5ce",
+    "audits/resource_probe.json": "d8e59c6a4097101d9dfb589573dbf270caf5e34fb48f08f645fef3a6f3f6b85c",
+    "audits/training_seal.json": "514d4b50ee219ad7abc5b2b30a25795bf872e47e8dfb9c3aabede9e8cba26705",
+    "audits/checkpoint_replay.json": "d6b548ee91ed66d8bf64ca8f503e943ea88869357794fb051c30ef5888a17f53",
+    "audits/mechanism_summary.json": "82c253b90f81eda22b393f739f34a78d6cbdeff68d0c900da4b40abc0306c4a3",
+    "audits/log_format_audit.json": "da3c6abd2d8630458facbfed113626b7d2eb304023e0bad50409cd7c4e51d89e",
+    "results/group_summary.csv": "f6ab6291df16bbeaa9ca00596951f3ebd1809970207768d12dca880307e41f75",
+    "results/fold_metrics.csv": "38a193784cd61479006dcb117e468840483f452d51bd61f9c6b070299467cc2c",
+    "results/oof_predictions.csv": "22d91edae89a52e8bfcafeb467989cb6f43f1aa0627700bfe52cf05bd4e5e647",
+    "results/paired_contrasts.csv": "5f09502fa879829db6b907961b7b2d5dea39d6a53709fd5ae8d92d2cb380c926",
+    "results/final_report.md": "d0378cc53419d73e7e2ea46097597d0d23d161f90b3b820c3bcdd73cbf43c1d1",
+    "groups/R0/logs/result_Tadpole.txt": "ee60eee80e232b439876bc420797e81e1b4f099d8f5c98c4410c4725d2de9600",
+    "groups/R1/logs/result_Tadpole.txt": "3f0b69d1d19055e037351f51f08591807de2059dcf32a5bd2a8d3cafa20f01db",
+    "groups/R2/logs/result_Tadpole.txt": "773f12536fec48b8ad84c1012f152e8d5cb0a0f9f9cd9fdb63f0e007b284c66a",
+    "groups/R3/logs/result_Tadpole.txt": "00fc5cae7765fee7c88f3817e4e8df1157fb66c2ec906d8a5148d332f89fd085",
+    "groups/R4/logs/result_Tadpole.txt": "9bdb59063e3fbcf8d52672372c7afda776346ab8bbf843b36d98224be7f5557f",
+    "source_manifest.json": "fad72fd7bb043db72aa2f195d78b88aef2f9b47eeaea57cb98d1a1349e5d5938",
+    "protocol.json": "b0c08fcf99e5f166c3f438046c04b8f1350c070aca2044716ae373098fcfdc70",
+    "data_manifest.json": "bd82c0b9ef6f1fb840cc8c9cf66b074be6c9a682d7508f91e956c633b26b2e80"
+  },
+  "handoff_readback": {
+    "status": "PASS",
+    "path": "/model/spromptgl/experiment/handoff.md",
+    "formal_sections": 1,
+    "prefix_bytes": 1497635,
+    "prefix_sha256": "f29b2e8100dbf2d51d0fef1f9cfed8116bddb96245b269f6087e17b75b1ee3ad",
+    "append_sha256": "3ef383729e57d05800affe69759006f0b5d49548bb837b8b5430c377063ae10f",
+    "readback_sha256": "6a47d03bf600b9f9d0cbedf32d1c25504f34535fc9fb2e1b30913996165c64d5"
+  },
+  "finalizer_sha256": "bd7d2de75abb82285b09e12a40fa54822aa5e9d6f26b0e41f60eff47ca09c9dc"
+}

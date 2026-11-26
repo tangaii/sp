@@ -1,0 +1,6 @@
+group  ACC_mean  AUC_original_mean  AUC_probability_mean  correct  dual_primary_improvement  PAPER_REFERENCE_MEAN_REACHED
+   R0  0.936441           0.944265              0.958290      560                     False                         False
+   R1  0.926384           0.941104              0.964483      554                     False                         False
+   R2  0.924689           0.936258              0.959999      553                     False                         False
+   R3  0.923051           0.928730              0.949672      552                     False                         False
+   R4  0.926328           0.937182              0.967077      554                     False                         False

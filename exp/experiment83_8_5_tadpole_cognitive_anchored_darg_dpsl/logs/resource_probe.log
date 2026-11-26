@@ -1,0 +1,4 @@
+PASS workers=1 throughput=1.8663767189811586 peak_mib=1082
+PASS workers=2 throughput=3.5950118676673255 peak_mib=2156
+PASS workers=4 throughput=7.933650617393487 peak_mib=4311
+PASS workers=8 throughput=1.6167727957235725 peak_mib=8619

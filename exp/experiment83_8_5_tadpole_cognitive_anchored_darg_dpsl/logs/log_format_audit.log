@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "groups": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4"
+  ],
+  "path": "/model/spromptgl/experiment/experiment83_8_5_tadpole_cognitive_anchored_darg_dpsl/audits/log_format_audit.json"
+}

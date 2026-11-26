@@ -1,0 +1,312 @@
+{
+  "experiment": "Experiment 83.8.5",
+  "title": "TADPOLE COGNITIVE_TEST-Anchored DARG + DPSL",
+  "base": "E83.8.3-Y3 / E83.8.4-Z0 full G4 of E82.4.6.10-G1",
+  "patients": 598,
+  "label_encoding": {
+    "NC": 0,
+    "MCI": 1,
+    "AD": 2
+  },
+  "label_counts": {
+    "NC": 209,
+    "MCI": 315,
+    "AD": 74
+  },
+  "modality_names": [
+    "UCSFFSX",
+    "UCBERKELEYAV45",
+    "UPENNBIOMK9",
+    "RISK_FACTOR",
+    "COGNITIVE_TEST",
+    "ROI_AVERAGE"
+  ],
+  "modality_dimensions": [
+    145,
+    148,
+    3,
+    36,
+    24,
+    9
+  ],
+  "data_sha256": "0b8a14a9c066752c2d937c93d43c2824c41beaaa7d0a451b083db8dcba07c5bc",
+  "split_sha256": "7c5a4dc9bd8ee7ffc6e5aff8bf841513f26a5ff6cf1b6c110a8153aa6a106ec5",
+  "seed": 0,
+  "split": "StratifiedKFold(n_splits=10, shuffle=True, random_state=10); val equals test",
+  "preprocessing": "Historical full-cohort RFE, mean imputation and StandardScaler before CV",
+  "graph": "Transductive features, threshold .9, historical second-modality overwrite, existing graph support only",
+  "warmup_epochs": 10,
+  "epoch_cap": 450,
+  "early_stop": "wait > 200",
+  "checkpoint_selection": "First strict validation ACC improvement after warmup",
+  "latest_persistence": "Every tenth epoch, every strict improvement and terminal epoch",
+  "relation_supervision": {
+    "train_only": true,
+    "pairs_per_fold": 4096,
+    "same": 2048,
+    "different": 2048,
+    "bce": 0.05,
+    "conditional_adversarial": 0.01,
+    "preservation": 0.01,
+    "grl": 0.03,
+    "non_anchor_mutual_topk": 12,
+    "thresholds": [
+      0.45,
+      0.55
+    ]
+  },
+  "dpsl": {
+    "prompts": 12,
+    "frozen_rn50": true,
+    "residual_cap": 0.08,
+    "shared_gradient_budget": 0.001
+  },
+  "aloss": {
+    "kind": "Y3 squared Frobenius",
+    "first_epoch": 11,
+    "coefficient": 0.01
+  },
+  "darg_direct_double_gate": true,
+  "official_folds": 50,
+  "new_folds": 40,
+  "groups": {
+    "R0": {
+      "experiment": "Experiment 83.8.5",
+      "group": "R0",
+      "base_reference": "H4",
+      "method": "Historical Y3/Z0",
+      "supervision_kind": "paper_aloss",
+      "supervision_coefficient": 0.01,
+      "graph_supervision_schedule": "epoch_11_onward",
+      "warmup_reference": "N3",
+      "darg_gate_scales": [
+        0.01,
+        0.01,
+        0.01,
+        0.01,
+        0.01,
+        0.01
+      ],
+      "darg_direct_scale": 0.02,
+      "darg_direct_single_gate": false,
+      "dpsl_confidence_protection": true,
+      "dpsl_confidence_mode": "old",
+      "dpsl_shared_cap": 0.001,
+      "dpsl_residual_cap": 0.08,
+      "data_sha256": "0b8a14a9c066752c2d937c93d43c2824c41beaaa7d0a451b083db8dcba07c5bc",
+      "split_sha256": "7c5a4dc9bd8ee7ffc6e5aff8bf841513f26a5ff6cf1b6c110a8153aa6a106ec5",
+      "training_seed": 0,
+      "max_epochs": 450,
+      "early_stop_wait_gt": 200,
+      "kind": "REUSED_VERIFIED_FORMAL",
+      "training": false,
+      "alignment_anchor_index": null,
+      "edge_anchor_index": null,
+      "darg_initial_gate_probabilities": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "reuse_reference": "/model/spromptgl/experiment/experiment83_8_4_tadpole_y3_darg_dpsl_factorial/groups/Z0"
+    },
+    "R1": {
+      "experiment": "Experiment 83.8.5",
+      "group": "R1",
+      "base_reference": "H4",
+      "method": "COGNITIVE_TEST alignment anchor only",
+      "supervision_kind": "paper_aloss",
+      "supervision_coefficient": 0.01,
+      "graph_supervision_schedule": "epoch_11_onward",
+      "warmup_reference": "R0",
+      "darg_gate_scales": [
+        0.01,
+        0.01,
+        0.01,
+        0.01,
+        0.01,
+        0.01
+      ],
+      "darg_direct_scale": 0.02,
+      "darg_direct_single_gate": false,
+      "dpsl_confidence_protection": true,
+      "dpsl_confidence_mode": "old",
+      "dpsl_shared_cap": 0.001,
+      "dpsl_residual_cap": 0.08,
+      "data_sha256": "0b8a14a9c066752c2d937c93d43c2824c41beaaa7d0a451b083db8dcba07c5bc",
+      "split_sha256": "7c5a4dc9bd8ee7ffc6e5aff8bf841513f26a5ff6cf1b6c110a8153aa6a106ec5",
+      "training_seed": 0,
+      "max_epochs": 450,
+      "early_stop_wait_gt": 200,
+      "kind": "NEW_FORMAL_TRAINING",
+      "training": true,
+      "alignment_anchor_index": 4,
+      "edge_anchor_index": null,
+      "darg_initial_gate_probabilities": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    "R2": {
+      "experiment": "Experiment 83.8.5",
+      "group": "R2",
+      "base_reference": "H4",
+      "method": "COGNITIVE_TEST gate enhancement only",
+      "supervision_kind": "paper_aloss",
+      "supervision_coefficient": 0.01,
+      "graph_supervision_schedule": "epoch_11_onward",
+      "warmup_reference": "R0",
+      "darg_gate_scales": [
+        0.01,
+        0.01,
+        0.01,
+        0.01,
+        0.1,
+        0.01
+      ],
+      "darg_direct_scale": 0.02,
+      "darg_direct_single_gate": false,
+      "dpsl_confidence_protection": true,
+      "dpsl_confidence_mode": "old",
+      "dpsl_shared_cap": 0.001,
+      "dpsl_residual_cap": 0.08,
+      "data_sha256": "0b8a14a9c066752c2d937c93d43c2824c41beaaa7d0a451b083db8dcba07c5bc",
+      "split_sha256": "7c5a4dc9bd8ee7ffc6e5aff8bf841513f26a5ff6cf1b6c110a8153aa6a106ec5",
+      "training_seed": 0,
+      "max_epochs": 450,
+      "early_stop_wait_gt": 200,
+      "kind": "NEW_FORMAL_TRAINING",
+      "training": true,
+      "alignment_anchor_index": null,
+      "edge_anchor_index": null,
+      "darg_initial_gate_probabilities": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    "R3": {
+      "experiment": "Experiment 83.8.5",
+      "group": "R3",
+      "base_reference": "H4",
+      "method": "COGNITIVE_TEST alignment and gate enhancement",
+      "supervision_kind": "paper_aloss",
+      "supervision_coefficient": 0.01,
+      "graph_supervision_schedule": "epoch_11_onward",
+      "warmup_reference": "R0",
+      "darg_gate_scales": [
+        0.01,
+        0.01,
+        0.01,
+        0.01,
+        0.1,
+        0.01
+      ],
+      "darg_direct_scale": 0.02,
+      "darg_direct_single_gate": false,
+      "dpsl_confidence_protection": true,
+      "dpsl_confidence_mode": "old",
+      "dpsl_shared_cap": 0.001,
+      "dpsl_residual_cap": 0.08,
+      "data_sha256": "0b8a14a9c066752c2d937c93d43c2824c41beaaa7d0a451b083db8dcba07c5bc",
+      "split_sha256": "7c5a4dc9bd8ee7ffc6e5aff8bf841513f26a5ff6cf1b6c110a8153aa6a106ec5",
+      "training_seed": 0,
+      "max_epochs": 450,
+      "early_stop_wait_gt": 200,
+      "kind": "NEW_FORMAL_TRAINING",
+      "training": true,
+      "alignment_anchor_index": 4,
+      "edge_anchor_index": null,
+      "darg_initial_gate_probabilities": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ]
+    },
+    "R4": {
+      "experiment": "Experiment 83.8.5",
+      "group": "R4",
+      "base_reference": "H4",
+      "method": "COGNITIVE_TEST alignment, gate enhancement and historical CORR edge branch",
+      "supervision_kind": "paper_aloss",
+      "supervision_coefficient": 0.01,
+      "graph_supervision_schedule": "epoch_11_onward",
+      "warmup_reference": "R0",
+      "darg_gate_scales": [
+        0.01,
+        0.01,
+        0.01,
+        0.01,
+        0.1,
+        0.01
+      ],
+      "darg_direct_scale": 0.02,
+      "darg_direct_single_gate": false,
+      "dpsl_confidence_protection": true,
+      "dpsl_confidence_mode": "old",
+      "dpsl_shared_cap": 0.001,
+      "dpsl_residual_cap": 0.08,
+      "data_sha256": "0b8a14a9c066752c2d937c93d43c2824c41beaaa7d0a451b083db8dcba07c5bc",
+      "split_sha256": "7c5a4dc9bd8ee7ffc6e5aff8bf841513f26a5ff6cf1b6c110a8153aa6a106ec5",
+      "training_seed": 0,
+      "max_epochs": 450,
+      "early_stop_wait_gt": 200,
+      "kind": "NEW_FORMAL_TRAINING",
+      "training": true,
+      "alignment_anchor_index": 4,
+      "edge_anchor_index": 4,
+      "darg_initial_gate_probabilities": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ]
+    }
+  },
+  "workers": {
+    "physical_gpus": 1,
+    "gpu_index": 0,
+    "worker_limit": 8,
+    "schedule": "Highest stable measured aggregate throughput"
+  },
+  "metric_primary": {
+    "ACC": "fraction of correct hard predictions",
+    "AUC_original": "hard one-hot predictions, macro one-versus-rest"
+  },
+  "metric_auxiliary": {
+    "AUC_probability": "soft class scores, macro one-versus-rest"
+  },
+  "aggregate": "Mean and population standard deviation over 10 held-out folds; pooled OOF separately",
+  "comparisons": [
+    "R1-R0",
+    "R2-R0",
+    "R3-R0",
+    "R3-R1",
+    "R3-R2",
+    "R4-R3",
+    "R4-R0"
+  ],
+  "decision": "Strictly higher ACC and AUC_original means than R0",
+  "paper_reference": {
+    "ACC": 0.9481,
+    "ACC_std": 0.0295,
+    "AUC": 0.9559,
+    "AUC_std": 0.0257
+  },
+  "log_template_sha256": "5c80d16204e0882e5e264e42952c714397c2d31f07835b9e60d6dafd9488e3b7",
+  "log_reported_epoch_cap": 450
+}

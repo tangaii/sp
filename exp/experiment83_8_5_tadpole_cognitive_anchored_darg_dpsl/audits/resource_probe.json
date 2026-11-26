@@ -1,0 +1,220 @@
+{
+  "experiment": "Experiment 83.8.5",
+  "status": "PASS",
+  "utc": "2026-11-26T09:54:32.535843+00:00",
+  "worker_count": 4,
+  "gpu": "PPU-ZW810E",
+  "gpu_index": 0,
+  "cpu_threads_per_worker": 1,
+  "global_worker_limit": 8,
+  "timing": "Full forward, SCMR gradient budgets, optimizer update, evaluation forward, EMA and synchronization; no checkpoint writes",
+  "selection": "Highest measured aggregate throughput among successful trials below 90% GPU memory",
+  "trials": [
+    {
+      "workers": 1,
+      "status": "PASS",
+      "seconds": 5.357975106686354,
+      "steps_per_second": 1.8663767189811586,
+      "median_seconds_per_worker_step": 0.5357975106686353,
+      "gpu_utilization_percent_median": 18,
+      "gpu_utilization_percent_max": 38,
+      "gpu_device_peak_mib": 1082,
+      "gpu_device_total_mib": 98304,
+      "active_device_samples": 19,
+      "measurements": [
+        {
+          "status": "PASS",
+          "group": "R4",
+          "fold": 1,
+          "started": 22894460.35699732,
+          "ended": 22894465.714972425,
+          "steps": 10,
+          "peak_allocated": 484007424,
+          "peak_reserved": 629145600
+        }
+      ]
+    },
+    {
+      "workers": 2,
+      "status": "PASS",
+      "seconds": 5.563263971358538,
+      "steps_per_second": 3.5950118676673255,
+      "median_seconds_per_worker_step": 0.5301040224730968,
+      "gpu_utilization_percent_median": 30.0,
+      "gpu_utilization_percent_max": 44,
+      "gpu_device_peak_mib": 2156,
+      "gpu_device_total_mib": 98304,
+      "active_device_samples": 20,
+      "measurements": [
+        {
+          "status": "PASS",
+          "group": "R4",
+          "fold": 1,
+          "started": 22894479.490354825,
+          "ended": 22894484.529171303,
+          "steps": 10,
+          "peak_allocated": 484007424,
+          "peak_reserved": 629145600
+        },
+        {
+          "status": "PASS",
+          "group": "R3",
+          "fold": 2,
+          "started": 22894479.490247797,
+          "ended": 22894485.05351177,
+          "steps": 10,
+          "peak_allocated": 467473408,
+          "peak_reserved": 622854144
+        }
+      ]
+    },
+    {
+      "workers": 4,
+      "status": "PASS",
+      "seconds": 5.041815165430307,
+      "steps_per_second": 7.933650617393487,
+      "median_seconds_per_worker_step": 0.4984948065131902,
+      "gpu_utilization_percent_median": 63.0,
+      "gpu_utilization_percent_max": 78,
+      "gpu_device_peak_mib": 4311,
+      "gpu_device_total_mib": 98304,
+      "active_device_samples": 18,
+      "measurements": [
+        {
+          "status": "PASS",
+          "group": "R4",
+          "fold": 1,
+          "started": 22894498.86456673,
+          "ended": 22894503.902945455,
+          "steps": 10,
+          "peak_allocated": 484007424,
+          "peak_reserved": 629145600
+        },
+        {
+          "status": "PASS",
+          "group": "R3",
+          "fold": 2,
+          "started": 22894498.86450885,
+          "ended": 22894503.90615332,
+          "steps": 10,
+          "peak_allocated": 467473408,
+          "peak_reserved": 622854144
+        },
+        {
+          "status": "PASS",
+          "group": "R4",
+          "fold": 3,
+          "started": 22894498.864338156,
+          "ended": 22894503.79585556,
+          "steps": 10,
+          "peak_allocated": 495126016,
+          "peak_reserved": 633339904
+        },
+        {
+          "status": "PASS",
+          "group": "R3",
+          "fold": 4,
+          "started": 22894498.864420775,
+          "ended": 22894503.644927926,
+          "steps": 10,
+          "peak_allocated": 467747328,
+          "peak_reserved": 622854144
+        }
+      ]
+    },
+    {
+      "workers": 8,
+      "status": "PASS",
+      "seconds": 49.48128779232502,
+      "steps_per_second": 1.6167727957235725,
+      "median_seconds_per_worker_step": 0.5301634956151247,
+      "gpu_utilization_percent_median": 13.5,
+      "gpu_utilization_percent_max": 86,
+      "gpu_device_peak_mib": 8619,
+      "gpu_device_total_mib": 98304,
+      "active_device_samples": 172,
+      "measurements": [
+        {
+          "status": "PASS",
+          "group": "R4",
+          "fold": 1,
+          "started": 22894519.91084506,
+          "ended": 22894524.747277733,
+          "steps": 10,
+          "peak_allocated": 484007424,
+          "peak_reserved": 629145600
+        },
+        {
+          "status": "PASS",
+          "group": "R3",
+          "fold": 2,
+          "started": 22894519.910564777,
+          "ended": 22894524.788917955,
+          "steps": 10,
+          "peak_allocated": 467473408,
+          "peak_reserved": 622854144
+        },
+        {
+          "status": "PASS",
+          "group": "R4",
+          "fold": 3,
+          "started": 22894519.910369616,
+          "ended": 22894569.269923553,
+          "steps": 10,
+          "peak_allocated": 495126016,
+          "peak_reserved": 633339904
+        },
+        {
+          "status": "PASS",
+          "group": "R3",
+          "fold": 4,
+          "started": 22894519.91068126,
+          "ended": 22894524.863301657,
+          "steps": 10,
+          "peak_allocated": 467747328,
+          "peak_reserved": 622854144
+        },
+        {
+          "status": "PASS",
+          "group": "R4",
+          "fold": 5,
+          "started": 22894519.91032719,
+          "ended": 22894569.39161498,
+          "steps": 10,
+          "peak_allocated": 482596352,
+          "peak_reserved": 631242752
+        },
+        {
+          "status": "PASS",
+          "group": "R3",
+          "fold": 6,
+          "started": 22894519.910407096,
+          "ended": 22894525.56105661,
+          "steps": 10,
+          "peak_allocated": 467497984,
+          "peak_reserved": 622854144
+        },
+        {
+          "status": "PASS",
+          "group": "R4",
+          "fold": 7,
+          "started": 22894519.910479847,
+          "ended": 22894524.825326324,
+          "steps": 10,
+          "peak_allocated": 482804224,
+          "peak_reserved": 643825664
+        },
+        {
+          "status": "PASS",
+          "group": "R3",
+          "fold": 8,
+          "started": 22894519.910784047,
+          "ended": 22894569.263843782,
+          "steps": 10,
+          "peak_allocated": 467630592,
+          "peak_reserved": 622854144
+        }
+      ]
+    }
+  ]
+}

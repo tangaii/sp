@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/model/spromptgl/experiment/experiment83_8_5_tadpole_cognitive_anchored_darg_dpsl/audits/preflight_e8385.py", line 275, in <module>
+    main()
+  File "/model/spromptgl/experiment/experiment83_8_5_tadpole_cognitive_anchored_darg_dpsl/audits/preflight_e8385.py", line 247, in main
+    methods[group] = live_method(group, model, config, x, y, train, test_np, pair, same, y_np)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/model/spromptgl/experiment/experiment83_8_5_tadpole_cognitive_anchored_darg_dpsl/audits/preflight_e8385.py", line 148, in live_method
+    require(np.array_equal(alt_pair, pair.cpu().numpy()) and np.array_equal(alt_same, same.cpu().numpy())
+  File "/model/spromptgl/experiment/experiment83_8_5_tadpole_cognitive_anchored_darg_dpsl/audits/preflight_e8385.py", line 25, in require
+    raise RuntimeError(detail)
+RuntimeError: R0 consumes held-out relation targets

@@ -1,0 +1,222 @@
+{
+  "audit_program": "audits/audit_log_format_e8385.py",
+  "audit_program_sha256": "b4b9539c7f0396f19339d8edf999fd29c3b1929199833c5b24860dc69f7d06a5",
+  "author_template_git_blob": "0446670764286afbeb86573dadfdbb50ae6af15e",
+  "experiment": "Experiment 83.8.5",
+  "groups": {
+    "R0": {
+      "checkpoint_replayed_metrics_match": true,
+      "epoch_counts": [
+        336,
+        233,
+        346,
+        264,
+        296,
+        271,
+        450,
+        278,
+        300,
+        450
+      ],
+      "folds": 10,
+      "line_count": 3297,
+      "line_types_match_template": true,
+      "log_sha256": "ee60eee80e232b439876bc420797e81e1b4f099d8f5c98c4410c4725d2de9600",
+      "status": "PASS"
+    },
+    "R1": {
+      "checkpoint_replayed_metrics_match": true,
+      "epoch_counts": [
+        249,
+        233,
+        353,
+        262,
+        450,
+        269,
+        390,
+        278,
+        302,
+        450
+      ],
+      "folds": 10,
+      "line_count": 3309,
+      "line_types_match_template": true,
+      "log_sha256": "3f0b69d1d19055e037351f51f08591807de2059dcf32a5bd2a8d3cafa20f01db",
+      "status": "PASS"
+    },
+    "R2": {
+      "checkpoint_replayed_metrics_match": true,
+      "epoch_counts": [
+        249,
+        233,
+        294,
+        252,
+        449,
+        344,
+        265,
+        278,
+        378,
+        435
+      ],
+      "folds": 10,
+      "line_count": 3250,
+      "line_types_match_template": true,
+      "log_sha256": "773f12536fec48b8ad84c1012f152e8d5cb0a0f9f9cd9fdb63f0e007b284c66a",
+      "status": "PASS"
+    },
+    "R3": {
+      "checkpoint_replayed_metrics_match": true,
+      "epoch_counts": [
+        249,
+        233,
+        450,
+        252,
+        292,
+        271,
+        431,
+        335,
+        374,
+        413
+      ],
+      "folds": 10,
+      "line_count": 3373,
+      "line_types_match_template": true,
+      "log_sha256": "00fc5cae7765fee7c88f3817e4e8df1157fb66c2ec906d8a5148d332f89fd085",
+      "status": "PASS"
+    },
+    "R4": {
+      "checkpoint_replayed_metrics_match": true,
+      "epoch_counts": [
+        419,
+        233,
+        450,
+        354,
+        327,
+        353,
+        348,
+        278,
+        288,
+        323
+      ],
+      "folds": 10,
+      "line_count": 3446,
+      "line_types_match_template": true,
+      "log_sha256": "9bdb59063e3fbcf8d52672372c7afda776346ab8bbf843b36d98224be7f5557f",
+      "status": "PASS"
+    }
+  },
+  "loss_field_count": 3,
+  "reference_epoch_fields": [
+    "epoch/450",
+    "trn-loss-MF",
+    "trn-loss-MF",
+    "trn-loss-MF",
+    "trn-auc",
+    "acc",
+    "val-auc",
+    "acc"
+  ],
+  "status": "PASS",
+  "template_epoch_count_per_fold": [
+    300,
+    300,
+    300,
+    300,
+    300,
+    300,
+    300,
+    300,
+    300,
+    300
+  ],
+  "template_final_summary": [
+    "sensitivity_summary",
+    "specificity_summary",
+    "aggregate_metrics",
+    "aggregate_std",
+    "aggregate_pair"
+  ],
+  "template_fold_count": 10,
+  "template_fold_suffixes": [
+    [
+      "time",
+      "test_metrics",
+      "sensitivity",
+      "specificity",
+      "sample_count",
+      "sample_count"
+    ],
+    [
+      "time",
+      "test_metrics",
+      "sensitivity",
+      "specificity",
+      "sample_count",
+      "sample_count"
+    ],
+    [
+      "time",
+      "test_metrics",
+      "sensitivity",
+      "specificity",
+      "sample_count",
+      "sample_count"
+    ],
+    [
+      "time",
+      "test_metrics",
+      "sensitivity",
+      "specificity",
+      "sample_count",
+      "sample_count"
+    ],
+    [
+      "time",
+      "test_metrics",
+      "sensitivity",
+      "specificity",
+      "sample_count",
+      "sample_count"
+    ],
+    [
+      "time",
+      "test_metrics",
+      "sensitivity",
+      "specificity",
+      "sample_count",
+      "sample_count"
+    ],
+    [
+      "time",
+      "test_metrics",
+      "sensitivity",
+      "specificity",
+      "sample_count",
+      "sample_count"
+    ],
+    [
+      "time",
+      "test_metrics",
+      "sensitivity",
+      "specificity",
+      "sample_count",
+      "sample_count"
+    ],
+    [
+      "time",
+      "test_metrics",
+      "sensitivity",
+      "specificity",
+      "sample_count",
+      "sample_count"
+    ],
+    [
+      "time",
+      "test_metrics",
+      "sensitivity",
+      "specificity"
+    ]
+  ],
+  "template_sha256": "5c80d16204e0882e5e264e42952c714397c2d31f07835b9e60d6dafd9488e3b7",
+  "workspace_template_sha256": "5c80d16204e0882e5e264e42952c714397c2d31f07835b9e60d6dafd9488e3b7"
+}

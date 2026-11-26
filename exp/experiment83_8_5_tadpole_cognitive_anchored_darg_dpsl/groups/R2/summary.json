@@ -1,0 +1,13 @@
+{
+  "group": "R2",
+  "folds": 10,
+  "data_sha256": "0b8a14a9c066752c2d937c93d43c2824c41beaaa7d0a451b083db8dcba07c5bc",
+  "split_sha256": "7c5a4dc9bd8ee7ffc6e5aff8bf841513f26a5ff6cf1b6c110a8153aa6a106ec5",
+  "status": "COMPLETE",
+  "ACC_mean": 0.9246892655367231,
+  "ACC_std_population": 0.03457705586052505,
+  "AUC_original_mean": 0.9362583917089635,
+  "AUC_original_std_population": 0.030632890738470114,
+  "OOF_correct": 553,
+  "AUC_probability_mean": 0.9599993870748588
+}

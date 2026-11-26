@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/model/spromptgl/experiment/experiment83_8_5_tadpole_cognitive_anchored_darg_dpsl/audits/preflight_e8385.py", line 279, in <module>
+    main()
+  File "/model/spromptgl/experiment/experiment83_8_5_tadpole_cognitive_anchored_darg_dpsl/audits/preflight_e8385.py", line 251, in main
+    methods[group] = live_method(group, model, config, x, y, train, test_np, pair, same, y_np, supports)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/model/spromptgl/experiment/experiment83_8_5_tadpole_cognitive_anchored_darg_dpsl/audits/preflight_e8385.py", line 162, in live_method
+    run.historical.restore_rng_state(rng)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'run_e833' has no attribute 'restore_rng_state'. Did you mean: 'capture_rng_state'?
