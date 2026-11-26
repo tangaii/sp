@@ -1,0 +1,14 @@
+{
+  "dataset": "TADPOLE",
+  "patients": 598,
+  "class_counts": {"NC": 209, "MCI": 315, "AD": 74},
+  "class_encoding": {"NC": 0, "MCI": 1, "AD": 2},
+  "feature_dimensions": 365,
+  "modality_order": ["UCSFFSX", "UCBERKELEYAV45", "UPENNBIOMK9", "RISK_FACTOR", "COGNITIVE_TEST", "ROI_AVERAGE"],
+  "modality_dimensions": [145, 148, 3, 36, 24, 9],
+  "modality_indices": {"UCSFFSX": 0, "UCBERKELEYAV45": 1, "UPENNBIOMK9": 2, "RISK_FACTOR": 3, "COGNITIVE_TEST": 4, "ROI_AVERAGE": 5},
+  "processed_standard_data.csv_sha256": "0b8a14a9c066752c2d937c93d43c2824c41beaaa7d0a451b083db8dcba07c5bc",
+  "split_indices.json_sha256": "7c5a4dc9bd8ee7ffc6e5aff8bf841513f26a5ff6cf1b6c110a8153aa6a106ec5",
+  "split_protocol": "StratifiedKFold(n_splits=10, shuffle=True, random_state=10)",
+  "patient_order_source": "E83.8.5 historical input snapshot"
+}

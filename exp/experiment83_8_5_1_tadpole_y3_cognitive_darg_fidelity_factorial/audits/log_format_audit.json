@@ -1,0 +1,103 @@
+{
+  "experiment": "Experiment 83.8.5.1",
+  "status": "PASS",
+  "author_template": "/data/adodas/SPromptGL-main/result_Tadpole.txt",
+  "template_sha256": "5c80d16204e0882e5e264e42952c714397c2d31f07835b9e60d6dafd9488e3b7",
+  "template_git_blob": "0446670764286afbeb86573dadfdbb50ae6af15e",
+  "reference_epoch_fields": [
+    "epoch/450",
+    "trn-loss-MF",
+    "trn-loss-MF",
+    "trn-loss-MF",
+    "trn-auc",
+    "acc",
+    "val-auc",
+    "acc"
+  ],
+  "loss_field_count": 3,
+  "rng_used_by_log_generation": false,
+  "source": "Per-epoch records and saved fold predictions from the formal training checkpoints",
+  "groups": {
+    "N1": {
+      "status": "PASS",
+      "log_sha256": "3ae4b2a2ed32c506dd0f99e30503ad43acd4f68d8958f59f3c4df4ab90ad9567",
+      "line_count": 3239,
+      "fold_count": 10,
+      "epoch_counts": [
+        249,
+        233,
+        340,
+        375,
+        296,
+        272,
+        437,
+        280,
+        234,
+        450
+      ],
+      "line_by_line_match_to_real_epoch_and_prediction_records": true,
+      "author_field_order_spacing_precision_match": true
+    },
+    "N2": {
+      "status": "PASS",
+      "log_sha256": "d8a402ac761a6cdaa11e25dac42ab00e6068ad594510e117cf9f972913a75e39",
+      "line_count": 3180,
+      "fold_count": 10,
+      "epoch_counts": [
+        342,
+        233,
+        320,
+        249,
+        330,
+        290,
+        264,
+        277,
+        392,
+        410
+      ],
+      "line_by_line_match_to_real_epoch_and_prediction_records": true,
+      "author_field_order_spacing_precision_match": true
+    },
+    "N3": {
+      "status": "PASS",
+      "log_sha256": "3d467549cfe9427369b23a4d1d8801eae4d5c5f83d46c853afecd67d2d325ab9",
+      "line_count": 3161,
+      "fold_count": 10,
+      "epoch_counts": [
+        327,
+        233,
+        354,
+        356,
+        347,
+        343,
+        264,
+        281,
+        305,
+        278
+      ],
+      "line_by_line_match_to_real_epoch_and_prediction_records": true,
+      "author_field_order_spacing_precision_match": true
+    },
+    "N4": {
+      "status": "PASS",
+      "log_sha256": "ed50efcf100fa3a784673849abfd0cf20a65bcb26b8b1541371d2238392a1522",
+      "line_count": 2883,
+      "fold_count": 10,
+      "epoch_counts": [
+        249,
+        233,
+        333,
+        271,
+        307,
+        278,
+        265,
+        278,
+        302,
+        294
+      ],
+      "line_by_line_match_to_real_epoch_and_prediction_records": true,
+      "author_field_order_spacing_precision_match": true
+    }
+  },
+  "audit_program_sha256": "dcdb23de1a69d6457c45ac129f864ed8b4211338cfdef69ef3667c8533460439"
+}

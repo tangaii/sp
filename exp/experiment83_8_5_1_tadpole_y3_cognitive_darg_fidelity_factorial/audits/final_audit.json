@@ -1,0 +1,121 @@
+{
+  "experiment": "Experiment 83.8.5.1",
+  "status": "COMPLETE_AUDITED",
+  "performance_decision": "NO_GO_PERFORMANCE",
+  "experiment_root": "/model/spromptgl/experiment/experiment83_8_5_1_tadpole_y3_cognitive_darg_fidelity_factorial",
+  "training_implementation_sha256": "b1cbd93aa6b973f7bdb6c12f5bd2510ac9f101d0ab24e85d1eca650494e3686d",
+  "training_source_hashes_match_seal": true,
+  "data_sha256": "0b8a14a9c066752c2d937c93d43c2824c41beaaa7d0a451b083db8dcba07c5bc",
+  "split_sha256": "7c5a4dc9bd8ee7ffc6e5aff8bf841513f26a5ff6cf1b6c110a8153aa6a106ec5",
+  "preflight": "PASS",
+  "abide_tadpole_parity": "PASS",
+  "warmup_pairing": "PASS",
+  "author_logs": {
+    "status": "PASS",
+    "groups_passed": 4
+  },
+  "source_provenance": {
+    "status": "PASS_WITH_POSTSEAL_METADATA_CORRECTION",
+    "verified_commit": "ae225e5135046d1d9622968b7d011f6aa55fa60d",
+    "reference_files_verified": 4,
+    "training_seal_preserved": true
+  },
+  "checkpoints": {
+    "best_replayed": 70,
+    "latest_restored": 70,
+    "deterministic_next_steps": 70,
+    "historical_best_rng_absent": 10
+  },
+  "folds": {
+    "history_groups": 30,
+    "new_formal_folds": 40,
+    "total_audited": 70,
+    "groups": {
+      "H0": {
+        "folds": 10,
+        "best_checkpoints": 10,
+        "latest_checkpoints": 10,
+        "fold_audits": 10,
+        "patient_predictions": 10,
+        "status": "PASS"
+      },
+      "H1": {
+        "folds": 10,
+        "best_checkpoints": 10,
+        "latest_checkpoints": 10,
+        "fold_audits": 10,
+        "patient_predictions": 10,
+        "status": "PASS"
+      },
+      "H2": {
+        "folds": 10,
+        "best_checkpoints": 10,
+        "latest_checkpoints": 10,
+        "fold_audits": 10,
+        "patient_predictions": 10,
+        "status": "PASS"
+      },
+      "N1": {
+        "folds": 10,
+        "best_checkpoints": 10,
+        "latest_checkpoints": 10,
+        "fold_audits": 10,
+        "patient_predictions": 10,
+        "status": "PASS"
+      },
+      "N2": {
+        "folds": 10,
+        "best_checkpoints": 10,
+        "latest_checkpoints": 10,
+        "fold_audits": 10,
+        "patient_predictions": 10,
+        "status": "PASS"
+      },
+      "N3": {
+        "folds": 10,
+        "best_checkpoints": 10,
+        "latest_checkpoints": 10,
+        "fold_audits": 10,
+        "patient_predictions": 10,
+        "status": "PASS"
+      },
+      "N4": {
+        "folds": 10,
+        "best_checkpoints": 10,
+        "latest_checkpoints": 10,
+        "fold_audits": 10,
+        "patient_predictions": 10,
+        "status": "PASS"
+      }
+    }
+  },
+  "primary_go_groups": [],
+  "all_new_groups_below_h0_on_both_primary_means": true,
+  "probability_auc_above_h0_groups": [
+    "N2",
+    "N3",
+    "N4"
+  ],
+  "artifacts_sha256": {
+    "protocol.json": "4c69a95cd7c2eae45a66983c5ce20d0766380119fb6de90e42c33b9a074a9814",
+    "source_manifest.json": "bfce88530aa3fba55de192d93454132213d970809cbb07c8a99c62329164f189",
+    "data_manifest.json": "82fef4f661aba2eacffb2afeb9575e9d8cb9ad2e825d7bbe0de1684a73424e48",
+    "audits/preflight.json": "d2284d7f1860c26f9e08b2e6b77417e313f2a6f0d8e65babf54fb3cd27f2bec4",
+    "audits/method_fidelity.json": "2c5ff1fa88ceaa7f4ad18a57e49cabe501d33035dde81db9a62026104ac7cd5a",
+    "audits/abide_tadpole_parity.json": "a948ab882bcf937cbbf1259643d70c932eef500e5d85289b21c1a5ca38ec75dc",
+    "audits/warmup_pairing.json": "384b3f52c9769e37a6c390f9e07cd7e71080262fa75e3a968491f8af165acb5c",
+    "audits/checkpoint_replay.json": "63d5aacc7aef3dee898682f316e3a89c87ebeeda2291e34bd0d52f21158cc4a3",
+    "audits/mechanism_summary.json": "39dd9b14f3dcda877eced00a9df68157d4173224f1bbd996458706f67a5f4bfa",
+    "audits/log_format_audit.json": "a1cd350cb695b6e2663db7e4cfdf5f489770018fd2650498ee4ef86dc38d6f50",
+    "audits/source_provenance_correction.json": "f819a73e768115331b723d42cfd940ad6fd540929d8dad87d648c9be8c69b108",
+    "results/group_summary.csv": "eb4f4a08ac0629f37ce492d0f99178ba15ed1dcc3b9d9a8bcea781c7d4b6323a",
+    "results/fold_metrics.csv": "ec889e95c5eced271dc6880a0344191b99777d65012ecbed1e12bd0ef17be3ff",
+    "results/oof_predictions.csv": "32ec2a642194ef6f31807a50ac1898a8670db502840a0a8b46c1e5247d4b628c",
+    "results/paired_contrasts.csv": "fe5987e1ceab0c6a1e2a464673c06c55f2fcb16ffd8daa8db6f1553e9c0ef76f",
+    "logs/N1_result_Tadpole.txt": "3ae4b2a2ed32c506dd0f99e30503ad43acd4f68d8958f59f3c4df4ab90ad9567",
+    "logs/N2_result_Tadpole.txt": "d8a402ac761a6cdaa11e25dac42ab00e6068ad594510e117cf9f972913a75e39",
+    "logs/N3_result_Tadpole.txt": "3d467549cfe9427369b23a4d1d8801eae4d5c5f83d46c853afecd67d2d325ab9",
+    "logs/N4_result_Tadpole.txt": "ed50efcf100fa3a784673849abfd0cf20a65bcb26b8b1541371d2238392a1522",
+    "results/final_report.md": "784759d31679b420122dff1a11a3ac3e481c8a5acbaca937abc3162390cdf158"
+  }
+}

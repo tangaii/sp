@@ -1,0 +1,23 @@
+{
+  "experiment": "Experiment 83.8.5.1",
+  "title": "Y3/Z0-Based COGNITIVE_TEST-Anchored DARG Fidelity Optimization",
+  "dataset": "TADPOLE",
+  "cohort": 598,
+  "classes": {"NC": 209, "MCI": 315, "AD": 74},
+  "labels": {"NC": 0, "MCI": 1, "AD": 2},
+  "modalities": ["UCSFFSX", "UCBERKELEYAV45", "UPENNBIOMK9", "RISK_FACTOR", "COGNITIVE_TEST", "ROI_AVERAGE"],
+  "modality_dimensions": [145, 148, 3, 36, 24, 9],
+  "data_sha256": "0b8a14a9c066752c2d937c93d43c2824c41beaaa7d0a451b083db8dcba07c5bc",
+  "split_sha256": "7c5a4dc9bd8ee7ffc6e5aff8bf841513f26a5ff6cf1b6c110a8153aa6a106ec5",
+  "split_protocol": {"class": "StratifiedKFold", "n_splits": 10, "shuffle": true, "random_state": 10},
+  "training": {"seed": 0, "max_epochs": 450, "early_stop_wait_gt": 200, "warmup_epochs": 10, "best_rule": "first strict test-fold ACC improvement", "workers": 4, "device": "single PPU-ZW810E"},
+  "historical_protocol_retained": ["full-data RFE", "mean imputation", "StandardScaler before CV", "transductive patient graph", "val_idx equals test_idx", "test-fold ACC checkpoint selection"],
+  "supervision": {"kind": "paper_aloss", "coefficient": 0.01, "schedule": "epoch_11_onward", "labels_scope": "outer-train only"},
+  "darg": {"relation_pairs_per_fold": 4096, "same_pairs": 2048, "different_pairs": 2048, "relation_bce_weight": 0.05, "conditional_adversarial_weight": 0.01, "preservation_weight": 0.01, "reweight_strength": 0.8, "direct_scale": 0.02, "direct_single_gate": false, "direct_rule": "Positive-only Direct-DCR; preserve signed positive and negative edge rules and original graph support", "cognitive_modality_index": 4},
+  "dpsl": {"source": "E82.4.6.10-G1", "prompt_vectors": "MMGPL-12 frozen RN50/SCMR", "residual_cap": 0.08, "shared_gradient_budget": 0.001, "optimizer": "AdamW", "learning_rate": 0.0005, "weight_decay": 0.01, "confidence_mode": "old"},
+  "groups": {"H0": "historical Y3/Z0 R0", "H1": "historical cognitive alignment R1", "H2": "historical cognitive alignment and edge R4", "N1": "Gate .01, GRL .03", "N2": "Gate .03, GRL .03", "N3": "Gate .01, GRL .015", "N4": "Gate .03, GRL .015"},
+  "primary_metrics": ["ACC", "AUC_original (hard one-hot macro OVR)"],
+  "secondary_metrics": ["AUC_probability"],
+  "paper_reference": {"url": "https://papers.miccai.org/miccai-2025/paper/5129_paper.pdf", "ACC_percent": "94.81 ± 2.95", "AUC_percent": "95.59 ± 2.57"},
+  "limitations": ["val=test and pre-CV preprocessing can yield optimistic estimates", "exploratory comparison under the historical protocol", "not an unbiased independent-generalization estimate"]
+}

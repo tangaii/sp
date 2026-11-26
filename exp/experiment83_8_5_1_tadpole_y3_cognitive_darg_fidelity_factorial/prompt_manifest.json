@@ -1,0 +1,11 @@
+{
+  "TADPOLE_formal_prompt_source": "inputs/prompts/mmGPL12_scmr.pt",
+  "TADPOLE_formal_prompt_sha256": "999439580169b9c3422744eb9a68585f0f1c0cb0bb8bfed04c1c63c1cc93bedf",
+  "TADPOLE_formal_rn50_sha256": "14ec1779b0bca574eef4a23d559a83f75364810a7f10ba9c8568620bb18db086",
+  "TADPOLE_class_prompt_sha256": "7e202ee46b034ddb33714c4c50e1c9ad18751dc79a2f84f5e73bcb733c02ceff",
+  "TADPOLE_class_rn50_sha256": "92e0cbf0df65343072af0b271ec6512a889f54efc6e63ebc02927132627d77de",
+  "ABIDE_author_8_prompt_source": "code/sources/E82_4_6_G2_SCMR_DA_SRPE/inputs/prompts/prompts.pt",
+  "ABIDE_author_8_prompt_sha256": "0e6a48bbdfad5e6fcbacfc11122495b334e82bdfd978cee9b6a14b49ddc9d28e",
+  "frozen": true,
+  "training_reencoding": false
+}

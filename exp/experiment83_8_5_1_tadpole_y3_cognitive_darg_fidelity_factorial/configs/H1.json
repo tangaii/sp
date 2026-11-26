@@ -1,0 +1,13 @@
+{
+  "experiment": "Experiment 83.8.5.1",
+  "group": "H1",
+  "kind": "REUSED_VERIFIED_FORMAL",
+  "training": false,
+  "source_group": "R1",
+  "source_experiment": "/model/spromptgl/experiment/experiment83_8_5_tadpole_cognitive_anchored_darg_dpsl",
+  "alignment_anchor_index": 4,
+  "edge_anchor_index": null,
+  "darg_gate_scales": [0.01, 0.01, 0.01, 0.01, 0.01, 0.01],
+  "darg_grl_scale": 0.03,
+  "darg_initial_gate_probabilities": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+}

@@ -1,0 +1,33 @@
+{
+  "experiment": "Experiment 83.8.5.1",
+  "status": "PASS",
+  "recorded_at_utc": "2026-11-26T15:33:46Z",
+  "worker_count": 4,
+  "gpu": "PPU-ZW810E",
+  "gpu_index": 0,
+  "gpu_memory_mib": 98304,
+  "cpu_threads_per_worker": 1,
+  "global_worker_limit": 8,
+  "source_probe": {
+    "experiment": "Experiment 83.8.5",
+    "path": "/model/spromptgl/experiment/experiment83_8_5_tadpole_cognitive_anchored_darg_dpsl/audits/resource_probe.json",
+    "sha256": "d8e59c6a4097101d9dfb589573dbf270caf5e34fb48f08f645fef3a6f3f6b85c",
+    "reuse_basis": "Same six-modality TADPOLE GFR, DARG, DPSL full update, evaluation, optimizer, EMA and synchronization. The only newly exposed GRL scalar preserves the 0.03 default and leaves the forward and memory path unchanged."
+  },
+  "historical_trials": [
+    {"workers": 1, "status": "PASS", "steps_per_second": 1.8663767189811586, "peak_device_mib": 1082},
+    {"workers": 2, "status": "PASS", "steps_per_second": 3.5950118676673255, "peak_device_mib": 2156},
+    {"workers": 4, "status": "PASS", "steps_per_second": 7.933650617393487, "peak_device_mib": 4311},
+    {"workers": 8, "status": "PASS", "steps_per_second": 1.6167727957235725, "peak_device_mib": 8619}
+  ],
+  "current_runtime_check": {
+    "torch_version": "2.9.0",
+    "device_count": 1,
+    "device_name": "PPU-ZW810E",
+    "device_visible": true,
+    "preflight_completed_on_device": true,
+    "latest_observed_memory_mib": 2,
+    "latest_observed_utilization_percent": 0
+  },
+  "selection": "Four workers delivered the highest measured aggregate throughput. Eight workers were substantially slower. Reuse the directly compatible historical full-operation probe and current single-device preflight check without repeating the complete worker sweep."
+}

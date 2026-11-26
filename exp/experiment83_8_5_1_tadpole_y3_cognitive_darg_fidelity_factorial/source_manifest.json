@@ -1,0 +1,81 @@
+{
+  "experiment": "Experiment 83.8.5.1",
+  "paper": {
+    "url": "https://papers.miccai.org/miccai-2025/paper/5129_paper.pdf",
+    "reference_result": {"ACC_percent": "94.81 ± 2.95", "AUC_percent": "95.59 ± 2.57"},
+    "reference_pdf_sha256": "219ceddfd017e6105490a72864dd24df0bdbbf1c0579cf14af5bbd99a5d60c89"
+  },
+  "repositories": {
+    "original_author": {
+      "url": "https://github.com/wanxixi11/SPromptGL",
+      "commit": "ba3b9446fa451fde6864d6555bdf324de0c4b64a",
+      "result_Tadpole_blob": "0446670764286afbeb86573dadfdbb50ae6af15e"
+    },
+    "SABER": {
+      "url": "https://github.com/tangaii/SPromptGL",
+      "local_checkout_commit": "c7e2edbb8c56bdfc416b708da0ec6d743b0ed7d4",
+      "prior_frozen_provenance_commit": "5ad91878764863b04089a94c497707cc7459168b"
+    },
+    "TADPOLE_reproduction": {
+      "url": "https://github.com/tangaii/sp",
+      "requested_E83_8_5_reference": "ae225e5",
+      "verified_E83_8_5_commit": "252fa96b5ff2ac89250cda378c777fc36a99d316",
+      "verified_config_blob": "73d91d16f3510df1338fafafa31e2fd284527011"
+    }
+  },
+  "historical_experiment": {
+    "path": "/model/spromptgl/experiment/experiment83_8_5_tadpole_cognitive_anchored_darg_dpsl",
+    "groups": {"H0": "R0", "H1": "R1", "H2": "R4"},
+    "group_config_sha256": {
+      "R0": "fd88d8ccb9d62cbb81e5e41e8484229743eaf6f35fe235129952d03ee0e36e0b",
+      "R1": "9e2c2f182b29fcc23883cee8c537d346e0be9d764bdbe188eeb3921d5de943b5",
+      "R4": "5fcb365e1a5dc5491379f4a0b242660fc5436c1c01743aa487f5d2944503888c"
+    },
+    "archived_runner_sha256": "a6be57c4af354e80d7ec783c385aff3d2baad390aa407eae71d83722c28c0405",
+    "archived_fidelity_model_sha256": "7b99a4304693c3940030aa625bc90c0bf213a1a962b8ff39d6806fbad0cd387d",
+    "archived_source_runtime_sha256": "7659d5af8ad91561badfa8f1ca3d1212be02b279fa981aaad14ba057535d4546"
+  },
+  "algorithm_sources": {
+    "DARG": {
+      "lineage": "ABIDE E74.4-G2 Positive-DCR; conditional adversarial core E51/E53.3; TADPOLE adapter uses the same generic DARG binding",
+      "cadr_gfr_sha256": "f5032d96c9ac68afda47a253f794ddfe41373fabebbbbe27057f1425f988815d",
+      "positive_dcr_sha256": "3374598e5ab5547a853c4298000710bb7e8f11f93ec3bd63ddb8ff330aa36718",
+      "relation_pair_sources": {
+        "e53_3_run_sha256": "574fb23745ccbd49f45250cae8b678d05137d092187e9e959e474e185d02be3c",
+        "e61_run_sha256": "f5bd8236b6a5f66903f56a01832caab6c21177238f24676562f536df3af2b334"
+      },
+      "default_grl_scale": 0.03
+    },
+    "DPSL": {
+      "lineage": "ABIDE E82.4.6.10-G1 SCMR-DA-SRPE method; TADPOLE adaptation uses verified frozen 12-query MMGPL-12 RN50/SCMR vectors",
+      "archive": "code/sources/E82_4_6_G2_SCMR_DA_SRPE",
+      "abide_8_prompt_sha256": "0e6a48bbdfad5e6fcbacfc11122495b334e82bdfd978cee9b6a14b49ddc9d28e",
+      "tadpole_12_prompt_sha256": "999439580169b9c3422744eb9a68585f0f1c0cb0bb8bfed04c1c63c1cc93bedf"
+    },
+    "base_SP_promptGL": {
+      "author_source_directory": "code/sources/history_base",
+      "original_author_commit": "ba3b9446fa451fde6864d6555bdf324de0c4b64a"
+    }
+  },
+  "ABIDE_fold8_checkpoint": {
+    "source_experiment": "/model/spromptgl/experiment/experiment82_4_6_10_fold8_dual_asd",
+    "group": "G1",
+    "fold": 8,
+    "best_sha256": "c1db66335d709e49b04d03e3c61f090075e21a39c0ba7e021ea9fcf1a88a3102",
+    "latest_sha256": "d11feccf4875845ed22c4cf4c233d81215ec7c12826335b58549ed4ecb1a4e52",
+    "independent_replay": "audits/abide_checkpoint_replay.json"
+  },
+  "local_review_and_audit_programs": {
+    "audits/source_review.md": "e1490ac2437333c13b42a180edb573292d00769b4d9c8ae8722de38ce39c6242",
+    "audits/method_fidelity_matrix.md": "4043c2483342d9fc0ec1036f747a7f172432a1df04e3f67325dd392156a71ee1",
+    "audits/preflight_e83851.py": "3cd3ec713315ec3858e8c843aaa24d7febdaaf7d82d219d9a6cb05787f46bde8",
+    "audits/abide_checkpoint_replay.py": "29483c5188dfc04941d2f1f0940fa3469e10424429b318aebd12b73d4d3ed6dd",
+    "audits/replay_e83851.py": "9dad87d5d64a88c57eb316559f56841980400cd370fb132653e521e45bf0ca7b",
+    "code/run_e8385.py": "f60788339bb012e85fe879e6f20bad22f88f7a80a5876ffcf125abf5dd6f9a23"
+  },
+  "derived_changes": [
+    "Expose the existing CADR-GFR GRL scalar through the local FidelityModel constructor, retaining the default value 0.03.",
+    "Register the four predeclared gate/GRL combinations and preserve the historical graph, loss, optimizer and DPSL implementations."
+  ],
+  "identity_note": "The E83.8.5 archive is read-only. The current SABER checkout was inspected and not modified. All experiment-specific code and configurations are contained in this directory."
+}

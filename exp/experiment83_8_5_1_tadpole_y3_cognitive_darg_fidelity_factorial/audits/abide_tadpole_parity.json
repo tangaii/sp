@@ -1,0 +1,98 @@
+{
+  "experiment": "Experiment 83.8.5.1",
+  "status": "PASS",
+  "ABIDE": {
+    "status": "PASS",
+    "checkpoint_level": false,
+    "fixed_test_tensor": {
+      "seed": 7331,
+      "patients": 64,
+      "dimensions": [
+        48,
+        6,
+        10,
+        256
+      ]
+    },
+    "modality_order": [
+      "PHENO",
+      "ANAT",
+      "FUNC",
+      "CORR"
+    ],
+    "alignment_anchor_index": 3,
+    "edge_anchor_index": 3,
+    "grl_scale": 0.03,
+    "direct_single_gate": false,
+    "query_count": 8,
+    "binary_logits_shape": [
+      64,
+      2
+    ],
+    "relation_encoder_grad_norms": [
+      0.000777124019805342,
+      0.00019574178440961987,
+      0.00041340020834468305,
+      0.0016654848586767912
+    ],
+    "relation_scorer_gradients": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "edge_support_and_signed_double_gate_checked": true,
+    "loss_coefficients": {
+      "pair_bce": 0.05,
+      "conditional_adversarial": 0.01,
+      "preservation": 0.01
+    },
+    "historical_DARG_source": "E74.4-G2 Positive-DCR",
+    "historical_DPSL_source": "E82.4.6.10-G1 / SCMR-DA-SRPE"
+  },
+  "TADPOLE": {
+    "status": "PASS",
+    "patients": 598,
+    "modalities": [
+      "UCSFFSX",
+      "UCBERKELEYAV45",
+      "UPENNBIOMK9",
+      "RISK_FACTOR",
+      "COGNITIVE_TEST",
+      "ROI_AVERAGE"
+    ],
+    "classes": 3,
+    "cognitive_anchor_index": 4,
+    "MMGPL12_prompt_sha256": "999439580169b9c3422744eb9a68585f0f1c0cb0bb8bfed04c1c63c1cc93bedf",
+    "H0_fold01_best_sha256": "37f9bc3fedce0d18905af3b66a598deb4ffca10addf9016a07865b227267c8a7",
+    "residual_off_native_equal": true,
+    "all_three_class_pairs": [
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ]
+    ]
+  },
+  "checkpoint_level_ABIDE": {
+    "status": "PASS",
+    "group": "G1",
+    "fold": 8,
+    "best_epoch": 201,
+    "latest_epoch": 402,
+    "best_reloaded": true,
+    "latest_next_training_exact": true,
+    "checkpoint_sha256": {
+      "best": "c1db66335d709e49b04d03e3c61f090075e21a39c0ba7e021ea9fcf1a88a3102",
+      "latest": "d11feccf4875845ed22c4cf4c233d81215ec7c12826335b58549ed4ecb1a4e52"
+    },
+    "audit_sha256": "24f2d5d209ee08ab1c5e8549ab9adfe13e9fbe8318b4d132d39e7abd1b13a7fd"
+  }
+}

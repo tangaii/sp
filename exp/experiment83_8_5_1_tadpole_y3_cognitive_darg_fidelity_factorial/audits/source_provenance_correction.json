@@ -1,0 +1,43 @@
+{
+  "experiment": "Experiment 83.8.5.1",
+  "status": "PASS_WITH_POSTSEAL_METADATA_CORRECTION",
+  "correction_scope": "Source provenance metadata only. Training code, configuration, checkpoints, and training seal are unchanged.",
+  "sealed_source_manifest_sha256": "bfce88530aa3fba55de192d93454132213d970809cbb07c8a99c62329164f189",
+  "requested_reference": "ae225e5",
+  "verified_commit": "ae225e5135046d1d9622968b7d011f6aa55fa60d",
+  "commit_title": "Add experiment83.8.5 cognitive anchored DARG DPSL",
+  "commit_url": "https://github.com/tangaii/sp/commit/ae225e5135046d1d9622968b7d011f6aa55fa60d",
+  "verified_reference_files": {
+    "code/common/source_runtime.py": {
+      "github_sha256": "7659d5af8ad91561badfa8f1ca3d1212be02b279fa981aaad14ba057535d4546",
+      "server_archive_sha256": "7659d5af8ad91561badfa8f1ca3d1212be02b279fa981aaad14ba057535d4546",
+      "experiment_copy_sha256": "7659d5af8ad91561badfa8f1ca3d1212be02b279fa981aaad14ba057535d4546",
+      "match": true
+    },
+    "code/run_e8385.py": {
+      "github_sha256": "a6be57c4af354e80d7ec783c385aff3d2baad390aa407eae71d83722c28c0405",
+      "server_archive_sha256": "a6be57c4af354e80d7ec783c385aff3d2baad390aa407eae71d83722c28c0405",
+      "match": true
+    },
+    "configs/R0.json": {
+      "github_sha256": "fd88d8ccb9d62cbb81e5e41e8484229743eaf6f35fe235129952d03ee0e36e0b",
+      "server_archive_sha256": "fd88d8ccb9d62cbb81e5e41e8484229743eaf6f35fe235129952d03ee0e36e0b",
+      "match": true
+    },
+    "code/common/fidelity_model.py": {
+      "github_sha256": "7b99a4304693c3940030aa625bc90c0bf213a1a962b8ff39d6806fbad0cd387d",
+      "server_archive_sha256": "7b99a4304693c3940030aa625bc90c0bf213a1a962b8ff39d6806fbad0cd387d",
+      "experiment_adapter_sha256": "5d24537f71e89bf7a4b2bd8ab43a459216d929453eda3628496be87b85269155",
+      "adaptation": "Adds configurable grl_scale parameters with historical default 0.03 and forwards the scalar into the existing CADR-GFR constructor. No loss, forward equation, optimizer parameter set, or DPSL change.",
+      "match_after_registered_adapter": true
+    }
+  },
+  "metadata_error": {
+    "incorrect_commit_in_sealed_manifest": "252fa96b5ff2ac89250cda378c777fc36a99d316",
+    "incorrect_config_digest_in_sealed_manifest": "73d91d16f3510df1338fafafa31e2fd284527011",
+    "correction": "The cited commit is E83.8.2, not E83.8.5. The E83.8.5 R0 config SHA-256 is fd88d8ccb9d62cbb81e5e41e8484229743eaf6f35fe235129952d03ee0e36e0b.",
+    "discovered_at": "Final post-training source audit"
+  },
+  "training_seal_preserved": true,
+  "training_source_replay_status": "PASS"
+}

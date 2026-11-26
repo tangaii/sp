@@ -1,0 +1,166 @@
+{
+  "experiment": "Experiment 83.8.5.1",
+  "status": "PASS",
+  "source_sha256": {
+    "cadr_gfr.py": "f5032d96c9ac68afda47a253f794ddfe41373fabebbbbe27057f1425f988815d",
+    "soft_positive_dcr.py": "3374598e5ab5547a853c4298000710bb7e8f11f93ec3bd63ddb8ff330aa36718",
+    "e61_run.py": "f5bd8236b6a5f66903f56a01832caab6c21177238f24676562f536df3af2b334",
+    "fidelity_model.py": "5d24537f71e89bf7a4b2bd8ab43a459216d929453eda3628496be87b85269155",
+    "source_runtime.py": "7659d5af8ad91561badfa8f1ca3d1212be02b279fa981aaad14ba057535d4546"
+  },
+  "darg_dpsl_preflight": {
+    "status": "PASS",
+    "reference_h0_best_sha256": "37f9bc3fedce0d18905af3b66a598deb4ffca10addf9016a07865b227267c8a7",
+    "grl": {
+      "forward_identical": true,
+      "loss_identical": true,
+      "discriminator_gradients_identical": true,
+      "anchor_index": 4,
+      "anchor_detached_only_on_adversarial_branch": true,
+      "anchor_receives_pair_loss_gradient": true,
+      "nonanchor_gradient_ratios_0_015_over_0_03": {
+        "UCSFFSX": 0.5,
+        "UCBERKELEYAV45": 0.5,
+        "UPENNBIOMK9": 0.5,
+        "RISK_FACTOR": 0.5,
+        "ROI_AVERAGE": 0.5
+      }
+    },
+    "pair_supervision": {
+      "count": 4096,
+      "same": 2048,
+      "different": 2048,
+      "test_label_permutation_invariant": true
+    },
+    "darg": {
+      "two_gate_direct_path": true,
+      "direct_scale": 0.02,
+      "direct_single_gate": false,
+      "support_and_symmetry": [
+        {
+          "modality": "UCSFFSX",
+          "original_edges": 0,
+          "signed_positive": 0,
+          "signed_negative": 0,
+          "direct_positive": 0
+        },
+        {
+          "modality": "UCBERKELEYAV45",
+          "original_edges": 2124,
+          "signed_positive": 706,
+          "signed_negative": 553,
+          "direct_positive": 706
+        },
+        {
+          "modality": "UPENNBIOMK9",
+          "original_edges": 85099,
+          "signed_positive": 136,
+          "signed_negative": 345,
+          "direct_positive": 136
+        },
+        {
+          "modality": "RISK_FACTOR",
+          "original_edges": 7613,
+          "signed_positive": 1857,
+          "signed_negative": 372,
+          "direct_positive": 1857
+        },
+        {
+          "modality": "COGNITIVE_TEST",
+          "original_edges": 12832,
+          "signed_positive": 9851,
+          "signed_negative": 2981,
+          "direct_positive": 9851
+        },
+        {
+          "modality": "ROI_AVERAGE",
+          "original_edges": 20149,
+          "signed_positive": 1667,
+          "signed_negative": 218,
+          "direct_positive": 1667
+        }
+      ]
+    },
+    "dpsl": {
+      "frozen_prompt_source_shape": [
+        12,
+        1024
+      ],
+      "fixed_query_buffer_shape": [
+        12,
+        32
+      ],
+      "frozen_prompt": true,
+      "class_pairs": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "full_native_max_abs": 0.12018179893493652,
+      "residual_off_native_max_abs": 0.0,
+      "residual_ratio_max": 0.019195005297660828,
+      "full_residual_off_difference_nonzero": true
+    },
+    "historical_default_grl_exact": true,
+    "grl_default_preserved_at_0_03": true
+  },
+  "registered_factor_levels": {
+    "N1": {
+      "cognitive_gate_scale": 0.01,
+      "grl_scale": 0.03
+    },
+    "N2": {
+      "cognitive_gate_scale": 0.03,
+      "grl_scale": 0.03
+    },
+    "N3": {
+      "cognitive_gate_scale": 0.01,
+      "grl_scale": 0.015
+    },
+    "N4": {
+      "cognitive_gate_scale": 0.03,
+      "grl_scale": 0.015
+    },
+    "H1_to_N1_registered_difference": {
+      "status": "PASS",
+      "shared_source_config_sha256": "9e2c2f182b29fcc23883cee8c537d346e0be9d764bdbe188eeb3921d5de943b5",
+      "shared_fields": [
+        "base_reference",
+        "darg_gate_scales",
+        "darg_direct_scale",
+        "darg_direct_single_gate",
+        "alignment_anchor_index",
+        "darg_initial_gate_probabilities",
+        "supervision_kind",
+        "supervision_coefficient",
+        "graph_supervision_schedule",
+        "dpsl_confidence_protection",
+        "dpsl_confidence_mode",
+        "dpsl_shared_cap",
+        "dpsl_residual_cap",
+        "data_sha256",
+        "split_sha256",
+        "training_seed",
+        "max_epochs",
+        "early_stop_wait_gt"
+      ],
+      "only_method_difference": "edge_anchor_index: null -> 4",
+      "effective_grl_scale_both": 0.03,
+      "warmup_source": "R0/H0"
+    }
+  },
+  "registered_losses": {
+    "relation_bce": 0.05,
+    "conditional_adversarial": 0.01,
+    "relation_preservation": 0.01
+  }
+}
