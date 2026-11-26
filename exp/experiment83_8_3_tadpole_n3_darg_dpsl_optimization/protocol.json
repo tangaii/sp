@@ -1,0 +1,96 @@
+{
+  "experiment": "Experiment 83.8.3",
+  "title": "N3-Based TADPOLE DARG Gate Adaptation and DPSL Confidence Protection",
+  "status": "REGISTERED_PRETRAINING",
+  "preferred_root": "/data/adodas/SPromptGL-main/experiment/experiment83_8_3_tadpole_n3_darg_dpsl_optimization",
+  "actual_root": "/model/spromptgl/experiment/experiment83_8_3_tadpole_n3_darg_dpsl_optimization",
+  "preferred_root_result": "OSSFS mkdir returned EIO / errno 5, so execution moved once to actual_root",
+  "repositories": {
+    "paper": "https://papers.miccai.org/miccai-2025/paper/5129_paper.pdf",
+    "author": {"url": "https://github.com/wanxixi11/SPromptGL", "commit": "ba3b9446fa451fde6864d6555bdf324de0c4b64a"},
+    "saber_main": {"url": "https://github.com/tangaii/SPromptGL", "commit": "5ad91878764863b04089a94c497707cc7459168b"},
+    "e8382": {"url": "https://github.com/tangaii/sp", "commit": "252fa96b5ff2ac89250cda378c777fc36a99d316"}
+  },
+  "method_base": "E83.8.2-N3 complete G4: DARG + DPSL + squared paper ALoss, lambda 0.01 from epoch 11",
+  "data": {
+    "samples": 598,
+    "class_counts": {"NC": 209, "MCI": 315, "AD": 74},
+    "class_encoding": {"NC": 0, "MCI": 1, "AD": 2},
+    "modalities": ["UCSFFSX", "UCBERKELEYAV45", "UPENNBIOMK9", "RISK_FACTOR", "COGNITIVE_TEST", "ROI_AVERAGE"],
+    "modality_dimensions": [145, 148, 3, 36, 24, 9],
+    "total_dimensions": 365,
+    "cam_dimensions": 240,
+    "data_sha256": "0b8a14a9c066752c2d937c93d43c2824c41beaaa7d0a451b083db8dcba07c5bc",
+    "split_sha256": "7c5a4dc9bd8ee7ffc6e5aff8bf841513f26a5ff6cf1b6c110a8153aa6a106ec5",
+    "split_rule": "StratifiedKFold(n_splits=10, shuffle=True, random_state=10)",
+    "seed": 0,
+    "full_data_rfe": true,
+    "mean_imputation": true,
+    "standard_scaler_before_outer_cv": true,
+    "transductive_patient_graph": true,
+    "val_equals_test": true,
+    "best_rule": "first strict outer-test ACC improvement",
+    "max_epochs": 450,
+    "early_stop": "wait > 200",
+    "per_epoch_rng_reset": false
+  },
+  "preserved_training_protocol": {
+    "base_model": "G4_E82_4_6_10_G1",
+    "darg_original_graphlearn_threshold": 0.9,
+    "darg_relation_modules": "historical relation encoder, scorer, signed positive/negative edges and original candidate rule",
+    "darg_direct_scale": 0.02,
+    "darg_negative_scale": 0.25,
+    "darg_warmup_epochs": 10,
+    "optimizers": "E83.8.2-N3 historical Adam/AdamW groups",
+    "aloss_formula": "(1/6) sum_m || normalize(A_m+I)[train,train] - normalize(A_label+I)[train,train] ||_F^2",
+    "aloss_coefficient": 0.01,
+    "aloss_activation": "epoch 11 onward",
+    "dpsl_prompts": "Original MMGPL-12 medical prompts and frozen RN50 text vectors",
+    "dpsl_class_pairs": [[0, 1], [0, 2], [1, 2]],
+    "dpsl_residual_cap": 0.08,
+    "dpsl_shared_gradient_cap": 0.001
+  },
+  "darg_gate_scale_groups": {
+    "Y0": [0.01, 0.01, 0.01, 0.01, 0.01, 0.01],
+    "Y1": [0.05, 0.05, 0.05, 0.05, 0.05, 0.05],
+    "Y2": [0.2, 0.2, 0.2, 0.2, 0.2, 0.2],
+    "Y3": [0.01, 0.01, 0.01, 0.01, 0.01, 0.01],
+    "Y4": [0.05, 0.05, 0.05, 0.05, 0.05, 0.05],
+    "Y5": [0.2, 0.2, 0.2, 0.2, 0.2, 0.2]
+  },
+  "dpsl_confidence_protection": {
+    "enabled_groups": ["Y3", "Y4", "Y5"],
+    "formula": "p=softmax(native_logits.detach()); g=4*p1*p2; enhanced=native+g*(enhanced_native-native)",
+    "learned_parameters": 0,
+    "uses_labels": false
+  },
+  "groups": {
+    "Y0": "N3 exact fresh ten-fold retrain",
+    "Y1": "N3 plus mild DARG gate scale 0.05",
+    "Y2": "N3 plus moderate DARG gate scale 0.20",
+    "Y3": "N3 plus DPSL native-confidence protection",
+    "Y4": "Y1 plus DPSL native-confidence protection",
+    "Y5": "Y2 plus DPSL native-confidence protection"
+  },
+  "training_logs": {
+    "template": "/data/adodas/SPromptGL-main/result_Tadpole.txt",
+    "format": "Author result_Tadpole.txt field order, precision, separators and fold summary",
+    "epoch_display": "%3d/%d with denominator 450",
+    "loss_fields": "Three repeated trn-loss-MF fields retain author model.py source meanings",
+    "output_per_group": "logs/Y*/result_Tadpole.txt",
+    "metrics": "hard one-hot macro OVR AUC and ACC on train and val=test each epoch"
+  },
+  "metrics": {
+    "primary": ["ACC", "AUC_original"],
+    "auc_original": "hard one-hot macro OVR ROC AUC",
+    "auc_probability": "supplementary probability macro OVR ROC AUC",
+    "summary": "ten-fold mean plus population standard deviation"
+  },
+  "historical_references": {
+    "G4": {"ACC": 0.929746, "AUC_original": 0.940967, "AUC_probability": 0.962710},
+    "N3": {"ACC": 0.933079, "AUC_original": 0.941819, "AUC_probability": 0.958360},
+    "paper": {"ACC": 0.9481, "ACC_std": 0.0295, "AUC_original": 0.9559, "AUC_std": 0.0257}
+  },
+  "go_no_go": "Priority replacement requires mean ACC and AUC_original both above Y0, no marked probability-AUC deterioration, and passed method, execution, mechanism and replay audits",
+  "limitations": ["seed=0", "outer CV preprocessing and transductive graph are inherited historical protocol", "val_idx equals test_idx", "dataset has undergone repeated prior method selection"]
+}

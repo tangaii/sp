@@ -1,0 +1,243 @@
+{
+  "experiment": "Experiment 83.8.3",
+  "fold_audit_metric_schema_fallback": {
+    "reason": "fold audit JSON does not include nested metrics_at_best; checkpoint replay independently checks Best metrics",
+    "source": "top-level fold audit ACC and AUC_original",
+    "status": "PASS"
+  },
+  "groups": {
+    "Y0": {
+      "checkpoint_replayed_metrics_match": true,
+      "epoch_counts": [
+        448,
+        233,
+        378,
+        339,
+        350,
+        450,
+        314,
+        278,
+        402,
+        359
+      ],
+      "folds": 10,
+      "line_count": 3624,
+      "line_types_match_template": true,
+      "log_sha256": "ec7cfe202ed81b88f75c323df7ba8bfc194f728ff5fe916d72efd3238ec91ef3",
+      "status": "PASS"
+    },
+    "Y1": {
+      "checkpoint_replayed_metrics_match": true,
+      "epoch_counts": [
+        263,
+        233,
+        329,
+        338,
+        336,
+        450,
+        288,
+        282,
+        334,
+        256
+      ],
+      "folds": 10,
+      "line_count": 3182,
+      "line_types_match_template": true,
+      "log_sha256": "558525a654ee01719d79cad2d15abef86a7c2910c62f4591f381707bb5735bca",
+      "status": "PASS"
+    },
+    "Y2": {
+      "checkpoint_replayed_metrics_match": true,
+      "epoch_counts": [
+        332,
+        233,
+        450,
+        450,
+        378,
+        278,
+        306,
+        332,
+        433,
+        450
+      ],
+      "folds": 10,
+      "line_count": 3715,
+      "line_types_match_template": true,
+      "log_sha256": "00ff1e746a22a612b88fe56548e7a7542b6818bdb54f691e41811cc4ff8c395d",
+      "status": "PASS"
+    },
+    "Y3": {
+      "checkpoint_replayed_metrics_match": true,
+      "epoch_counts": [
+        336,
+        233,
+        346,
+        264,
+        296,
+        271,
+        450,
+        278,
+        300,
+        450
+      ],
+      "folds": 10,
+      "line_count": 3297,
+      "line_types_match_template": true,
+      "log_sha256": "ee60eee80e232b439876bc420797e81e1b4f099d8f5c98c4410c4725d2de9600",
+      "status": "PASS"
+    },
+    "Y4": {
+      "checkpoint_replayed_metrics_match": true,
+      "epoch_counts": [
+        249,
+        233,
+        437,
+        381,
+        334,
+        416,
+        345,
+        436,
+        234,
+        266
+      ],
+      "folds": 10,
+      "line_count": 3404,
+      "line_types_match_template": true,
+      "log_sha256": "463c5749784204e2fe970f0692145b53681ca537f90d07cbb0bd4a4659d8c728",
+      "status": "PASS"
+    },
+    "Y5": {
+      "checkpoint_replayed_metrics_match": true,
+      "epoch_counts": [
+        249,
+        233,
+        450,
+        394,
+        321,
+        253,
+        342,
+        377,
+        366,
+        374
+      ],
+      "folds": 10,
+      "line_count": 3432,
+      "line_types_match_template": true,
+      "log_sha256": "b6a94fadef8f7368cb088bdbbf17f660b25e48a5f8e9b5d95d1c75fe23218f9d",
+      "status": "PASS"
+    }
+  },
+  "loss_field_count": 3,
+  "reference_epoch_fields": [
+    "epoch/450",
+    "trn-loss-MF",
+    "trn-loss-MF",
+    "trn-loss-MF",
+    "trn-auc",
+    "acc",
+    "val-auc",
+    "acc"
+  ],
+  "status": "PASS",
+  "template_epoch_count_per_fold": [
+    300,
+    300,
+    300,
+    300,
+    300,
+    300,
+    300,
+    300,
+    300,
+    300
+  ],
+  "template_final_summary": [
+    "sensitivity_summary",
+    "specificity_summary",
+    "aggregate_metrics",
+    "aggregate_std",
+    "aggregate_pair"
+  ],
+  "template_fold_count": 10,
+  "template_fold_suffixes": [
+    [
+      "time",
+      "test_metrics",
+      "sensitivity",
+      "specificity",
+      "sample_count",
+      "sample_count"
+    ],
+    [
+      "time",
+      "test_metrics",
+      "sensitivity",
+      "specificity",
+      "sample_count",
+      "sample_count"
+    ],
+    [
+      "time",
+      "test_metrics",
+      "sensitivity",
+      "specificity",
+      "sample_count",
+      "sample_count"
+    ],
+    [
+      "time",
+      "test_metrics",
+      "sensitivity",
+      "specificity",
+      "sample_count",
+      "sample_count"
+    ],
+    [
+      "time",
+      "test_metrics",
+      "sensitivity",
+      "specificity",
+      "sample_count",
+      "sample_count"
+    ],
+    [
+      "time",
+      "test_metrics",
+      "sensitivity",
+      "specificity",
+      "sample_count",
+      "sample_count"
+    ],
+    [
+      "time",
+      "test_metrics",
+      "sensitivity",
+      "specificity",
+      "sample_count",
+      "sample_count"
+    ],
+    [
+      "time",
+      "test_metrics",
+      "sensitivity",
+      "specificity",
+      "sample_count",
+      "sample_count"
+    ],
+    [
+      "time",
+      "test_metrics",
+      "sensitivity",
+      "specificity",
+      "sample_count",
+      "sample_count"
+    ],
+    [
+      "time",
+      "test_metrics",
+      "sensitivity",
+      "specificity"
+    ]
+  ],
+  "template_sha256": "5c80d16204e0882e5e264e42952c714397c2d31f07835b9e60d6dafd9488e3b7"
+}

@@ -1,0 +1,14 @@
+{
+  "created_utc": "2026-11-25T19:00:30.411627+00:00",
+  "experiment": "Experiment 83.8.3",
+  "handoff_bytes": 1472150,
+  "initial_append_bytes": 1472106,
+  "initial_append_sha256": "5b2a768611985471bb201fb3618b3712797ad0ca3531b75398e70b9f657ea6a3",
+  "handoff_path": "/model/spromptgl/experiment/handoff.md",
+  "handoff_sha256": "bd45bfa3de4497eb9c93089098b7b6feafc7f93761b5336e4d290ce4a1265396",
+  "marker_occurrences": 1,
+  "post_append_display_corrections": true,
+  "prefix_bytes": 1464987,
+  "prefix_sha256": "41629e01367f677c9c554edc0aba688a2df18e399dd142f602f1ae6766049219",
+  "status": "PASS"
+}

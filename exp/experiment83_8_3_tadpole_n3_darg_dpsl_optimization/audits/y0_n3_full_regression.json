@@ -1,0 +1,179 @@
+{
+  "checks": [
+    "Best epochs, predictions and probabilities",
+    "Best model and optimizer state",
+    "Latest model, optimizer, RNG and full epoch history",
+    "Warmup model, optimizer, RNG, relation pairs and train labels",
+    "ACC, AUC_original and AUC_probability"
+  ],
+  "diagnostic_metadata_normalization": {
+    "legacy_modality_labels": {
+      "M1": "UCSFFSX",
+      "M2": "UCBERKELEYAV45",
+      "M3": "UPENNBIOMK9",
+      "M4": "RISK_FACTOR",
+      "M5": "COGNITIVE_TEST",
+      "M6": "ROI_AVERAGE"
+    },
+    "normalization_scope": "historical diagnostic labels only",
+    "paired_group_labels": {
+      "N3": "Y0"
+    },
+    "status": "PASS"
+  },
+  "experiment": "Experiment 83.8.3",
+  "folds": {
+    "1": {
+      "best_checkpoint_sha256": "7290af668e971e621b7c8c791bccb197fe8490dd7226c8359bdb525b42d11845",
+      "best_epoch": 247,
+      "best_model_optimizer_exact": true,
+      "latest_checkpoint_sha256": "853b09ee7b8f054a967e2363abdc6c144e9eab7e59aa5938c243b09d9d80b5ed",
+      "latest_ema_state_exact": true,
+      "latest_ema_updates": 438,
+      "latest_epoch": 448,
+      "latest_model_optimizer_rng_history_exact": true,
+      "prediction_sha256": "2d5666af11ffa484df29f01adcf791774d6724c695f572f8c138f91da6f3ae22",
+      "predictions_probabilities_and_metrics_exact": true,
+      "status": "PASS_EXACT",
+      "warmup_and_relation_pair_exact": true
+    },
+    "10": {
+      "best_checkpoint_sha256": "c9e8345532c18f145b20ce65a898462dd5fd407d0c90f1e4e46d639af194811d",
+      "best_epoch": 158,
+      "best_model_optimizer_exact": true,
+      "latest_checkpoint_sha256": "2d4efa4743aade9b8f79594a59017e3ad455a9a9beb5930ef403aee15bdbad0c",
+      "latest_ema_state_exact": true,
+      "latest_ema_updates": 349,
+      "latest_epoch": 359,
+      "latest_model_optimizer_rng_history_exact": true,
+      "prediction_sha256": "dfa5bbab7f1041e72114454790877fc58e23bd535033d9f3e1238cd262323feb",
+      "predictions_probabilities_and_metrics_exact": true,
+      "status": "PASS_EXACT",
+      "warmup_and_relation_pair_exact": true
+    },
+    "2": {
+      "best_checkpoint_sha256": "a982e9b1c8755f6f69d9864af2b93e5239a3b84dc406eb6d38c0d2f6b66d36f3",
+      "best_epoch": 32,
+      "best_model_optimizer_exact": true,
+      "latest_checkpoint_sha256": "4cc75f6ef558898cd12764fd3129bc140942e5bd2c0635a8dd1c7048edb9a82c",
+      "latest_ema_state_exact": true,
+      "latest_ema_updates": 223,
+      "latest_epoch": 233,
+      "latest_model_optimizer_rng_history_exact": true,
+      "prediction_sha256": "d1dd1f70c9c2f37ca06f4848c4979683b7279f94cbd958e626e7516b6d0eec47",
+      "predictions_probabilities_and_metrics_exact": true,
+      "status": "PASS_EXACT",
+      "warmup_and_relation_pair_exact": true
+    },
+    "3": {
+      "best_checkpoint_sha256": "4e2def9205e47613c91f5ff6cba5c147e2238b99e821cbb9b5fd3ad7d40fba24",
+      "best_epoch": 177,
+      "best_model_optimizer_exact": true,
+      "latest_checkpoint_sha256": "22060a671bed5b47439a9f01dbc9ca4ee7900e00b1e511529e5d06b9cc3141b7",
+      "latest_ema_state_exact": true,
+      "latest_ema_updates": 368,
+      "latest_epoch": 378,
+      "latest_model_optimizer_rng_history_exact": true,
+      "prediction_sha256": "4c2e597e7b967934c50f7d8e496cea4f02839b801e789c2735048b980a0bb40e",
+      "predictions_probabilities_and_metrics_exact": true,
+      "status": "PASS_EXACT",
+      "warmup_and_relation_pair_exact": true
+    },
+    "4": {
+      "best_checkpoint_sha256": "0fdf5594908d757e2a5fcfd3a40429930ad8c1736dc3d25cffbe482d83123fd5",
+      "best_epoch": 138,
+      "best_model_optimizer_exact": true,
+      "latest_checkpoint_sha256": "710be766b3ed47c6c74c0e2301db321c1df3e24c16786d6b92c40c1f0dcae22c",
+      "latest_ema_state_exact": true,
+      "latest_ema_updates": 329,
+      "latest_epoch": 339,
+      "latest_model_optimizer_rng_history_exact": true,
+      "prediction_sha256": "784b6d2e3c56da5908a722eaaa5be97cc73240226d949a4297f046623ba0f9d1",
+      "predictions_probabilities_and_metrics_exact": true,
+      "status": "PASS_EXACT",
+      "warmup_and_relation_pair_exact": true
+    },
+    "5": {
+      "best_checkpoint_sha256": "a1adbc483e09d7f11124765f2106a79c2d2494465775cc912dc193ee1c6c2fa2",
+      "best_epoch": 149,
+      "best_model_optimizer_exact": true,
+      "latest_checkpoint_sha256": "2eaa3c99da3851ee59a12d2db1c9dac90c2f9e53d5bd8c2d5112accebe0d440e",
+      "latest_ema_state_exact": true,
+      "latest_ema_updates": 340,
+      "latest_epoch": 350,
+      "latest_model_optimizer_rng_history_exact": true,
+      "prediction_sha256": "044c1173e49711c982528d27faa40911a34af35c3fca25d8e411356dfde6a1eb",
+      "predictions_probabilities_and_metrics_exact": true,
+      "status": "PASS_EXACT",
+      "warmup_and_relation_pair_exact": true
+    },
+    "6": {
+      "best_checkpoint_sha256": "516fb35a01086402940e00da09eae0f548dd30a869af26944a90ddf94fd375ce",
+      "best_epoch": 251,
+      "best_model_optimizer_exact": true,
+      "latest_checkpoint_sha256": "a97bbce4d117156cdaf9df1789d97bbc9602ad5e5e087f5b085abde501881e91",
+      "latest_ema_state_exact": true,
+      "latest_ema_updates": 440,
+      "latest_epoch": 450,
+      "latest_model_optimizer_rng_history_exact": true,
+      "prediction_sha256": "b0cf15510c1a24884ad9568b92decce152dbac530661a2cfefc36fbfedd0d437",
+      "predictions_probabilities_and_metrics_exact": true,
+      "status": "PASS_EXACT",
+      "warmup_and_relation_pair_exact": true
+    },
+    "7": {
+      "best_checkpoint_sha256": "e38a420158a432e9dd53b8b789300f1c3666db385a6988ad3248cec687edc78f",
+      "best_epoch": 113,
+      "best_model_optimizer_exact": true,
+      "latest_checkpoint_sha256": "fdbd130438601f540becc6e4a083ad1fa2f48e7f162b1c0add61a64dcf4de667",
+      "latest_ema_state_exact": true,
+      "latest_ema_updates": 304,
+      "latest_epoch": 314,
+      "latest_model_optimizer_rng_history_exact": true,
+      "prediction_sha256": "19a59a2f7be062cd5498f57bdbf14dc18134cb66732a67c5c031de93186e9366",
+      "predictions_probabilities_and_metrics_exact": true,
+      "status": "PASS_EXACT",
+      "warmup_and_relation_pair_exact": true
+    },
+    "8": {
+      "best_checkpoint_sha256": "85a2a088a799074b61292b38ff084ca444ffb4dc89ca1badef8e24aa819c629b",
+      "best_epoch": 77,
+      "best_model_optimizer_exact": true,
+      "latest_checkpoint_sha256": "f170d5fac1c156a962b2f0ee5dd7901ae310b607b514c6d524cdcaabd336cffd",
+      "latest_ema_state_exact": true,
+      "latest_ema_updates": 268,
+      "latest_epoch": 278,
+      "latest_model_optimizer_rng_history_exact": true,
+      "prediction_sha256": "a5df49e7d851816cdce3f10e265d9c4f87dedbbad9bbad389ef2bf835945e98d",
+      "predictions_probabilities_and_metrics_exact": true,
+      "status": "PASS_EXACT",
+      "warmup_and_relation_pair_exact": true
+    },
+    "9": {
+      "best_checkpoint_sha256": "f5ca57980b059852fb41fca1c35fcce4516d21dba713d994e640c857040b1423",
+      "best_epoch": 201,
+      "best_model_optimizer_exact": true,
+      "latest_checkpoint_sha256": "c621c05b5c3f7e172cafcb4d0f721d3a1e5b616c27bde6c4fa0e93d2b946f9c8",
+      "latest_ema_state_exact": true,
+      "latest_ema_updates": 392,
+      "latest_epoch": 402,
+      "latest_model_optimizer_rng_history_exact": true,
+      "prediction_sha256": "bb2e071506d3af6ae3a4074b4cfe0fec4bf72bc5192862b8c5366cf6511dd550",
+      "predictions_probabilities_and_metrics_exact": true,
+      "status": "PASS_EXACT",
+      "warmup_and_relation_pair_exact": true
+    }
+  },
+  "folds_passed": 10,
+  "latest_top_level_dpsl_ema_updates_field": "not present in E83.8.2-N3 or Y0; EMA state is restored through dpsl._extra_state",
+  "prediction_column_normalization": {
+    "compared_columns": "sample identity, labels and all probability fields",
+    "metadata_columns": [
+      "fold",
+      "seed"
+    ],
+    "status": "PASS"
+  },
+  "reference": "E83.8.2-N3 fixed historical checkpoints",
+  "status": "PASS_EXACT"
+}

@@ -1,0 +1,63 @@
+{
+  "N3": {
+    "ACC": 0.9666666666666667,
+    "AUC_original": 0.9832940251572326,
+    "AUC_probability": 0.991941823899371,
+    "best_epoch": 247,
+    "checkpoint_sha256": "9cf1b2b1beef0c79c677d6ca23d93af0efa9f65c376cc107852db06e1ab4dbed",
+    "latest_epoch": 448
+  },
+  "Y0": {
+    "ACC": 0.9666666666666667,
+    "AUC_original": 0.9832940251572326,
+    "AUC_probability": 0.991941823899371,
+    "best_epoch": 247,
+    "checkpoint_sha256": "7290af668e971e621b7c8c791bccb197fe8490dd7226c8359bdb525b42d11845",
+    "latest_epoch": 448
+  },
+  "checks": {
+    "acc_auc_and_probability_auc": "PASS_EXACT",
+    "best_epoch": "PASS_EXACT",
+    "best_model_and_optimizer": "PASS_EXACT",
+    "latest_epoch_and_early_stop": "PASS_EXACT",
+    "latest_model_optimizer_rng_and_history": "PASS_EXACT",
+    "logging_state_invariance": "PASS_EXACT",
+    "predictions_and_probabilities": "PASS_EXACT",
+    "warmup": "PASS_EXACT"
+  },
+  "diagnostic_metadata_normalization": {
+    "legacy_modality_labels": {
+      "M1": "UCSFFSX",
+      "M2": "UCBERKELEYAV45",
+      "M3": "UPENNBIOMK9",
+      "M4": "RISK_FACTOR",
+      "M5": "COGNITIVE_TEST",
+      "M6": "ROI_AVERAGE"
+    },
+    "normalization_scope": "diagnostic labels only",
+    "paired_group_labels": {
+      "N3": "Y0"
+    },
+    "status": "PASS"
+  },
+  "experiment": "Experiment 83.8.3",
+  "fold": 1,
+  "group": "Y0",
+  "latest_dpsl_ema_state": {
+    "model_extra_state_exact": true,
+    "status": "PASS",
+    "updates": 438
+  },
+  "latest_top_level_dpsl_ema_updates_field": "not present in E83.8.2-N3 or Y0; EMA state is restored through dpsl._extra_state",
+  "prediction_column_normalization": {
+    "ignored_metadata_columns": [
+      "fold",
+      "seed"
+    ],
+    "shared_prediction_columns_compared": true,
+    "status": "PASS"
+  },
+  "prediction_sha256": "2d5666af11ffa484df29f01adcf791774d6724c695f572f8c138f91da6f3ae22",
+  "reference": "E83.8.2-N3",
+  "status": "PASS"
+}

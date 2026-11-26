@@ -1,0 +1,81 @@
+{
+  "author_log_groups_passed": 6,
+  "best_checkpoints_replayed": 60,
+  "checks": {
+    "Best_replay": "PASS_60_OF_60",
+    "Latest_restore": "PASS_60_OF_60",
+    "OOF_598_patients_once_per_group": "PASS",
+    "Y0_historical_N3_regression": "PASS_EXACT",
+    "all_six_groups_ten_folds": "PASS",
+    "author_log_format": "PASS_ALL_SIX_GROUPS",
+    "deterministic_next_step": "PASS_60_OF_60",
+    "no_test_label_supervision": "PASS_BY_TRAIN_INDEX_CONTRACT_AND_LABEL_PERMUTATION_PROBE",
+    "single_gpu_resource_probe": "PASS",
+    "six_modality_DARG_and_DPSL_mechanism": "PASS",
+    "source_and_config_seal": "PASS",
+    "train_test_index_disjoint": "PASS",
+    "training_preflight": "PASS",
+    "warmup_pairing_all_folds": "PASS"
+  },
+  "data_sha256": "0b8a14a9c066752c2d937c93d43c2824c41beaaa7d0a451b083db8dcba07c5bc",
+  "deterministic_next_steps": 60,
+  "experiment": "Experiment 83.8.3",
+  "formal_folds": 60,
+  "groups": {
+    "Y0": {
+      "folds": 10,
+      "log_epochs": 3551,
+      "log_sha256": "ec7cfe202ed81b88f75c323df7ba8bfc194f728ff5fe916d72efd3238ec91ef3",
+      "oof_each_once": true,
+      "oof_patients": 598,
+      "warmup_pairs_passed": 10
+    },
+    "Y1": {
+      "folds": 10,
+      "log_epochs": 3109,
+      "log_sha256": "558525a654ee01719d79cad2d15abef86a7c2910c62f4591f381707bb5735bca",
+      "oof_each_once": true,
+      "oof_patients": 598,
+      "warmup_pairs_passed": 10
+    },
+    "Y2": {
+      "folds": 10,
+      "log_epochs": 3642,
+      "log_sha256": "00ff1e746a22a612b88fe56548e7a7542b6818bdb54f691e41811cc4ff8c395d",
+      "oof_each_once": true,
+      "oof_patients": 598,
+      "warmup_pairs_passed": 10
+    },
+    "Y3": {
+      "folds": 10,
+      "log_epochs": 3224,
+      "log_sha256": "ee60eee80e232b439876bc420797e81e1b4f099d8f5c98c4410c4725d2de9600",
+      "oof_each_once": true,
+      "oof_patients": 598,
+      "warmup_pairs_passed": 10
+    },
+    "Y4": {
+      "folds": 10,
+      "log_epochs": 3331,
+      "log_sha256": "463c5749784204e2fe970f0692145b53681ca537f90d07cbb0bd4a4659d8c728",
+      "oof_each_once": true,
+      "oof_patients": 598,
+      "warmup_pairs_passed": 10
+    },
+    "Y5": {
+      "folds": 10,
+      "log_epochs": 3359,
+      "log_sha256": "b6a94fadef8f7368cb088bdbbf17f660b25e48a5f8e9b5d95d1c75fe23218f9d",
+      "oof_each_once": true,
+      "oof_patients": 598,
+      "warmup_pairs_passed": 10
+    }
+  },
+  "implementation_sha256": "2e3609b5aa32a154d3eb7a2c3a8356a4f68c8426087045896b3c0e57e5bb03b0",
+  "latest_checkpoints_restored": 60,
+  "performance_status": "MIXED",
+  "split_sha256": "7c5a4dc9bd8ee7ffc6e5aff8bf841513f26a5ff6cf1b6c110a8153aa6a106ec5",
+  "status": "PASS",
+  "training_seal_sha256": "a2abe322984c888b7b9c14855071d6c23e9298f836bd7d337b3e675e6b662dc1",
+  "y0_vs_n3_exact_folds": 10
+}

@@ -1,0 +1,1195 @@
+{
+  "experiment": "Experiment 83.8.3",
+  "groups": {
+    "Y0": {
+      "full_vs_direct_off": {
+        "by_true_class": {
+          "AD": {
+            "changed_argmax": 0,
+            "corrected": 0,
+            "damaged": 0,
+            "log_probability_max_abs_difference": 1.3822829769694067e-06,
+            "probability_max_abs_difference": 1.0000000005838672e-07,
+            "samples": 74
+          },
+          "MCI": {
+            "changed_argmax": 0,
+            "corrected": 0,
+            "damaged": 0,
+            "log_probability_max_abs_difference": 1.0521745297253915e-06,
+            "probability_max_abs_difference": 1.8000000001627825e-07,
+            "samples": 315
+          },
+          "NC": {
+            "changed_argmax": 0,
+            "corrected": 0,
+            "damaged": 0,
+            "log_probability_max_abs_difference": 1.3907648117594817e-06,
+            "probability_max_abs_difference": 1.5000000008758008e-07,
+            "samples": 209
+          }
+        },
+        "changed_argmax": 0,
+        "corrected": 0,
+        "damaged": 0,
+        "log_probability_max_abs_difference": 1.3907648117594817e-06,
+        "log_probability_mean_abs_difference": 2.350939059296341e-08,
+        "per_fold": {
+          "1": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 9.532279285906498e-07,
+            "probability_max_abs_difference": 1.3999999999569912e-08,
+            "rows": 60
+          },
+          "10": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 1.3822829769694067e-06,
+            "probability_max_abs_difference": 2.999999999808711e-08,
+            "rows": 59
+          },
+          "2": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 0.0,
+            "probability_max_abs_difference": 0.0,
+            "rows": 60
+          },
+          "3": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 6.886644832171385e-07,
+            "probability_max_abs_difference": 5.999999996841865e-08,
+            "rows": 60
+          },
+          "4": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 4.6512017304323194e-07,
+            "probability_max_abs_difference": 5.999999996841865e-08,
+            "rows": 60
+          },
+          "5": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 1.3907648117594817e-06,
+            "probability_max_abs_difference": 1.5000000000431335e-07,
+            "rows": 60
+          },
+          "6": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 9.566718537357133e-07,
+            "probability_max_abs_difference": 1.8000000001627825e-07,
+            "rows": 60
+          },
+          "7": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 5.6380015411861e-07,
+            "probability_max_abs_difference": 1.4999999997655777e-07,
+            "rows": 60
+          },
+          "8": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 3.2234500713101966e-07,
+            "probability_max_abs_difference": 1.0000000005838672e-07,
+            "rows": 60
+          },
+          "9": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 7.093018403736551e-07,
+            "probability_max_abs_difference": 1.5000000008758008e-07,
+            "rows": 59
+          }
+        },
+        "probability_max_abs_difference": 1.8000000001627825e-07,
+        "probability_mean_abs_difference": 1.8726867336345437e-09,
+        "samples": 598
+      },
+      "full_vs_disease_neutral": {
+        "by_true_class": {
+          "AD": {
+            "changed_argmax": 0,
+            "corrected": 0,
+            "damaged": 0,
+            "log_probability_max_abs_difference": 1.0544008379298475e-05,
+            "probability_max_abs_difference": 2.450000000098207e-06,
+            "samples": 74
+          },
+          "MCI": {
+            "changed_argmax": 0,
+            "corrected": 0,
+            "damaged": 0,
+            "log_probability_max_abs_difference": 0.0002241272367800029,
+            "probability_max_abs_difference": 2.7200000000004998e-05,
+            "samples": 315
+          },
+          "NC": {
+            "changed_argmax": 0,
+            "corrected": 0,
+            "damaged": 0,
+            "log_probability_max_abs_difference": 0.00023500221730943238,
+            "probability_max_abs_difference": 3.9989999999989756e-05,
+            "samples": 209
+          }
+        },
+        "changed_argmax": 0,
+        "corrected": 0,
+        "damaged": 0,
+        "log_probability_max_abs_difference": 0.00023500221730943238,
+        "log_probability_mean_abs_difference": 2.258096067166087e-06,
+        "per_fold": {
+          "1": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 0.00023500221730943238,
+            "probability_max_abs_difference": 3.9989999999989756e-05,
+            "rows": 60
+          },
+          "10": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 6.633170782444076e-05,
+            "probability_max_abs_difference": 2.7200000000004998e-05,
+            "rows": 59
+          },
+          "2": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 1.8953479816730123e-06,
+            "probability_max_abs_difference": 5.00000000069889e-07,
+            "rows": 60
+          },
+          "3": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 0.0002241272367800029,
+            "probability_max_abs_difference": 1.0200000000071263e-05,
+            "rows": 60
+          },
+          "4": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 7.088347286687835e-06,
+            "probability_max_abs_difference": 1.7400000000000748e-06,
+            "rows": 60
+          },
+          "5": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 2.4314128050484385e-05,
+            "probability_max_abs_difference": 2.9499999999460513e-06,
+            "rows": 60
+          },
+          "6": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 1.4572786992683717e-05,
+            "probability_max_abs_difference": 5.100000000091143e-06,
+            "rows": 60
+          },
+          "7": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 1.559245924243058e-05,
+            "probability_max_abs_difference": 6.159999999977295e-06,
+            "rows": 60
+          },
+          "8": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 1.1540849804703157e-06,
+            "probability_max_abs_difference": 2.600000000851921e-07,
+            "rows": 60
+          },
+          "9": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 7.914056226665522e-05,
+            "probability_max_abs_difference": 1.0240000000050209e-05,
+            "rows": 59
+          }
+        },
+        "probability_max_abs_difference": 3.9989999999989756e-05,
+        "probability_mean_abs_difference": 2.912819397992115e-07,
+        "samples": 598
+      }
+    },
+    "Y1": {
+      "full_vs_direct_off": {
+        "by_true_class": {
+          "AD": {
+            "changed_argmax": 0,
+            "corrected": 0,
+            "damaged": 0,
+            "log_probability_max_abs_difference": 1.0395658174289224e-06,
+            "probability_max_abs_difference": 2.499999999239222e-07,
+            "samples": 74
+          },
+          "MCI": {
+            "changed_argmax": 0,
+            "corrected": 0,
+            "damaged": 0,
+            "log_probability_max_abs_difference": 1.3879780285108723e-06,
+            "probability_max_abs_difference": 1.5000000008758008e-07,
+            "samples": 315
+          },
+          "NC": {
+            "changed_argmax": 0,
+            "corrected": 0,
+            "damaged": 0,
+            "log_probability_max_abs_difference": 1.0048254095451625e-06,
+            "probability_max_abs_difference": 1.300000000981072e-07,
+            "samples": 209
+          }
+        },
+        "changed_argmax": 0,
+        "corrected": 0,
+        "damaged": 0,
+        "log_probability_max_abs_difference": 1.3879780285108723e-06,
+        "log_probability_mean_abs_difference": 8.470855903235055e-08,
+        "per_fold": {
+          "1": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 6.655085811324568e-07,
+            "probability_max_abs_difference": 1.3999999992631018e-07,
+            "rows": 60
+          },
+          "10": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 9.327178540630143e-07,
+            "probability_max_abs_difference": 1.4000000003733248e-07,
+            "rows": 59
+          },
+          "2": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 5.686115613912079e-07,
+            "probability_max_abs_difference": 9.999999994736442e-08,
+            "rows": 60
+          },
+          "3": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 1.3879780285108723e-06,
+            "probability_max_abs_difference": 1.5000000003206893e-07,
+            "rows": 60
+          },
+          "4": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 1.0127884504385065e-06,
+            "probability_max_abs_difference": 1.299999999870849e-07,
+            "rows": 60
+          },
+          "5": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 9.435608303576259e-07,
+            "probability_max_abs_difference": 1.4000000003733248e-07,
+            "rows": 60
+          },
+          "6": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 1.0395658174289224e-06,
+            "probability_max_abs_difference": 2.499999999239222e-07,
+            "rows": 60
+          },
+          "7": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 5.328303522844635e-07,
+            "probability_max_abs_difference": 1.299999999870849e-07,
+            "rows": 60
+          },
+          "8": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 9.944464371969275e-07,
+            "probability_max_abs_difference": 1.4000000003733248e-07,
+            "rows": 60
+          },
+          "9": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 1.2299406848548244e-06,
+            "probability_max_abs_difference": 1.5000000008758008e-07,
+            "rows": 59
+          }
+        },
+        "probability_max_abs_difference": 2.499999999239222e-07,
+        "probability_mean_abs_difference": 8.25875139326182e-09,
+        "samples": 598
+      },
+      "full_vs_disease_neutral": {
+        "by_true_class": {
+          "AD": {
+            "changed_argmax": 0,
+            "corrected": 0,
+            "damaged": 0,
+            "log_probability_max_abs_difference": 0.00013969764451471356,
+            "probability_max_abs_difference": 6.415000000004056e-05,
+            "samples": 74
+          },
+          "MCI": {
+            "changed_argmax": 0,
+            "corrected": 0,
+            "damaged": 0,
+            "log_probability_max_abs_difference": 0.00040711087548306324,
+            "probability_max_abs_difference": 0.00010925999999999991,
+            "samples": 315
+          },
+          "NC": {
+            "changed_argmax": 0,
+            "corrected": 0,
+            "damaged": 0,
+            "log_probability_max_abs_difference": 0.0004218336861032679,
+            "probability_max_abs_difference": 0.00013017000000004053,
+            "samples": 209
+          }
+        },
+        "changed_argmax": 0,
+        "corrected": 0,
+        "damaged": 0,
+        "log_probability_max_abs_difference": 0.0004218336861032679,
+        "log_probability_mean_abs_difference": 4.466999524662797e-06,
+        "per_fold": {
+          "1": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 9.43612247039649e-06,
+            "probability_max_abs_difference": 4.599999999965743e-06,
+            "rows": 60
+          },
+          "10": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 3.7469664923683865e-05,
+            "probability_max_abs_difference": 1.0599999999971743e-05,
+            "rows": 59
+          },
+          "2": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 6.601434790143301e-06,
+            "probability_max_abs_difference": 1.7399999999723192e-06,
+            "rows": 60
+          },
+          "3": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 2.109195417843157e-05,
+            "probability_max_abs_difference": 8.699999999972619e-06,
+            "rows": 60
+          },
+          "4": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 4.508865811203577e-05,
+            "probability_max_abs_difference": 4.950000000003563e-06,
+            "rows": 60
+          },
+          "5": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 6.206915868745e-05,
+            "probability_max_abs_difference": 9.60000000005401e-06,
+            "rows": 60
+          },
+          "6": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 0.0004218336861032679,
+            "probability_max_abs_difference": 0.00013017000000004053,
+            "rows": 60
+          },
+          "7": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 1.3265291581521232e-05,
+            "probability_max_abs_difference": 5.2999999999858716e-06,
+            "rows": 60
+          },
+          "8": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 5.432570979291285e-06,
+            "probability_max_abs_difference": 8.599999999914232e-07,
+            "rows": 60
+          },
+          "9": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 9.60753978467288e-05,
+            "probability_max_abs_difference": 1.3299999999993872e-05,
+            "rows": 59
+          }
+        },
+        "probability_max_abs_difference": 0.00013017000000004053,
+        "probability_mean_abs_difference": 9.535623188410037e-07,
+        "samples": 598
+      }
+    },
+    "Y2": {
+      "full_vs_direct_off": {
+        "by_true_class": {
+          "AD": {
+            "changed_argmax": 0,
+            "corrected": 0,
+            "damaged": 0,
+            "log_probability_max_abs_difference": 7.810381181361237e-06,
+            "probability_max_abs_difference": 7.000000000756401e-07,
+            "samples": 74
+          },
+          "MCI": {
+            "changed_argmax": 0,
+            "corrected": 0,
+            "damaged": 0,
+            "log_probability_max_abs_difference": 1.2946775360234142e-05,
+            "probability_max_abs_difference": 2.150000000034069e-06,
+            "samples": 315
+          },
+          "NC": {
+            "changed_argmax": 0,
+            "corrected": 0,
+            "damaged": 0,
+            "log_probability_max_abs_difference": 1.1236747176290862e-05,
+            "probability_max_abs_difference": 1.4999999999876223e-06,
+            "samples": 209
+          }
+        },
+        "changed_argmax": 0,
+        "corrected": 0,
+        "damaged": 0,
+        "log_probability_max_abs_difference": 1.2946775360234142e-05,
+        "log_probability_mean_abs_difference": 3.8993045403898803e-07,
+        "per_fold": {
+          "1": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 3.81086061329583e-06,
+            "probability_max_abs_difference": 5.400000000488347e-07,
+            "rows": 60
+          },
+          "10": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 6.848141269166774e-06,
+            "probability_max_abs_difference": 1.3500000000110646e-06,
+            "rows": 59
+          },
+          "2": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 1.3855150182706666e-06,
+            "probability_max_abs_difference": 7.000000001866624e-08,
+            "rows": 60
+          },
+          "3": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 5.1070245501438905e-06,
+            "probability_max_abs_difference": 1.8499999999699313e-06,
+            "rows": 60
+          },
+          "4": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 1.0048399098572247e-05,
+            "probability_max_abs_difference": 1.6699999999814086e-06,
+            "rows": 60
+          },
+          "5": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 1.2946775360234142e-05,
+            "probability_max_abs_difference": 8.400000000019503e-07,
+            "rows": 60
+          },
+          "6": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 2.42587130572236e-06,
+            "probability_max_abs_difference": 1.1500000000053134e-06,
+            "rows": 60
+          },
+          "7": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 1.1236747176290862e-05,
+            "probability_max_abs_difference": 1.4999999999876223e-06,
+            "rows": 60
+          },
+          "8": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 7.810381181361237e-06,
+            "probability_max_abs_difference": 7.000000000756401e-07,
+            "rows": 60
+          },
+          "9": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 1.0534490193503387e-05,
+            "probability_max_abs_difference": 2.150000000034069e-06,
+            "rows": 59
+          }
+        },
+        "probability_max_abs_difference": 2.150000000034069e-06,
+        "probability_mean_abs_difference": 5.512937569681301e-08,
+        "samples": 598
+      },
+      "full_vs_disease_neutral": {
+        "by_true_class": {
+          "AD": {
+            "changed_argmax": 0,
+            "corrected": 0,
+            "damaged": 0,
+            "log_probability_max_abs_difference": 0.00017087182170660853,
+            "probability_max_abs_difference": 2.8000000000028002e-05,
+            "samples": 74
+          },
+          "MCI": {
+            "changed_argmax": 0,
+            "corrected": 0,
+            "damaged": 0,
+            "log_probability_max_abs_difference": 0.010968943418274257,
+            "probability_max_abs_difference": 0.0022305500000000533,
+            "samples": 315
+          },
+          "NC": {
+            "changed_argmax": 0,
+            "corrected": 0,
+            "damaged": 0,
+            "log_probability_max_abs_difference": 0.0018963725757074057,
+            "probability_max_abs_difference": 0.0007216499999999071,
+            "samples": 209
+          }
+        },
+        "changed_argmax": 0,
+        "corrected": 0,
+        "damaged": 0,
+        "log_probability_max_abs_difference": 0.010968943418274257,
+        "log_probability_mean_abs_difference": 3.3892465776171023e-05,
+        "per_fold": {
+          "1": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 0.0001658629292879965,
+            "probability_max_abs_difference": 1.2499999999970868e-05,
+            "rows": 60
+          },
+          "10": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 4.269962168557129e-05,
+            "probability_max_abs_difference": 4.500000000073889e-06,
+            "rows": 59
+          },
+          "2": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 2.5822062016622738e-05,
+            "probability_max_abs_difference": 6.999999999979245e-06,
+            "rows": 60
+          },
+          "3": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 0.0018963725757074057,
+            "probability_max_abs_difference": 0.0007216499999999071,
+            "rows": 60
+          },
+          "4": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 0.0018957385909335045,
+            "probability_max_abs_difference": 0.000172969999999939,
+            "rows": 60
+          },
+          "5": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 0.0004139562827047971,
+            "probability_max_abs_difference": 0.00011931999999992282,
+            "rows": 60
+          },
+          "6": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 3.399142301296898e-05,
+            "probability_max_abs_difference": 6.539999999999324e-06,
+            "rows": 60
+          },
+          "7": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 0.0005408919563119063,
+            "probability_max_abs_difference": 0.00013410000000002587,
+            "rows": 60
+          },
+          "8": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 0.00036897846977690385,
+            "probability_max_abs_difference": 9.689999999995536e-05,
+            "rows": 60
+          },
+          "9": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 0.010968943418274257,
+            "probability_max_abs_difference": 0.0022305500000000533,
+            "rows": 59
+          }
+        },
+        "probability_max_abs_difference": 0.0022305500000000533,
+        "probability_mean_abs_difference": 6.6341440356740395e-06,
+        "samples": 598
+      }
+    },
+    "Y3": {
+      "full_vs_direct_off": {
+        "by_true_class": {
+          "AD": {
+            "changed_argmax": 0,
+            "corrected": 0,
+            "damaged": 0,
+            "log_probability_max_abs_difference": 1.0119034890010425e-06,
+            "probability_max_abs_difference": 1.0000000005838672e-07,
+            "samples": 74
+          },
+          "MCI": {
+            "changed_argmax": 0,
+            "corrected": 0,
+            "damaged": 0,
+            "log_probability_max_abs_difference": 9.394139932616952e-07,
+            "probability_max_abs_difference": 1.5000000003206893e-07,
+            "samples": 315
+          },
+          "NC": {
+            "changed_argmax": 0,
+            "corrected": 0,
+            "damaged": 0,
+            "log_probability_max_abs_difference": 9.552182538286047e-07,
+            "probability_max_abs_difference": 1.1999999999234845e-07,
+            "samples": 209
+          }
+        },
+        "changed_argmax": 0,
+        "corrected": 0,
+        "damaged": 0,
+        "log_probability_max_abs_difference": 1.0119034890010425e-06,
+        "log_probability_mean_abs_difference": 2.2405950554062587e-08,
+        "per_fold": {
+          "1": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 8.985553474616381e-07,
+            "probability_max_abs_difference": 1.200000000478596e-07,
+            "rows": 60
+          },
+          "10": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 5.354612326868846e-07,
+            "probability_max_abs_difference": 1.4999999997655777e-07,
+            "rows": 59
+          },
+          "2": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 0.0,
+            "probability_max_abs_difference": 0.0,
+            "rows": 60
+          },
+          "3": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 1.0119034890010425e-06,
+            "probability_max_abs_difference": 1.5000000003206893e-07,
+            "rows": 60
+          },
+          "4": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 9.552182538286047e-07,
+            "probability_max_abs_difference": 9.999999994736442e-08,
+            "rows": 60
+          },
+          "5": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 9.411511623369506e-07,
+            "probability_max_abs_difference": 1.4000000003733248e-07,
+            "rows": 60
+          },
+          "6": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 4.788663434673879e-07,
+            "probability_max_abs_difference": 1.3999999992631018e-07,
+            "rows": 60
+          },
+          "7": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 6.89915516272066e-07,
+            "probability_max_abs_difference": 1.299999999870849e-07,
+            "rows": 60
+          },
+          "8": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 3.070476610744777e-07,
+            "probability_max_abs_difference": 1.4000000003733248e-07,
+            "rows": 60
+          },
+          "9": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 5.328878391885894e-07,
+            "probability_max_abs_difference": 5.999999999617422e-08,
+            "rows": 59
+          }
+        },
+        "probability_max_abs_difference": 1.5000000003206893e-07,
+        "probability_mean_abs_difference": 2.1618729098420123e-09,
+        "samples": 598
+      },
+      "full_vs_disease_neutral": {
+        "by_true_class": {
+          "AD": {
+            "changed_argmax": 0,
+            "corrected": 0,
+            "damaged": 0,
+            "log_probability_max_abs_difference": 2.1842843240804655e-06,
+            "probability_max_abs_difference": 3.600000000048009e-07,
+            "samples": 74
+          },
+          "MCI": {
+            "changed_argmax": 0,
+            "corrected": 0,
+            "damaged": 0,
+            "log_probability_max_abs_difference": 3.6349535347923734e-05,
+            "probability_max_abs_difference": 4.499999999962867e-06,
+            "samples": 315
+          },
+          "NC": {
+            "changed_argmax": 0,
+            "corrected": 0,
+            "damaged": 0,
+            "log_probability_max_abs_difference": 1.8862494699067867e-05,
+            "probability_max_abs_difference": 2.3999999999579913e-06,
+            "samples": 209
+          }
+        },
+        "changed_argmax": 0,
+        "corrected": 0,
+        "damaged": 0,
+        "log_probability_max_abs_difference": 3.6349535347923734e-05,
+        "log_probability_mean_abs_difference": 3.599360469733272e-07,
+        "per_fold": {
+          "1": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 9.559672671244357e-07,
+            "probability_max_abs_difference": 1.299999999870849e-07,
+            "rows": 60
+          },
+          "10": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 1.6522337167312884e-06,
+            "probability_max_abs_difference": 3.600000000048009e-07,
+            "rows": 59
+          },
+          "2": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 1.0006936168593938e-06,
+            "probability_max_abs_difference": 3.499999999823089e-07,
+            "rows": 60
+          },
+          "3": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 3.243015933440674e-05,
+            "probability_max_abs_difference": 3.6700000000111643e-06,
+            "rows": 60
+          },
+          "4": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 4.270798604988357e-06,
+            "probability_max_abs_difference": 7.999999999674934e-07,
+            "rows": 60
+          },
+          "5": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 1.429914344708294e-06,
+            "probability_max_abs_difference": 2.399999999846969e-07,
+            "rows": 60
+          },
+          "6": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 1.029966540944116e-06,
+            "probability_max_abs_difference": 1.3999999992631018e-07,
+            "rows": 60
+          },
+          "7": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 3.6349535347923734e-05,
+            "probability_max_abs_difference": 4.499999999962867e-06,
+            "rows": 60
+          },
+          "8": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 1.3026795080417486e-06,
+            "probability_max_abs_difference": 4.3999999999044803e-07,
+            "rows": 60
+          },
+          "9": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 1.4914927493059338e-06,
+            "probability_max_abs_difference": 1.6000000002680537e-07,
+            "rows": 59
+          }
+        },
+        "probability_max_abs_difference": 4.499999999962867e-06,
+        "probability_mean_abs_difference": 4.7343534001976274e-08,
+        "samples": 598
+      }
+    },
+    "Y4": {
+      "full_vs_direct_off": {
+        "by_true_class": {
+          "AD": {
+            "changed_argmax": 0,
+            "corrected": 0,
+            "damaged": 0,
+            "log_probability_max_abs_difference": 8.778291000766103e-07,
+            "probability_max_abs_difference": 3.0000000006413785e-07,
+            "samples": 74
+          },
+          "MCI": {
+            "changed_argmax": 0,
+            "corrected": 0,
+            "damaged": 0,
+            "log_probability_max_abs_difference": 1.8943362292134225e-06,
+            "probability_max_abs_difference": 4.0000000001150227e-07,
+            "samples": 315
+          },
+          "NC": {
+            "changed_argmax": 0,
+            "corrected": 0,
+            "damaged": 0,
+            "log_probability_max_abs_difference": 1.3908678395679885e-06,
+            "probability_max_abs_difference": 2.599999999741698e-07,
+            "samples": 209
+          }
+        },
+        "changed_argmax": 0,
+        "corrected": 0,
+        "damaged": 0,
+        "log_probability_max_abs_difference": 1.8943362292134225e-06,
+        "log_probability_mean_abs_difference": 6.889377292955832e-08,
+        "per_fold": {
+          "1": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 9.62528557302278e-07,
+            "probability_max_abs_difference": 1.4000000003733248e-07,
+            "rows": 60
+          },
+          "10": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 9.95127226843806e-07,
+            "probability_max_abs_difference": 1.3999999992631018e-07,
+            "rows": 59
+          },
+          "2": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 4.963110447064878e-07,
+            "probability_max_abs_difference": 1.1999999999234845e-07,
+            "rows": 60
+          },
+          "3": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 1.381634631814066e-06,
+            "probability_max_abs_difference": 4.0000000001150227e-07,
+            "rows": 60
+          },
+          "4": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 8.778291000766103e-07,
+            "probability_max_abs_difference": 1.0000000005838672e-07,
+            "rows": 60
+          },
+          "5": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 9.770907309913923e-07,
+            "probability_max_abs_difference": 2.0000000000575113e-07,
+            "rows": 60
+          },
+          "6": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 9.165343342054655e-07,
+            "probability_max_abs_difference": 1.299999999870849e-07,
+            "rows": 60
+          },
+          "7": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 9.753656424749124e-07,
+            "probability_max_abs_difference": 2.599999999741698e-07,
+            "rows": 60
+          },
+          "8": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 1.8943362292134225e-06,
+            "probability_max_abs_difference": 3.0000000006413785e-07,
+            "rows": 60
+          },
+          "9": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 0.0,
+            "probability_max_abs_difference": 0.0,
+            "rows": 59
+          }
+        },
+        "probability_max_abs_difference": 4.0000000001150227e-07,
+        "probability_mean_abs_difference": 7.095930880397476e-09,
+        "samples": 598
+      },
+      "full_vs_disease_neutral": {
+        "by_true_class": {
+          "AD": {
+            "changed_argmax": 0,
+            "corrected": 0,
+            "damaged": 0,
+            "log_probability_max_abs_difference": 0.0003454976180794489,
+            "probability_max_abs_difference": 4.0829999999991706e-05,
+            "samples": 74
+          },
+          "MCI": {
+            "changed_argmax": 0,
+            "corrected": 0,
+            "damaged": 0,
+            "log_probability_max_abs_difference": 0.0005217802950439054,
+            "probability_max_abs_difference": 0.00011535000000006956,
+            "samples": 315
+          },
+          "NC": {
+            "changed_argmax": 0,
+            "corrected": 0,
+            "damaged": 0,
+            "log_probability_max_abs_difference": 0.0024274805183190917,
+            "probability_max_abs_difference": 0.0005664200000000674,
+            "samples": 209
+          }
+        },
+        "changed_argmax": 0,
+        "corrected": 0,
+        "damaged": 0,
+        "log_probability_max_abs_difference": 0.0024274805183190917,
+        "log_probability_mean_abs_difference": 1.1414749951968505e-05,
+        "per_fold": {
+          "1": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 9.502971511254898e-06,
+            "probability_max_abs_difference": 1.4600000000086766e-06,
+            "rows": 60
+          },
+          "10": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 1.8723859572800094e-05,
+            "probability_max_abs_difference": 6.2600000000356815e-06,
+            "rows": 59
+          },
+          "2": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 6.170733777288717e-06,
+            "probability_max_abs_difference": 1.9599999999675433e-06,
+            "rows": 60
+          },
+          "3": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 0.0005217802950439054,
+            "probability_max_abs_difference": 0.00011535000000006956,
+            "rows": 60
+          },
+          "4": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 0.0024274805183190917,
+            "probability_max_abs_difference": 0.0005664200000000674,
+            "rows": 60
+          },
+          "5": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 1.627569952367125e-05,
+            "probability_max_abs_difference": 2.2500000000369447e-06,
+            "rows": 60
+          },
+          "6": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 0.0003454976180794489,
+            "probability_max_abs_difference": 4.0829999999991706e-05,
+            "rows": 60
+          },
+          "7": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 6.515079084623565e-05,
+            "probability_max_abs_difference": 2.3560000000033554e-05,
+            "rows": 60
+          },
+          "8": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 0.0004724857121738424,
+            "probability_max_abs_difference": 5.672999999994932e-05,
+            "rows": 60
+          },
+          "9": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 9.346269678189856e-07,
+            "probability_max_abs_difference": 6.000000001005201e-08,
+            "rows": 59
+          }
+        },
+        "probability_max_abs_difference": 0.0005664200000000674,
+        "probability_mean_abs_difference": 2.2603158305465233e-06,
+        "samples": 598
+      }
+    },
+    "Y5": {
+      "full_vs_direct_off": {
+        "by_true_class": {
+          "AD": {
+            "changed_argmax": 0,
+            "corrected": 0,
+            "damaged": 0,
+            "log_probability_max_abs_difference": 6.7747274632434795e-06,
+            "probability_max_abs_difference": 2.9000000000278803e-06,
+            "samples": 74
+          },
+          "MCI": {
+            "changed_argmax": 0,
+            "corrected": 0,
+            "damaged": 0,
+            "log_probability_max_abs_difference": 9.970310128615267e-06,
+            "probability_max_abs_difference": 3.0200000000202287e-06,
+            "samples": 315
+          },
+          "NC": {
+            "changed_argmax": 0,
+            "corrected": 0,
+            "damaged": 0,
+            "log_probability_max_abs_difference": 1.5050619843637314e-05,
+            "probability_max_abs_difference": 7.069999999997911e-06,
+            "samples": 209
+          }
+        },
+        "changed_argmax": 0,
+        "corrected": 0,
+        "damaged": 0,
+        "log_probability_max_abs_difference": 1.5050619843637314e-05,
+        "log_probability_mean_abs_difference": 3.320783724339399e-07,
+        "per_fold": {
+          "1": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 9.602883936921103e-07,
+            "probability_max_abs_difference": 1.200000000478596e-07,
+            "rows": 60
+          },
+          "10": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 8.782900548176542e-06,
+            "probability_max_abs_difference": 8.999999999703689e-07,
+            "rows": 59
+          },
+          "2": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 1.0038841509185659e-06,
+            "probability_max_abs_difference": 1.0000000005838672e-07,
+            "rows": 60
+          },
+          "3": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 7.63365577061137e-06,
+            "probability_max_abs_difference": 2.9000000000278803e-06,
+            "rows": 60
+          },
+          "4": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 5.094661013282931e-06,
+            "probability_max_abs_difference": 1.7600000000728144e-06,
+            "rows": 60
+          },
+          "5": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 2.3616287290195714e-06,
+            "probability_max_abs_difference": 6.999999999646178e-07,
+            "rows": 60
+          },
+          "6": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 1.0238175802701477e-06,
+            "probability_max_abs_difference": 1.599999999990498e-07,
+            "rows": 60
+          },
+          "7": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 7.882600618347446e-06,
+            "probability_max_abs_difference": 3.0200000000202287e-06,
+            "rows": 60
+          },
+          "8": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 1.5050619843637314e-05,
+            "probability_max_abs_difference": 7.069999999997911e-06,
+            "rows": 60
+          },
+          "9": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 9.970310128615267e-06,
+            "probability_max_abs_difference": 2.0299999999862095e-06,
+            "rows": 59
+          }
+        },
+        "probability_max_abs_difference": 7.069999999997911e-06,
+        "probability_mean_abs_difference": 5.761984392369025e-08,
+        "samples": 598
+      },
+      "full_vs_disease_neutral": {
+        "by_true_class": {
+          "AD": {
+            "changed_argmax": 0,
+            "corrected": 0,
+            "damaged": 0,
+            "log_probability_max_abs_difference": 0.0013971581861358384,
+            "probability_max_abs_difference": 0.0005976500000000051,
+            "samples": 74
+          },
+          "MCI": {
+            "changed_argmax": 0,
+            "corrected": 0,
+            "damaged": 0,
+            "log_probability_max_abs_difference": 0.003211824294349963,
+            "probability_max_abs_difference": 0.0010201000000000793,
+            "samples": 315
+          },
+          "NC": {
+            "changed_argmax": 0,
+            "corrected": 0,
+            "damaged": 0,
+            "log_probability_max_abs_difference": 0.001101268223257179,
+            "probability_max_abs_difference": 0.0001734700000000089,
+            "samples": 209
+          }
+        },
+        "changed_argmax": 0,
+        "corrected": 0,
+        "damaged": 0,
+        "log_probability_max_abs_difference": 0.003211824294349963,
+        "log_probability_mean_abs_difference": 4.155588264916816e-05,
+        "per_fold": {
+          "1": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 3.9215521887348004e-05,
+            "probability_max_abs_difference": 5.8000000000557606e-06,
+            "rows": 60
+          },
+          "10": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 0.0003081957398256563,
+            "probability_max_abs_difference": 2.0770000000003286e-05,
+            "rows": 59
+          },
+          "2": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 2.4044267838974065e-05,
+            "probability_max_abs_difference": 7.059999999947664e-06,
+            "rows": 60
+          },
+          "3": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 0.0013971581861358384,
+            "probability_max_abs_difference": 0.0005976500000000051,
+            "rows": 60
+          },
+          "4": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 0.0030924396849778546,
+            "probability_max_abs_difference": 0.0010201000000000793,
+            "rows": 60
+          },
+          "5": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 0.0001787277654643482,
+            "probability_max_abs_difference": 7.465000000006494e-05,
+            "rows": 60
+          },
+          "6": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 0.0001106711633305224,
+            "probability_max_abs_difference": 3.2629999999977954e-05,
+            "rows": 60
+          },
+          "7": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 0.003211824294349963,
+            "probability_max_abs_difference": 0.0007384999999999753,
+            "rows": 60
+          },
+          "8": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 0.00036836884994684294,
+            "probability_max_abs_difference": 0.0001734700000000089,
+            "rows": 60
+          },
+          "9": {
+            "changed_argmax": 0,
+            "log_probability_max_abs_difference": 0.00059786516459992,
+            "probability_max_abs_difference": 0.00011084999999999567,
+            "rows": 59
+          }
+        },
+        "probability_max_abs_difference": 0.0010201000000000793,
+        "probability_mean_abs_difference": 7.5081792084727455e-06,
+        "samples": 598
+      }
+    }
+  },
+  "source": "results/patient_mechanism.csv",
+  "status": "PASS"
+}
