@@ -1,0 +1,14 @@
+{
+  "status": "RUN_COMPLETE",
+  "completed_tasks": 600,
+  "expected_tasks": 600,
+  "failed_tasks": 0,
+  "input_sha256": "35b63220311fe85d4341da26e1a00c734ac6e4118c2dedac3c4d5ed0c2295924",
+  "protocol_sha256": "09c852a0acec510c06e5fe88241185d40d029bd025f00ecb5f715769011f4d72",
+  "source_sha256": "68a2a25c7f741cddba078af57f37904e41b469f802748827f00394d1a195328e",
+  "data_sha256": "0b8a14a9c066752c2d937c93d43c2824c41beaaa7d0a451b083db8dcba07c5bc",
+  "split_sha256": "7c5a4dc9bd8ee7ffc6e5aff8bf841513f26a5ff6cf1b6c110a8153aa6a106ec5",
+  "sample_ids_sha256": "3c354e2623128209544b23d84fbac0e436f55b4c898c74af83d2e99e7f61d8e0",
+  "last_run_utc": "2026-11-26T06:48:48.433721+00:00",
+  "resume": true
+}

@@ -1,0 +1,28 @@
+{
+  "environment": {
+    "python": "3.12.3",
+    "numpy": "1.26.0",
+    "scipy": "1.11.3",
+    "scikit_learn": "1.3.2",
+    "cpu_count": 256,
+    "memory_gb_reported": 1507.398365020752,
+    "thread_environment": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1"
+    }
+  },
+  "representative_fold": "outer fold 1, inner fold 1, T-T patients",
+  "registered_caps": {"six_per_relation": 4000, "same_per_class": 12000},
+  "tests": [
+    {"solver": "newton-cholesky", "task": "six", "raw_dim": 145, "result": "rejected_for_formal_use", "reason": "sklearn 1.3.2 does not support multinomial backend"},
+    {"solver": "newton-cholesky", "task": "six", "raw_dim": 3, "result": "rejected_for_formal_use", "reason": "sklearn 1.3.2 does not support multinomial backend"},
+    {"solver": "lbfgs", "task": "six", "raw_dim": 145, "n_train": 21431, "seconds": 1.123, "n_iter": [31], "multi_class": "multinomial", "finite": true, "converged": true},
+    {"solver": "lbfgs", "task": "six", "raw_dim": 3, "n_train": 21431, "seconds": 1.260, "n_iter": [26], "multi_class": "multinomial", "finite": true, "converged": true},
+    {"solver": "saga", "task": "six", "raw_dim": 145, "n_train": 21431, "seconds": 1.755, "n_iter": [17], "multi_class": "multinomial", "finite": true, "converged": true},
+    {"solver": "saga", "task": "six", "raw_dim": 3, "n_train": 21431, "seconds": 1.157, "n_iter": [13], "multi_class": "multinomial", "finite": true, "converged": true},
+    {"solver": "lbfgs", "task": "same", "raw_dim": 145, "n_train": 24000, "seconds": 0.188, "n_iter": [2], "finite": true, "converged": true},
+    {"solver": "lbfgs", "task": "same", "raw_dim": 3, "n_train": 24000, "seconds": 0.263, "n_iter": [2], "finite": true, "converged": true}
+  ],
+  "selection_rule": "lbfgs was fixed before formal scoring because it provided true multinomial six-class probabilities, finite coefficients, convergence, and stable measured runtime. Solver selection was not based on validation AUC."
+}

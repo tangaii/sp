@@ -1,0 +1,44 @@
+{
+  "experiment": "83.8.5-P0.1",
+  "title": "TADPOLE Six-Modality Disease-Relation Evaluation Recovery",
+  "seed": 0,
+  "data_root": "/model/spromptgl/experiment/experiment83_8_4_tadpole_y3_darg_dpsl_factorial/inputs",
+  "data_files": {
+    "processed_standard_data.csv": "0b8a14a9c066752c2d937c93d43c2824c41beaaa7d0a451b083db8dcba07c5bc",
+    "split_indices.json": "7c5a4dc9bd8ee7ffc6e5aff8bf841513f26a5ff6cf1b6c110a8153aa6a106ec5",
+    "sample_ids.csv": "3c354e2623128209544b23d84fbac0e436f55b4c898c74af83d2e99e7f61d8e0"
+  },
+  "n_samples": 598,
+  "n_features": 365,
+  "labels": {"NC": 0, "MCI": 1, "AD": 2},
+  "label_counts": {"NC": 209, "MCI": 315, "AD": 74},
+  "modalities": ["UCSFFSX", "UCBERKELEYAV45", "UPENNBIOMK9", "RISK_FACTOR", "COGNITIVE_TEST", "ROI_AVERAGE"],
+  "modality_dimensions": [145, 148, 3, 36, 24, 9],
+  "outer_split": "locked split_indices.json, StratifiedKFold(n_splits=10,shuffle=True,random_state=10)",
+  "inner_split": "StratifiedKFold(n_splits=5,shuffle=True,random_state=0)",
+  "relation_labels": ["NC-NC", "MCI-MCI", "AD-AD", "NC-MCI", "NC-AD", "MCI-AD"],
+  "feature_protocol": "inner-train-only StandardScaler and deterministic full-solver PCA up to 32 dimensions, zero padding, absdiff/product/cosine 65 dimensions; relation-feature scaler fits T-T pairs only",
+  "solver_config": {
+    "solver": "lbfgs",
+    "multi_class_six": "multinomial",
+    "multi_class_same": "auto",
+    "C": 1.0,
+    "max_iter": 1000,
+    "tol": 0.0001,
+    "class_weight": "balanced",
+    "six_train_cap_per_relation": 4000,
+    "same_train_cap_per_class": 12000,
+    "seed": 0,
+    "inner_seed": 0,
+    "outer_split_locked": true
+  },
+  "configuration_sha256": "0bcf2db89972a82538b0038aeac49f8d9c19bb5cc9925bca7a6134e2981406c6",
+  "source_sha256": "68a2a25c7f741cddba078af57f37904e41b469f802748827f00394d1a195328e",
+  "p0_difference": {
+    "solver": "P0 did not complete. P0.1 retains lbfgs but explicitly requests the true multinomial backend. sklearn 1.3.2 newton-cholesky was rejected because it does not support multinomial.",
+    "caps": "P0 registered caps of 4000 per six-class relation and 12000 per binary class were retained after preflight.",
+    "efficiency": "Shared pair indices and feature matrices within each inner-fold modality, plus SQLite atomic task persistence and resume."
+  },
+  "resume": "progress.sqlite, one atomic transaction per relation-task, 10 outer x 5 inner x 6 modalities x 2 tasks = 600 tasks",
+  "protocol_sha256": "09c852a0acec510c06e5fe88241185d40d029bd025f00ecb5f715769011f4d72"
+}

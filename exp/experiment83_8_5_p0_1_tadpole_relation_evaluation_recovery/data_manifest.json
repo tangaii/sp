@@ -1,0 +1,26 @@
+{
+  "dataset": "TADPOLE",
+  "data_root": "/model/spromptgl/experiment/experiment83_8_4_tadpole_y3_darg_dpsl_factorial/inputs",
+  "processed_standard_data.csv": {
+    "path": "/model/spromptgl/experiment/experiment83_8_4_tadpole_y3_darg_dpsl_factorial/inputs/processed_standard_data.csv",
+    "sha256": "0b8a14a9c066752c2d937c93d43c2824c41beaaa7d0a451b083db8dcba07c5bc"
+  },
+  "split_indices.json": {
+    "path": "/model/spromptgl/experiment/experiment83_8_4_tadpole_y3_darg_dpsl_factorial/inputs/split_indices.json",
+    "sha256": "7c5a4dc9bd8ee7ffc6e5aff8bf841513f26a5ff6cf1b6c110a8153aa6a106ec5",
+    "protocol": "StratifiedKFold(n_splits=10,shuffle=True,random_state=10)"
+  },
+  "sample_ids.csv": {
+    "path": "/model/spromptgl/experiment/experiment83_8_4_tadpole_y3_darg_dpsl_factorial/inputs/sample_ids.csv",
+    "sha256": "3c354e2623128209544b23d84fbac0e436f55b4c898c74af83d2e99e7f61d8e0"
+  },
+  "n_samples": 598,
+  "n_features": 365,
+  "labels": {"NC": 0, "MCI": 1, "AD": 2},
+  "label_counts": {"NC": 209, "MCI": 315, "AD": 74},
+  "modality_order": ["UCSFFSX", "UCBERKELEYAV45", "UPENNBIOMK9", "RISK_FACTOR", "COGNITIVE_TEST", "ROI_AVERAGE"],
+  "modality_dimensions": [145, 148, 3, 36, 24, 9],
+  "rid_column": "RID",
+  "duplicate_rid_count_expected": 0,
+  "preprocessing_identity": "E83.8.4 formal processed data, including historical pre-CV RFE, mean imputation, and StandardScaler. P0.1 does not rerun preprocessing or RFE."
+}

@@ -1,0 +1,55 @@
+{
+  "rows": [
+    {
+      "outer_fold": 1,
+      "changed_outer_test_labels": 3,
+      "training_pair_labels_unchanged": true
+    },
+    {
+      "outer_fold": 2,
+      "changed_outer_test_labels": 3,
+      "training_pair_labels_unchanged": true
+    },
+    {
+      "outer_fold": 3,
+      "changed_outer_test_labels": 3,
+      "training_pair_labels_unchanged": true
+    },
+    {
+      "outer_fold": 4,
+      "changed_outer_test_labels": 3,
+      "training_pair_labels_unchanged": true
+    },
+    {
+      "outer_fold": 5,
+      "changed_outer_test_labels": 3,
+      "training_pair_labels_unchanged": true
+    },
+    {
+      "outer_fold": 6,
+      "changed_outer_test_labels": 3,
+      "training_pair_labels_unchanged": true
+    },
+    {
+      "outer_fold": 7,
+      "changed_outer_test_labels": 3,
+      "training_pair_labels_unchanged": true
+    },
+    {
+      "outer_fold": 8,
+      "changed_outer_test_labels": 3,
+      "training_pair_labels_unchanged": true
+    },
+    {
+      "outer_fold": 9,
+      "changed_outer_test_labels": 3,
+      "training_pair_labels_unchanged": true
+    },
+    {
+      "outer_fold": 10,
+      "changed_outer_test_labels": 3,
+      "training_pair_labels_unchanged": true
+    }
+  ],
+  "pass": true
+}

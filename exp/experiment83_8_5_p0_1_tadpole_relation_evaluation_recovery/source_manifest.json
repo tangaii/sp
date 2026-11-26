@@ -1,0 +1,81 @@
+{
+  "experiment": "83.8.5-P0.1",
+  "source_urls": {
+    "paper": "https://papers.miccai.org/miccai-2025/paper/5129_paper.pdf",
+    "author_repository": "https://github.com/wanxixi11/SPromptGL",
+    "saber_repository": "https://github.com/tangaii/SPromptGL",
+    "experiment_repository": "https://github.com/tangaii/sp",
+    "e8384_anchor": "https://github.com/tangaii/sp/tree/7648c7b/exp/experiment83_8_4_tadpole_y3_darg_dpsl_factorial"
+  },
+  "commits": {
+    "paper_sha256_from_e8384_manifest": "c56762c64025bb9222d872459dea9f4dfe158db1e470fba89e7e7c822743e355",
+    "author_main": "ba3b9446fa451fde6864d6555bdf324de0c4b64a",
+    "author_remote_main_verified": "ba3b9446fa451fde6864d6555bdf324de0c4b64a",
+    "saber_local_worktree": "c7e2edbb8c56bdfc416b708da0ec6d743b0ed7d4",
+    "saber_remote_main_verified": "5e88a9dfeff47735e0a5e09a06672161c3b9c1da",
+    "experiment_e8382_local": "252fa96b5ff2ac89250cda378c777fc36a99d316",
+    "experiment_e8384_public_anchor": "7648c7b",
+    "experiment_e8384_local_manifest": "5ad91878764863b04089a94c497707cc7459168b"
+  },
+  "reviewed_paths": {
+    "e53_3_pair_logic": {
+      "path": "/model/spromptgl/experiment/experiment83_8_4_tadpole_y3_darg_dpsl_factorial/sources/e83_5_sources/history_darg/e53_3_run.py",
+      "sha256": "574fb23745ccbd49f45250cae8b678d05137d092187e9e959e474e185d02be3c"
+    },
+    "relation_feature_source": {
+      "path": "/model/spromptgl/experiment/experiment83_8_4_tadpole_y3_darg_dpsl_factorial/sources/e83_5_sources/history_darg/cadr_gfr.py",
+      "sha256": "f5032d96c9ac68afda47a253f794ddfe41373fabebbbbe27057f1425f988815d"
+    },
+    "darg_source": {
+      "path": "/model/spromptgl/experiment/experiment83_8_4_tadpole_y3_darg_dpsl_factorial/sources/e83_5_sources/history_darg/soft_positive_dcr.py",
+      "sha256": "3374598e5ab5547a853c4298000710bb7e8f11f93ec3bd63ddb8ff330aa36718"
+    },
+    "e74_4_g2_config": {
+      "path": "/model/spromptgl/experiment/experiment83_8_4_tadpole_y3_darg_dpsl_factorial/sources/e83_5_sources/history_darg/config.json",
+      "sha256": "a369c644e0dabc55f8dd40056fedde5726f749e33eba931ebf59da7d55a2761a"
+    },
+    "e8384_method_fidelity": {
+      "path": "/model/spromptgl/experiment/experiment83_8_4_tadpole_y3_darg_dpsl_factorial/audits/method_fidelity.json",
+      "sha256": "392728322a0f535ceda4bdcf4f23d51e7bb635f3e926a0d6fbd5fd032661be61"
+    },
+    "e8384_source_review": {
+      "path": "/model/spromptgl/experiment/experiment83_8_4_tadpole_y3_darg_dpsl_factorial/audits/source_review.md",
+      "sha256": "9c5b871a5458398ffd456f43fde62b2f958a43e0e3fc70c4a6acb5ad6f0c11c7"
+    },
+    "e8384_modality_manifest": {
+      "path": "/model/spromptgl/experiment/experiment83_8_4_tadpole_y3_darg_dpsl_factorial/inputs/modality_manifest.json",
+      "sha256": "883e54d696f4eb6dba9dbc8c5c74208c548cd9806802e7e864fccbfb9b3ceb84"
+    },
+    "e8384_data_manifest": {
+      "path": "/model/spromptgl/experiment/experiment83_8_4_tadpole_y3_darg_dpsl_factorial/inputs/data_manifest.json",
+      "sha256": "bd82c0b9ef6f1fb840cc8c9cf66b074be6c9a682d7508f91e956c633b26b2e80"
+    },
+    "p0_runner": {
+      "path": "/model/spromptgl/experiment/experiment83_8_5_p0_tadpole_six_modality_relation_evaluation/code/run_relation_probe.py",
+      "sha256": "2e2236a3e0f986dc615adbc04794e38100757a9a695effa7fe539d6aae87e06d",
+      "status": "historical_blocked_runner; not reused"
+    },
+    "p01_runner": {
+      "path": "/model/spromptgl/experiment/experiment83_8_5_p0_1_tadpole_relation_evaluation_recovery/code/run.py",
+      "sha256": "68a2a25c7f741cddba078af57f37904e41b469f802748827f00394d1a195328e",
+      "status": "sealed_formal_runner"
+    },
+    "p01_audit": {
+      "path": "/model/spromptgl/experiment/experiment83_8_5_p0_1_tadpole_relation_evaluation_recovery/code/audit.py",
+      "sha256": "90bfdedac7e242185d83cdb1f06cb5f2fa1178049fa7d495564dabdaddd7ef3b",
+      "status": "sealed_independent_audit"
+    },
+    "p01_finalize": {
+      "path": "/model/spromptgl/experiment/experiment83_8_5_p0_1_tadpole_relation_evaluation_recovery/code/finalize.py",
+      "sha256": "5c50b35e5e974cb4eea41bc3efa088cd27974f97f771a16f817a2c79e83e55f7",
+      "status": "sealed_report_generator"
+    }
+  },
+  "review_notes": {
+    "paper": "Reviewed directly. It defines the multi-relation graph and multi-modal subject relationships.",
+    "author_source": "Reviewed through E83.8.4 immutable source snapshot and remote main commit.",
+    "saber_source": "Local worktree and remote main identities recorded. Root code was not modified.",
+    "experiment_source": "E83.8.4 local source manifest and requested public anchor recorded. Public anchor page was restricted during direct fetch, so local immutable snapshot is the runtime authority.",
+    "relation_probe": "P0.1 uses an independent sklearn probability probe. Historical E53.3 pair construction and relation feature references were inspected, but no historical deep relation checkpoint is loaded."
+  }
+}

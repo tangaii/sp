@@ -1,0 +1,308 @@
+{
+  "pass": true,
+  "outer_fold": 1,
+  "task_count": 60,
+  "maximum_probability_difference": 0.0,
+  "comparisons": [
+    {
+      "task_id": "o01_i01_UCSFFSX_six",
+      "max_abs_vv": 0.0,
+      "max_abs_vt": 0.0
+    },
+    {
+      "task_id": "o01_i01_UCSFFSX_same",
+      "max_abs_vv": 0.0,
+      "max_abs_vt": 0.0
+    },
+    {
+      "task_id": "o01_i01_UCBERKELEYAV45_six",
+      "max_abs_vv": 0.0,
+      "max_abs_vt": 0.0
+    },
+    {
+      "task_id": "o01_i01_UCBERKELEYAV45_same",
+      "max_abs_vv": 0.0,
+      "max_abs_vt": 0.0
+    },
+    {
+      "task_id": "o01_i01_UPENNBIOMK9_six",
+      "max_abs_vv": 0.0,
+      "max_abs_vt": 0.0
+    },
+    {
+      "task_id": "o01_i01_UPENNBIOMK9_same",
+      "max_abs_vv": 0.0,
+      "max_abs_vt": 0.0
+    },
+    {
+      "task_id": "o01_i01_RISK_FACTOR_six",
+      "max_abs_vv": 0.0,
+      "max_abs_vt": 0.0
+    },
+    {
+      "task_id": "o01_i01_RISK_FACTOR_same",
+      "max_abs_vv": 0.0,
+      "max_abs_vt": 0.0
+    },
+    {
+      "task_id": "o01_i01_COGNITIVE_TEST_six",
+      "max_abs_vv": 0.0,
+      "max_abs_vt": 0.0
+    },
+    {
+      "task_id": "o01_i01_COGNITIVE_TEST_same",
+      "max_abs_vv": 0.0,
+      "max_abs_vt": 0.0
+    },
+    {
+      "task_id": "o01_i01_ROI_AVERAGE_six",
+      "max_abs_vv": 0.0,
+      "max_abs_vt": 0.0
+    },
+    {
+      "task_id": "o01_i01_ROI_AVERAGE_same",
+      "max_abs_vv": 0.0,
+      "max_abs_vt": 0.0
+    },
+    {
+      "task_id": "o01_i02_UCSFFSX_six",
+      "max_abs_vv": 0.0,
+      "max_abs_vt": 0.0
+    },
+    {
+      "task_id": "o01_i02_UCSFFSX_same",
+      "max_abs_vv": 0.0,
+      "max_abs_vt": 0.0
+    },
+    {
+      "task_id": "o01_i02_UCBERKELEYAV45_six",
+      "max_abs_vv": 0.0,
+      "max_abs_vt": 0.0
+    },
+    {
+      "task_id": "o01_i02_UCBERKELEYAV45_same",
+      "max_abs_vv": 0.0,
+      "max_abs_vt": 0.0
+    },
+    {
+      "task_id": "o01_i02_UPENNBIOMK9_six",
+      "max_abs_vv": 0.0,
+      "max_abs_vt": 0.0
+    },
+    {
+      "task_id": "o01_i02_UPENNBIOMK9_same",
+      "max_abs_vv": 0.0,
+      "max_abs_vt": 0.0
+    },
+    {
+      "task_id": "o01_i02_RISK_FACTOR_six",
+      "max_abs_vv": 0.0,
+      "max_abs_vt": 0.0
+    },
+    {
+      "task_id": "o01_i02_RISK_FACTOR_same",
+      "max_abs_vv": 0.0,
+      "max_abs_vt": 0.0
+    },
+    {
+      "task_id": "o01_i02_COGNITIVE_TEST_six",
+      "max_abs_vv": 0.0,
+      "max_abs_vt": 0.0
+    },
+    {
+      "task_id": "o01_i02_COGNITIVE_TEST_same",
+      "max_abs_vv": 0.0,
+      "max_abs_vt": 0.0
+    },
+    {
+      "task_id": "o01_i02_ROI_AVERAGE_six",
+      "max_abs_vv": 0.0,
+      "max_abs_vt": 0.0
+    },
+    {
+      "task_id": "o01_i02_ROI_AVERAGE_same",
+      "max_abs_vv": 0.0,
+      "max_abs_vt": 0.0
+    },
+    {
+      "task_id": "o01_i03_UCSFFSX_six",
+      "max_abs_vv": 0.0,
+      "max_abs_vt": 0.0
+    },
+    {
+      "task_id": "o01_i03_UCSFFSX_same",
+      "max_abs_vv": 0.0,
+      "max_abs_vt": 0.0
+    },
+    {
+      "task_id": "o01_i03_UCBERKELEYAV45_six",
+      "max_abs_vv": 0.0,
+      "max_abs_vt": 0.0
+    },
+    {
+      "task_id": "o01_i03_UCBERKELEYAV45_same",
+      "max_abs_vv": 0.0,
+      "max_abs_vt": 0.0
+    },
+    {
+      "task_id": "o01_i03_UPENNBIOMK9_six",
+      "max_abs_vv": 0.0,
+      "max_abs_vt": 0.0
+    },
+    {
+      "task_id": "o01_i03_UPENNBIOMK9_same",
+      "max_abs_vv": 0.0,
+      "max_abs_vt": 0.0
+    },
+    {
+      "task_id": "o01_i03_RISK_FACTOR_six",
+      "max_abs_vv": 0.0,
+      "max_abs_vt": 0.0
+    },
+    {
+      "task_id": "o01_i03_RISK_FACTOR_same",
+      "max_abs_vv": 0.0,
+      "max_abs_vt": 0.0
+    },
+    {
+      "task_id": "o01_i03_COGNITIVE_TEST_six",
+      "max_abs_vv": 0.0,
+      "max_abs_vt": 0.0
+    },
+    {
+      "task_id": "o01_i03_COGNITIVE_TEST_same",
+      "max_abs_vv": 0.0,
+      "max_abs_vt": 0.0
+    },
+    {
+      "task_id": "o01_i03_ROI_AVERAGE_six",
+      "max_abs_vv": 0.0,
+      "max_abs_vt": 0.0
+    },
+    {
+      "task_id": "o01_i03_ROI_AVERAGE_same",
+      "max_abs_vv": 0.0,
+      "max_abs_vt": 0.0
+    },
+    {
+      "task_id": "o01_i04_UCSFFSX_six",
+      "max_abs_vv": 0.0,
+      "max_abs_vt": 0.0
+    },
+    {
+      "task_id": "o01_i04_UCSFFSX_same",
+      "max_abs_vv": 0.0,
+      "max_abs_vt": 0.0
+    },
+    {
+      "task_id": "o01_i04_UCBERKELEYAV45_six",
+      "max_abs_vv": 0.0,
+      "max_abs_vt": 0.0
+    },
+    {
+      "task_id": "o01_i04_UCBERKELEYAV45_same",
+      "max_abs_vv": 0.0,
+      "max_abs_vt": 0.0
+    },
+    {
+      "task_id": "o01_i04_UPENNBIOMK9_six",
+      "max_abs_vv": 0.0,
+      "max_abs_vt": 0.0
+    },
+    {
+      "task_id": "o01_i04_UPENNBIOMK9_same",
+      "max_abs_vv": 0.0,
+      "max_abs_vt": 0.0
+    },
+    {
+      "task_id": "o01_i04_RISK_FACTOR_six",
+      "max_abs_vv": 0.0,
+      "max_abs_vt": 0.0
+    },
+    {
+      "task_id": "o01_i04_RISK_FACTOR_same",
+      "max_abs_vv": 0.0,
+      "max_abs_vt": 0.0
+    },
+    {
+      "task_id": "o01_i04_COGNITIVE_TEST_six",
+      "max_abs_vv": 0.0,
+      "max_abs_vt": 0.0
+    },
+    {
+      "task_id": "o01_i04_COGNITIVE_TEST_same",
+      "max_abs_vv": 0.0,
+      "max_abs_vt": 0.0
+    },
+    {
+      "task_id": "o01_i04_ROI_AVERAGE_six",
+      "max_abs_vv": 0.0,
+      "max_abs_vt": 0.0
+    },
+    {
+      "task_id": "o01_i04_ROI_AVERAGE_same",
+      "max_abs_vv": 0.0,
+      "max_abs_vt": 0.0
+    },
+    {
+      "task_id": "o01_i05_UCSFFSX_six",
+      "max_abs_vv": 0.0,
+      "max_abs_vt": 0.0
+    },
+    {
+      "task_id": "o01_i05_UCSFFSX_same",
+      "max_abs_vv": 0.0,
+      "max_abs_vt": 0.0
+    },
+    {
+      "task_id": "o01_i05_UCBERKELEYAV45_six",
+      "max_abs_vv": 0.0,
+      "max_abs_vt": 0.0
+    },
+    {
+      "task_id": "o01_i05_UCBERKELEYAV45_same",
+      "max_abs_vv": 0.0,
+      "max_abs_vt": 0.0
+    },
+    {
+      "task_id": "o01_i05_UPENNBIOMK9_six",
+      "max_abs_vv": 0.0,
+      "max_abs_vt": 0.0
+    },
+    {
+      "task_id": "o01_i05_UPENNBIOMK9_same",
+      "max_abs_vv": 0.0,
+      "max_abs_vt": 0.0
+    },
+    {
+      "task_id": "o01_i05_RISK_FACTOR_six",
+      "max_abs_vv": 0.0,
+      "max_abs_vt": 0.0
+    },
+    {
+      "task_id": "o01_i05_RISK_FACTOR_same",
+      "max_abs_vv": 0.0,
+      "max_abs_vt": 0.0
+    },
+    {
+      "task_id": "o01_i05_COGNITIVE_TEST_six",
+      "max_abs_vv": 0.0,
+      "max_abs_vt": 0.0
+    },
+    {
+      "task_id": "o01_i05_COGNITIVE_TEST_same",
+      "max_abs_vv": 0.0,
+      "max_abs_vt": 0.0
+    },
+    {
+      "task_id": "o01_i05_ROI_AVERAGE_six",
+      "max_abs_vv": 0.0,
+      "max_abs_vt": 0.0
+    },
+    {
+      "task_id": "o01_i05_ROI_AVERAGE_same",
+      "max_abs_vv": 0.0,
+      "max_abs_vt": 0.0
+    }
+  ]
+}

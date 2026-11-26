@@ -1,0 +1,11 @@
+{
+  "pass": true,
+  "command": "OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 python code/run.py --resume",
+  "before_progress_sqlite_sha256": "a85beae562d3c4e23a31ba933fa203fb1f14ba093a578e211bd852fe3220409b",
+  "after_progress_sqlite_sha256": "a85beae562d3c4e23a31ba933fa203fb1f14ba093a578e211bd852fe3220409b",
+  "completed_tasks_before": 600,
+  "completed_tasks_after": 600,
+  "duplicate_task_id_count": 0,
+  "protocol_sha256_verified": "09c852a0acec510c06e5fe88241185d40d029bd025f00ecb5f715769011f4d72",
+  "source_sha256_verified": "68a2a25c7f741cddba078af57f37904e41b469f802748827f00394d1a195328e"
+}

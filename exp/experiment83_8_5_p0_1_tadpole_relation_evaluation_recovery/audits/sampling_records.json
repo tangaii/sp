@@ -1,0 +1,3402 @@
+{
+  "outer01_inner01": {
+    "train_patient_sha256": "db11ef1f604051b0acc07b2a540fb31f08487b24bf3d6fe41bcf6b8c8d8b4167",
+    "valid_patient_sha256": "840f0ead3fa476d10d930cdda69a7fd1ab5098996238551755c195cffb4c5170",
+    "outer_test_patient_sha256": "0e34441fd46492bcc3723bf5fb44d3459d06644eddc16c181c44e1bb9c70db0b",
+    "pair_counts": {
+      "TT": 92235,
+      "VV": 5778,
+      "VT": 46440
+    },
+    "target_counts": {
+      "six": {
+        "TT": [
+          11175,
+          25425,
+          1431,
+          33900,
+          8100,
+          12204
+        ],
+        "VV": [
+          703,
+          1596,
+          78,
+          2166,
+          494,
+          741
+        ],
+        "VT": [
+          5700,
+          12882,
+          702,
+          17138,
+          4002,
+          6016
+        ]
+      },
+      "same": {
+        "TT": [
+          54204,
+          38031
+        ],
+        "VV": [
+          3401,
+          2377
+        ],
+        "VT": [
+          27156,
+          19284
+        ]
+      }
+    },
+    "sample_counts": {
+      "six": 21431,
+      "same": 24000
+    },
+    "sample_sha256": {
+      "six": "9ad38dfb47e56b0b70da7df2853d1af6642f60493a772cd000a7d850b0963ac4",
+      "same": "d4403a5f47023a5b429c39714986d6fbcc19ef68e1f44f28ae415b2961fb670c"
+    },
+    "pair_index_sha256": {
+      "TT": "4ed7300950839f2247da8a5d0b4322e80beafecbfd644b23d12ee662f0b45ab4",
+      "VV": "e6483459ca604ff6a7ee089203f3ef46c60035e5a10f00bb9137aaac582dea8c",
+      "VT": "dc772c15bb5f3098f0b4ef261c0171260cc169a1eca4fc54e8b6147180241842"
+    },
+    "patient_intersection_train_valid": 0,
+    "patient_intersection_train_test": 0,
+    "patient_intersection_valid_test": 0
+  },
+  "outer01_inner02": {
+    "train_patient_sha256": "a3576af9a53d97db853ea0523957ba277a295f42cd8c170f5c5b51b5f999ae69",
+    "valid_patient_sha256": "0cba256d91a5040b1eff4e68f6ea31c69aa9def34d88bc4f9fdbc6bd7731c5b1",
+    "outer_test_patient_sha256": "0e34441fd46492bcc3723bf5fb44d3459d06644eddc16c181c44e1bb9c70db0b",
+    "pair_counts": {
+      "TT": 92235,
+      "VV": 5778,
+      "VT": 46440
+    },
+    "target_counts": {
+      "six": {
+        "TT": [
+          11175,
+          25651,
+          1378,
+          34050,
+          7950,
+          12031
+        ],
+        "VV": [
+          703,
+          1540,
+          91,
+          2128,
+          532,
+          784
+        ],
+        "VT": [
+          5700,
+          12712,
+          742,
+          17026,
+          4114,
+          6146
+        ]
+      },
+      "same": {
+        "TT": [
+          54031,
+          38204
+        ],
+        "VV": [
+          3444,
+          2334
+        ],
+        "VT": [
+          27286,
+          19154
+        ]
+      }
+    },
+    "sample_counts": {
+      "six": 21378,
+      "same": 24000
+    },
+    "sample_sha256": {
+      "six": "9e2e8d1b44b48fe842a8856063e100f29e96d9a5c0b1989896cbe76595434786",
+      "same": "48bd1eb6409f92ee846ccca71e9412d8649bbb29a0091b4388d39c2c8a89397e"
+    },
+    "pair_index_sha256": {
+      "TT": "e158d5dc7c4332ab9091399dd2a90a65091561b2b9e9f9a15e2b0dd0e70c523b",
+      "VV": "22ca610d2a25e164c87d061624c9dc4eb093b2a4732bd01e4647a75220dd7bce",
+      "VT": "5013482b8ab17ffcea5622f7d2ea4da6c709b5ba0d004f6a7dcc05f4c303a4cd"
+    },
+    "patient_intersection_train_valid": 0,
+    "patient_intersection_train_test": 0,
+    "patient_intersection_valid_test": 0
+  },
+  "outer01_inner03": {
+    "train_patient_sha256": "db57b6e407f8cdf13a1ab3cd993bd150fc63408e3b5489e2e1b1ad8852237279",
+    "valid_patient_sha256": "956ca70760fa64a61de284b457f6c4f512e1aed1060c66ecb1b9f093a7c3eec8",
+    "outer_test_patient_sha256": "0e34441fd46492bcc3723bf5fb44d3459d06644eddc16c181c44e1bb9c70db0b",
+    "pair_counts": {
+      "TT": 92235,
+      "VV": 5778,
+      "VT": 46440
+    },
+    "target_counts": {
+      "six": {
+        "TT": [
+          11175,
+          25651,
+          1378,
+          34050,
+          7950,
+          12031
+        ],
+        "VV": [
+          703,
+          1540,
+          91,
+          2128,
+          532,
+          784
+        ],
+        "VT": [
+          5700,
+          12712,
+          742,
+          17026,
+          4114,
+          6146
+        ]
+      },
+      "same": {
+        "TT": [
+          54031,
+          38204
+        ],
+        "VV": [
+          3444,
+          2334
+        ],
+        "VT": [
+          27286,
+          19154
+        ]
+      }
+    },
+    "sample_counts": {
+      "six": 21378,
+      "same": 24000
+    },
+    "sample_sha256": {
+      "six": "0adf938417f93830778a0e614e5498ffdeac6688e7db2ac667db796bec21339d",
+      "same": "8f6587a7f3227bb5fbc7e19d2d7910c8af473737f28d66b9a8a29e12bd882043"
+    },
+    "pair_index_sha256": {
+      "TT": "811fbacdc429873936080841847d47e66e57648ce1ef8d470e31678dd0015cbf",
+      "VV": "ec26853a085c61939e66dfe2a3fa8c1339f4411914021996b5a13b7bbd0ec065",
+      "VT": "16bbec83c36c2d00194a49bfe610b701a689506395daa6b2433507d12c897a93"
+    },
+    "patient_intersection_train_valid": 0,
+    "patient_intersection_train_test": 0,
+    "patient_intersection_valid_test": 0
+  },
+  "outer01_inner04": {
+    "train_patient_sha256": "9fc5443af9d808c3b4ff5c4d5a1908a785116c939dcb7fd0989bee0331ea5624",
+    "valid_patient_sha256": "ced8a16405fae2ab60a4992f2f01665d5797a9d7d5a5412dded03d0a3f6eb13f",
+    "outer_test_patient_sha256": "0e34441fd46492bcc3723bf5fb44d3459d06644eddc16c181c44e1bb9c70db0b",
+    "pair_counts": {
+      "TT": 92665,
+      "VV": 5671,
+      "VT": 46117
+    },
+    "target_counts": {
+      "six": {
+        "TT": [
+          11325,
+          25425,
+          1431,
+          34126,
+          8154,
+          12204
+        ],
+        "VV": [
+          666,
+          1596,
+          78,
+          2109,
+          481,
+          741
+        ],
+        "VT": [
+          5587,
+          12882,
+          702,
+          16969,
+          3961,
+          6016
+        ]
+      },
+      "same": {
+        "TT": [
+          54484,
+          38181
+        ],
+        "VV": [
+          3331,
+          2340
+        ],
+        "VT": [
+          26946,
+          19171
+        ]
+      }
+    },
+    "sample_counts": {
+      "six": 21431,
+      "same": 24000
+    },
+    "sample_sha256": {
+      "six": "52a4802426bfc96734065f458410fa9a52d54845c73bf9bb3e33862a9f870234",
+      "same": "91b64b8e79125ef953c9759a6c542a6f9076c38f88b9b3012c4e4f38e7439674"
+    },
+    "pair_index_sha256": {
+      "TT": "b2faf8f896e6feb605fc643bb3150149da9def07fd61ef511ed48221395ea5aa",
+      "VV": "a5e575178316dbfa42965fa5e2bebd20020712e1df0defbde2459f3313b7fddb",
+      "VT": "97312e1d2946500166bc13229626b42ca78a5d4b38f186977845059a369ad157"
+    },
+    "patient_intersection_train_valid": 0,
+    "patient_intersection_train_test": 0,
+    "patient_intersection_valid_test": 0
+  },
+  "outer01_inner05": {
+    "train_patient_sha256": "91c49016d0de5f86fd1046a3e0150d65c898a43a5d9372e65a784de0513e1f5e",
+    "valid_patient_sha256": "93325d76b3c884893bc42f72c66c148bbb126220aa069c8f4a9c342b5139abc8",
+    "outer_test_patient_sha256": "0e34441fd46492bcc3723bf5fb44d3459d06644eddc16c181c44e1bb9c70db0b",
+    "pair_counts": {
+      "TT": 92665,
+      "VV": 5671,
+      "VT": 46117
+    },
+    "target_counts": {
+      "six": {
+        "TT": [
+          11325,
+          25425,
+          1431,
+          34126,
+          8154,
+          12204
+        ],
+        "VV": [
+          666,
+          1596,
+          78,
+          2109,
+          481,
+          741
+        ],
+        "VT": [
+          5587,
+          12882,
+          702,
+          16969,
+          3961,
+          6016
+        ]
+      },
+      "same": {
+        "TT": [
+          54484,
+          38181
+        ],
+        "VV": [
+          3331,
+          2340
+        ],
+        "VT": [
+          26946,
+          19171
+        ]
+      }
+    },
+    "sample_counts": {
+      "six": 21431,
+      "same": 24000
+    },
+    "sample_sha256": {
+      "six": "30c6c5cbdb1bf75b17b84ff55e9df04f24330c919fe656b8f4686203092d0ba5",
+      "same": "635a7e3019f2163d80be2f2306ba7e1e456dbdc36571decb21920d316af6c57d"
+    },
+    "pair_index_sha256": {
+      "TT": "fa2c52e6e143d93a7145f48037c3abe029c3c82a6eca730ab9d33526c033ca1b",
+      "VV": "509a28eb6a4caaad6445257127459ba979d246e51bcc6454f7d009f97192d407",
+      "VT": "4a90add64ebf1790a0c1d1ad07976ca04d34dafefc630d4d673160140c41900f"
+    },
+    "patient_intersection_train_valid": 0,
+    "patient_intersection_train_test": 0,
+    "patient_intersection_valid_test": 0
+  },
+  "outer02_inner01": {
+    "train_patient_sha256": "f9ce4f88fafa8708bdd5665c0e7a1d6c34351a0c541c9a885f9a21a48d9a1ca7",
+    "valid_patient_sha256": "3fcf0550b97c0e025e42f4a8562c6078dbb0752e3621aa61e8517619be34dc57",
+    "outer_test_patient_sha256": "340298bbb253ea1a3c859333782c37ff88ac3885d3b1e29159fc660db0255495",
+    "pair_counts": {
+      "TT": 92235,
+      "VV": 5778,
+      "VT": 46440
+    },
+    "target_counts": {
+      "six": {
+        "TT": [
+          11175,
+          25425,
+          1431,
+          33900,
+          8100,
+          12204
+        ],
+        "VV": [
+          703,
+          1596,
+          78,
+          2166,
+          494,
+          741
+        ],
+        "VT": [
+          5700,
+          12882,
+          702,
+          17138,
+          4002,
+          6016
+        ]
+      },
+      "same": {
+        "TT": [
+          54204,
+          38031
+        ],
+        "VV": [
+          3401,
+          2377
+        ],
+        "VT": [
+          27156,
+          19284
+        ]
+      }
+    },
+    "sample_counts": {
+      "six": 21431,
+      "same": 24000
+    },
+    "sample_sha256": {
+      "six": "2b150eba19c71b7c5b9910c057c64d44a0caaf151ff870c083598a6a72ed3991",
+      "same": "c64f038e0c1b8f80a015343d13a2404cecf288bef67a106b52e6a21520035e85"
+    },
+    "pair_index_sha256": {
+      "TT": "fc97ec19f0962dce971da9763b059ce10ed9d466519f9d45019509f7f238188a",
+      "VV": "ccb2ea778b39756d7d339e94f234d65cbcc15c4b2af761b67468d5933ceb925a",
+      "VT": "6f78eb36abd939a292c1f4b41ea992aead41b480fe4de0b0b88d0a1476d259bd"
+    },
+    "patient_intersection_train_valid": 0,
+    "patient_intersection_train_test": 0,
+    "patient_intersection_valid_test": 0
+  },
+  "outer02_inner02": {
+    "train_patient_sha256": "534dc36451e89a53565921d027a9fbb743937fb32a5492b6db6aa9001ae58350",
+    "valid_patient_sha256": "cba965059b80b00c1a7545d6689a78ac0a8e297addb31b33fa7e83f0363a6c48",
+    "outer_test_patient_sha256": "340298bbb253ea1a3c859333782c37ff88ac3885d3b1e29159fc660db0255495",
+    "pair_counts": {
+      "TT": 92235,
+      "VV": 5778,
+      "VT": 46440
+    },
+    "target_counts": {
+      "six": {
+        "TT": [
+          11175,
+          25651,
+          1378,
+          34050,
+          7950,
+          12031
+        ],
+        "VV": [
+          703,
+          1540,
+          91,
+          2128,
+          532,
+          784
+        ],
+        "VT": [
+          5700,
+          12712,
+          742,
+          17026,
+          4114,
+          6146
+        ]
+      },
+      "same": {
+        "TT": [
+          54031,
+          38204
+        ],
+        "VV": [
+          3444,
+          2334
+        ],
+        "VT": [
+          27286,
+          19154
+        ]
+      }
+    },
+    "sample_counts": {
+      "six": 21378,
+      "same": 24000
+    },
+    "sample_sha256": {
+      "six": "febfa8733c50f2c5cd879a639b622d08a86bb7dc41dbac1632d0dc3516306cd5",
+      "same": "901feeff1d8c5cc5f85158d410b6cfba49710b4d19224cc5fd1f61010fe42b04"
+    },
+    "pair_index_sha256": {
+      "TT": "5cb566431b57e6b91a050b94a7934ae0e067cfabc05c557e49b88ae908d3c57c",
+      "VV": "00a0ffb91d67f9d610842d91153c5918b92edc75cd24da32a9533e31170470ab",
+      "VT": "870953233bd3274fb8f9ea8c4b301ea0add1730327a3d154a7dc410959d249fc"
+    },
+    "patient_intersection_train_valid": 0,
+    "patient_intersection_train_test": 0,
+    "patient_intersection_valid_test": 0
+  },
+  "outer02_inner03": {
+    "train_patient_sha256": "292181e32ce44be8aa4467a77e9c71da247482afb67ca78c3bcd2b8e23cfc57b",
+    "valid_patient_sha256": "5b3715beb528909e927d1221e3f5c29b98bed1d0c3c8b822bf1ff824281191c1",
+    "outer_test_patient_sha256": "340298bbb253ea1a3c859333782c37ff88ac3885d3b1e29159fc660db0255495",
+    "pair_counts": {
+      "TT": 92235,
+      "VV": 5778,
+      "VT": 46440
+    },
+    "target_counts": {
+      "six": {
+        "TT": [
+          11175,
+          25651,
+          1378,
+          34050,
+          7950,
+          12031
+        ],
+        "VV": [
+          703,
+          1540,
+          91,
+          2128,
+          532,
+          784
+        ],
+        "VT": [
+          5700,
+          12712,
+          742,
+          17026,
+          4114,
+          6146
+        ]
+      },
+      "same": {
+        "TT": [
+          54031,
+          38204
+        ],
+        "VV": [
+          3444,
+          2334
+        ],
+        "VT": [
+          27286,
+          19154
+        ]
+      }
+    },
+    "sample_counts": {
+      "six": 21378,
+      "same": 24000
+    },
+    "sample_sha256": {
+      "six": "54d71b7a7e93bb5af1a3fae09a195c6c9d9200ce42e1bc93f5d4f0432ba8b41f",
+      "same": "789ab5be7627abd57a31790ddbd29d3e5ceeb17b3e37bdeff567fb0fdd1964e6"
+    },
+    "pair_index_sha256": {
+      "TT": "8e90d462ff9139a51357a85f3c0712b63bbf419a823ac1ae2d3e71a9305994aa",
+      "VV": "9c1f6245d80ef03bbaad1e45a27ec880bce863bf1f7d9097c20b496e5c3c9eed",
+      "VT": "147e0c2b5df48d55fb5387d142fe41d10df571e2e16b516f7850541a60811909"
+    },
+    "patient_intersection_train_valid": 0,
+    "patient_intersection_train_test": 0,
+    "patient_intersection_valid_test": 0
+  },
+  "outer02_inner04": {
+    "train_patient_sha256": "c2488261ca6f3c12a60400cedcf4d82d6ca0fd8a0b8e274f263eab2ca3947475",
+    "valid_patient_sha256": "c79938075de5b77261cee2c5a0f05e72dc8f50ba24c9244599a0eb2513293853",
+    "outer_test_patient_sha256": "340298bbb253ea1a3c859333782c37ff88ac3885d3b1e29159fc660db0255495",
+    "pair_counts": {
+      "TT": 92665,
+      "VV": 5671,
+      "VT": 46117
+    },
+    "target_counts": {
+      "six": {
+        "TT": [
+          11325,
+          25425,
+          1431,
+          34126,
+          8154,
+          12204
+        ],
+        "VV": [
+          666,
+          1596,
+          78,
+          2109,
+          481,
+          741
+        ],
+        "VT": [
+          5587,
+          12882,
+          702,
+          16969,
+          3961,
+          6016
+        ]
+      },
+      "same": {
+        "TT": [
+          54484,
+          38181
+        ],
+        "VV": [
+          3331,
+          2340
+        ],
+        "VT": [
+          26946,
+          19171
+        ]
+      }
+    },
+    "sample_counts": {
+      "six": 21431,
+      "same": 24000
+    },
+    "sample_sha256": {
+      "six": "467d930aeae5e8b32299e4bb83a5c27a14e64c7cbb6d8d33ba8ee08f7e34e698",
+      "same": "7bfcac31a70ab5a5ea6d7c05251478340daa0c85dda0f9fb6c3cac4f0c10d86f"
+    },
+    "pair_index_sha256": {
+      "TT": "a7ed63d245b84a8cb3611a7c4ab58e4f8637bbd6d0d570171b8ba6dd7ffefec9",
+      "VV": "1fc090dfb1ac692c38f9267646e32e09da9970d5cc08f8528862c44376d3b063",
+      "VT": "0fe8040f4cc61e5afd4005872037b0eb5b554be6fc6033a53981cdbe9e76e428"
+    },
+    "patient_intersection_train_valid": 0,
+    "patient_intersection_train_test": 0,
+    "patient_intersection_valid_test": 0
+  },
+  "outer02_inner05": {
+    "train_patient_sha256": "416e6afd8e26d77972373f161ec0ef2a515322c5ff17707db85794e8670a91b5",
+    "valid_patient_sha256": "450b70c9c780fa12cb1f0d42f33afd8581d98492546b11c83b6c522dfae4b93d",
+    "outer_test_patient_sha256": "340298bbb253ea1a3c859333782c37ff88ac3885d3b1e29159fc660db0255495",
+    "pair_counts": {
+      "TT": 92665,
+      "VV": 5671,
+      "VT": 46117
+    },
+    "target_counts": {
+      "six": {
+        "TT": [
+          11325,
+          25425,
+          1431,
+          34126,
+          8154,
+          12204
+        ],
+        "VV": [
+          666,
+          1596,
+          78,
+          2109,
+          481,
+          741
+        ],
+        "VT": [
+          5587,
+          12882,
+          702,
+          16969,
+          3961,
+          6016
+        ]
+      },
+      "same": {
+        "TT": [
+          54484,
+          38181
+        ],
+        "VV": [
+          3331,
+          2340
+        ],
+        "VT": [
+          26946,
+          19171
+        ]
+      }
+    },
+    "sample_counts": {
+      "six": 21431,
+      "same": 24000
+    },
+    "sample_sha256": {
+      "six": "2aa6f553ab123995f7f2668ccf810b67df45b783b7cac286997b69d547890171",
+      "same": "c9e8b6a2fe3914adf833d663cb395def94892a633f3f329414c965d4904e1264"
+    },
+    "pair_index_sha256": {
+      "TT": "0c4edc37fe57993ac1b9671af913b2842961b935c321b4ca04d315f2fae95c5b",
+      "VV": "b884d2a35a9d01a3813a8ba1a94bf95b81c5d6bad70705526aab1651bd293f4e",
+      "VT": "f0862a3734435c15322f54113edd4e3c14d57ff9fd20f6a9e9cd6e36cd579096"
+    },
+    "patient_intersection_train_valid": 0,
+    "patient_intersection_train_test": 0,
+    "patient_intersection_valid_test": 0
+  },
+  "outer03_inner01": {
+    "train_patient_sha256": "9d46530ea08818922223acf53c1a64b2980929e5615d0d81e2163b2403d12dfd",
+    "valid_patient_sha256": "2264ba4afcf8c9c3583a0e39f4265b707675fafbf25eed316bcf9ed82b4ba5d0",
+    "outer_test_patient_sha256": "77d68e11cd16f41d8209523fe10ca875048109fcf57a42b2a663b877a99ecd2d",
+    "pair_counts": {
+      "TT": 92235,
+      "VV": 5778,
+      "VT": 46440
+    },
+    "target_counts": {
+      "six": {
+        "TT": [
+          11175,
+          25425,
+          1431,
+          33900,
+          8100,
+          12204
+        ],
+        "VV": [
+          703,
+          1596,
+          78,
+          2166,
+          494,
+          741
+        ],
+        "VT": [
+          5700,
+          12882,
+          702,
+          17138,
+          4002,
+          6016
+        ]
+      },
+      "same": {
+        "TT": [
+          54204,
+          38031
+        ],
+        "VV": [
+          3401,
+          2377
+        ],
+        "VT": [
+          27156,
+          19284
+        ]
+      }
+    },
+    "sample_counts": {
+      "six": 21431,
+      "same": 24000
+    },
+    "sample_sha256": {
+      "six": "cfc9170963f9af64640b0c341f47c491ceaf8ac484ea06fae7f13eb5c9f8444e",
+      "same": "d3e8e9ac3175b55d5c0117010ba72eee00e2d6897bbd2a5ae84191bf2d2eadc8"
+    },
+    "pair_index_sha256": {
+      "TT": "3090aabddd4ff6632cd71004f554474179020ef650ecbc9be3c4f55f5f9e3ba9",
+      "VV": "54645fd7e5905b4e5aeb6f7e7bb9362669b52c174d5da9233bba6bea340bf98d",
+      "VT": "70ede1fe118d2caabee2fa364ef77247f3ac40b42ab9f349fa84ae8695cca3b0"
+    },
+    "patient_intersection_train_valid": 0,
+    "patient_intersection_train_test": 0,
+    "patient_intersection_valid_test": 0
+  },
+  "outer03_inner02": {
+    "train_patient_sha256": "594b0a6e5405e0b5ad96a4ec0b24d8040875c9ad41a5f2798e772e3aa52f7e3d",
+    "valid_patient_sha256": "486f56373af8eae8cbdae00879f0337b5387d510a1e60a1d0b3c60635589c6ae",
+    "outer_test_patient_sha256": "77d68e11cd16f41d8209523fe10ca875048109fcf57a42b2a663b877a99ecd2d",
+    "pair_counts": {
+      "TT": 92235,
+      "VV": 5778,
+      "VT": 46440
+    },
+    "target_counts": {
+      "six": {
+        "TT": [
+          11175,
+          25651,
+          1378,
+          34050,
+          7950,
+          12031
+        ],
+        "VV": [
+          703,
+          1540,
+          91,
+          2128,
+          532,
+          784
+        ],
+        "VT": [
+          5700,
+          12712,
+          742,
+          17026,
+          4114,
+          6146
+        ]
+      },
+      "same": {
+        "TT": [
+          54031,
+          38204
+        ],
+        "VV": [
+          3444,
+          2334
+        ],
+        "VT": [
+          27286,
+          19154
+        ]
+      }
+    },
+    "sample_counts": {
+      "six": 21378,
+      "same": 24000
+    },
+    "sample_sha256": {
+      "six": "77f2c0263a0f40be183dc47ceb025fc713bae66675c26d53dc3d4b08f8075aad",
+      "same": "278a94323a0a1c1275558feeda07dcd2bc61dc10e4bf53790c2cf39237fe9c04"
+    },
+    "pair_index_sha256": {
+      "TT": "c9d7265f1b2f80231c2ed61b23c39a43cd57d9b8bc6ffab1b4247036439e409d",
+      "VV": "a9c82338e8c06035690d276b1c3f0243bb98e1a90404e9ac1f3f669465ac6746",
+      "VT": "99dbe459d049752d0017988409b6a783c8fa8789c15152d414e1bb2f5097cb1d"
+    },
+    "patient_intersection_train_valid": 0,
+    "patient_intersection_train_test": 0,
+    "patient_intersection_valid_test": 0
+  },
+  "outer03_inner03": {
+    "train_patient_sha256": "93c24857df57053950b7c774a11bf123ddb84656259264f15dd1a6394fb7e335",
+    "valid_patient_sha256": "c6388ab9fc60ceb8b80ce1dcff96fc91aef702efb85149ccf53f6da7cadedc2a",
+    "outer_test_patient_sha256": "77d68e11cd16f41d8209523fe10ca875048109fcf57a42b2a663b877a99ecd2d",
+    "pair_counts": {
+      "TT": 92235,
+      "VV": 5778,
+      "VT": 46440
+    },
+    "target_counts": {
+      "six": {
+        "TT": [
+          11175,
+          25651,
+          1378,
+          34050,
+          7950,
+          12031
+        ],
+        "VV": [
+          703,
+          1540,
+          91,
+          2128,
+          532,
+          784
+        ],
+        "VT": [
+          5700,
+          12712,
+          742,
+          17026,
+          4114,
+          6146
+        ]
+      },
+      "same": {
+        "TT": [
+          54031,
+          38204
+        ],
+        "VV": [
+          3444,
+          2334
+        ],
+        "VT": [
+          27286,
+          19154
+        ]
+      }
+    },
+    "sample_counts": {
+      "six": 21378,
+      "same": 24000
+    },
+    "sample_sha256": {
+      "six": "716a8b3764df65c8ee62ad36ed47287ab796c70d4fbe322177f3b08607e34419",
+      "same": "82f9d1da900a40206076e8d49824011ea3595d339020d62305c2fa7748d72ba1"
+    },
+    "pair_index_sha256": {
+      "TT": "b0cf88d59f2ec74181359c6008d96bee6ee826515116fd2403a5ca6f2edeb8b8",
+      "VV": "23e062385236262adaf940d4fa2d0c003ba4ac8a8a09e74d96bd724ad22ef80c",
+      "VT": "ba2e36f10d4b4104072cfd5bff3506212ee8c7b34df54a629db584f100756d6b"
+    },
+    "patient_intersection_train_valid": 0,
+    "patient_intersection_train_test": 0,
+    "patient_intersection_valid_test": 0
+  },
+  "outer03_inner04": {
+    "train_patient_sha256": "666cb8e8d1325d91ffd223e3064bc67ff31f06e8417c85e373f505806108ea8a",
+    "valid_patient_sha256": "e960d593aa40dc8e43e37e52b79de49c5f4bb7f1d9f0b1181ffed251a080303d",
+    "outer_test_patient_sha256": "77d68e11cd16f41d8209523fe10ca875048109fcf57a42b2a663b877a99ecd2d",
+    "pair_counts": {
+      "TT": 92665,
+      "VV": 5671,
+      "VT": 46117
+    },
+    "target_counts": {
+      "six": {
+        "TT": [
+          11325,
+          25425,
+          1431,
+          34126,
+          8154,
+          12204
+        ],
+        "VV": [
+          666,
+          1596,
+          78,
+          2109,
+          481,
+          741
+        ],
+        "VT": [
+          5587,
+          12882,
+          702,
+          16969,
+          3961,
+          6016
+        ]
+      },
+      "same": {
+        "TT": [
+          54484,
+          38181
+        ],
+        "VV": [
+          3331,
+          2340
+        ],
+        "VT": [
+          26946,
+          19171
+        ]
+      }
+    },
+    "sample_counts": {
+      "six": 21431,
+      "same": 24000
+    },
+    "sample_sha256": {
+      "six": "8615c873a0e8a18b64d9144c4c3b23720d9e50aae4ff21f031089ee15f596f46",
+      "same": "2113decab46d5f29cc091bfd7e64c04bb671bba798afc0b8c84b81d6016587b7"
+    },
+    "pair_index_sha256": {
+      "TT": "5a1e3feae70685b78cac54ea948a1f36f3b95af28b7152f62e145ffb119dd578",
+      "VV": "39da2e225d6e93d6b03c89e5c48f49436f6c962bb4c77d964d4fa172fb2370e5",
+      "VT": "d4b09d1c4dd6684da1f1a336a483294f428e76817c012e629f3b8955d76f2355"
+    },
+    "patient_intersection_train_valid": 0,
+    "patient_intersection_train_test": 0,
+    "patient_intersection_valid_test": 0
+  },
+  "outer03_inner05": {
+    "train_patient_sha256": "0f932809bd79d96e34a62ef116cb57258bffa93c0fc9418eae497f2eaece214d",
+    "valid_patient_sha256": "b9da4dbe4a287adc0f99a8eda9acff7fc4db88c33f1db450a95c3d5593f13622",
+    "outer_test_patient_sha256": "77d68e11cd16f41d8209523fe10ca875048109fcf57a42b2a663b877a99ecd2d",
+    "pair_counts": {
+      "TT": 92665,
+      "VV": 5671,
+      "VT": 46117
+    },
+    "target_counts": {
+      "six": {
+        "TT": [
+          11325,
+          25425,
+          1431,
+          34126,
+          8154,
+          12204
+        ],
+        "VV": [
+          666,
+          1596,
+          78,
+          2109,
+          481,
+          741
+        ],
+        "VT": [
+          5587,
+          12882,
+          702,
+          16969,
+          3961,
+          6016
+        ]
+      },
+      "same": {
+        "TT": [
+          54484,
+          38181
+        ],
+        "VV": [
+          3331,
+          2340
+        ],
+        "VT": [
+          26946,
+          19171
+        ]
+      }
+    },
+    "sample_counts": {
+      "six": 21431,
+      "same": 24000
+    },
+    "sample_sha256": {
+      "six": "ad9e6ff2a9fc1f3113761ef7f5f8dfc65147389d9d555c1047b8e05a7f00e1fe",
+      "same": "396c634f4988f33e9012c44a4dea94a6ad34a8b61a0eea9cd21f6529d2258120"
+    },
+    "pair_index_sha256": {
+      "TT": "904c8d09cb8b6dac839c804ef65a3c44199e5e84fc46b1dccd8d0bc518b06a68",
+      "VV": "3060289450b660a938b7ad9cbae80b27be836528f1c0e1eadfcfaddc61b2e05b",
+      "VT": "012739d330c5380422fadd0a6c39c529f37691a1dad25c85a0d6cf3f4cebeeb6"
+    },
+    "patient_intersection_train_valid": 0,
+    "patient_intersection_train_test": 0,
+    "patient_intersection_valid_test": 0
+  },
+  "outer04_inner01": {
+    "train_patient_sha256": "9e697b05eb8a9d1628fdd154630ce53bea12566c1b39e97d1f2b6746d7f26480",
+    "valid_patient_sha256": "23673517cff485e6ffb6b955535f5b01c80fc4223ba934c0bb9b84b122545e31",
+    "outer_test_patient_sha256": "4365e54419067f76a4acc0bb2e88870ea2d484a4313657a25c7b10009ca12a8e",
+    "pair_counts": {
+      "TT": 92235,
+      "VV": 5778,
+      "VT": 46440
+    },
+    "target_counts": {
+      "six": {
+        "TT": [
+          11175,
+          25425,
+          1431,
+          33900,
+          8100,
+          12204
+        ],
+        "VV": [
+          703,
+          1596,
+          78,
+          2166,
+          494,
+          741
+        ],
+        "VT": [
+          5700,
+          12882,
+          702,
+          17138,
+          4002,
+          6016
+        ]
+      },
+      "same": {
+        "TT": [
+          54204,
+          38031
+        ],
+        "VV": [
+          3401,
+          2377
+        ],
+        "VT": [
+          27156,
+          19284
+        ]
+      }
+    },
+    "sample_counts": {
+      "six": 21431,
+      "same": 24000
+    },
+    "sample_sha256": {
+      "six": "43805845aee9e326d98e0c2a55436ef91e3ece5b4a4b7f369f8516b3e5aa7f5d",
+      "same": "20ef2a13fb6974e25e840784167397f9ccaa1020dbcf518052634a386ac11611"
+    },
+    "pair_index_sha256": {
+      "TT": "296d718be083d63736ae065b8d2638f80edd6ddcdce126bec5d812049b8414f7",
+      "VV": "5dead519a7daf9d015bf7c3c099e18002a8794be255f7ea256811d0cf0845f6c",
+      "VT": "2aec6ffc6da3fbfb54ef2bd5a207d6797bc92f8be30cd78f57b2eee505828648"
+    },
+    "patient_intersection_train_valid": 0,
+    "patient_intersection_train_test": 0,
+    "patient_intersection_valid_test": 0
+  },
+  "outer04_inner02": {
+    "train_patient_sha256": "8a3765970fc7b97525c1f3ed0249d907a2b3f760d465de431691a7990099f792",
+    "valid_patient_sha256": "95e4f038f98f4d33d831da1bd99b94cd7f9c7f017601d86f2d830798661a8db3",
+    "outer_test_patient_sha256": "4365e54419067f76a4acc0bb2e88870ea2d484a4313657a25c7b10009ca12a8e",
+    "pair_counts": {
+      "TT": 92235,
+      "VV": 5778,
+      "VT": 46440
+    },
+    "target_counts": {
+      "six": {
+        "TT": [
+          11175,
+          25651,
+          1378,
+          34050,
+          7950,
+          12031
+        ],
+        "VV": [
+          703,
+          1540,
+          91,
+          2128,
+          532,
+          784
+        ],
+        "VT": [
+          5700,
+          12712,
+          742,
+          17026,
+          4114,
+          6146
+        ]
+      },
+      "same": {
+        "TT": [
+          54031,
+          38204
+        ],
+        "VV": [
+          3444,
+          2334
+        ],
+        "VT": [
+          27286,
+          19154
+        ]
+      }
+    },
+    "sample_counts": {
+      "six": 21378,
+      "same": 24000
+    },
+    "sample_sha256": {
+      "six": "5bae50a3138cd1c55d70dfbe81eeb250e465ee8f731c0d39485d209ceea292d1",
+      "same": "85b9dd50f0557ad49b82ad2d84b6fb55b5ce38a335a8e9e42255bf438ee455ab"
+    },
+    "pair_index_sha256": {
+      "TT": "53d77e36c153d1510f6eed221c2494ed56fb1e3569986d3e2fa81f48335d4f5e",
+      "VV": "052f5af8790dd2b410709332fa9458d453bb5bec7e2d2fd13b9cc013f903dc1d",
+      "VT": "6c6d7d87e295508ec117a0414624a279cc4767400d71404b2024a6dabcbc0965"
+    },
+    "patient_intersection_train_valid": 0,
+    "patient_intersection_train_test": 0,
+    "patient_intersection_valid_test": 0
+  },
+  "outer04_inner03": {
+    "train_patient_sha256": "c99157a80c031173c9eda192d18d63a90382884cf7c7137b7cb84ef4e430cfeb",
+    "valid_patient_sha256": "dd7de80ac2a69f23832fd4a9c709fa8629858cc647a6b07c6bb9dbfeb4790306",
+    "outer_test_patient_sha256": "4365e54419067f76a4acc0bb2e88870ea2d484a4313657a25c7b10009ca12a8e",
+    "pair_counts": {
+      "TT": 92235,
+      "VV": 5778,
+      "VT": 46440
+    },
+    "target_counts": {
+      "six": {
+        "TT": [
+          11175,
+          25651,
+          1378,
+          34050,
+          7950,
+          12031
+        ],
+        "VV": [
+          703,
+          1540,
+          91,
+          2128,
+          532,
+          784
+        ],
+        "VT": [
+          5700,
+          12712,
+          742,
+          17026,
+          4114,
+          6146
+        ]
+      },
+      "same": {
+        "TT": [
+          54031,
+          38204
+        ],
+        "VV": [
+          3444,
+          2334
+        ],
+        "VT": [
+          27286,
+          19154
+        ]
+      }
+    },
+    "sample_counts": {
+      "six": 21378,
+      "same": 24000
+    },
+    "sample_sha256": {
+      "six": "131efaa61609ab8e973f82cb9aba23e8c3737fee3ce5e9780708a6e13ce52ab9",
+      "same": "b68cc10b90288a0e649ace174df8b3ea382d4281461d62e8f5f9967dbc37257e"
+    },
+    "pair_index_sha256": {
+      "TT": "96308acdb128e7b3f7d8189bc8ec24d2318068926b32106637ecd22d23555823",
+      "VV": "759259043bfa97e6ff4e4a446538a0b05c4ae0b7908ac51935aa19c67aad0798",
+      "VT": "56d408a6ec1ae8a7357bca310ee7f96c999ffa1cb4fcee7b16f00ca3ab813693"
+    },
+    "patient_intersection_train_valid": 0,
+    "patient_intersection_train_test": 0,
+    "patient_intersection_valid_test": 0
+  },
+  "outer04_inner04": {
+    "train_patient_sha256": "9b5932e1c6e5346fe44cbb6a112a901a488fddb298ae0f00d95e2cbe6d4b1fe3",
+    "valid_patient_sha256": "b5264e582e9e62dd60ce0e3359222a3d51af797501519746d67d51fe44581bee",
+    "outer_test_patient_sha256": "4365e54419067f76a4acc0bb2e88870ea2d484a4313657a25c7b10009ca12a8e",
+    "pair_counts": {
+      "TT": 92665,
+      "VV": 5671,
+      "VT": 46117
+    },
+    "target_counts": {
+      "six": {
+        "TT": [
+          11325,
+          25425,
+          1431,
+          34126,
+          8154,
+          12204
+        ],
+        "VV": [
+          666,
+          1596,
+          78,
+          2109,
+          481,
+          741
+        ],
+        "VT": [
+          5587,
+          12882,
+          702,
+          16969,
+          3961,
+          6016
+        ]
+      },
+      "same": {
+        "TT": [
+          54484,
+          38181
+        ],
+        "VV": [
+          3331,
+          2340
+        ],
+        "VT": [
+          26946,
+          19171
+        ]
+      }
+    },
+    "sample_counts": {
+      "six": 21431,
+      "same": 24000
+    },
+    "sample_sha256": {
+      "six": "ac7a4b5617547a352a1c3e29304d6e66d61ebe85c4c96550ee8b2f33c7accc5c",
+      "same": "3c6ba2f26d7d7cd47f181b187ab3d57ac6ed11d1d9d7f03ea04dcc56652b5a44"
+    },
+    "pair_index_sha256": {
+      "TT": "fb34fde6e5bf8f881098aaf0f72c2197d8bd02948fbf74e68da6254dbf4837f4",
+      "VV": "0a325e5e91f8c7efa61fb2388d9632404a44fec683d5a1400080768abfcbe2bb",
+      "VT": "454c94ebe690f50c10c286d71eae30e4aa11a4d2bdd88613b95b9d0bd7f43a87"
+    },
+    "patient_intersection_train_valid": 0,
+    "patient_intersection_train_test": 0,
+    "patient_intersection_valid_test": 0
+  },
+  "outer04_inner05": {
+    "train_patient_sha256": "b6a3d9794ac5d5a52b01bab4ea63db85bf137b6f1c300ed6c88d02610934accd",
+    "valid_patient_sha256": "b946fda0b3110fb4f0ad30795121c9d6f26837fc3ebb147ca8b8bab3d8f58bf1",
+    "outer_test_patient_sha256": "4365e54419067f76a4acc0bb2e88870ea2d484a4313657a25c7b10009ca12a8e",
+    "pair_counts": {
+      "TT": 92665,
+      "VV": 5671,
+      "VT": 46117
+    },
+    "target_counts": {
+      "six": {
+        "TT": [
+          11325,
+          25425,
+          1431,
+          34126,
+          8154,
+          12204
+        ],
+        "VV": [
+          666,
+          1596,
+          78,
+          2109,
+          481,
+          741
+        ],
+        "VT": [
+          5587,
+          12882,
+          702,
+          16969,
+          3961,
+          6016
+        ]
+      },
+      "same": {
+        "TT": [
+          54484,
+          38181
+        ],
+        "VV": [
+          3331,
+          2340
+        ],
+        "VT": [
+          26946,
+          19171
+        ]
+      }
+    },
+    "sample_counts": {
+      "six": 21431,
+      "same": 24000
+    },
+    "sample_sha256": {
+      "six": "6d7c479e6a38c4e10b71ebf5e3c8e6df1bc3385aed12eab8d6e030b2ac82dc7a",
+      "same": "77c6449f9670b36ccea9d8ef463d1b30e15c02d03beb7a9e3f5ce858be522dcc"
+    },
+    "pair_index_sha256": {
+      "TT": "2c274329fd97fed7024f6414fae49ae9f262e0740c1b70520d9abab2a60a68ef",
+      "VV": "06d48324bf41a7ae1fe6333ed9d23550761495bc57f56b47bcfe216329509821",
+      "VT": "8a446827045634cee5f0c770954cd5c473f2da6fa8b40e81d3a8525c99b78d13"
+    },
+    "patient_intersection_train_valid": 0,
+    "patient_intersection_train_test": 0,
+    "patient_intersection_valid_test": 0
+  },
+  "outer05_inner01": {
+    "train_patient_sha256": "c46f8597ccdf27013b55bf098f557ff36af232213184885af3a4dc2881f9a871",
+    "valid_patient_sha256": "59905730ce1d2c1167a24321e01c49cb5250bce6d17780a1d779ea8c0183726e",
+    "outer_test_patient_sha256": "69ce6c940400e72c53310e6dec2dd2828c2b8ceb61bab9012062a4f4838d7c38",
+    "pair_counts": {
+      "TT": 92235,
+      "VV": 5778,
+      "VT": 46440
+    },
+    "target_counts": {
+      "six": {
+        "TT": [
+          11175,
+          25651,
+          1378,
+          34050,
+          7950,
+          12031
+        ],
+        "VV": [
+          703,
+          1596,
+          78,
+          2166,
+          494,
+          741
+        ],
+        "VT": [
+          5700,
+          12939,
+          689,
+          17176,
+          3964,
+          5972
+        ]
+      },
+      "same": {
+        "TT": [
+          54031,
+          38204
+        ],
+        "VV": [
+          3401,
+          2377
+        ],
+        "VT": [
+          27112,
+          19328
+        ]
+      }
+    },
+    "sample_counts": {
+      "six": 21378,
+      "same": 24000
+    },
+    "sample_sha256": {
+      "six": "443cedae239a8597e6d62dc0a54c4d24df4935e4f4b75d4130759ec906e25c10",
+      "same": "70bcf20c2bdcb0a29b506ef9188c7403d21169d756a62ec838ee414b60421114"
+    },
+    "pair_index_sha256": {
+      "TT": "4e6d85240328eb4b9e95c4040897a24b5b0a7bb91da307b59e2eae63a9712255",
+      "VV": "11edcfdc8ff225c20781679eb4e6b3ecf873d1ccbccb168a70d96f9d67da639d",
+      "VT": "8de9177eeff653e9f786968e4632fe459d9f4aa98b3e0eb9d6fc02f56d001fe1"
+    },
+    "patient_intersection_train_valid": 0,
+    "patient_intersection_train_test": 0,
+    "patient_intersection_valid_test": 0
+  },
+  "outer05_inner02": {
+    "train_patient_sha256": "cc7145ec410a6bfe1a764cd1cf33c4e0e4a89812932c13cc71c717a69b67df76",
+    "valid_patient_sha256": "13c95df5494848bf0f3aa990c93769655280092858627e060c592062e65e014b",
+    "outer_test_patient_sha256": "69ce6c940400e72c53310e6dec2dd2828c2b8ceb61bab9012062a4f4838d7c38",
+    "pair_counts": {
+      "TT": 92235,
+      "VV": 5778,
+      "VT": 46440
+    },
+    "target_counts": {
+      "six": {
+        "TT": [
+          11175,
+          25651,
+          1378,
+          34050,
+          7950,
+          12031
+        ],
+        "VV": [
+          703,
+          1596,
+          78,
+          2166,
+          494,
+          741
+        ],
+        "VT": [
+          5700,
+          12939,
+          689,
+          17176,
+          3964,
+          5972
+        ]
+      },
+      "same": {
+        "TT": [
+          54031,
+          38204
+        ],
+        "VV": [
+          3401,
+          2377
+        ],
+        "VT": [
+          27112,
+          19328
+        ]
+      }
+    },
+    "sample_counts": {
+      "six": 21378,
+      "same": 24000
+    },
+    "sample_sha256": {
+      "six": "af77ea882f741cb1067cbab20e9829c7cb31d54f58fc7cbab40240ac6a40b8cf",
+      "same": "d4eafbee1b2fa44aaeead60a40c2fb49633ef1dcc2e64b763c32695acdd8dce1"
+    },
+    "pair_index_sha256": {
+      "TT": "9bc0c32a80e6385b22e637e4939a891084816c5144089f1f283dfaf734cbe80e",
+      "VV": "27fd84572b314e906132c1266e178b42e83b225908b010b85ffe6f156bda107b",
+      "VT": "4d0a0624d15f0a4c856a776b068964143096305eb914ca2511918c1fbc0c5562"
+    },
+    "patient_intersection_train_valid": 0,
+    "patient_intersection_train_test": 0,
+    "patient_intersection_valid_test": 0
+  },
+  "outer05_inner03": {
+    "train_patient_sha256": "2152e9b049e021104f26b399a5fa2d91e048742e8ccf4c86b123638a22e511fd",
+    "valid_patient_sha256": "90edcfff7a245729e8a63f5a0563cee4c678e8b771cd4d4cf1b24eab281596ef",
+    "outer_test_patient_sha256": "69ce6c940400e72c53310e6dec2dd2828c2b8ceb61bab9012062a4f4838d7c38",
+    "pair_counts": {
+      "TT": 92235,
+      "VV": 5778,
+      "VT": 46440
+    },
+    "target_counts": {
+      "six": {
+        "TT": [
+          11175,
+          25878,
+          1326,
+          34200,
+          7800,
+          11856
+        ],
+        "VV": [
+          703,
+          1540,
+          91,
+          2128,
+          532,
+          784
+        ],
+        "VT": [
+          5700,
+          12768,
+          728,
+          17064,
+          4076,
+          6104
+        ]
+      },
+      "same": {
+        "TT": [
+          53856,
+          38379
+        ],
+        "VV": [
+          3444,
+          2334
+        ],
+        "VT": [
+          27244,
+          19196
+        ]
+      }
+    },
+    "sample_counts": {
+      "six": 21326,
+      "same": 24000
+    },
+    "sample_sha256": {
+      "six": "27b89db8fe400ebe070b8daa61c4a83291e751bb660c19d3fdbbbff5f5233296",
+      "same": "66c55d5bdb574a84b3f4379e9728f82fd741588246cb93c08fd4fc55e5bc53d0"
+    },
+    "pair_index_sha256": {
+      "TT": "6caeb16b1aeba95c235f383df166533f510f8540d2a0fe9a36d41b10b6cd70c5",
+      "VV": "5220b5a93f61a50155575c10ceccc7bfd7ee5d1c5a15cefe6e6da612216a24d5",
+      "VT": "e1f0ec40ee198998641342e5262080d5f04e4a8436487bc287d444fdc0426946"
+    },
+    "patient_intersection_train_valid": 0,
+    "patient_intersection_train_test": 0,
+    "patient_intersection_valid_test": 0
+  },
+  "outer05_inner04": {
+    "train_patient_sha256": "da0a6bf78954acd8ad23ffd945be316d350ad446175ec4e783d41ece7835b483",
+    "valid_patient_sha256": "e1e00182c4bdc97d774ba100753c28caf2ff6a0412da5aa4aff8c5e4367955da",
+    "outer_test_patient_sha256": "69ce6c940400e72c53310e6dec2dd2828c2b8ceb61bab9012062a4f4838d7c38",
+    "pair_counts": {
+      "TT": 92665,
+      "VV": 5671,
+      "VT": 46117
+    },
+    "target_counts": {
+      "six": {
+        "TT": [
+          11325,
+          25651,
+          1378,
+          34277,
+          8003,
+          12031
+        ],
+        "VV": [
+          666,
+          1596,
+          78,
+          2109,
+          481,
+          741
+        ],
+        "VT": [
+          5587,
+          12939,
+          689,
+          17006,
+          3924,
+          5972
+        ]
+      },
+      "same": {
+        "TT": [
+          54311,
+          38354
+        ],
+        "VV": [
+          3331,
+          2340
+        ],
+        "VT": [
+          26902,
+          19215
+        ]
+      }
+    },
+    "sample_counts": {
+      "six": 21378,
+      "same": 24000
+    },
+    "sample_sha256": {
+      "six": "aafc03e667952d016721436866c9bd0f6b9c497842d1fc0204e984f133627500",
+      "same": "871db5865c5b4f365384b197d422a45348a9c8c1be67c0e3fcfc4eb5a91c4f0a"
+    },
+    "pair_index_sha256": {
+      "TT": "24cae1fa1bf678d3886c671bf5d5b9c3adbb4147d8a194e57f6d9d625bb2ec06",
+      "VV": "6910704dbda21fb974bb2a898f32f06975c6f4eb63f184d5d8e97f660bc7ca49",
+      "VT": "d7d36613a227674c9b9c6702702a80763b1ed273dfd27c5d44b3c79bd1fbf4cf"
+    },
+    "patient_intersection_train_valid": 0,
+    "patient_intersection_train_test": 0,
+    "patient_intersection_valid_test": 0
+  },
+  "outer05_inner05": {
+    "train_patient_sha256": "c7a4c4039909869fd1b0fb599021d6d77184d899c715929370ef23d21beb7f9f",
+    "valid_patient_sha256": "5d598d472f82e6da4f5b903585226b0ac48f7bc10ff9fc644e262acf535c4323",
+    "outer_test_patient_sha256": "69ce6c940400e72c53310e6dec2dd2828c2b8ceb61bab9012062a4f4838d7c38",
+    "pair_counts": {
+      "TT": 92665,
+      "VV": 5671,
+      "VT": 46117
+    },
+    "target_counts": {
+      "six": {
+        "TT": [
+          11325,
+          25651,
+          1378,
+          34277,
+          8003,
+          12031
+        ],
+        "VV": [
+          666,
+          1596,
+          78,
+          2109,
+          481,
+          741
+        ],
+        "VT": [
+          5587,
+          12939,
+          689,
+          17006,
+          3924,
+          5972
+        ]
+      },
+      "same": {
+        "TT": [
+          54311,
+          38354
+        ],
+        "VV": [
+          3331,
+          2340
+        ],
+        "VT": [
+          26902,
+          19215
+        ]
+      }
+    },
+    "sample_counts": {
+      "six": 21378,
+      "same": 24000
+    },
+    "sample_sha256": {
+      "six": "4c28b198acac9979488388b0da0bd7393106cd2c5a698bc9bbb1d1264f7a6afe",
+      "same": "e5b15ffe2782f6ab339c85c91b4256e49fabc59e76ba7dfd466a79b99c770cef"
+    },
+    "pair_index_sha256": {
+      "TT": "58ba407b63e1305fbfb8309e45250b28fa3004b849bba794b1ae0866ef72f700",
+      "VV": "77245e50580ec692902065e087b14ebe675ebe23c14dfefbf054dda63fa657e2",
+      "VT": "f1775e9658a03dfb39e6489fd71806a982efec76816ccf9f68a23c53b5f75587"
+    },
+    "patient_intersection_train_valid": 0,
+    "patient_intersection_train_test": 0,
+    "patient_intersection_valid_test": 0
+  },
+  "outer06_inner01": {
+    "train_patient_sha256": "7e0ebd8ea41b024ec92bcd7d018f08c785ebec140ecb3e430ce5290d49925b0f",
+    "valid_patient_sha256": "62e08833ca51010c78e424991182dc4eba7f0e9e93a8bc47a4ffeaf32008dbbd",
+    "outer_test_patient_sha256": "1e347189f62e23fb3b1d7f6ab22abd31f897fca39f981ba3820d73f2b5091960",
+    "pair_counts": {
+      "TT": 92235,
+      "VV": 5778,
+      "VT": 46440
+    },
+    "target_counts": {
+      "six": {
+        "TT": [
+          11175,
+          25651,
+          1378,
+          34050,
+          7950,
+          12031
+        ],
+        "VV": [
+          703,
+          1596,
+          78,
+          2166,
+          494,
+          741
+        ],
+        "VT": [
+          5700,
+          12939,
+          689,
+          17176,
+          3964,
+          5972
+        ]
+      },
+      "same": {
+        "TT": [
+          54031,
+          38204
+        ],
+        "VV": [
+          3401,
+          2377
+        ],
+        "VT": [
+          27112,
+          19328
+        ]
+      }
+    },
+    "sample_counts": {
+      "six": 21378,
+      "same": 24000
+    },
+    "sample_sha256": {
+      "six": "bffebcef82a7b89f077aab745f5ebe25d9cd8eb90e1e87cda91e0b0f74b971ba",
+      "same": "aa806957782c20670bd18441c742de4db739a3121172319a66e96761809ef8ea"
+    },
+    "pair_index_sha256": {
+      "TT": "0b4c48df82cf8964fb6bd59f88337c243b2ae383fe18aae53f4c5f8ff11dbe82",
+      "VV": "f3c7c2af3c2c177d25546f9305107e6175d19f5bb44f02a1ce7dcfda4858bea7",
+      "VT": "dae4b2c3191257e6ddf12ca506b0253483cbc01f64bfc00024bb59c0d623cd0a"
+    },
+    "patient_intersection_train_valid": 0,
+    "patient_intersection_train_test": 0,
+    "patient_intersection_valid_test": 0
+  },
+  "outer06_inner02": {
+    "train_patient_sha256": "2938c8972bae8aeded10e18f6d4b6c4e85b4e9b7db2d917b4c6ce485d3efb06c",
+    "valid_patient_sha256": "175654867489e39b48bff130dced4329b3e81318ca904e7963e0dfc557e111b9",
+    "outer_test_patient_sha256": "1e347189f62e23fb3b1d7f6ab22abd31f897fca39f981ba3820d73f2b5091960",
+    "pair_counts": {
+      "TT": 92235,
+      "VV": 5778,
+      "VT": 46440
+    },
+    "target_counts": {
+      "six": {
+        "TT": [
+          11175,
+          25651,
+          1378,
+          34050,
+          7950,
+          12031
+        ],
+        "VV": [
+          703,
+          1596,
+          78,
+          2166,
+          494,
+          741
+        ],
+        "VT": [
+          5700,
+          12939,
+          689,
+          17176,
+          3964,
+          5972
+        ]
+      },
+      "same": {
+        "TT": [
+          54031,
+          38204
+        ],
+        "VV": [
+          3401,
+          2377
+        ],
+        "VT": [
+          27112,
+          19328
+        ]
+      }
+    },
+    "sample_counts": {
+      "six": 21378,
+      "same": 24000
+    },
+    "sample_sha256": {
+      "six": "15bf5b337cd2c6554bf76feaa05cbf5b50e8508d3456d613105e444fe6dd3379",
+      "same": "44d4542f0f42fd546c8eee3902945b3add8bcdc08b2b9e8cad39629512fac019"
+    },
+    "pair_index_sha256": {
+      "TT": "2955ba57457a0e7141bffce3b7914e84d9c64ea6e23e816e1f48eee549d35549",
+      "VV": "fd96e917fc6e29167678c4c20b67039c3751b40228925cd98d77b73ff4916304",
+      "VT": "feb8f33d4a5d333554eeb5066a9b61ac1ae2505ea54df8ed42d59f5b9dee108c"
+    },
+    "patient_intersection_train_valid": 0,
+    "patient_intersection_train_test": 0,
+    "patient_intersection_valid_test": 0
+  },
+  "outer06_inner03": {
+    "train_patient_sha256": "e49a3091fc319739c3f8075a05b5603bf33a1d11133b4160536576d82014dfe2",
+    "valid_patient_sha256": "0175690b7998cc751e5bebf06b9d7b72729412091bc83126ee3b651304004adb",
+    "outer_test_patient_sha256": "1e347189f62e23fb3b1d7f6ab22abd31f897fca39f981ba3820d73f2b5091960",
+    "pair_counts": {
+      "TT": 92235,
+      "VV": 5778,
+      "VT": 46440
+    },
+    "target_counts": {
+      "six": {
+        "TT": [
+          11175,
+          25878,
+          1326,
+          34200,
+          7800,
+          11856
+        ],
+        "VV": [
+          703,
+          1540,
+          91,
+          2128,
+          532,
+          784
+        ],
+        "VT": [
+          5700,
+          12768,
+          728,
+          17064,
+          4076,
+          6104
+        ]
+      },
+      "same": {
+        "TT": [
+          53856,
+          38379
+        ],
+        "VV": [
+          3444,
+          2334
+        ],
+        "VT": [
+          27244,
+          19196
+        ]
+      }
+    },
+    "sample_counts": {
+      "six": 21326,
+      "same": 24000
+    },
+    "sample_sha256": {
+      "six": "0ba1c9276d61f960098f84b26276de63843f5b6bcb47a88a8912f4ab378f979e",
+      "same": "edc7556c749e64f78f2619b69fbceb8e78c08f1636ba262e083f821a2e62a593"
+    },
+    "pair_index_sha256": {
+      "TT": "73a2fcf81ea770ebf59b6fab29957a48f9672909f242ce3b4cc0741ef2434bc4",
+      "VV": "a4a9a493e18731f620c0c8792d3d385697df474db929bebfa4a0717e3a673eff",
+      "VT": "a53b454ceea1132e5694093b9ce179e7fff84f6ed58bf634c8ac40ca969265b3"
+    },
+    "patient_intersection_train_valid": 0,
+    "patient_intersection_train_test": 0,
+    "patient_intersection_valid_test": 0
+  },
+  "outer06_inner04": {
+    "train_patient_sha256": "4a23b2cd477b80be729484e7fc5d4f07b13953a5ea544a694224474583ee1e7f",
+    "valid_patient_sha256": "63e99e28e991426ca769df5f156e670014ed43c4b276609e1fdce3ae320bb486",
+    "outer_test_patient_sha256": "1e347189f62e23fb3b1d7f6ab22abd31f897fca39f981ba3820d73f2b5091960",
+    "pair_counts": {
+      "TT": 92665,
+      "VV": 5671,
+      "VT": 46117
+    },
+    "target_counts": {
+      "six": {
+        "TT": [
+          11325,
+          25651,
+          1378,
+          34277,
+          8003,
+          12031
+        ],
+        "VV": [
+          666,
+          1596,
+          78,
+          2109,
+          481,
+          741
+        ],
+        "VT": [
+          5587,
+          12939,
+          689,
+          17006,
+          3924,
+          5972
+        ]
+      },
+      "same": {
+        "TT": [
+          54311,
+          38354
+        ],
+        "VV": [
+          3331,
+          2340
+        ],
+        "VT": [
+          26902,
+          19215
+        ]
+      }
+    },
+    "sample_counts": {
+      "six": 21378,
+      "same": 24000
+    },
+    "sample_sha256": {
+      "six": "f70abecdfa485582d7edfaecea2e3ce2d2fb199b14cd320ef815e1742dbb1d65",
+      "same": "c16df60949a612f4c25dba84e98e56869cbe1b5e0724210b84f5f469abc91693"
+    },
+    "pair_index_sha256": {
+      "TT": "afe9954f47af01a3ab07e355e81b9c10c071bf4f04d010a048a764de7c4f0690",
+      "VV": "6ee5e1506ef7ab296bdc23e0cfa4e657b39c699ff267472d4e59d727b996ab0b",
+      "VT": "e0e2b53899eed4e4260af38b66b240a70df3c4552f60673437f98db1e298988c"
+    },
+    "patient_intersection_train_valid": 0,
+    "patient_intersection_train_test": 0,
+    "patient_intersection_valid_test": 0
+  },
+  "outer06_inner05": {
+    "train_patient_sha256": "005912c8a638bb73a7c555fc13df024d593e964f30bfc3f40f8d9fa621136c83",
+    "valid_patient_sha256": "02038ff90f218720a718bed62dec1e4c728961cc2d5961981809d6a0552deaa9",
+    "outer_test_patient_sha256": "1e347189f62e23fb3b1d7f6ab22abd31f897fca39f981ba3820d73f2b5091960",
+    "pair_counts": {
+      "TT": 92665,
+      "VV": 5671,
+      "VT": 46117
+    },
+    "target_counts": {
+      "six": {
+        "TT": [
+          11325,
+          25651,
+          1378,
+          34277,
+          8003,
+          12031
+        ],
+        "VV": [
+          666,
+          1596,
+          78,
+          2109,
+          481,
+          741
+        ],
+        "VT": [
+          5587,
+          12939,
+          689,
+          17006,
+          3924,
+          5972
+        ]
+      },
+      "same": {
+        "TT": [
+          54311,
+          38354
+        ],
+        "VV": [
+          3331,
+          2340
+        ],
+        "VT": [
+          26902,
+          19215
+        ]
+      }
+    },
+    "sample_counts": {
+      "six": 21378,
+      "same": 24000
+    },
+    "sample_sha256": {
+      "six": "a2c8001ccc37af9cfd3e947154ea0bb414d18dfa05874d86681c2bb55b0fc064",
+      "same": "67b015349746e17b8f1e167787d39a21bacee4d25e31f886fade2703aa3b38f4"
+    },
+    "pair_index_sha256": {
+      "TT": "3c3924d2901d5d6657e17a1f6ae8006d43e6a763ef10779d4b91b42f9e644b80",
+      "VV": "048751d9abeafe99d8e6a19eba7acdc9ca1bbd77694304d14560cfb10a726b75",
+      "VT": "6ecc34666f1349912008507d9057ccc2cf26fc1fcc409d3bfe48c4851f9d2b44"
+    },
+    "patient_intersection_train_valid": 0,
+    "patient_intersection_train_test": 0,
+    "patient_intersection_valid_test": 0
+  },
+  "outer07_inner01": {
+    "train_patient_sha256": "8284b493d0650da5675d32a5500418d343cc580f6ee042a7537335f5f8a4a95b",
+    "valid_patient_sha256": "6fbf1d6c845760d061a247ee60e30c52dd7b52b7b598122fca9e16a2bf2c940d",
+    "outer_test_patient_sha256": "0d28e9afaf133ea4646e5dc0af62bb2dc7e5dd4103d44ad007c836e3aada727f",
+    "pair_counts": {
+      "TT": 92235,
+      "VV": 5778,
+      "VT": 46440
+    },
+    "target_counts": {
+      "six": {
+        "TT": [
+          11175,
+          25651,
+          1378,
+          34050,
+          7950,
+          12031
+        ],
+        "VV": [
+          703,
+          1596,
+          78,
+          2166,
+          494,
+          741
+        ],
+        "VT": [
+          5700,
+          12939,
+          689,
+          17176,
+          3964,
+          5972
+        ]
+      },
+      "same": {
+        "TT": [
+          54031,
+          38204
+        ],
+        "VV": [
+          3401,
+          2377
+        ],
+        "VT": [
+          27112,
+          19328
+        ]
+      }
+    },
+    "sample_counts": {
+      "six": 21378,
+      "same": 24000
+    },
+    "sample_sha256": {
+      "six": "e6456db6b8b2d2a5ed7363f986f47e79cdd8122040201d4db988ea33755398fd",
+      "same": "c6a4f65d5ad99fc6fc8f02f9064e42c9f25f977e68161f4dc5e0efd9481534cf"
+    },
+    "pair_index_sha256": {
+      "TT": "0d428ecc0861d9e3be505376bf78b62b5069d86fbee25d9c8d35dc4ac398c52e",
+      "VV": "24fe96a9b76c5fd9f551b0f940ca9e4051b8e1a8016a6e47c79c23cde006bb7e",
+      "VT": "ab3cd0154974c36f885eb7c72ce4b2847b9ea5c04170e4a62744360880ac9b7b"
+    },
+    "patient_intersection_train_valid": 0,
+    "patient_intersection_train_test": 0,
+    "patient_intersection_valid_test": 0
+  },
+  "outer07_inner02": {
+    "train_patient_sha256": "b81b604e8aeeff330e301e6adb55dd63916e19c7ce2f7cf2956e918304a8f67b",
+    "valid_patient_sha256": "e4e26d37fda723067f137b66d12e85965e54cfe2680777380670c963a685e24b",
+    "outer_test_patient_sha256": "0d28e9afaf133ea4646e5dc0af62bb2dc7e5dd4103d44ad007c836e3aada727f",
+    "pair_counts": {
+      "TT": 92235,
+      "VV": 5778,
+      "VT": 46440
+    },
+    "target_counts": {
+      "six": {
+        "TT": [
+          11175,
+          25651,
+          1378,
+          34050,
+          7950,
+          12031
+        ],
+        "VV": [
+          703,
+          1596,
+          78,
+          2166,
+          494,
+          741
+        ],
+        "VT": [
+          5700,
+          12939,
+          689,
+          17176,
+          3964,
+          5972
+        ]
+      },
+      "same": {
+        "TT": [
+          54031,
+          38204
+        ],
+        "VV": [
+          3401,
+          2377
+        ],
+        "VT": [
+          27112,
+          19328
+        ]
+      }
+    },
+    "sample_counts": {
+      "six": 21378,
+      "same": 24000
+    },
+    "sample_sha256": {
+      "six": "e512f94782f74517ff80ef62a8fa61f89455043104ca62da931950862abfd8d7",
+      "same": "1cf1aff7d72cbecb7aeeeb7470d271d00ab603f8419d15d51b452ec68ed2a126"
+    },
+    "pair_index_sha256": {
+      "TT": "17b6cd29da90312260208a2ae16654a257532633cb47d62cb8d911ffae4e26cb",
+      "VV": "24bbbbc6e57174b132c9dad0d1f31140c2b4c17835f6e00b11b87e9072f9b2f3",
+      "VT": "1525305aae31d1ebf2413258eecf2ee57689101599a3492a973edb8243479761"
+    },
+    "patient_intersection_train_valid": 0,
+    "patient_intersection_train_test": 0,
+    "patient_intersection_valid_test": 0
+  },
+  "outer07_inner03": {
+    "train_patient_sha256": "e122ad13bb65f469a2d9f21fe62a9ba086312d798ef40a923a14777622bfff84",
+    "valid_patient_sha256": "7ccf0d5043a072510c106595e20a8fb90df5ae1fec7abec595f0f436cfb7e392",
+    "outer_test_patient_sha256": "0d28e9afaf133ea4646e5dc0af62bb2dc7e5dd4103d44ad007c836e3aada727f",
+    "pair_counts": {
+      "TT": 92235,
+      "VV": 5778,
+      "VT": 46440
+    },
+    "target_counts": {
+      "six": {
+        "TT": [
+          11175,
+          25878,
+          1326,
+          34200,
+          7800,
+          11856
+        ],
+        "VV": [
+          703,
+          1540,
+          91,
+          2128,
+          532,
+          784
+        ],
+        "VT": [
+          5700,
+          12768,
+          728,
+          17064,
+          4076,
+          6104
+        ]
+      },
+      "same": {
+        "TT": [
+          53856,
+          38379
+        ],
+        "VV": [
+          3444,
+          2334
+        ],
+        "VT": [
+          27244,
+          19196
+        ]
+      }
+    },
+    "sample_counts": {
+      "six": 21326,
+      "same": 24000
+    },
+    "sample_sha256": {
+      "six": "db79a29680c9d0ab930191e3e844721485ec267b97461198ad36c02d802cdce0",
+      "same": "8069dd5f5d75bd9dc5d66daac345c7440c188234fa00b6c9a216a81399734819"
+    },
+    "pair_index_sha256": {
+      "TT": "91aa958f719319770722b6a163d5fe35b8d2799e023968f7d838dbf4025f1acd",
+      "VV": "99d63fb606e3336e76e8ec88df17a4cb577bb63129ecc16d5955fccb0af18a97",
+      "VT": "7ece4e59d20262a6e079df9a06bac3df9c5fa91e32743ab7a8c55b0088740cf5"
+    },
+    "patient_intersection_train_valid": 0,
+    "patient_intersection_train_test": 0,
+    "patient_intersection_valid_test": 0
+  },
+  "outer07_inner04": {
+    "train_patient_sha256": "90c8600abb8a67141e0e3b95b4d03b708c622c3dafd6bc6305b0aceed19bfe83",
+    "valid_patient_sha256": "263ee3093609ec13997dbd0f2efad9f1de642230b9b2a882beb2d7f22c4acf5d",
+    "outer_test_patient_sha256": "0d28e9afaf133ea4646e5dc0af62bb2dc7e5dd4103d44ad007c836e3aada727f",
+    "pair_counts": {
+      "TT": 92665,
+      "VV": 5671,
+      "VT": 46117
+    },
+    "target_counts": {
+      "six": {
+        "TT": [
+          11325,
+          25651,
+          1378,
+          34277,
+          8003,
+          12031
+        ],
+        "VV": [
+          666,
+          1596,
+          78,
+          2109,
+          481,
+          741
+        ],
+        "VT": [
+          5587,
+          12939,
+          689,
+          17006,
+          3924,
+          5972
+        ]
+      },
+      "same": {
+        "TT": [
+          54311,
+          38354
+        ],
+        "VV": [
+          3331,
+          2340
+        ],
+        "VT": [
+          26902,
+          19215
+        ]
+      }
+    },
+    "sample_counts": {
+      "six": 21378,
+      "same": 24000
+    },
+    "sample_sha256": {
+      "six": "dd5fd1c188c33e090995229cd33914cea2faf4b9a5970d5e053c1d4a172833bf",
+      "same": "a937ca34e569cca6f45f528bd8f27e8799279e13643af6284201a4e7921f0109"
+    },
+    "pair_index_sha256": {
+      "TT": "fc08fa2754ef9216f4098cff7dbf0c512ee0292fd71f1c3efcdb31c814bf245d",
+      "VV": "a08bdc7a6df7f01563821e561cef096c15f27c8ad539735c66c4957e7dc1ab9a",
+      "VT": "6456b7c93ed1c1c3b93c39c7df2b85baccfdc3b2c6e5d22ead7268993b380138"
+    },
+    "patient_intersection_train_valid": 0,
+    "patient_intersection_train_test": 0,
+    "patient_intersection_valid_test": 0
+  },
+  "outer07_inner05": {
+    "train_patient_sha256": "ccad657dec02267a40c3f84fec99878c688234e74f14dbeb1186f51dea27bf0a",
+    "valid_patient_sha256": "ac9ec3e0bab07f079a8d3c09644de7a839bb9603ab916240ad6e7548a1f47d23",
+    "outer_test_patient_sha256": "0d28e9afaf133ea4646e5dc0af62bb2dc7e5dd4103d44ad007c836e3aada727f",
+    "pair_counts": {
+      "TT": 92665,
+      "VV": 5671,
+      "VT": 46117
+    },
+    "target_counts": {
+      "six": {
+        "TT": [
+          11325,
+          25651,
+          1378,
+          34277,
+          8003,
+          12031
+        ],
+        "VV": [
+          666,
+          1596,
+          78,
+          2109,
+          481,
+          741
+        ],
+        "VT": [
+          5587,
+          12939,
+          689,
+          17006,
+          3924,
+          5972
+        ]
+      },
+      "same": {
+        "TT": [
+          54311,
+          38354
+        ],
+        "VV": [
+          3331,
+          2340
+        ],
+        "VT": [
+          26902,
+          19215
+        ]
+      }
+    },
+    "sample_counts": {
+      "six": 21378,
+      "same": 24000
+    },
+    "sample_sha256": {
+      "six": "781cf683c71421ef376444c1ae0d6402a1738c942edc29239eb75f1e49c19da4",
+      "same": "4e52dc7f927781a77eab8b747f7d669a62647f57bdd912e4949920bd9fd9b200"
+    },
+    "pair_index_sha256": {
+      "TT": "a3613a74207fcb4a11e21ab4d57fdd29de914c44229c304543bd9b21b9582796",
+      "VV": "0e60131ca0101b50b8b469d0de043a3f31505f05243217ac90b021f24c82a893",
+      "VT": "f065d5b5796cf09cd2368b32d875918da1aa0801048fcc466a145b9cc8fda4f4"
+    },
+    "patient_intersection_train_valid": 0,
+    "patient_intersection_train_test": 0,
+    "patient_intersection_valid_test": 0
+  },
+  "outer08_inner01": {
+    "train_patient_sha256": "d6f14340e615d7fa13f41774dfd9f6beb5abd525eea74e86ffb832eb6058cffb",
+    "valid_patient_sha256": "dd4274f02ea032655c64dfdb3650238b489e26893facf3f3bce1c77332552e95",
+    "outer_test_patient_sha256": "2d0a86856f3c879ba1cef5eac74e3d15ec6f031c39ac18c191cbc08eaac2940f",
+    "pair_counts": {
+      "TT": 92235,
+      "VV": 5778,
+      "VT": 46440
+    },
+    "target_counts": {
+      "six": {
+        "TT": [
+          11175,
+          25651,
+          1378,
+          34050,
+          7950,
+          12031
+        ],
+        "VV": [
+          703,
+          1596,
+          78,
+          2166,
+          494,
+          741
+        ],
+        "VT": [
+          5700,
+          12939,
+          689,
+          17176,
+          3964,
+          5972
+        ]
+      },
+      "same": {
+        "TT": [
+          54031,
+          38204
+        ],
+        "VV": [
+          3401,
+          2377
+        ],
+        "VT": [
+          27112,
+          19328
+        ]
+      }
+    },
+    "sample_counts": {
+      "six": 21378,
+      "same": 24000
+    },
+    "sample_sha256": {
+      "six": "3152e164bbba505cba680f74cc8f4a91e4ae5a5487ccfaa086f441ef2fdf3647",
+      "same": "b8bd408569c5ef4ec8d749b647587b49126291a25a776cf6170485cc6204271f"
+    },
+    "pair_index_sha256": {
+      "TT": "7ad479f5627e28b7df620f3197c4999584cce5bcc98b5f567eaedb41651d0bda",
+      "VV": "9813b54a16cd951f6134a5afd178a2927b7e70774c19304f4b7ea1e0165e97a2",
+      "VT": "8283869b9427081fb13ad1bc1cf590ac313214a4411165dbbfa32c02a0cc93c2"
+    },
+    "patient_intersection_train_valid": 0,
+    "patient_intersection_train_test": 0,
+    "patient_intersection_valid_test": 0
+  },
+  "outer08_inner02": {
+    "train_patient_sha256": "021dfb38eb4bec548421d8d0631c58fb43d8de7293beead19fb37f653847be06",
+    "valid_patient_sha256": "6bbe91c47c26fbba2f21388fac4ceaaa1ed0fe37957ad2ca78bf00e35398bf74",
+    "outer_test_patient_sha256": "2d0a86856f3c879ba1cef5eac74e3d15ec6f031c39ac18c191cbc08eaac2940f",
+    "pair_counts": {
+      "TT": 92235,
+      "VV": 5778,
+      "VT": 46440
+    },
+    "target_counts": {
+      "six": {
+        "TT": [
+          11175,
+          25651,
+          1378,
+          34050,
+          7950,
+          12031
+        ],
+        "VV": [
+          703,
+          1596,
+          78,
+          2166,
+          494,
+          741
+        ],
+        "VT": [
+          5700,
+          12939,
+          689,
+          17176,
+          3964,
+          5972
+        ]
+      },
+      "same": {
+        "TT": [
+          54031,
+          38204
+        ],
+        "VV": [
+          3401,
+          2377
+        ],
+        "VT": [
+          27112,
+          19328
+        ]
+      }
+    },
+    "sample_counts": {
+      "six": 21378,
+      "same": 24000
+    },
+    "sample_sha256": {
+      "six": "25a2a365f87a886ed1545f5d9e17459c33d7c0ccb2da90d1cf9e02ffb348a04c",
+      "same": "c32ac3c1ba49734f2b462bd47a220b1ff63a23f5c0044f37c3a139a9792ea08a"
+    },
+    "pair_index_sha256": {
+      "TT": "0208c4798a4fd9b24ce9a218a7af6b69a72f243c8c041c87a43e068654c8bb5d",
+      "VV": "70647265af347398accae223166b260ab8b8e2ff0f584b278933a50b5904265f",
+      "VT": "b1d08745f8dc948a2bc47ab5f9266ca901a8198b5c9e97e474e052f556fb0998"
+    },
+    "patient_intersection_train_valid": 0,
+    "patient_intersection_train_test": 0,
+    "patient_intersection_valid_test": 0
+  },
+  "outer08_inner03": {
+    "train_patient_sha256": "ae3cac2385ffdaf0e1a814c8fcccf04365d245a342fdb54b9c501bfc377db24f",
+    "valid_patient_sha256": "a0644b37c323c07a41db552900c81c91aa8da067fb2e4f5aef07c634a8168fb0",
+    "outer_test_patient_sha256": "2d0a86856f3c879ba1cef5eac74e3d15ec6f031c39ac18c191cbc08eaac2940f",
+    "pair_counts": {
+      "TT": 92235,
+      "VV": 5778,
+      "VT": 46440
+    },
+    "target_counts": {
+      "six": {
+        "TT": [
+          11175,
+          25878,
+          1326,
+          34200,
+          7800,
+          11856
+        ],
+        "VV": [
+          703,
+          1540,
+          91,
+          2128,
+          532,
+          784
+        ],
+        "VT": [
+          5700,
+          12768,
+          728,
+          17064,
+          4076,
+          6104
+        ]
+      },
+      "same": {
+        "TT": [
+          53856,
+          38379
+        ],
+        "VV": [
+          3444,
+          2334
+        ],
+        "VT": [
+          27244,
+          19196
+        ]
+      }
+    },
+    "sample_counts": {
+      "six": 21326,
+      "same": 24000
+    },
+    "sample_sha256": {
+      "six": "deeb64bd589608d816542c941dd7f1d4769e8f7128d10e21acc7d48ae283f7e2",
+      "same": "47305daf20623bc3d55568d43c87a1886a09d4406f63b3e54fca7d5d76fc28a6"
+    },
+    "pair_index_sha256": {
+      "TT": "92ab33666cc28f469d57d190810201710d6ecd3bb7071c9f2eb2e514064a20a3",
+      "VV": "cd6e9ca2f2bdb584c983d0263fe4f4c87da8ec934fe3fe29f914ce0c6ddddf2c",
+      "VT": "7192e075e60f83852f7bafb031254bffab580f7f8b6be4a3c2e7c7dd45c912d0"
+    },
+    "patient_intersection_train_valid": 0,
+    "patient_intersection_train_test": 0,
+    "patient_intersection_valid_test": 0
+  },
+  "outer08_inner04": {
+    "train_patient_sha256": "c5766c62c715e4512fa455ccc58a7aabf0a2eea4c14f55d0dd2f5622d2323448",
+    "valid_patient_sha256": "d95f5ffee052c5b7d98b3e8b8444681f9fe57f19567f45c502105de9322f5bb6",
+    "outer_test_patient_sha256": "2d0a86856f3c879ba1cef5eac74e3d15ec6f031c39ac18c191cbc08eaac2940f",
+    "pair_counts": {
+      "TT": 92665,
+      "VV": 5671,
+      "VT": 46117
+    },
+    "target_counts": {
+      "six": {
+        "TT": [
+          11325,
+          25651,
+          1378,
+          34277,
+          8003,
+          12031
+        ],
+        "VV": [
+          666,
+          1596,
+          78,
+          2109,
+          481,
+          741
+        ],
+        "VT": [
+          5587,
+          12939,
+          689,
+          17006,
+          3924,
+          5972
+        ]
+      },
+      "same": {
+        "TT": [
+          54311,
+          38354
+        ],
+        "VV": [
+          3331,
+          2340
+        ],
+        "VT": [
+          26902,
+          19215
+        ]
+      }
+    },
+    "sample_counts": {
+      "six": 21378,
+      "same": 24000
+    },
+    "sample_sha256": {
+      "six": "906950718715cabdac854af6884eca8f15f2008f0c71ce6767c648d2dbb462e0",
+      "same": "ff07bdb6dc47486854510fb22af9aa91a3b45bb4501266a5fdea90324b5a4f83"
+    },
+    "pair_index_sha256": {
+      "TT": "9c9b1090ca5692c36a76b515c0eec61ba6862433526860d3d7c9a7c4401ce2e5",
+      "VV": "3e2b68f5c839248469229829a8fa0cefbacf3aef3196fd8c7b298456159d09f7",
+      "VT": "f881df998ed472d513e35e0f7e5a58430b06fbc88387fd9646f603cbce7e8636"
+    },
+    "patient_intersection_train_valid": 0,
+    "patient_intersection_train_test": 0,
+    "patient_intersection_valid_test": 0
+  },
+  "outer08_inner05": {
+    "train_patient_sha256": "66bc41b661c6e0471e413f1a72006cd12be8cb6016c710497335744f84bd43c5",
+    "valid_patient_sha256": "c618995ac707f206b4b565ca491ccd66164c65de7fb8177f44ba621d33b3a9c6",
+    "outer_test_patient_sha256": "2d0a86856f3c879ba1cef5eac74e3d15ec6f031c39ac18c191cbc08eaac2940f",
+    "pair_counts": {
+      "TT": 92665,
+      "VV": 5671,
+      "VT": 46117
+    },
+    "target_counts": {
+      "six": {
+        "TT": [
+          11325,
+          25651,
+          1378,
+          34277,
+          8003,
+          12031
+        ],
+        "VV": [
+          666,
+          1596,
+          78,
+          2109,
+          481,
+          741
+        ],
+        "VT": [
+          5587,
+          12939,
+          689,
+          17006,
+          3924,
+          5972
+        ]
+      },
+      "same": {
+        "TT": [
+          54311,
+          38354
+        ],
+        "VV": [
+          3331,
+          2340
+        ],
+        "VT": [
+          26902,
+          19215
+        ]
+      }
+    },
+    "sample_counts": {
+      "six": 21378,
+      "same": 24000
+    },
+    "sample_sha256": {
+      "six": "d80fc7481acd24cd86a9085b85fb9f6927a4b82b4651592a8a1ceea36db03ba9",
+      "same": "e997fb3eb326be45f99d813c4044fa284ac8ab9852b1a0c99af09520e85428cd"
+    },
+    "pair_index_sha256": {
+      "TT": "7edd4b0baafae5dfde2347247cdb553415ffcedc8803b859a39d8228d554b80b",
+      "VV": "41ff05c54f800c46cdee16b45e3d84c4a68dc94b00bb600ba44c670c5aa13ba0",
+      "VT": "dd12d90c0935f08334d167df947c2263517a8e69484494b9ffc1820d8ccca4f0"
+    },
+    "patient_intersection_train_valid": 0,
+    "patient_intersection_train_test": 0,
+    "patient_intersection_valid_test": 0
+  },
+  "outer09_inner01": {
+    "train_patient_sha256": "b690b8b63f296c8b094b539275e0624baaabeef1a535bf5ed35853f2ab2bfedd",
+    "valid_patient_sha256": "30c47c6a3b64055265a2de2682397bb06beb8a25cd9744ae9f5fafa63b39c823",
+    "outer_test_patient_sha256": "8f17b2214adfe125bc6d91dd43506e4e2bda3591363be103b01a1c9ecb714b4d",
+    "pair_counts": {
+      "TT": 92665,
+      "VV": 5778,
+      "VT": 46548
+    },
+    "target_counts": {
+      "six": {
+        "TT": [
+          11175,
+          25651,
+          1431,
+          34050,
+          8100,
+          12258
+        ],
+        "VV": [
+          703,
+          1596,
+          78,
+          2166,
+          494,
+          741
+        ],
+        "VT": [
+          5700,
+          12939,
+          702,
+          17176,
+          4002,
+          6029
+        ]
+      },
+      "same": {
+        "TT": [
+          54408,
+          38257
+        ],
+        "VV": [
+          3401,
+          2377
+        ],
+        "VT": [
+          27207,
+          19341
+        ]
+      }
+    },
+    "sample_counts": {
+      "six": 21431,
+      "same": 24000
+    },
+    "sample_sha256": {
+      "six": "dc3f8ac1ccea13c02f6042a4ee253477eaeeb2baa7fc3e084fb49a40443a170a",
+      "same": "f928affed155370420709ea309e938208342442b3a4fafd803c0975987c6a20e"
+    },
+    "pair_index_sha256": {
+      "TT": "d5075507799507c1a1ad40ddf2feac532cf3a9baf0c95df485eef5329f45c16b",
+      "VV": "65493f5a19fa1c44923b99772cfba7ea03727d81e256edf28706aa4faf80f824",
+      "VT": "351e20dfb73025dc3303f2be167373d1ba66d32b37c2a331489a3c8a01bea7b8"
+    },
+    "patient_intersection_train_valid": 0,
+    "patient_intersection_train_test": 0,
+    "patient_intersection_valid_test": 0
+  },
+  "outer09_inner02": {
+    "train_patient_sha256": "47d3634ce3695203461a87126b10ba2eaf500190b016e1f62d8447966b39e2f4",
+    "valid_patient_sha256": "0e5d45d7fdd913bbff34324351dd62ff1b7e9eed78ee55bc3a85aa21f5362d90",
+    "outer_test_patient_sha256": "8f17b2214adfe125bc6d91dd43506e4e2bda3591363be103b01a1c9ecb714b4d",
+    "pair_counts": {
+      "TT": 92665,
+      "VV": 5778,
+      "VT": 46548
+    },
+    "target_counts": {
+      "six": {
+        "TT": [
+          11175,
+          25651,
+          1431,
+          34050,
+          8100,
+          12258
+        ],
+        "VV": [
+          703,
+          1596,
+          78,
+          2166,
+          494,
+          741
+        ],
+        "VT": [
+          5700,
+          12939,
+          702,
+          17176,
+          4002,
+          6029
+        ]
+      },
+      "same": {
+        "TT": [
+          54408,
+          38257
+        ],
+        "VV": [
+          3401,
+          2377
+        ],
+        "VT": [
+          27207,
+          19341
+        ]
+      }
+    },
+    "sample_counts": {
+      "six": 21431,
+      "same": 24000
+    },
+    "sample_sha256": {
+      "six": "7d9c4388aaedfe521cd25426a1c282399a4e50831d5d70905da73652769c21e6",
+      "same": "07cf5514777bcd1037c79fe270d89c6b3c1a3ae1da9e4ab20ba106aebaf705ad"
+    },
+    "pair_index_sha256": {
+      "TT": "6de3d5eeec059bf4d29f68c49d1933ae8826b64fc9ff0b44830811ad4b902b43",
+      "VV": "7a7f22f12297ddbe1520ad6da340c1097d778395cceab6396b80e46acb8a2adc",
+      "VT": "afb0ad77a83af654cd264e9f4f494894793ffc6c1dae606a76480cfc1109d7c7"
+    },
+    "patient_intersection_train_valid": 0,
+    "patient_intersection_train_test": 0,
+    "patient_intersection_valid_test": 0
+  },
+  "outer09_inner03": {
+    "train_patient_sha256": "7731832c93cdb0c522deafab10bdbb4806ea6449e607697a14d086edf5750ad8",
+    "valid_patient_sha256": "8dab9dc41890e4621292b0e3fc9ba5d648c8f1c2de9a82791d6e77f6e773e329",
+    "outer_test_patient_sha256": "8f17b2214adfe125bc6d91dd43506e4e2bda3591363be103b01a1c9ecb714b4d",
+    "pair_counts": {
+      "TT": 92665,
+      "VV": 5778,
+      "VT": 46548
+    },
+    "target_counts": {
+      "six": {
+        "TT": [
+          11175,
+          25878,
+          1378,
+          34200,
+          7950,
+          12084
+        ],
+        "VV": [
+          703,
+          1540,
+          91,
+          2128,
+          532,
+          784
+        ],
+        "VT": [
+          5700,
+          12768,
+          742,
+          17064,
+          4114,
+          6160
+        ]
+      },
+      "same": {
+        "TT": [
+          54234,
+          38431
+        ],
+        "VV": [
+          3444,
+          2334
+        ],
+        "VT": [
+          27338,
+          19210
+        ]
+      }
+    },
+    "sample_counts": {
+      "six": 21378,
+      "same": 24000
+    },
+    "sample_sha256": {
+      "six": "b4cd005c356ec74b20d7425317f3fc6d52c82e3237b40cc6576c6f7cef12e382",
+      "same": "5e914ca7d8c863923098ce0d8dbcf3936753830c12555e346ba38c6ef14a0dac"
+    },
+    "pair_index_sha256": {
+      "TT": "5f72d57334dee20f839516e39de2321e3dd1a85db50b07c711c0b42d20db5842",
+      "VV": "b3b96a5eeb5500e052ea7cf119df0908e19060d31de71e768a43c4e302695a4c",
+      "VT": "9d6e8b9d59c3c3469f38959a02d2b48dd720e0466c0e502bdd92f86e875b786a"
+    },
+    "patient_intersection_train_valid": 0,
+    "patient_intersection_train_test": 0,
+    "patient_intersection_valid_test": 0
+  },
+  "outer09_inner04": {
+    "train_patient_sha256": "4a3fb57b00efbd5731db49dd6e8ed9abd6090d75175bcd041eda3c55d672839b",
+    "valid_patient_sha256": "cc017afba469a2b5dfc9d96cb721845881033bdd79f6e8411bfec9e9befd7f7b",
+    "outer_test_patient_sha256": "8f17b2214adfe125bc6d91dd43506e4e2bda3591363be103b01a1c9ecb714b4d",
+    "pair_counts": {
+      "TT": 92665,
+      "VV": 5778,
+      "VT": 46548
+    },
+    "target_counts": {
+      "six": {
+        "TT": [
+          11325,
+          25651,
+          1378,
+          34277,
+          8003,
+          12031
+        ],
+        "VV": [
+          666,
+          1596,
+          91,
+          2109,
+          518,
+          798
+        ],
+        "VT": [
+          5587,
+          12939,
+          742,
+          17006,
+          4075,
+          6199
+        ]
+      },
+      "same": {
+        "TT": [
+          54311,
+          38354
+        ],
+        "VV": [
+          3425,
+          2353
+        ],
+        "VT": [
+          27280,
+          19268
+        ]
+      }
+    },
+    "sample_counts": {
+      "six": 21378,
+      "same": 24000
+    },
+    "sample_sha256": {
+      "six": "bcaf96446066c92f38c5e57da4d8ce247c03f71f57eb2e772c0a3ec0002d2b53",
+      "same": "3e9b9e17a3e5661725f143463756da8cb285eb2bac506ded56339bd81c439979"
+    },
+    "pair_index_sha256": {
+      "TT": "78e284db347a423a663abec8488d3b6848aa6b02610bdb2e69a9f190554c8a57",
+      "VV": "944672de44539d3180f90545d81452cd98a8730d9a7e7bcc0bebd83daea2d5b3",
+      "VT": "0dab9bfa03e4e35806fed6756b98997c68a0506a6d1b077060133d002617ae6c"
+    },
+    "patient_intersection_train_valid": 0,
+    "patient_intersection_train_test": 0,
+    "patient_intersection_valid_test": 0
+  },
+  "outer09_inner05": {
+    "train_patient_sha256": "923920b386bc6efdab21bae18c1837f88310455574a66155b43516934e43a6e9",
+    "valid_patient_sha256": "c28e256ed8dc8f180372dbc1113c6fb88f1cf4083e74c98c141bc990c3dfdc3a",
+    "outer_test_patient_sha256": "8f17b2214adfe125bc6d91dd43506e4e2bda3591363be103b01a1c9ecb714b4d",
+    "pair_counts": {
+      "TT": 93096,
+      "VV": 5671,
+      "VT": 46224
+    },
+    "target_counts": {
+      "six": {
+        "TT": [
+          11325,
+          25651,
+          1431,
+          34277,
+          8154,
+          12258
+        ],
+        "VV": [
+          666,
+          1596,
+          78,
+          2109,
+          481,
+          741
+        ],
+        "VT": [
+          5587,
+          12939,
+          702,
+          17006,
+          3961,
+          6029
+        ]
+      },
+      "same": {
+        "TT": [
+          54689,
+          38407
+        ],
+        "VV": [
+          3331,
+          2340
+        ],
+        "VT": [
+          26996,
+          19228
+        ]
+      }
+    },
+    "sample_counts": {
+      "six": 21431,
+      "same": 24000
+    },
+    "sample_sha256": {
+      "six": "8ce60bd5bfbff32d8b084b9ee6459a31cebeb273a3cacbabd44b7baf8debd013",
+      "same": "d18c00f1c480ac5f49761343f8b648bccaef55fffefe4e0cfd4b9ebdf781f825"
+    },
+    "pair_index_sha256": {
+      "TT": "521db0a7f76ca6d3abf815a1cb539143236b69da60f71893b68e4a42dd0e7815",
+      "VV": "02ed2f7e5d4acf35d0929d525bdf19d6912b3f5ac01f7146e692e2e3b4a15c06",
+      "VT": "7bf2a0eca5ebada05c01c521519c054d340f79a643363217027072e787cf3a74"
+    },
+    "patient_intersection_train_valid": 0,
+    "patient_intersection_train_test": 0,
+    "patient_intersection_valid_test": 0
+  },
+  "outer10_inner01": {
+    "train_patient_sha256": "894b0271e609ae4069286a54910223fc5852879f891f569164c2664d6a967e23",
+    "valid_patient_sha256": "d44e4fa4c3df46ba214e6719c63f861c1af26ec97981e040d1d4edfc4edcaedd",
+    "outer_test_patient_sha256": "15ff715d04fbd25db726428fc07aceee040f68f3d39828596f25f796cccef3b7",
+    "pair_counts": {
+      "TT": 92665,
+      "VV": 5778,
+      "VT": 46548
+    },
+    "target_counts": {
+      "six": {
+        "TT": [
+          11325,
+          25425,
+          1431,
+          34126,
+          8154,
+          12204
+        ],
+        "VV": [
+          703,
+          1596,
+          78,
+          2166,
+          494,
+          741
+        ],
+        "VT": [
+          5738,
+          12882,
+          702,
+          17195,
+          4015,
+          6016
+        ]
+      },
+      "same": {
+        "TT": [
+          54484,
+          38181
+        ],
+        "VV": [
+          3401,
+          2377
+        ],
+        "VT": [
+          27226,
+          19322
+        ]
+      }
+    },
+    "sample_counts": {
+      "six": 21431,
+      "same": 24000
+    },
+    "sample_sha256": {
+      "six": "f17bae8a9cf7abdd3f80821bf7766140d76e5d50575f81521029d8d56cf0ae86",
+      "same": "85c030bb61e63034bf22e7bfb4cb49f6af3f42e360243bb0ba8bd753064eebe1"
+    },
+    "pair_index_sha256": {
+      "TT": "d60d44ce2463573e0559d36ee367b2b7ade2d3a68e3ec7aab1174f1d0b508f15",
+      "VV": "0721b8b276d237f4ae23cac0aca53a71627aebb1fb5fa75343bac4b14d47e13d",
+      "VT": "8cd2430578e812c5572130348de2d5b12e1a7e6564d34cc7edbc85cc3c7b3056"
+    },
+    "patient_intersection_train_valid": 0,
+    "patient_intersection_train_test": 0,
+    "patient_intersection_valid_test": 0
+  },
+  "outer10_inner02": {
+    "train_patient_sha256": "e392f4727c5982222741e233b6b8e487996355f9b2d9e8da8e37853297180dc2",
+    "valid_patient_sha256": "359fbd56d777efa696d88b568724b8f562d6e9b79f638fee4eba4640ac3c842b",
+    "outer_test_patient_sha256": "15ff715d04fbd25db726428fc07aceee040f68f3d39828596f25f796cccef3b7",
+    "pair_counts": {
+      "TT": 92665,
+      "VV": 5778,
+      "VT": 46548
+    },
+    "target_counts": {
+      "six": {
+        "TT": [
+          11325,
+          25425,
+          1431,
+          34126,
+          8154,
+          12204
+        ],
+        "VV": [
+          703,
+          1596,
+          78,
+          2166,
+          494,
+          741
+        ],
+        "VT": [
+          5738,
+          12882,
+          702,
+          17195,
+          4015,
+          6016
+        ]
+      },
+      "same": {
+        "TT": [
+          54484,
+          38181
+        ],
+        "VV": [
+          3401,
+          2377
+        ],
+        "VT": [
+          27226,
+          19322
+        ]
+      }
+    },
+    "sample_counts": {
+      "six": 21431,
+      "same": 24000
+    },
+    "sample_sha256": {
+      "six": "f6285d409bb7ffc3d542d2d225bca7f06159eee61381a34227980309d5fe0ee6",
+      "same": "339dfcf8ce316cc3b6c4d33787e1fc0248ab65f221cfec1132632b87c83a6101"
+    },
+    "pair_index_sha256": {
+      "TT": "cb6e80f8ae610150c370a683766df27681442cecd0657553ac817af4fdedca48",
+      "VV": "8d0d6d2606d28e40a16be2d7911eaf7c14276334bc8a11c8557780e2d06737b2",
+      "VT": "a3c33d7a35234732a889ca96e1b69df0b5a6d230e317fbffefa3fff224555875"
+    },
+    "patient_intersection_train_valid": 0,
+    "patient_intersection_train_test": 0,
+    "patient_intersection_valid_test": 0
+  },
+  "outer10_inner03": {
+    "train_patient_sha256": "8e6aca57e6e430a2a4d58d7cb61d228e251b265aae9fbf84167f77d2ec97dea2",
+    "valid_patient_sha256": "e139ad31353c61c8c6e9d78bbb64b9bc92f9c361845997cbb863cea39f89e3f0",
+    "outer_test_patient_sha256": "15ff715d04fbd25db726428fc07aceee040f68f3d39828596f25f796cccef3b7",
+    "pair_counts": {
+      "TT": 92665,
+      "VV": 5778,
+      "VT": 46548
+    },
+    "target_counts": {
+      "six": {
+        "TT": [
+          11325,
+          25651,
+          1378,
+          34277,
+          8003,
+          12031
+        ],
+        "VV": [
+          703,
+          1540,
+          91,
+          2128,
+          532,
+          784
+        ],
+        "VT": [
+          5738,
+          12712,
+          742,
+          17082,
+          4128,
+          6146
+        ]
+      },
+      "same": {
+        "TT": [
+          54311,
+          38354
+        ],
+        "VV": [
+          3444,
+          2334
+        ],
+        "VT": [
+          27356,
+          19192
+        ]
+      }
+    },
+    "sample_counts": {
+      "six": 21378,
+      "same": 24000
+    },
+    "sample_sha256": {
+      "six": "3dcc92d58de6c350a38d64f95f4d3ec17b77a95ce88bd29fcf6a8352e0b32ccf",
+      "same": "60562beac44d97e2f05dac24b9e4ac91b48f182ec79c37050c102af2b9f91abe"
+    },
+    "pair_index_sha256": {
+      "TT": "fa9dba174cc0e0229b6bc1dfb3c4e458532c2c6ef5c629e64ee3fbbc0a14d591",
+      "VV": "2096abe9dccb48d0102c472b6c8061b3858eece30fb4e501dbef20d423072630",
+      "VT": "2c683cbd5a89f90f6279ff7a340056a0ddb3d2f6b0a3fd8b2b3e1c509e56fae9"
+    },
+    "patient_intersection_train_valid": 0,
+    "patient_intersection_train_test": 0,
+    "patient_intersection_valid_test": 0
+  },
+  "outer10_inner04": {
+    "train_patient_sha256": "2ace9c5d8dd117051e6db541733cad7e96509bb8ac64600715be6b7c9d441c18",
+    "valid_patient_sha256": "db4870f4e4c77770ec99fe4e935d3359dc79086be46fad22415fceff536935d0",
+    "outer_test_patient_sha256": "15ff715d04fbd25db726428fc07aceee040f68f3d39828596f25f796cccef3b7",
+    "pair_counts": {
+      "TT": 92665,
+      "VV": 5778,
+      "VT": 46548
+    },
+    "target_counts": {
+      "six": {
+        "TT": [
+          11325,
+          25651,
+          1378,
+          34277,
+          8003,
+          12031
+        ],
+        "VV": [
+          703,
+          1540,
+          91,
+          2128,
+          532,
+          784
+        ],
+        "VT": [
+          5738,
+          12712,
+          742,
+          17082,
+          4128,
+          6146
+        ]
+      },
+      "same": {
+        "TT": [
+          54311,
+          38354
+        ],
+        "VV": [
+          3444,
+          2334
+        ],
+        "VT": [
+          27356,
+          19192
+        ]
+      }
+    },
+    "sample_counts": {
+      "six": 21378,
+      "same": 24000
+    },
+    "sample_sha256": {
+      "six": "3e48e1e65bda3992e7cbe22eab3c20e7442cfa351435e2c87633270bc9dd4315",
+      "same": "20b2bc739dd37dfd7c26d5b6cdc5e467106b5db6757167e4be2451df74079754"
+    },
+    "pair_index_sha256": {
+      "TT": "dd08da6dfb1f174e9f3a78b779c2d98a4fb58100addd2d5a2def89e552d90193",
+      "VV": "e97265120df4ef26b48be54b326cc0731ae62932bf326d7fd4d2c4b168349bc1",
+      "VT": "f022cbe39b427e1416731e28766445db4e99388f76985be37cee96b788caec8c"
+    },
+    "patient_intersection_train_valid": 0,
+    "patient_intersection_train_test": 0,
+    "patient_intersection_valid_test": 0
+  },
+  "outer10_inner05": {
+    "train_patient_sha256": "edf338fc355a63da6fbfed981201023eff46703c339eaf513085b4d13c41896e",
+    "valid_patient_sha256": "dbccabb6ed312ae4e9485a6da5783373e34eeb37a51ccbfa85d509a84f758f37",
+    "outer_test_patient_sha256": "15ff715d04fbd25db726428fc07aceee040f68f3d39828596f25f796cccef3b7",
+    "pair_counts": {
+      "TT": 93096,
+      "VV": 5671,
+      "VT": 46224
+    },
+    "target_counts": {
+      "six": {
+        "TT": [
+          11476,
+          25425,
+          1431,
+          34352,
+          8208,
+          12204
+        ],
+        "VV": [
+          666,
+          1596,
+          78,
+          2109,
+          481,
+          741
+        ],
+        "VT": [
+          5624,
+          12882,
+          702,
+          17026,
+          3974,
+          6016
+        ]
+      },
+      "same": {
+        "TT": [
+          54764,
+          38332
+        ],
+        "VV": [
+          3331,
+          2340
+        ],
+        "VT": [
+          27016,
+          19208
+        ]
+      }
+    },
+    "sample_counts": {
+      "six": 21431,
+      "same": 24000
+    },
+    "sample_sha256": {
+      "six": "936cb42da719ea010af53f4fa14d7ac339d58b6a0a289a7e8e6ec931c821fe56",
+      "same": "ada279ae9badd512576f24785518185443a1687fa8452d1fd9164704d5283625"
+    },
+    "pair_index_sha256": {
+      "TT": "672e4bcfae3a29cecc38fc15ca18585aeb40f623a937bfe91edeac0eb8a01bed",
+      "VV": "17b2f6366393ef97bbdf6c4de593588b5ab1655271ca1f0e38cab982c14f3655",
+      "VT": "4e428475c08b4df655db731b5d5f21e00bfd7aa9c680a59ece2e6ff71c36059e"
+    },
+    "patient_intersection_train_valid": 0,
+    "patient_intersection_train_test": 0,
+    "patient_intersection_valid_test": 0
+  }
+}
