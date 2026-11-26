@@ -1,0 +1,78 @@
+{
+  "experiment": "Experiment 83.8.2",
+  "title": "TADPOLE G4 ALoss gradient scale and warmup coordination repair",
+  "status": "REGISTERED_PRETRAINING",
+  "preferred_root": "/data/adodas/SPromptGL-main/experiment/experiment83_8_2_tadpole_g4_aloss_gradient_repair",
+  "actual_root": "/model/spromptgl/experiment/experiment83_8_2_tadpole_g4_aloss_gradient_repair",
+  "preferred_root_result": "OSSFS mkdir returned EIO / errno 5, so execution moved to actual_root",
+  "mainline": "G4 E82.4.6.10-G1 DARG + DPSL",
+  "data": {
+    "samples": 598,
+    "class_counts": {"NC": 209, "MCI": 315, "AD": 74},
+    "class_encoding": {"NC": 0, "MCI": 1, "AD": 2},
+    "modality_dimensions": [145, 148, 3, 36, 24, 9],
+    "total_dimensions": 365,
+    "data_sha256": "0b8a14a9c066752c2d937c93d43c2824c41beaaa7d0a451b083db8dcba07c5bc",
+    "split_sha256": "7c5a4dc9bd8ee7ffc6e5aff8bf841513f26a5ff6cf1b6c110a8153aa6a106ec5",
+    "split_rule": "StratifiedKFold(n_splits=10, shuffle=True, random_state=10)",
+    "seed": 0,
+    "full_data_rfe": true,
+    "mean_imputation": true,
+    "standard_scaler_before_outer_cv": true,
+    "transductive_patient_graph": true,
+    "val_equals_test": true,
+    "best_rule": "first strict outer-test ACC improvement",
+    "max_epochs": 450,
+    "early_stop": "wait > 200",
+    "per_epoch_rng_reset": false
+  },
+  "aloss": {
+    "formula": "(1/6) sum_m || normalize(A_m+I)[train,train] - normalize(A_label+I)[train,train] ||_F^2",
+    "graphs": "six actual thresholded GraphLearn adjacencies on all 598 nodes",
+    "threshold": 0.9,
+    "normalization": "symmetric normalization before train-by-train selection",
+    "labels": "outer-train labels only",
+    "diagonal": true,
+    "structural_zero_gradient": "allowed only for a modality with zero off-diagonal effective edges",
+    "calibration_target_ratio": 0.1,
+    "calibration_clip": [1e-5, 1e-2]
+  },
+  "historical_protocol": {
+    "optimizer": "historical Adam/AdamW groups and state",
+    "dpsl_residual_cap": 0.08,
+    "dpsl_shared_gradient_cap": 0.001,
+    "darg_positive_dcr": true,
+    "darg_warmup_epochs": 10,
+    "gfr_graphlearn_modalities": 6,
+    "historical_checkpoint_root": "/model/spromptgl/experiment/experiment83_5_tadpole_five_group_fidelity"
+  },
+  "historical_references": {
+    "H1": {"method": "G1 SPromptGL-MMGPL12", "ACC": 0.871130, "AUC_original": 0.906485},
+    "H2": {"method": "G2 No-PEN", "ACC": 0.887797, "AUC_original": 0.907319},
+    "H3": {"method": "G3 DARG", "ACC": 0.924746, "AUC_original": 0.939800},
+    "H4": {"method": "G4 DARG+DPSL", "ACC": 0.929746, "AUC_original": 0.940967},
+    "H5": {"method": "G5 Anchored CAM-only", "ACC": 0.854407, "AUC_original": 0.883072},
+    "X3": {"method": "E83.8.1 G3 + ALoss", "ACC": 0.921412, "AUC_original": 0.932876},
+    "X4": {"method": "E83.8.1 G4 + ALoss", "ACC": 0.918023, "AUC_original": 0.927822},
+    "X5": {"method": "E83.8.1 G4 + Class-Balanced PairMean", "ACC": 0.917966, "AUC_original": 0.933526},
+    "X6": {"method": "E83.8.1 G4 + Uncertainty PairMean", "ACC": 0.926384, "AUC_original": 0.933559},
+    "paper": {"ACC": 0.9481, "ACC_std": 0.0295, "AUC_original": 0.9559, "AUC_std": 0.0257}
+  },
+  "groups": {
+    "N0": {"base": "G4", "supervision": "none", "coefficient": 0.0, "activation": "none"},
+    "N1": {"base": "G4", "supervision": "paper_aloss", "coefficient": 0.001, "activation": "epoch_11_onward"},
+    "N2": {"base": "G4", "supervision": "paper_aloss", "coefficient": 0.003, "activation": "epoch_11_onward"},
+    "N3": {"base": "G4", "supervision": "paper_aloss", "coefficient": 0.010, "activation": "epoch_11_onward"},
+    "N4": {"base": "G4", "supervision": "paper_aloss", "coefficient": 0.003, "activation": "epoch_1_onward_including_warmup"},
+    "N5": {"base": "G4", "supervision": "paper_aloss", "coefficient": "fold_calibrated", "activation": "epoch_11_onward"},
+    "N6": {"base": "G3", "supervision": "paper_aloss", "coefficient": 0.003, "activation": "epoch_11_onward"}
+  },
+  "metrics": {
+    "primary": ["ACC", "AUC_original"],
+    "auc_original": "hard one-hot macro OVR ROC AUC",
+    "auc_probability": "supplementary probability macro OVR ROC AUC",
+    "summary": "ten-fold mean plus population standard deviation"
+  },
+  "go_no_go": "A new G4 group is a performance candidate only if both mean ACC and mean AUC_original exceed both N0 and historical H4",
+  "limitations": ["seed=0", "outer CV preprocessing and transductive graph are inherited historical protocol", "val_idx equals test_idx"]
+}

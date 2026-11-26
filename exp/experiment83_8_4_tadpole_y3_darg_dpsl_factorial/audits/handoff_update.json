@@ -1,0 +1,14 @@
+{
+  "created_utc": "2026-11-26T04:23:08.027686+00:00",
+  "append_only_correction": true,
+  "readback_verified": true,
+  "experiment": "Experiment 83.8.4",
+  "handoff_bytes": 1484719,
+  "handoff_path": "/model/spromptgl/experiment/handoff.md",
+  "handoff_sha256": "368c56541c86fdb66cc975526381a3f5f8ed9be23faa3074cf46184f6058c536",
+  "marker_occurrences": 1,
+  "prefix_bytes": 1475828,
+  "prefix_sha256": "aad51e98147556b1d56fc33ca78ee0a78f46f4582a439afa42750ca215fac62f",
+  "section_title": "## Experiment 83.8.4 \u2014 Y3 DARG/DPSL Factorial Optimization",
+  "status": "PASS"
+}

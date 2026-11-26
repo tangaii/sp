@@ -1,0 +1,163 @@
+{
+  "acceptance": {
+    "candidate_label": "GO_NUMERICAL_CANDIDATE",
+    "insufficient_statistics_label": "STATISTICAL_EVIDENCE_INSUFFICIENT",
+    "required_new_group": "mean ACC > Z0 and mean AUC_original > Z0 and AUC_probability decline <= 0.30 pp, with all audits PASS"
+  },
+  "actual_root": "/model/spromptgl/experiment/experiment83_8_4_tadpole_y3_darg_dpsl_factorial",
+  "data": {
+    "cam_output": 240,
+    "class_counts": {
+      "AD": 74,
+      "MCI": 315,
+      "NC": 209
+    },
+    "data_sha256": "0b8a14a9c066752c2d937c93d43c2824c41beaaa7d0a451b083db8dcba07c5bc",
+    "imputation": "mean",
+    "labels": [
+      0,
+      1,
+      2
+    ],
+    "modalities": [
+      "UCSFFSX",
+      "UCBERKELEYAV45",
+      "UPENNBIOMK9",
+      "RISK_FACTOR",
+      "COGNITIVE_TEST",
+      "ROI_AVERAGE"
+    ],
+    "modality_dimensions": [
+      145,
+      148,
+      3,
+      36,
+      24,
+      9
+    ],
+    "patients": 598,
+    "rfe": "historical full-data RFE",
+    "scaler": "before outer CV",
+    "split_rule": "StratifiedKFold(n_splits=10, shuffle=True, random_state=10)",
+    "split_sha256": "7c5a4dc9bd8ee7ffc6e5aff8bf841513f26a5ff6cf1b6c110a8153aa6a106ec5",
+    "total_dimensions": 365,
+    "transductive_patient_graph": true,
+    "val_equals_test": true
+  },
+  "experiment": "Experiment 83.8.4",
+  "factorial": {
+    "darg_factor": "double versus single direct gate plus direct scale .02 versus .10",
+    "dpsl_factor": "old versus multiclass confidence gate",
+    "unregistered_changes": []
+  },
+  "groups": {
+    "Z0": {
+      "darg_direct": "historical double gate",
+      "direct_scale": 0.02,
+      "dpsl_confidence": "Y3 old 4*p1*p2",
+      "training": "REUSED_VERIFIED_FORMAL"
+    },
+    "Z1": {
+      "darg_direct": "single gate, direct=scale*bounded",
+      "direct_scale": 0.02,
+      "dpsl_confidence": "Y3 old 4*p1*p2",
+      "training": "NEW_FORMAL_TRAINING"
+    },
+    "Z2": {
+      "darg_direct": "single gate, direct=scale*bounded",
+      "direct_scale": 0.1,
+      "dpsl_confidence": "Y3 old 4*p1*p2",
+      "training": "NEW_FORMAL_TRAINING"
+    },
+    "Z3": {
+      "darg_direct": "historical double gate",
+      "direct_scale": 0.02,
+      "dpsl_confidence": "multiclass 4*p1*p2/((p1+p2)^2+1e-12), clamp [0,1]",
+      "training": "NEW_FORMAL_TRAINING"
+    },
+    "Z4": {
+      "darg_direct": "single gate, direct=scale*bounded",
+      "direct_scale": 0.02,
+      "dpsl_confidence": "multiclass 4*p1*p2/((p1+p2)^2+1e-12), clamp [0,1]",
+      "training": "NEW_FORMAL_TRAINING"
+    },
+    "Z5": {
+      "darg_direct": "single gate, direct=scale*bounded",
+      "direct_scale": 0.1,
+      "dpsl_confidence": "multiclass 4*p1*p2/((p1+p2)^2+1e-12), clamp [0,1]",
+      "training": "NEW_FORMAL_TRAINING"
+    }
+  },
+  "historical_anchors": {
+    "author_source": "ba3b9446fa451fde6864d6555bdf324de0c4b64a",
+    "e8382_submission": "252fa96",
+    "e8383_submission": "cbaaf1c",
+    "y3_artifact_root": "/model/spromptgl/experiment/experiment83_8_3_tadpole_n3_darg_dpsl_optimization",
+    "y3_group": "Y3"
+  },
+  "logging": {
+    "denominator": 450,
+    "fields": [
+      "three trn-loss-MF fields",
+      "trn-auc",
+      "acc",
+      "val-auc",
+      "acc"
+    ],
+    "per_group": [
+      "logs/Z0/result_Tadpole.txt",
+      "logs/Z1/result_Tadpole.txt",
+      "logs/Z2/result_Tadpole.txt",
+      "logs/Z3/result_Tadpole.txt",
+      "logs/Z4/result_Tadpole.txt",
+      "logs/Z5/result_Tadpole.txt"
+    ],
+    "template": "/data/adodas/SPromptGL-main/result_Tadpole.txt"
+  },
+  "preferred_root": "/data/adodas/SPromptGL-main/experiment/experiment83_8_4_tadpole_y3_darg_dpsl_factorial",
+  "repositories": {
+    "author": {
+      "commit": "ba3b9446fa451fde6864d6555bdf324de0c4b64a",
+      "url": "https://github.com/wanxixi11/SPromptGL"
+    },
+    "experiment_repo": {
+      "commit": "252fa96b5ff2ac89250cda378c777fc36a99d316",
+      "url": "https://github.com/tangaii/sp"
+    },
+    "paper": {
+      "url": "https://papers.miccai.org/miccai-2025/paper/5129_paper.pdf"
+    },
+    "saber_main": {
+      "local_manifest_commit": "5ad91878764863b04089a94c497707cc7459168b",
+      "requested_e8383_anchor": "cbaaf1c",
+      "url": "https://github.com/tangaii/SPromptGL"
+    }
+  },
+  "status": "REGISTERED_PRETRAINING",
+  "storage_fallback": {
+    "selected": "/model/spromptgl/experiment/experiment83_8_4_tadpole_y3_darg_dpsl_factorial",
+    "trigger": "preferred root mkdir returned EIO/errno 5"
+  },
+  "title": "Y3 DARG direct propagation and DPSL multiclass confidence protection factorial optimization",
+  "training": {
+    "aloss": {
+      "coefficient": 0.01,
+      "kind": "squared Frobenius",
+      "starts_epoch": 11
+    },
+    "best_rule": "first strict test ACC improvement",
+    "darg_warmup_epochs": 10,
+    "dpsl": {
+      "cam_residual_cap": 0.08,
+      "prompts": "MMGPL-12 medical prompt, frozen RN50 text features",
+      "shared_gradient_budget": 0.001
+    },
+    "early_stopping": "wait > 200",
+    "gpu_contract": "one assigned PPU-ZW810E, approximately 98 GB",
+    "max_epochs": 450,
+    "rng": "Python, NumPy, PyTorch, CUDA seed 0, no epoch reseeding",
+    "seed": 0,
+    "test_label_use": "historical Best selection and final evaluation only, excluded from training targets, label graph, spectral bank, and DPSL supervision",
+    "workers": 8
+  }
+}

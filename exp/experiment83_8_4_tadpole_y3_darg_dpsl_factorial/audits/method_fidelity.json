@@ -1,0 +1,39 @@
+{
+  "experiment": "Experiment 83.8.4",
+  "status": "PASS",
+  "implementation_sha256": "cdecf8a765175ff1afddce6534930ac04d1589f8d16d43f33c47b61834c8dde9",
+  "common_invariants": {
+    "six_modalities": ["UCSFFSX", "UCBERKELEYAV45", "UPENNBIOMK9", "RISK_FACTOR", "COGNITIVE_TEST", "ROI_AVERAGE"],
+    "darg_gate_scales": [0.01, 0.01, 0.01, 0.01, 0.01, 0.01],
+    "candidate_topk": 12,
+    "positive_threshold": 0.55,
+    "negative_threshold": 0.45,
+    "negative_scale": 0.25,
+    "graphlearn_threshold": 0.9,
+    "aloss": {"kind": "squared_frobenius", "coefficient": 0.01, "starts_epoch": 11},
+    "dpsl_shared_cap": 0.001,
+    "dpsl_residual_cap": 0.08,
+    "prompt_vectors": "MMGPL-12 frozen RN50 and SCMR vectors",
+    "training_protocol": "Y3 exact seed, optimizer, initialization, warmup, split and Best rule"
+  },
+  "registered_differences": {
+    "Z0": {"darg_direct_scale": 0.02, "darg_direct_single_gate": false, "dpsl_confidence_mode": "old", "action": "REUSED_VERIFIED_FORMAL"},
+    "Z1": {"darg_direct_scale": 0.02, "darg_direct_single_gate": true, "dpsl_confidence_mode": "old", "action": "TRAIN_FORMAL"},
+    "Z2": {"darg_direct_scale": 0.1, "darg_direct_single_gate": true, "dpsl_confidence_mode": "old", "action": "TRAIN_FORMAL"},
+    "Z3": {"darg_direct_scale": 0.02, "darg_direct_single_gate": false, "dpsl_confidence_mode": "multiclass", "action": "TRAIN_FORMAL"},
+    "Z4": {"darg_direct_scale": 0.02, "darg_direct_single_gate": true, "dpsl_confidence_mode": "multiclass", "action": "TRAIN_FORMAL"},
+    "Z5": {"darg_direct_scale": 0.1, "darg_direct_single_gate": true, "dpsl_confidence_mode": "multiclass", "action": "TRAIN_FORMAL"}
+  },
+  "checks": {
+    "preflight": "PASS",
+    "warmup_pairing": "PASS",
+    "source_namespace_isolation": "PASS",
+    "unified_adjacency_unchanged_by_single_gate": "PASS",
+    "direct_scale_z2_is_fivefold_z1": "PASS",
+    "signed_edges_and_six_modality_diagnostics": "PASS",
+    "multiclass_gate_formula_and_binary_compatibility": "PASS",
+    "test_label_inference_isolation": "PASS",
+    "z0_y3_exact_ten_fold_reuse": "PASS_EXACT"
+  },
+  "interpretation": "Only the registered direct-path expression, direct scale, and multiclass confidence-gate mode differ across groups. Cross-group Native changes are learned-training effects. Same-checkpoint gate, Direct-Off, and Disease-Neutral probes are inference interventions."
+}

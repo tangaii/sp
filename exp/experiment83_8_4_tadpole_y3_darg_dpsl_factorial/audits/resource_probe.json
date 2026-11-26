@@ -1,0 +1,51 @@
+{
+  "created_utc": "2026-11-26T03:15:23.877821+00:00",
+  "device_count": 1,
+  "device_name": "PPU-ZW810E",
+  "experiment": "Experiment 83.8.4",
+  "groups": {
+    "Z0": {
+      "registered": true,
+      "status": "PASS"
+    },
+    "Z1": {
+      "registered": true,
+      "status": "PASS"
+    },
+    "Z2": {
+      "registered": true,
+      "status": "PASS"
+    },
+    "Z3": {
+      "registered": true,
+      "status": "PASS"
+    },
+    "Z4": {
+      "registered": true,
+      "status": "PASS"
+    },
+    "Z5": {
+      "registered": true,
+      "status": "PASS"
+    }
+  },
+  "nvidia_smi_excerpt": [
+    "Thu Nov 26 11:15:23 2026",
+    "+-------------------------------------------------------------------------------+",
+    "| PPU-SMI 1.22          Driver Version: 1.5.1-1d747a  HGGC Version: 13.0        |",
+    "+---------------------------------+----------------------+----------------------+",
+    "| PPU  Name        Persistence M. | Bus-Id               | Volatile Uncorr. ECC |",
+    "| Fan  Temp  Perf   Pwr:Usage/Cap | Memory-Usage         | PPU-Util  Compute M. |",
+    "|                                 |                      |               MIG M. |",
+    "+=================================+======================+======================+",
+    "| 0  PPU-ZW810E        N/A        | 00000000:A7:00.0     |                    0 |",
+    "| N/A  42C   N/A      115W / 400W | 10MiB / 98304MiB     |   0%        Default  |",
+    "|                                 |                      |             Disabled |",
+    "+---------------------------------+----------------------+----------------------+"
+  ],
+  "nvidia_smi_sha256": "4bddf0eb9c6da98d4c0389a64af098811547ab5b949c16885479f51290c7a97d",
+  "status": "PASS",
+  "training_seal_sha256": "87a314e1a3796a692211edbee0db6c22227442a4c543bc72e826fdd6e6d79280",
+  "worker_count": 8,
+  "worker_limit": 8
+}

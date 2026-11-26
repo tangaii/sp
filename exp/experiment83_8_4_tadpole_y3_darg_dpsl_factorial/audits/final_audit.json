@@ -1,0 +1,83 @@
+{
+  "audit_program": "audits/final_audit_post.py",
+  "audit_program_sha256": "6001aa8dbefd30ad26d35bcd38280d74a40972da11fbfd5ea61bb35e96007032",
+  "author_log_groups_passed": 6,
+  "best_checkpoints_replayed": 60,
+  "checks": {
+    "Best_replay": "PASS_60_OF_60",
+    "Latest_restore": "PASS_60_OF_60",
+    "OOF_598_patients_once_per_group": "PASS",
+    "Z0_historical_Y3_regression": "PASS_EXACT",
+    "all_six_groups_ten_folds": "PASS",
+    "author_log_format": "PASS_ALL_SIX_GROUPS",
+    "deterministic_next_step": "PASS_60_OF_60",
+    "no_test_label_supervision": "PASS_BY_TRAIN_INDEX_CONTRACT_AND_LABEL_PERMUTATION_PROBE",
+    "single_gpu_resource_probe": "PASS",
+    "six_modality_DARG_and_DPSL_mechanism": "PASS",
+    "source_and_config_seal": "PASS",
+    "train_test_index_disjoint": "PASS",
+    "training_preflight": "PASS",
+    "warmup_pairing_all_folds": "PASS"
+  },
+  "data_sha256": "0b8a14a9c066752c2d937c93d43c2824c41beaaa7d0a451b083db8dcba07c5bc",
+  "deterministic_next_steps": 60,
+  "experiment": "Experiment 83.8.4",
+  "formal_folds": 60,
+  "groups": {
+    "Z0": {
+      "folds": 10,
+      "log_epochs": 3224,
+      "log_sha256": "ee60eee80e232b439876bc420797e81e1b4f099d8f5c98c4410c4725d2de9600",
+      "oof_each_once": true,
+      "oof_patients": 598,
+      "warmup_pairs_passed": 10
+    },
+    "Z1": {
+      "folds": 10,
+      "log_epochs": 3161,
+      "log_sha256": "fdb823541beb5bfafb93e4480d90049fb61a2b6f8697366ded12ae8a21b8d529",
+      "oof_each_once": true,
+      "oof_patients": 598,
+      "warmup_pairs_passed": 10
+    },
+    "Z2": {
+      "folds": 10,
+      "log_epochs": 3623,
+      "log_sha256": "d7329c8ea65ec6e6f999e1016ed4539724e776d0ba1dde2b4992d713fc7d5fee",
+      "oof_each_once": true,
+      "oof_patients": 598,
+      "warmup_pairs_passed": 10
+    },
+    "Z3": {
+      "folds": 10,
+      "log_epochs": 3362,
+      "log_sha256": "a9d59b68b0a0c9730a0ccd1e46506092a7b9e716c7e03ccda3d723fe67df89b9",
+      "oof_each_once": true,
+      "oof_patients": 598,
+      "warmup_pairs_passed": 10
+    },
+    "Z4": {
+      "folds": 10,
+      "log_epochs": 3542,
+      "log_sha256": "4e00c2582b019703b82e7823faf3d91ade3dceab4c783710915d2163fb437599",
+      "oof_each_once": true,
+      "oof_patients": 598,
+      "warmup_pairs_passed": 10
+    },
+    "Z5": {
+      "folds": 10,
+      "log_epochs": 2980,
+      "log_sha256": "96ac23819434e4c93c7add6f32f7b732563ef6e76cfe062f2cc2c6bbf7282285",
+      "oof_each_once": true,
+      "oof_patients": 598,
+      "warmup_pairs_passed": 10
+    }
+  },
+  "implementation_sha256": "cdecf8a765175ff1afddce6534930ac04d1589f8d16d43f33c47b61834c8dde9",
+  "latest_checkpoints_restored": 60,
+  "performance_status": "STATISTICAL_EVIDENCE_INSUFFICIENT",
+  "split_sha256": "7c5a4dc9bd8ee7ffc6e5aff8bf841513f26a5ff6cf1b6c110a8153aa6a106ec5",
+  "status": "PASS",
+  "training_seal_sha256": "87a314e1a3796a692211edbee0db6c22227442a4c543bc72e826fdd6e6d79280",
+  "z0_vs_y3_exact_folds": 10
+}
