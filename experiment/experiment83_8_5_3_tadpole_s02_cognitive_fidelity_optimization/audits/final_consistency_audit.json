@@ -1,0 +1,91 @@
+{
+  "author_format_logs": "PASS 10/10",
+  "best_latest_replay": "PASS 100/100",
+  "experiment": "Experiment 83.8.5.3",
+  "latest_deterministic_recovery": "PASS 80/80",
+  "mechanism_direction_checks": 8,
+  "oof_coverage": {
+    "A1": {
+      "corrected": 1,
+      "damaged": 0,
+      "net": 1,
+      "oof_patients": 598
+    },
+    "A2": {
+      "corrected": 0,
+      "damaged": 0,
+      "net": 0,
+      "oof_patients": 598
+    },
+    "D1": {
+      "corrected": 2,
+      "damaged": 0,
+      "net": 2,
+      "oof_patients": 598
+    },
+    "H0": {
+      "corrected": 1,
+      "damaged": 0,
+      "net": 1,
+      "oof_patients": 598
+    },
+    "H1": {
+      "corrected": 2,
+      "damaged": 0,
+      "net": 2,
+      "oof_patients": 598
+    },
+    "P1": {
+      "corrected": 0,
+      "damaged": 0,
+      "net": 0,
+      "oof_patients": 598
+    },
+    "P2": {
+      "corrected": 2,
+      "damaged": 0,
+      "net": 2,
+      "oof_patients": 598
+    },
+    "P3": {
+      "corrected": 1,
+      "damaged": 0,
+      "net": 1,
+      "oof_patients": 598
+    },
+    "R1": {
+      "corrected": 2,
+      "damaged": 0,
+      "net": 2,
+      "oof_patients": 598
+    },
+    "R2": {
+      "corrected": 2,
+      "damaged": 0,
+      "net": 2,
+      "oof_patients": 598
+    }
+  },
+  "registered_groups": [
+    "H0",
+    "H1",
+    "A1",
+    "A2",
+    "P1",
+    "P2",
+    "P3",
+    "R1",
+    "R2",
+    "D1"
+  ],
+  "report_metric_rows_checked": 10,
+  "source_sha256": {
+    "final_report.md": "837e6da17699275066c0d77acf29ee8ed4382c07cbeef86695c7e96b7446bf55",
+    "group_summary.csv": "8a6d0479acc9117cd7178a2b8a5c9da34ac75dde4f3d7041ae83595e72c81233",
+    "mechanism_summary.json": "8840bcb9595e9ecad163c44c3fa5b93f84dc477e8836f61a17e4c8d2f9c699c5",
+    "oof_predictions.csv": "e3f41019a0ef3c4de4094fe5718c2199f1e578200a3724ebe65f9d6b6771aac5"
+  },
+  "status": "PASS",
+  "training_implementation_sha256": "ad7cdc0737a720e96d239667fb7d474be73b7ca05fc25806922680a782bc6d85",
+  "training_seal": "PASS"
+}

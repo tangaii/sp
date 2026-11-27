@@ -1,0 +1,112 @@
+{
+  "experiment": "Experiment 83.8.5.3",
+  "title": "S02-Based TADPOLE Cognitive-Anchored DARG+DPSL Optimization",
+  "authoritative_directory": "/model/spromptgl/experiment/experiment83_8_5_3_tadpole_s02_cognitive_fidelity_optimization",
+  "parent_commit": "21e53cf1e003cc23eacdb8e09bbe471f9fa08bd8",
+  "groups": [
+    "H0",
+    "H1",
+    "A1",
+    "A2",
+    "P1",
+    "P2",
+    "P3",
+    "R1",
+    "R2",
+    "D1"
+  ],
+  "train_groups": [
+    "A1",
+    "A2",
+    "P1",
+    "P2",
+    "P3",
+    "R1",
+    "R2",
+    "D1"
+  ],
+  "gpu": {
+    "CUDA_VISIBLE_DEVICES": "0",
+    "name": "PPU-ZW810E",
+    "memory_MiB": 98304,
+    "spawn_workers": 8
+  },
+  "train": {
+    "seed": 0,
+    "warmup_epochs": 10,
+    "epoch_max": 450,
+    "stop_wait_gt": 200,
+    "display_epoch_origin": 0,
+    "first_strict_test_ACC_best": true,
+    "val_idx_equals_test_idx": true
+  },
+  "data": {
+    "patients": 598,
+    "class_counts": [
+      209,
+      315,
+      74
+    ],
+    "modal_dim": [
+      145,
+      148,
+      3,
+      36,
+      24,
+      9
+    ],
+    "modality_order": [
+      "UCSFFSX",
+      "UCBERKELEYAV45",
+      "UPENNBIOMK9",
+      "RISK_FACTOR",
+      "COGNITIVE_TEST",
+      "ROI_AVERAGE"
+    ],
+    "data_sha256": "0b8a14a9c066752c2d937c93d43c2824c41beaaa7d0a451b083db8dcba07c5bc",
+    "split_sha256": "7c5a4dc9bd8ee7ffc6e5aff8bf841513f26a5ff6cf1b6c110a8153aa6a106ec5",
+    "cv": {
+      "folds": 10,
+      "shuffle": true,
+      "random_state": 10
+    },
+    "transductive": true,
+    "preprocessing": [
+      "full-cohort mean imputation",
+      "full-cohort RFE",
+      "StandardScaler before CV"
+    ]
+  },
+  "relation_sampling": {
+    "start_epoch": 11,
+    "quota_per_target": {
+      "R1": 512,
+      "R2": 1024
+    },
+    "seed_sequence_entropy": [
+      838503,
+      "one-based fold"
+    ],
+    "fixed_support": "Symmetric positive off-diagonal original GraphLearn edges after epoch 10. Restrict endpoints to outer train.",
+    "forced": "Uniform without replacement independently within same/different counts. R1 and R2 take prefixes of the same fold-specific shuffled support pools.",
+    "remainder": "Preserve the order of the fold-specific E61 historical sample by target, skip forced duplicates and take the required prefix.",
+    "fallback": "If a target has fewer unique support edges than its quota, take all available and fill the shortfall from the historical sample. Record the per-target shortfall and actual support coverage.",
+    "ordering": "Use a separate local NumPy RNG stream for a deterministic final shuffle. Keep each unordered edge once with row < col."
+  },
+  "freeze": "D1 freezes the existing adaptive_gate_logits after the S02 epoch-10 reset and retains its AdamW group membership with no moments or step.",
+  "statistics": {
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 838503,
+    "bootstrap_unit": "patient, paired within held-out fold and diagnosis strata",
+    "holms": [
+      "16 group versus baseline contrasts for each metric and McNemar test",
+      "five planned factor contrasts as a separate family"
+    ],
+    "primary": [
+      "ACC",
+      "AUC_original"
+    ],
+    "auxiliary": "AUC_probability",
+    "fold_sd": "population"
+  }
+}

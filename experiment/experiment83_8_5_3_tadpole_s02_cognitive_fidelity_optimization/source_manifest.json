@@ -1,0 +1,81 @@
+{
+  "experiment": "Experiment 83.8.5.3",
+  "paper": {
+    "url": "https://papers.miccai.org/miccai-2025/paper/5129_paper.pdf",
+    "title": "SPromptGL",
+    "reviewed_items": [
+      "Eq.(1) GraphConstructLoss with squared Frobenius term",
+      "Eq.(7) total objective",
+      "GFR",
+      "GraphLearn",
+      "GCN",
+      "CAM",
+      "PEN",
+      "RES",
+      "SPGS",
+      "GraphConstructLoss",
+      "ALoss",
+      "TADPOLE six modalities and three classes",
+      "Table 2 ACC/AUC",
+      "10-fold training and checkpoint behavior"
+    ],
+    "pdf_sha256": "219ceddfd017e6105490a72864dd24df0bdbbf1c0579cf14af5bbd99a5d60c89",
+    "eq7": "L = lambda * LG + eta * LLabel, lambda = eta = 1"
+  },
+  "author_repository": {
+    "url": "https://github.com/wanxixi11/SPromptGL",
+    "commit": "ba3b9446fa451fde6864d6555bdf324de0c4b64a",
+    "result_Tadpole_sha256": "5c80d16204e0882e5e264e42952c714397c2d31f07835b9e60d6dafd9488e3b7",
+    "result_Tadpole_git_blob": "0446670764286afbeb86573dadfdbb50ae6af15e"
+  },
+  "saber_repository": {
+    "url": "https://github.com/tangaii/SPromptGL",
+    "e83_8_5_1_anchor": "912a3ece628f818cec7525fe6323350f5a06e27e",
+    "e83_8_5_source": "ae225e5135046d1d9622968b7d011f6aa55fa60d",
+    "saber_head": "c7e2edbb8c56bdfc416b708da0ec6d743b0ed7d4",
+    "ABIDE_E74_4": "711d87f4ccc9e11124bce62751fcd3dbb97fdbdf",
+    "ABIDE_E82_4_6_10": "1ef9a17fb50585aad9b2f878018ded16646a19a7"
+  },
+  "local_archived_sources": {
+    "cadr_gfr.py": {
+      "sha256": "f5032d96c9ac68afda47a253f794ddfe41373fabebbbbe27057f1425f988815d"
+    },
+    "soft_positive_dcr.py": {
+      "sha256": "3374598e5ab5547a853c4298000710bb7e8f11f93ec3bd63ddb8ff330aa36718"
+    },
+    "e61_run.py": {
+      "sha256": "f5bd8236b6a5f66903f56a01832caab6c21177238f24676562f536df3af2b334"
+    },
+    "fidelity_model.py": {
+      "sha256": "5d24537f71e89bf7a4b2bd8ab43a459216d929453eda3628496be87b85269155"
+    },
+    "source_runtime.py": {
+      "sha256": "9bd6b17b3f66a08460e95411f55f5c85b7169f9fb54c169cbe82dd1b4e7dbbb7",
+      "role": "six-modality adapter plus cognitive intervention binding"
+    }
+  },
+  "historical_checkpoints": {
+    "H0": "E83.8.5.2 B0, original Y3 via Z0 / R0",
+    "H1": "E83.8.5.2 S02"
+  },
+  "abide_e74_1_contract": {
+    "warmup_epochs": 10,
+    "gate_probability_non_anchor": 0.1,
+    "gate_probability_anchor": 0.99,
+    "gate_scale": [
+      0.01,
+      0.01,
+      0.01,
+      1.0
+    ],
+    "effective_gate_non_anchor": 0.001,
+    "reparameterization": "existing adaptive_gate_logits Parameter in no_grad, Adam state for that Parameter cleared, other state and RNG unchanged",
+    "formula": "g_m=s_m*sigmoid(theta_m)"
+  },
+  "e8352": {
+    "url": "https://github.com/tangaii/sp",
+    "commit": "21e53cf1e003cc23eacdb8e09bbe471f9fa08bd8",
+    "archive": "/model/spromptgl/experiment/experiment83_8_5_2_tadpole_cognitive_strong_anchor_factorial",
+    "seal_implementation_sha256": "7ed31c60cecb6845eb829127d8d7268cc6456064319d527d72a386fada25bc47"
+  }
+}

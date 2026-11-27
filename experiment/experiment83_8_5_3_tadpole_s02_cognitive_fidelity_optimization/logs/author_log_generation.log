@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "groups": {
+    "H0": "PASS",
+    "H1": "PASS",
+    "A1": "PASS",
+    "A2": "PASS",
+    "P1": "PASS",
+    "P2": "PASS",
+    "P3": "PASS",
+    "R1": "PASS",
+    "R2": "PASS",
+    "D1": "PASS"
+  }
+}

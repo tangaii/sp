@@ -1,0 +1,65 @@
+{
+  "bootstrap_replicates": 2000,
+  "bootstrap_seed": 838503,
+  "checkpoint_replay": {
+    "best_latest_status": "PASS",
+    "latest_next_step_recovery_expected": 80,
+    "latest_next_step_recovery_passed": 80,
+    "latest_next_step_recovery_status": "PASS"
+  },
+  "data_sha256": "0b8a14a9c066752c2d937c93d43c2824c41beaaa7d0a451b083db8dcba07c5bc",
+  "diagnostic_contrasts": [
+    "A2 vs A1",
+    "P1 vs P2",
+    "P1 vs P3",
+    "P2 vs P3",
+    "R2 vs R1"
+  ],
+  "experiment": "Experiment 83.8.5.3",
+  "factor_holm_family_count": 5,
+  "fold_count": 100,
+  "frozen_gate_contrast": "D1 vs H1",
+  "frozen_gate_holm_adjusted": false,
+  "group_count": 10,
+  "holm_family_count": 16,
+  "oof_rows": 5980,
+  "outputs": {
+    "fold_metrics.csv": "94116f34be240e4f484f8c647916e7d22a1472bf08c4a63c4ee80e5b62713e16",
+    "group_summary.csv": "8a6d0479acc9117cd7178a2b8a5c9da34ac75dde4f3d7041ae83595e72c81233",
+    "oof_predictions.csv": "e3f41019a0ef3c4de4094fe5718c2199f1e578200a3724ebe65f9d6b6771aac5",
+    "paired_contrasts.csv": "e4560bbeada37a5849ea5530d77231496b6d54cf52a7a9efcd8ecc5061446b6a"
+  },
+  "paired_contrasts": [
+    "A1 vs H1",
+    "A1 vs H0",
+    "A2 vs H1",
+    "A2 vs H0",
+    "P1 vs H1",
+    "P1 vs H0",
+    "P2 vs H1",
+    "P2 vs H0",
+    "P3 vs H1",
+    "P3 vs H0",
+    "R1 vs H1",
+    "R1 vs H0",
+    "R2 vs H1",
+    "R2 vs H0",
+    "D1 vs H1",
+    "D1 vs H0"
+  ],
+  "patients_per_group": 598,
+  "split_sha256": "7c5a4dc9bd8ee7ffc6e5aff8bf841513f26a5ff6cf1b6c110a8153aa6a106ec5",
+  "status": "PASS",
+  "unique_patients_per_group": {
+    "A1": 598,
+    "A2": 598,
+    "D1": 598,
+    "H0": 598,
+    "H1": 598,
+    "P1": 598,
+    "P2": 598,
+    "P3": 598,
+    "R1": 598,
+    "R2": 598
+  }
+}

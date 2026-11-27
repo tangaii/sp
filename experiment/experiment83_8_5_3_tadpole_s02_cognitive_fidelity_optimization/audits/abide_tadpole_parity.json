@@ -1,0 +1,67 @@
+{
+  "status": "PASS",
+  "four_modality_CORR_regression": {
+    "status": "PASS",
+    "checkpoint_level": false,
+    "fixed_test_tensor": {
+      "seed": 7331,
+      "patients": 64,
+      "dimensions": [
+        48,
+        6,
+        10,
+        256
+      ]
+    },
+    "modality_order": [
+      "PHENO",
+      "ANAT",
+      "FUNC",
+      "CORR"
+    ],
+    "alignment_anchor_index": 3,
+    "edge_anchor_index": 3,
+    "grl_scale": 0.03,
+    "direct_single_gate": false,
+    "query_count": 8,
+    "binary_logits_shape": [
+      64,
+      2
+    ],
+    "relation_encoder_grad_norms": [
+      0.000777124019805342,
+      0.00019574178440961987,
+      0.00041340020834468305,
+      0.0016654848586767912
+    ],
+    "relation_scorer_gradients": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "edge_support_and_signed_double_gate_checked": true,
+    "loss_coefficients": {
+      "pair_bce": 0.05,
+      "conditional_adversarial": 0.01,
+      "preservation": 0.01
+    }
+  },
+  "archived_checkpoint_certificate_sha256": "24f2d5d209ee08ab1c5e8549ab9adfe13e9fbe8318b4d132d39e7abd1b13a7fd",
+  "positive_dcr_source": "3374598e5ab5547a853c4298000710bb7e8f11f93ec3bd63ddb8ff330aa36718",
+  "SCMR_numeric_source_match": true,
+  "scmr_shared_exact_sha256": {
+    "common/spectral.py": "176d9ba7923beed39d583bfd9831ac99ac2e4e5204d1da7cef0bb727567a2e13",
+    "common/optimization.py": "6071142cbbabc21dfe31e1a5cb561b214e0430d4b2e75827b3d7b773157591f0",
+    "config.json": "f6b56fa862c4e3ba2aae9e34863057f3c3968583fa2b9563cf947f2268b1f495"
+  },
+  "scmr_adaptation": {
+    "g2_sha256": "3ae709aacd50198602cb9510f825ee5c12c0e8b334c1dc4c55f6237982084b1a",
+    "abide_g2_sha256": "b07e3d55690fc0230798b336cdd53aa49ebecc89af1979836a9a5ca51e48ab67",
+    "eight_query_fallback": true,
+    "twelve_query_route": true,
+    "adaptation_scope": "MMGPL-12 attention grouping and native Top-2 class-pair routing"
+  },
+  "evidence_binding_sha256": "0c8e2e33d802cd4fd2a1996b3d298fc84297b77e56b7d24045612d7e31eac6ba",
+  "scope": "Current fixed-tensor ABIDE regression, archived E82.4.6.10-G1 Fold 8 checkpoint SHA, and exact shared SCMR arithmetic with an explicit MMGPL-12 adapter."
+}

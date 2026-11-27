@@ -1,0 +1,9 @@
+{
+  "preferred": "/data/adodas/SPromptGL-main/experiment/experiment83_8_5_3_tadpole_s02_cognitive_fidelity_optimization",
+  "path_error": {
+    "type": "OSError",
+    "errno": 5,
+    "message": "[Errno 5] Input/output error: '/data/adodas/SPromptGL-main/experiment/experiment83_8_5_3_tadpole_s02_cognitive_fidelity_optimization'"
+  },
+  "authoritative_path": "/model/spromptgl/experiment/experiment83_8_5_3_tadpole_s02_cognitive_fidelity_optimization"
+}

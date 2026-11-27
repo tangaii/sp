@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "groups": [
+    "A1",
+    "A2",
+    "P1",
+    "P2",
+    "P3",
+    "R1",
+    "R2",
+    "D1"
+  ],
+  "formal_training_allowed": true,
+  "implementation_sha256": "ad7cdc0737a720e96d239667fb7d474be73b7ca05fc25806922680a782bc6d85",
+  "historical_checkpoint_folds": 20,
+  "training_transitions": 80,
+  "author_template_folds": 10,
+  "data": {
+    "status": "PASS",
+    "shape": [
+      598,
+      365
+    ],
+    "class_counts": [
+      209,
+      315,
+      74
+    ],
+    "modality_order": [
+      "UCSFFSX",
+      "UCBERKELEYAV45",
+      "UPENNBIOMK9",
+      "RISK_FACTOR",
+      "COGNITIVE_TEST",
+      "ROI_AVERAGE"
+    ],
+    "modality_dimensions": [
+      145,
+      148,
+      3,
+      36,
+      24,
+      9
+    ],
+    "data_sha256": "0b8a14a9c066752c2d937c93d43c2824c41beaaa7d0a451b083db8dcba07c5bc",
+    "split_sha256": "7c5a4dc9bd8ee7ffc6e5aff8bf841513f26a5ff6cf1b6c110a8153aa6a106ec5",
+    "folds": 10,
+    "oof_exact": true
+  }
+}

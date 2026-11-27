@@ -1,0 +1,5424 @@
+{
+  "status": "PASS",
+  "formula": "scale * sigmoid(theta)",
+  "groups": {
+    "H1": [
+      {
+        "fold": 1,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.99,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.9900000691413879,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.009900000877678394,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "4602759e59483bc2e8935a932c8380c032d8a17170aee621e02d50a9bf1083ba",
+        "frozen": false,
+        "signed_modalities": 1,
+        "signed_update_observation": "observed",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4079,
+        "cognitive_delta_max_abs_diff_vs_H1": 0.0,
+        "logp_max_abs_diff_vs_H1": 0.0
+      },
+      {
+        "fold": 2,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.99,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.9900000691413879,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.009900000877678394,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "405903210f519d73d9490d68a807c1f140ba0c3e3d372f1fe77ee6cd968702a2",
+        "frozen": false,
+        "signed_modalities": 0,
+        "signed_update_observation": "no_signed_modality_in_this_fold",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4068,
+        "cognitive_delta_max_abs_diff_vs_H1": 0.0,
+        "logp_max_abs_diff_vs_H1": 0.0
+      },
+      {
+        "fold": 3,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.99,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.9900000691413879,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.009900000877678394,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "3dd2b4eaf0db4bdca5cdee27194a5e616dc32589e20e4f09ad5d84b4b8cd5c9c",
+        "frozen": false,
+        "signed_modalities": 0,
+        "signed_update_observation": "no_signed_modality_in_this_fold",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4096,
+        "cognitive_delta_max_abs_diff_vs_H1": 0.0,
+        "logp_max_abs_diff_vs_H1": 0.0
+      },
+      {
+        "fold": 4,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.99,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.9900000691413879,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.009900000877678394,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "f9d9f9239fcb2074735291ee64e07334c9bfc9cf15f1f356678f1f8417630935",
+        "frozen": false,
+        "signed_modalities": 0,
+        "signed_update_observation": "no_signed_modality_in_this_fold",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4098,
+        "cognitive_delta_max_abs_diff_vs_H1": 0.0,
+        "logp_max_abs_diff_vs_H1": 0.0
+      },
+      {
+        "fold": 5,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.99,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.9900000691413879,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.009900000877678394,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "916fd049a83b15f776aa14a176b01a0eecae1e5df4c1166930d2a83425871e41",
+        "frozen": false,
+        "signed_modalities": 1,
+        "signed_update_observation": "observed",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4077,
+        "cognitive_delta_max_abs_diff_vs_H1": 0.0,
+        "logp_max_abs_diff_vs_H1": 0.0
+      },
+      {
+        "fold": 6,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.99,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.9900000691413879,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.009900000877678394,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "72df594dc14741138e941c8ad80f8fad5efe1534ae4c598ce54bfee16ea4595d",
+        "frozen": false,
+        "signed_modalities": 1,
+        "signed_update_observation": "observed",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4127,
+        "cognitive_delta_max_abs_diff_vs_H1": 0.0,
+        "logp_max_abs_diff_vs_H1": 0.0
+      },
+      {
+        "fold": 7,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.99,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.9900000691413879,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.009900000877678394,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "58194f90b879ceeaf313854210f9836567665b32ec6c015ab3d6366a222406f2",
+        "frozen": false,
+        "signed_modalities": 1,
+        "signed_update_observation": "observed",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4080,
+        "cognitive_delta_max_abs_diff_vs_H1": 0.0,
+        "logp_max_abs_diff_vs_H1": 0.0
+      },
+      {
+        "fold": 8,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.99,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.9900000691413879,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.009900000877678394,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "1a549e37ed6868278aab694ee1e2a76cda6e09f15546acb24908cfb4f4b70c24",
+        "frozen": false,
+        "signed_modalities": 1,
+        "signed_update_observation": "observed",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4114,
+        "cognitive_delta_max_abs_diff_vs_H1": 0.0,
+        "logp_max_abs_diff_vs_H1": 0.0
+      },
+      {
+        "fold": 9,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.99,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.9900000691413879,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.009900000877678394,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "a21910f73597be1d11f7fd94cce1982625851903530c9c11b77f9c2ab72ba19c",
+        "frozen": false,
+        "signed_modalities": 1,
+        "signed_update_observation": "observed",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4074,
+        "cognitive_delta_max_abs_diff_vs_H1": 0.0,
+        "logp_max_abs_diff_vs_H1": 0.0
+      },
+      {
+        "fold": 10,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.99,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.9900000691413879,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.009900000877678394,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "57740fb854548b90e082110746fd611e5c068393eb5432cf2c3acad95125a6d7",
+        "frozen": false,
+        "signed_modalities": 0,
+        "signed_update_observation": "no_signed_modality_in_this_fold",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4145,
+        "cognitive_delta_max_abs_diff_vs_H1": 0.0,
+        "logp_max_abs_diff_vs_H1": 0.0
+      }
+    ],
+    "A1": [
+      {
+        "fold": 1,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.99,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.9900000691413879,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.007425000425428152,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.0075,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "7f5f680374719bd3cb85d237c95ef9a65d066c657d9a27c1e79cbbcc3fd8c904",
+        "frozen": false,
+        "signed_modalities": 1,
+        "signed_update_observation": "observed",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4079,
+        "cognitive_delta_max_abs_diff_vs_H1": 8.755922317504883e-05,
+        "logp_max_abs_diff_vs_H1": 5.0067901611328125e-06
+      },
+      {
+        "fold": 2,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.99,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.9900000691413879,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.007425000425428152,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.0075,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "86302cc7805f32aebd7c2754a7f3ad28541a7f5147181fb2d0d95764a37b95c0",
+        "frozen": false,
+        "signed_modalities": 0,
+        "signed_update_observation": "no_signed_modality_in_this_fold",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4068,
+        "cognitive_delta_max_abs_diff_vs_H1": 9.572505950927734e-05,
+        "logp_max_abs_diff_vs_H1": 9.298324584960938e-06
+      },
+      {
+        "fold": 3,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.99,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.9900000691413879,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.007425000425428152,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.0075,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "bf7ed809114ddd631a95d1769f1481674dd4970a0f7f922b6251a55832c353d3",
+        "frozen": false,
+        "signed_modalities": 0,
+        "signed_update_observation": "no_signed_modality_in_this_fold",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4096,
+        "cognitive_delta_max_abs_diff_vs_H1": 0.00010114908218383789,
+        "logp_max_abs_diff_vs_H1": 1.1920928955078125e-05
+      },
+      {
+        "fold": 4,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.99,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.9900000691413879,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.007425000425428152,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.0075,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "f5fd25118edcc6ddb38ed804f7917eb7ab6a79d3ea11524b74261707bad30a8d",
+        "frozen": false,
+        "signed_modalities": 0,
+        "signed_update_observation": "no_signed_modality_in_this_fold",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4098,
+        "cognitive_delta_max_abs_diff_vs_H1": 0.00011932849884033203,
+        "logp_max_abs_diff_vs_H1": 8.940696716308594e-06
+      },
+      {
+        "fold": 5,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.99,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.9900000691413879,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.007425000425428152,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.0075,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "1ffa7ffc5df1cc072afa8849716b92d47588c6e24f76280d351b2b545e65bd44",
+        "frozen": false,
+        "signed_modalities": 1,
+        "signed_update_observation": "observed",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4077,
+        "cognitive_delta_max_abs_diff_vs_H1": 4.214048385620117e-05,
+        "logp_max_abs_diff_vs_H1": 3.337860107421875e-06
+      },
+      {
+        "fold": 6,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.99,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.9900000691413879,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.007425000425428152,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.0075,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "0d9ac14a006c958548fab48215b1dec814677403da36c40509e3220b861c583b",
+        "frozen": false,
+        "signed_modalities": 1,
+        "signed_update_observation": "observed",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4127,
+        "cognitive_delta_max_abs_diff_vs_H1": 0.00010472536087036133,
+        "logp_max_abs_diff_vs_H1": 8.821487426757812e-06
+      },
+      {
+        "fold": 7,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.99,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.9900000691413879,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.007425000425428152,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.0075,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "9e4797ed28e05bf165b51bac447bad55ae2ca75f990cfe26e1fd5962fee7edc6",
+        "frozen": false,
+        "signed_modalities": 1,
+        "signed_update_observation": "observed",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4080,
+        "cognitive_delta_max_abs_diff_vs_H1": 4.6253204345703125e-05,
+        "logp_max_abs_diff_vs_H1": 2.86102294921875e-06
+      },
+      {
+        "fold": 8,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.99,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.9900000691413879,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.007425000425428152,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.0075,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "ea03da9db64cb327273ae22cf4d5d272a0196fad8cc67eb58feedde90dff8adc",
+        "frozen": false,
+        "signed_modalities": 1,
+        "signed_update_observation": "observed",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4114,
+        "cognitive_delta_max_abs_diff_vs_H1": 0.00011497735977172852,
+        "logp_max_abs_diff_vs_H1": 3.814697265625e-06
+      },
+      {
+        "fold": 9,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.99,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.9900000691413879,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.007425000425428152,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.0075,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "04b8c84b03bcd1681782d0555dac9ab1ea156a634affbb949f8819828f59994b",
+        "frozen": false,
+        "signed_modalities": 1,
+        "signed_update_observation": "observed",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4074,
+        "cognitive_delta_max_abs_diff_vs_H1": 6.341934204101562e-05,
+        "logp_max_abs_diff_vs_H1": 4.76837158203125e-06
+      },
+      {
+        "fold": 10,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.99,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.9900000691413879,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.007425000425428152,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.0075,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "21b5caf26db79acc546188a0f9f09ed96c7e1066ef364b7f00736c373cf30f34",
+        "frozen": false,
+        "signed_modalities": 0,
+        "signed_update_observation": "no_signed_modality_in_this_fold",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4145,
+        "cognitive_delta_max_abs_diff_vs_H1": 0.00014674663543701172,
+        "logp_max_abs_diff_vs_H1": 1.0251998901367188e-05
+      }
+    ],
+    "A2": [
+      {
+        "fold": 1,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.99,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.9900000691413879,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.01237500086426735,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.0125,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "d20dca6e0a52fabcd32a48c9ab92c135a44d9adec1fb0e6fecff62c1ab014d64",
+        "frozen": false,
+        "signed_modalities": 1,
+        "signed_update_observation": "observed",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4079,
+        "cognitive_delta_max_abs_diff_vs_H1": 8.761882781982422e-05,
+        "logp_max_abs_diff_vs_H1": 4.76837158203125e-06
+      },
+      {
+        "fold": 2,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.99,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.9900000691413879,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.01237500086426735,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.0125,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "3a4fbd56d299f8f4afc5b2822453ce781c78c81a7e3684d1c2286a78216cc379",
+        "frozen": false,
+        "signed_modalities": 0,
+        "signed_update_observation": "no_signed_modality_in_this_fold",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4068,
+        "cognitive_delta_max_abs_diff_vs_H1": 9.566545486450195e-05,
+        "logp_max_abs_diff_vs_H1": 1.0013580322265625e-05
+      },
+      {
+        "fold": 3,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.99,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.9900000691413879,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.01237500086426735,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.0125,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "a02bd0a1b240e145faf7d592fcffec230ce20dcf0910168bb06d39d9464cde96",
+        "frozen": false,
+        "signed_modalities": 0,
+        "signed_update_observation": "no_signed_modality_in_this_fold",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4096,
+        "cognitive_delta_max_abs_diff_vs_H1": 0.00010114908218383789,
+        "logp_max_abs_diff_vs_H1": 9.5367431640625e-06
+      },
+      {
+        "fold": 4,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.99,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.9900000691413879,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.01237500086426735,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.0125,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "efd409691b08de94a4612520035933c4aa2c59ab5abbb3904a7a7ebcb392427a",
+        "frozen": false,
+        "signed_modalities": 0,
+        "signed_update_observation": "no_signed_modality_in_this_fold",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4098,
+        "cognitive_delta_max_abs_diff_vs_H1": 0.00011938810348510742,
+        "logp_max_abs_diff_vs_H1": 8.821487426757812e-06
+      },
+      {
+        "fold": 5,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.99,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.9900000691413879,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.01237500086426735,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.0125,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "351120bcc682569f34e3532bb7fef12c99248bfb328870a9e209bcd89cc1939c",
+        "frozen": false,
+        "signed_modalities": 1,
+        "signed_update_observation": "observed",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4077,
+        "cognitive_delta_max_abs_diff_vs_H1": 4.220008850097656e-05,
+        "logp_max_abs_diff_vs_H1": 3.5762786865234375e-06
+      },
+      {
+        "fold": 6,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.99,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.9900000691413879,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.01237500086426735,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.0125,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "c672621ae0c6ebd013ffe53760026c812cfec1a9830154ffeca98b448fb04ed5",
+        "frozen": false,
+        "signed_modalities": 1,
+        "signed_update_observation": "observed",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4127,
+        "cognitive_delta_max_abs_diff_vs_H1": 0.00010472536087036133,
+        "logp_max_abs_diff_vs_H1": 9.5367431640625e-06
+      },
+      {
+        "fold": 7,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.99,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.9900000691413879,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.01237500086426735,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.0125,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "10c47a6800769ed081371dd2e1871db294319d285aa8836ec56ee6e1f6382ec4",
+        "frozen": false,
+        "signed_modalities": 1,
+        "signed_update_observation": "observed",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4080,
+        "cognitive_delta_max_abs_diff_vs_H1": 4.6253204345703125e-05,
+        "logp_max_abs_diff_vs_H1": 2.86102294921875e-06
+      },
+      {
+        "fold": 8,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.99,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.9900000691413879,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.01237500086426735,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.0125,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "4b47d6ffcc6b24410978ff4d223139106b92b513aa71be6ea24a1881a68537ac",
+        "frozen": false,
+        "signed_modalities": 1,
+        "signed_update_observation": "observed",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4114,
+        "cognitive_delta_max_abs_diff_vs_H1": 0.0001150369644165039,
+        "logp_max_abs_diff_vs_H1": 2.1457672119140625e-06
+      },
+      {
+        "fold": 9,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.99,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.9900000691413879,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.01237500086426735,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.0125,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "023f5fa8e8073fa0dd3aea9b65a7c4659692d06ab3d52367bcd401b9cd0cf686",
+        "frozen": false,
+        "signed_modalities": 1,
+        "signed_update_observation": "observed",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4074,
+        "cognitive_delta_max_abs_diff_vs_H1": 6.347894668579102e-05,
+        "logp_max_abs_diff_vs_H1": 3.0994415283203125e-06
+      },
+      {
+        "fold": 10,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.99,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.9900000691413879,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.01237500086426735,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.0125,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "6a101ef9487d2d23f45f83d3bb2d23903533086fdeab8d93b13a389669349e07",
+        "frozen": false,
+        "signed_modalities": 0,
+        "signed_update_observation": "no_signed_modality_in_this_fold",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4145,
+        "cognitive_delta_max_abs_diff_vs_H1": 0.00014668703079223633,
+        "logp_max_abs_diff_vs_H1": 9.775161743164062e-06
+      }
+    ],
+    "P1": [
+      {
+        "fold": 1,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.9,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.8999999761581421,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.00989999994635582,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.011,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "a93795b30233c598624cfb658fb3be0a203a0942fef2ef19263a1cbd98db8a76",
+        "frozen": false,
+        "signed_modalities": 1,
+        "signed_update_observation": "observed",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4079,
+        "cognitive_delta_max_abs_diff_vs_H1": 5.960464477539063e-08,
+        "logp_max_abs_diff_vs_H1": 9.5367431640625e-07
+      },
+      {
+        "fold": 2,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.9,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.8999999761581421,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.00989999994635582,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.011,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "48598f4259c93c6650926d04b7a852316ada3a5bce1421678c94744c79f21a13",
+        "frozen": false,
+        "signed_modalities": 0,
+        "signed_update_observation": "no_signed_modality_in_this_fold",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4068,
+        "cognitive_delta_max_abs_diff_vs_H1": 0.0,
+        "logp_max_abs_diff_vs_H1": 0.0
+      },
+      {
+        "fold": 3,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.9,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.8999999761581421,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.00989999994635582,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.011,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "2e8066ebae46309e6e42e212015749fa2bd83cbeec29c4859302ffa978e29866",
+        "frozen": false,
+        "signed_modalities": 0,
+        "signed_update_observation": "no_signed_modality_in_this_fold",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4096,
+        "cognitive_delta_max_abs_diff_vs_H1": 5.960464477539063e-08,
+        "logp_max_abs_diff_vs_H1": 9.5367431640625e-07
+      },
+      {
+        "fold": 4,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.9,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.8999999761581421,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.00989999994635582,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.011,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "952c6e97033572395fd56ba9a6add50b4727d6a4b7c723b8c9afb6cc64216e3f",
+        "frozen": false,
+        "signed_modalities": 0,
+        "signed_update_observation": "no_signed_modality_in_this_fold",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4098,
+        "cognitive_delta_max_abs_diff_vs_H1": 5.960464477539063e-08,
+        "logp_max_abs_diff_vs_H1": 9.5367431640625e-07
+      },
+      {
+        "fold": 5,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.9,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.8999999761581421,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.00989999994635582,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.011,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "a5d7a8e34453be62bd546d8a8a5a4d40a1ac84b077b65baabfd93ab24408fac0",
+        "frozen": false,
+        "signed_modalities": 1,
+        "signed_update_observation": "observed",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4077,
+        "cognitive_delta_max_abs_diff_vs_H1": 5.960464477539063e-08,
+        "logp_max_abs_diff_vs_H1": 9.5367431640625e-07
+      },
+      {
+        "fold": 6,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.9,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.8999999761581421,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.00989999994635582,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.011,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "d726ed64de5a34a41ad3c139060d79a63d71e19f2386dff922a9f0493ec74d2d",
+        "frozen": false,
+        "signed_modalities": 1,
+        "signed_update_observation": "observed",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4127,
+        "cognitive_delta_max_abs_diff_vs_H1": 0.0,
+        "logp_max_abs_diff_vs_H1": 0.0
+      },
+      {
+        "fold": 7,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.9,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.8999999761581421,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.00989999994635582,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.011,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "a7b6786304ecfc0c5625838fdf5aa3bf8b7593ecce1935c54f6ad84e72246bd4",
+        "frozen": false,
+        "signed_modalities": 1,
+        "signed_update_observation": "observed",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4080,
+        "cognitive_delta_max_abs_diff_vs_H1": 5.960464477539063e-08,
+        "logp_max_abs_diff_vs_H1": 4.76837158203125e-07
+      },
+      {
+        "fold": 8,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.9,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.8999999761581421,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.00989999994635582,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.011,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "c60e11523c5edbcac898563a7813a661deb1dd9dd45554b67d7c7fea4f715c3d",
+        "frozen": false,
+        "signed_modalities": 1,
+        "signed_update_observation": "observed",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4114,
+        "cognitive_delta_max_abs_diff_vs_H1": 5.960464477539063e-08,
+        "logp_max_abs_diff_vs_H1": 9.5367431640625e-07
+      },
+      {
+        "fold": 9,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.9,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.8999999761581421,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.00989999994635582,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.011,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "0cc6f3da10fff1afa47f268d0bdbbfcd1fa304324f4395d0708f2d09a914334a",
+        "frozen": false,
+        "signed_modalities": 1,
+        "signed_update_observation": "observed",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4074,
+        "cognitive_delta_max_abs_diff_vs_H1": 0.0,
+        "logp_max_abs_diff_vs_H1": 0.0
+      },
+      {
+        "fold": 10,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.9,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.8999999761581421,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.00989999994635582,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.011,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "a22d57545b810dc306c53afe94822feb69d14e400e20da02bfc40272e8a7ea75",
+        "frozen": false,
+        "signed_modalities": 0,
+        "signed_update_observation": "no_signed_modality_in_this_fold",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4145,
+        "cognitive_delta_max_abs_diff_vs_H1": 5.960464477539063e-08,
+        "logp_max_abs_diff_vs_H1": 2.384185791015625e-07
+      }
+    ],
+    "P2": [
+      {
+        "fold": 1,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.5,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.5,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.00989999994635582,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.0198,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "8c113f70e9b94a43b1997ca59a13bfa7c02875d8d8ef84f2a0cef46e3cf57f15",
+        "frozen": false,
+        "signed_modalities": 1,
+        "signed_update_observation": "observed",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4079,
+        "cognitive_delta_max_abs_diff_vs_H1": 5.960464477539063e-08,
+        "logp_max_abs_diff_vs_H1": 9.5367431640625e-07
+      },
+      {
+        "fold": 2,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.5,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.5,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.00989999994635582,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.0198,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "5993e939eebd74c83abe3104ece35ac806ed2006c368f52218b3d38e42b8732f",
+        "frozen": false,
+        "signed_modalities": 0,
+        "signed_update_observation": "no_signed_modality_in_this_fold",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4068,
+        "cognitive_delta_max_abs_diff_vs_H1": 0.0,
+        "logp_max_abs_diff_vs_H1": 0.0
+      },
+      {
+        "fold": 3,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.5,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.5,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.00989999994635582,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.0198,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "adfba97693883345acf2f0abed3e391556df7ebdc9f380d3fe2ab1cac418dc01",
+        "frozen": false,
+        "signed_modalities": 0,
+        "signed_update_observation": "no_signed_modality_in_this_fold",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4096,
+        "cognitive_delta_max_abs_diff_vs_H1": 5.960464477539063e-08,
+        "logp_max_abs_diff_vs_H1": 9.5367431640625e-07
+      },
+      {
+        "fold": 4,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.5,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.5,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.00989999994635582,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.0198,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "634fdff9cd7202767dfe4b62ca99d95c26714b93d24570704059967571c1ed58",
+        "frozen": false,
+        "signed_modalities": 0,
+        "signed_update_observation": "no_signed_modality_in_this_fold",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4098,
+        "cognitive_delta_max_abs_diff_vs_H1": 5.960464477539063e-08,
+        "logp_max_abs_diff_vs_H1": 9.5367431640625e-07
+      },
+      {
+        "fold": 5,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.5,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.5,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.00989999994635582,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.0198,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "89763761e89a62ece99f2e11bc67de80e56df1c7d95bc61ef1d76b5b04ee0db5",
+        "frozen": false,
+        "signed_modalities": 1,
+        "signed_update_observation": "observed",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4077,
+        "cognitive_delta_max_abs_diff_vs_H1": 5.960464477539063e-08,
+        "logp_max_abs_diff_vs_H1": 9.5367431640625e-07
+      },
+      {
+        "fold": 6,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.5,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.5,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.00989999994635582,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.0198,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "147828f82cdc282d725872571bcc7e9cbc3f5b5685d9afce42f13e366f5275b3",
+        "frozen": false,
+        "signed_modalities": 1,
+        "signed_update_observation": "observed",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4127,
+        "cognitive_delta_max_abs_diff_vs_H1": 0.0,
+        "logp_max_abs_diff_vs_H1": 0.0
+      },
+      {
+        "fold": 7,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.5,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.5,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.00989999994635582,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.0198,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "ab339d416706140ec485584babeb57807485f7773d0f90c15f97f8903e60aaa7",
+        "frozen": false,
+        "signed_modalities": 1,
+        "signed_update_observation": "observed",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4080,
+        "cognitive_delta_max_abs_diff_vs_H1": 5.960464477539063e-08,
+        "logp_max_abs_diff_vs_H1": 4.76837158203125e-07
+      },
+      {
+        "fold": 8,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.5,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.5,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.00989999994635582,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.0198,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "a12fd62d962ce24f0797d4c40b27d5a2d6d8150492b63f555042dda425a1df93",
+        "frozen": false,
+        "signed_modalities": 1,
+        "signed_update_observation": "observed",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4114,
+        "cognitive_delta_max_abs_diff_vs_H1": 5.960464477539063e-08,
+        "logp_max_abs_diff_vs_H1": 9.5367431640625e-07
+      },
+      {
+        "fold": 9,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.5,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.5,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.00989999994635582,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.0198,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "ffbc36a2c89e21ede511b23e17281bc0781262f1f48564963fdb1df9a9bd66d8",
+        "frozen": false,
+        "signed_modalities": 1,
+        "signed_update_observation": "observed",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4074,
+        "cognitive_delta_max_abs_diff_vs_H1": 0.0,
+        "logp_max_abs_diff_vs_H1": 0.0
+      },
+      {
+        "fold": 10,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.5,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.5,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.00989999994635582,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.0198,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "62b3aa7db68b2bdaf380077577f476e6af41f90407407663d3b1d7745028b4cd",
+        "frozen": false,
+        "signed_modalities": 0,
+        "signed_update_observation": "no_signed_modality_in_this_fold",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4145,
+        "cognitive_delta_max_abs_diff_vs_H1": 5.960464477539063e-08,
+        "logp_max_abs_diff_vs_H1": 2.384185791015625e-07
+      }
+    ],
+    "P3": [
+      {
+        "fold": 1,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.00989999994635582,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.099,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "9d47558fc00f26aadaff34e8039628f5eb0a49438c05fa87b7f49ee1d01b990d",
+        "frozen": false,
+        "signed_modalities": 1,
+        "signed_update_observation": "observed",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4079,
+        "cognitive_delta_max_abs_diff_vs_H1": 5.960464477539063e-08,
+        "logp_max_abs_diff_vs_H1": 9.5367431640625e-07
+      },
+      {
+        "fold": 2,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.00989999994635582,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.099,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "293dee417ac952d7277b0d994b6b8c4aec3b487c734e4fa9b95ebc5ebeb56a7c",
+        "frozen": false,
+        "signed_modalities": 0,
+        "signed_update_observation": "no_signed_modality_in_this_fold",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4068,
+        "cognitive_delta_max_abs_diff_vs_H1": 0.0,
+        "logp_max_abs_diff_vs_H1": 0.0
+      },
+      {
+        "fold": 3,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.00989999994635582,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.099,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "76cb4c038cda7ce4256556b72da538d04ec50c614d553c97de68ab525f5e2f49",
+        "frozen": false,
+        "signed_modalities": 0,
+        "signed_update_observation": "no_signed_modality_in_this_fold",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4096,
+        "cognitive_delta_max_abs_diff_vs_H1": 5.960464477539063e-08,
+        "logp_max_abs_diff_vs_H1": 9.5367431640625e-07
+      },
+      {
+        "fold": 4,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.00989999994635582,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.099,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "839963962a0f4c51cef134c85266fe08ce3f0d0e49260f21c33a8260ffabf556",
+        "frozen": false,
+        "signed_modalities": 0,
+        "signed_update_observation": "no_signed_modality_in_this_fold",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4098,
+        "cognitive_delta_max_abs_diff_vs_H1": 5.960464477539063e-08,
+        "logp_max_abs_diff_vs_H1": 9.5367431640625e-07
+      },
+      {
+        "fold": 5,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.00989999994635582,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.099,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "61d566f9e3be5cdd98308940b978dd904be8a831c1d991c6ec7611eb7ed108ce",
+        "frozen": false,
+        "signed_modalities": 1,
+        "signed_update_observation": "observed",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4077,
+        "cognitive_delta_max_abs_diff_vs_H1": 5.960464477539063e-08,
+        "logp_max_abs_diff_vs_H1": 9.5367431640625e-07
+      },
+      {
+        "fold": 6,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.00989999994635582,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.099,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "08fb9aeabe980e8dee7e5269eee656933ab3b9bbb0661761dace6385d0eee1d0",
+        "frozen": false,
+        "signed_modalities": 1,
+        "signed_update_observation": "observed",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4127,
+        "cognitive_delta_max_abs_diff_vs_H1": 0.0,
+        "logp_max_abs_diff_vs_H1": 0.0
+      },
+      {
+        "fold": 7,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.00989999994635582,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.099,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "536bc9ffeb923df6a3bc0327e6684f284c10ea60a12bd869e9b29b2ee2785b00",
+        "frozen": false,
+        "signed_modalities": 1,
+        "signed_update_observation": "observed",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4080,
+        "cognitive_delta_max_abs_diff_vs_H1": 5.960464477539063e-08,
+        "logp_max_abs_diff_vs_H1": 4.76837158203125e-07
+      },
+      {
+        "fold": 8,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.00989999994635582,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.099,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "ffc93a2e0742fc55844690cb5caf797304ff9c73392168741d9035910981fa59",
+        "frozen": false,
+        "signed_modalities": 1,
+        "signed_update_observation": "observed",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4114,
+        "cognitive_delta_max_abs_diff_vs_H1": 5.960464477539063e-08,
+        "logp_max_abs_diff_vs_H1": 9.5367431640625e-07
+      },
+      {
+        "fold": 9,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.00989999994635582,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.099,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "c3cd70032e0463a2338ce9cccd4ae60cdc2be847c8ebc1b3ff699d3e5dfdbe48",
+        "frozen": false,
+        "signed_modalities": 1,
+        "signed_update_observation": "observed",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4074,
+        "cognitive_delta_max_abs_diff_vs_H1": 0.0,
+        "logp_max_abs_diff_vs_H1": 0.0
+      },
+      {
+        "fold": 10,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.00989999994635582,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.099,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "b0b9ebd9f3552a7ca8e6a5a4d65a5c7b382e948404da0e3f5a0b0436ff3c1eb5",
+        "frozen": false,
+        "signed_modalities": 0,
+        "signed_update_observation": "no_signed_modality_in_this_fold",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4145,
+        "cognitive_delta_max_abs_diff_vs_H1": 5.960464477539063e-08,
+        "logp_max_abs_diff_vs_H1": 2.384185791015625e-07
+      }
+    ],
+    "R1": [
+      {
+        "fold": 1,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.99,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.9900000691413879,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.009900000877678394,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "b1793784036e7b6437057a942e6b42845fe033e1e676791db83a27447d6a59e3",
+        "frozen": false,
+        "signed_modalities": 1,
+        "signed_update_observation": "observed",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4079,
+        "cognitive_delta_max_abs_diff_vs_H1": 0.0,
+        "logp_max_abs_diff_vs_H1": 0.0
+      },
+      {
+        "fold": 2,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.99,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.9900000691413879,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.009900000877678394,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "abf08dcbe51c15482a816d8fb446ddbcf4161d306788593632fa0d2f1a26622d",
+        "frozen": false,
+        "signed_modalities": 0,
+        "signed_update_observation": "no_signed_modality_in_this_fold",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4068,
+        "cognitive_delta_max_abs_diff_vs_H1": 0.0,
+        "logp_max_abs_diff_vs_H1": 0.0
+      },
+      {
+        "fold": 3,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.99,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.9900000691413879,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.009900000877678394,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "ca8cca635fb59c73be9cb0d2650483a26093a1eba459d07ef9db5baf45fa73e1",
+        "frozen": false,
+        "signed_modalities": 0,
+        "signed_update_observation": "no_signed_modality_in_this_fold",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4096,
+        "cognitive_delta_max_abs_diff_vs_H1": 0.0,
+        "logp_max_abs_diff_vs_H1": 0.0
+      },
+      {
+        "fold": 4,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.99,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.9900000691413879,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.009900000877678394,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "786bda0b040b4d72ebcf133e70380c0d5567bce69f21f7c58354e02815473937",
+        "frozen": false,
+        "signed_modalities": 0,
+        "signed_update_observation": "no_signed_modality_in_this_fold",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4098,
+        "cognitive_delta_max_abs_diff_vs_H1": 0.0,
+        "logp_max_abs_diff_vs_H1": 0.0
+      },
+      {
+        "fold": 5,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.99,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.9900000691413879,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.009900000877678394,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "a053424f0f84ec9d88b7c030f6dcb260a1689880af1e7d1bfd9220d572e2d78b",
+        "frozen": false,
+        "signed_modalities": 1,
+        "signed_update_observation": "observed",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4077,
+        "cognitive_delta_max_abs_diff_vs_H1": 0.0,
+        "logp_max_abs_diff_vs_H1": 0.0
+      },
+      {
+        "fold": 6,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.99,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.9900000691413879,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.009900000877678394,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "f7330e9aa6a17d15c2b79590c502ee6483f47bd53c172e52bbadb64c94f9012d",
+        "frozen": false,
+        "signed_modalities": 1,
+        "signed_update_observation": "observed",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4127,
+        "cognitive_delta_max_abs_diff_vs_H1": 0.0,
+        "logp_max_abs_diff_vs_H1": 0.0
+      },
+      {
+        "fold": 7,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.99,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.9900000691413879,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.009900000877678394,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "7b1d8e427a36d2f64ad8d5639c817e362710354904c2439f550ce7e02203c467",
+        "frozen": false,
+        "signed_modalities": 1,
+        "signed_update_observation": "observed",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4080,
+        "cognitive_delta_max_abs_diff_vs_H1": 0.0,
+        "logp_max_abs_diff_vs_H1": 0.0
+      },
+      {
+        "fold": 8,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.99,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.9900000691413879,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.009900000877678394,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "b008acb4f546b23fba2ee2ae51b933c368ee6a2c13f4378eb1d13a73c66e3638",
+        "frozen": false,
+        "signed_modalities": 1,
+        "signed_update_observation": "observed",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4114,
+        "cognitive_delta_max_abs_diff_vs_H1": 0.0,
+        "logp_max_abs_diff_vs_H1": 0.0
+      },
+      {
+        "fold": 9,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.99,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.9900000691413879,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.009900000877678394,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "84c55dcf58abd644d7f829e6431a1ea135c8679a55ae91ecc9074cade05d35b6",
+        "frozen": false,
+        "signed_modalities": 1,
+        "signed_update_observation": "observed",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4074,
+        "cognitive_delta_max_abs_diff_vs_H1": 0.0,
+        "logp_max_abs_diff_vs_H1": 0.0
+      },
+      {
+        "fold": 10,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.99,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.9900000691413879,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.009900000877678394,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "380a8580c5cb884adbfa86b3d14eeab1d82cb22fe61d8e8cef022066f7ebcc43",
+        "frozen": false,
+        "signed_modalities": 0,
+        "signed_update_observation": "no_signed_modality_in_this_fold",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4145,
+        "cognitive_delta_max_abs_diff_vs_H1": 0.0,
+        "logp_max_abs_diff_vs_H1": 0.0
+      }
+    ],
+    "R2": [
+      {
+        "fold": 1,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.99,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.9900000691413879,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.009900000877678394,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "7c748906b76a8a20f8a08e64f0335c326369aff76bcded185bc97a6d740dec55",
+        "frozen": false,
+        "signed_modalities": 1,
+        "signed_update_observation": "observed",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4079,
+        "cognitive_delta_max_abs_diff_vs_H1": 0.0,
+        "logp_max_abs_diff_vs_H1": 0.0
+      },
+      {
+        "fold": 2,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.99,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.9900000691413879,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.009900000877678394,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "99de9ea9ae1a01f2ad3a0e7da1078c7456d4d31dfbda0445312234b306198e4b",
+        "frozen": false,
+        "signed_modalities": 0,
+        "signed_update_observation": "no_signed_modality_in_this_fold",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4068,
+        "cognitive_delta_max_abs_diff_vs_H1": 0.0,
+        "logp_max_abs_diff_vs_H1": 0.0
+      },
+      {
+        "fold": 3,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.99,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.9900000691413879,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.009900000877678394,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "09607b9dad9bf442cebcf10f171c198df08c42db3e47a46e79a0636d2025be6e",
+        "frozen": false,
+        "signed_modalities": 0,
+        "signed_update_observation": "no_signed_modality_in_this_fold",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4096,
+        "cognitive_delta_max_abs_diff_vs_H1": 0.0,
+        "logp_max_abs_diff_vs_H1": 0.0
+      },
+      {
+        "fold": 4,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.99,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.9900000691413879,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.009900000877678394,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "49705d3aabcd9cb46764b0e82ea8efd681bdc5c0e22eb17e86014b8d93093c0e",
+        "frozen": false,
+        "signed_modalities": 0,
+        "signed_update_observation": "no_signed_modality_in_this_fold",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4098,
+        "cognitive_delta_max_abs_diff_vs_H1": 0.0,
+        "logp_max_abs_diff_vs_H1": 0.0
+      },
+      {
+        "fold": 5,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.99,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.9900000691413879,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.009900000877678394,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "400d84556bea55056d213cc9a74311b769e1a683c5baba45a0801bf4008af738",
+        "frozen": false,
+        "signed_modalities": 1,
+        "signed_update_observation": "observed",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4077,
+        "cognitive_delta_max_abs_diff_vs_H1": 0.0,
+        "logp_max_abs_diff_vs_H1": 0.0
+      },
+      {
+        "fold": 6,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.99,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.9900000691413879,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.009900000877678394,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "30d4b2418df5bfe4bf8a74e0fb0596d2dbe9c1fdc583878dfcbe8f587aee6a77",
+        "frozen": false,
+        "signed_modalities": 1,
+        "signed_update_observation": "observed",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4127,
+        "cognitive_delta_max_abs_diff_vs_H1": 0.0,
+        "logp_max_abs_diff_vs_H1": 0.0
+      },
+      {
+        "fold": 7,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.99,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.9900000691413879,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.009900000877678394,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "978daba4b56748855f2878380536d6d2c554eb82d1d9bf45843cf6ee24d57ee7",
+        "frozen": false,
+        "signed_modalities": 1,
+        "signed_update_observation": "observed",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4080,
+        "cognitive_delta_max_abs_diff_vs_H1": 0.0,
+        "logp_max_abs_diff_vs_H1": 0.0
+      },
+      {
+        "fold": 8,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.99,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.9900000691413879,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.009900000877678394,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "d5dc0ec2405bf2ca5b5e9926d92121e054da21ec9b8333543c2290481e160c6c",
+        "frozen": false,
+        "signed_modalities": 1,
+        "signed_update_observation": "observed",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4114,
+        "cognitive_delta_max_abs_diff_vs_H1": 0.0,
+        "logp_max_abs_diff_vs_H1": 0.0
+      },
+      {
+        "fold": 9,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.99,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.9900000691413879,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.009900000877678394,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "0ab04eebcb19676a3e43f3f495938a77a0741b66f77f75043aff2a43b55ffe86",
+        "frozen": false,
+        "signed_modalities": 1,
+        "signed_update_observation": "observed",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4074,
+        "cognitive_delta_max_abs_diff_vs_H1": 0.0,
+        "logp_max_abs_diff_vs_H1": 0.0
+      },
+      {
+        "fold": 10,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.99,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.9900000691413879,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.009900000877678394,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "4b79bbdd8937f559a073f997ab4babcddfa0353e5b08f8ebfbcd6178cb6086f2",
+        "frozen": false,
+        "signed_modalities": 0,
+        "signed_update_observation": "no_signed_modality_in_this_fold",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4145,
+        "cognitive_delta_max_abs_diff_vs_H1": 0.0,
+        "logp_max_abs_diff_vs_H1": 0.0
+      }
+    ],
+    "D1": [
+      {
+        "fold": 1,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.99,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.9900000691413879,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.009900000877678394,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "6e92f5b03030b972cac40100b2ec53ebca925db17ccefc8e25e8ad1ca9359fb9",
+        "frozen": true,
+        "signed_modalities": 1,
+        "signed_update_observation": "observed",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4079,
+        "cognitive_delta_max_abs_diff_vs_H1": 0.0,
+        "logp_max_abs_diff_vs_H1": 0.0
+      },
+      {
+        "fold": 2,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.99,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.9900000691413879,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.009900000877678394,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "e9a1eaf9b64a3bc7e1f81d116432de1e1c13f9d6031f3420983c48e4b96b48b0",
+        "frozen": true,
+        "signed_modalities": 0,
+        "signed_update_observation": "no_signed_modality_in_this_fold",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4068,
+        "cognitive_delta_max_abs_diff_vs_H1": 0.0,
+        "logp_max_abs_diff_vs_H1": 0.0
+      },
+      {
+        "fold": 3,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.99,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.9900000691413879,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.009900000877678394,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "b20802558a5b00161cd48349cb8d836113640f887c52d62e3b3bdc92f7e36c48",
+        "frozen": true,
+        "signed_modalities": 0,
+        "signed_update_observation": "no_signed_modality_in_this_fold",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4096,
+        "cognitive_delta_max_abs_diff_vs_H1": 0.0,
+        "logp_max_abs_diff_vs_H1": 0.0
+      },
+      {
+        "fold": 4,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.99,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.9900000691413879,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.009900000877678394,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "5d341c71c64d55326f14296ba8ab4b7c06581cc0494936df5fee02a16c3289f1",
+        "frozen": true,
+        "signed_modalities": 0,
+        "signed_update_observation": "no_signed_modality_in_this_fold",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4098,
+        "cognitive_delta_max_abs_diff_vs_H1": 0.0,
+        "logp_max_abs_diff_vs_H1": 0.0
+      },
+      {
+        "fold": 5,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.99,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.9900000691413879,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.009900000877678394,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "6805e906d34cb15bb4eec6be60bc339f8031aece15f41ce8cc9626b2d0b051c2",
+        "frozen": true,
+        "signed_modalities": 1,
+        "signed_update_observation": "observed",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4077,
+        "cognitive_delta_max_abs_diff_vs_H1": 0.0,
+        "logp_max_abs_diff_vs_H1": 0.0
+      },
+      {
+        "fold": 6,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.99,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.9900000691413879,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.009900000877678394,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "f9441bee370bfdd98948b26d0f963708781544a71cb5d8d5728eb83898e968ba",
+        "frozen": true,
+        "signed_modalities": 1,
+        "signed_update_observation": "observed",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4127,
+        "cognitive_delta_max_abs_diff_vs_H1": 0.0,
+        "logp_max_abs_diff_vs_H1": 0.0
+      },
+      {
+        "fold": 7,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.99,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.9900000691413879,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.009900000877678394,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "21be361f1e41350f0285fce3bf5851bcebb263a14cf8162152ff1baef3ec9359",
+        "frozen": true,
+        "signed_modalities": 1,
+        "signed_update_observation": "observed",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4080,
+        "cognitive_delta_max_abs_diff_vs_H1": 0.0,
+        "logp_max_abs_diff_vs_H1": 0.0
+      },
+      {
+        "fold": 8,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.99,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.9900000691413879,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.009900000877678394,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "a837118ed6ce24c30464c176349c35d247e497f86ed3da99fc06da426480067f",
+        "frozen": true,
+        "signed_modalities": 1,
+        "signed_update_observation": "observed",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4114,
+        "cognitive_delta_max_abs_diff_vs_H1": 0.0,
+        "logp_max_abs_diff_vs_H1": 0.0
+      },
+      {
+        "fold": 9,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.99,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.9900000691413879,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.009900000877678394,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "94b65ad299ade6e55882e78f5574599618d97769900edf52abe7e6c3bec1c26d",
+        "frozen": true,
+        "signed_modalities": 1,
+        "signed_update_observation": "observed",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4074,
+        "cognitive_delta_max_abs_diff_vs_H1": 0.0,
+        "logp_max_abs_diff_vs_H1": 0.0
+      },
+      {
+        "fold": 10,
+        "status": "PASS",
+        "mode": "after_warmup",
+        "parameter_identity_preserved": true,
+        "rng_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "optimizer_non_gate_state_unchanged": true,
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.99,
+          0.1
+        ],
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.9900000691413879,
+          0.10000000149011612
+        ],
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.009900000877678394,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01
+        ],
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "non_gate_optimizer_state_sha256": "06e84b875842241ae1d34d4c53ff4483703518040383d36418caf029418c159f",
+        "frozen": true,
+        "signed_modalities": 0,
+        "signed_update_observation": "no_signed_modality_in_this_fold",
+        "residual_off_exact": true,
+        "cognitive_support_edges_unique": 4145,
+        "cognitive_delta_max_abs_diff_vs_H1": 0.0,
+        "logp_max_abs_diff_vs_H1": 0.0
+      }
+    ]
+  }
+}

@@ -1,0 +1,594 @@
+{
+  "experiment": "Experiment 83.8.5.3",
+  "format_contract": {
+    "custom_fields_added": false,
+    "epoch_denominator": 450,
+    "epoch_field_order": [
+      "epoch/450",
+      "trn-loss-MF",
+      "trn-loss-MF",
+      "trn-loss-MF",
+      "trn-auc",
+      "acc",
+      "val-auc",
+      "acc"
+    ],
+    "fold_fields": [
+      "time",
+      "tst-auc",
+      "acc",
+      "sens",
+      "spes",
+      "train_shape",
+      "test_shape",
+      "next_fold_Counter"
+    ],
+    "fold_metric_decimal_precision": 4,
+    "loss_fields": 3,
+    "per_epoch_decimal_precision": 4,
+    "time_decimal_precision": 4
+  },
+  "groups": {
+    "A1": {
+      "epoch_denominator": 450,
+      "epochs_by_fold": [
+        248,
+        233,
+        445,
+        450,
+        372,
+        271,
+        267,
+        279,
+        385,
+        284
+      ],
+      "epochs_reconstructed": true,
+      "field_order": [
+        "epoch/450",
+        "trn-loss-MF",
+        "trn-loss-MF",
+        "trn-loss-MF",
+        "trn-auc",
+        "acc",
+        "val-auc",
+        "acc"
+      ],
+      "file": "/model/spromptgl/experiment/experiment83_8_5_3_tadpole_s02_cognitive_fidelity_optimization/logs/A1_result_Tadpole.txt",
+      "folds": 10,
+      "group": "A1",
+      "sha256": "5ff13d38c9703f85ee563c31dc55901e9a3b6d53ff5e3e1deba4b36972d3fede",
+      "source": "real saved author_epoch_log and fold predictions",
+      "status": "PASS",
+      "trn_loss_mf_fields_per_epoch": 3
+    },
+    "A2": {
+      "epoch_denominator": 450,
+      "epochs_by_fold": [
+        274,
+        233,
+        450,
+        380,
+        317,
+        253,
+        254,
+        281,
+        378,
+        450
+      ],
+      "epochs_reconstructed": true,
+      "field_order": [
+        "epoch/450",
+        "trn-loss-MF",
+        "trn-loss-MF",
+        "trn-loss-MF",
+        "trn-auc",
+        "acc",
+        "val-auc",
+        "acc"
+      ],
+      "file": "/model/spromptgl/experiment/experiment83_8_5_3_tadpole_s02_cognitive_fidelity_optimization/logs/A2_result_Tadpole.txt",
+      "folds": 10,
+      "group": "A2",
+      "sha256": "8561162783ff619bbcf11321b3e5cf2708173adf3bc67c70bb6191d05c6ca45b",
+      "source": "real saved author_epoch_log and fold predictions",
+      "status": "PASS",
+      "trn_loss_mf_fields_per_epoch": 3
+    },
+    "D1": {
+      "epoch_denominator": 450,
+      "epochs_by_fold": [
+        249,
+        233,
+        391,
+        256,
+        289,
+        438,
+        360,
+        351,
+        386,
+        450
+      ],
+      "epochs_reconstructed": true,
+      "field_order": [
+        "epoch/450",
+        "trn-loss-MF",
+        "trn-loss-MF",
+        "trn-loss-MF",
+        "trn-auc",
+        "acc",
+        "val-auc",
+        "acc"
+      ],
+      "file": "/model/spromptgl/experiment/experiment83_8_5_3_tadpole_s02_cognitive_fidelity_optimization/logs/D1_result_Tadpole.txt",
+      "folds": 10,
+      "group": "D1",
+      "sha256": "173c65560b6211c4cf99c4982d154aaee3c8ffe1843a7eb57a1ecb75e3730218",
+      "source": "real saved author_epoch_log and fold predictions",
+      "status": "PASS",
+      "trn_loss_mf_fields_per_epoch": 3
+    },
+    "H0": {
+      "epochs_reconstructed": false,
+      "file": "/model/spromptgl/experiment/experiment83_8_5_3_tadpole_s02_cognitive_fidelity_optimization/logs/H0_result_Tadpole.txt",
+      "group": "H0",
+      "sha256": "ee60eee80e232b439876bc420797e81e1b4f099d8f5c98c4410c4725d2de9600",
+      "source": "/model/spromptgl/experiment/experiment83_8_5_2_tadpole_cognitive_strong_anchor_factorial/logs/B0_result_Tadpole.txt",
+      "source_sha256": "ee60eee80e232b439876bc420797e81e1b4f099d8f5c98c4410c4725d2de9600",
+      "status": "PASS"
+    },
+    "H1": {
+      "epochs_reconstructed": false,
+      "file": "/model/spromptgl/experiment/experiment83_8_5_3_tadpole_s02_cognitive_fidelity_optimization/logs/H1_result_Tadpole.txt",
+      "group": "H1",
+      "sha256": "1446ed5ca4a91e6330c22c1a38f2b824ca35f7108cc33cde0a19f8766751f1b4",
+      "source": "/model/spromptgl/experiment/experiment83_8_5_2_tadpole_cognitive_strong_anchor_factorial/logs/S02_result_Tadpole.txt",
+      "source_sha256": "1446ed5ca4a91e6330c22c1a38f2b824ca35f7108cc33cde0a19f8766751f1b4",
+      "status": "PASS"
+    },
+    "P1": {
+      "epoch_denominator": 450,
+      "epochs_by_fold": [
+        296,
+        233,
+        280,
+        408,
+        275,
+        253,
+        311,
+        281,
+        234,
+        401
+      ],
+      "epochs_reconstructed": true,
+      "field_order": [
+        "epoch/450",
+        "trn-loss-MF",
+        "trn-loss-MF",
+        "trn-loss-MF",
+        "trn-auc",
+        "acc",
+        "val-auc",
+        "acc"
+      ],
+      "file": "/model/spromptgl/experiment/experiment83_8_5_3_tadpole_s02_cognitive_fidelity_optimization/logs/P1_result_Tadpole.txt",
+      "folds": 10,
+      "group": "P1",
+      "sha256": "3e9eddb9eab38ea55f5f65155050e5d8fc645a884f41ee49616c4d634b3ed8cc",
+      "source": "real saved author_epoch_log and fold predictions",
+      "status": "PASS",
+      "trn_loss_mf_fields_per_epoch": 3
+    },
+    "P2": {
+      "epoch_denominator": 450,
+      "epochs_by_fold": [
+        267,
+        233,
+        450,
+        249,
+        299,
+        253,
+        362,
+        387,
+        382,
+        409
+      ],
+      "epochs_reconstructed": true,
+      "field_order": [
+        "epoch/450",
+        "trn-loss-MF",
+        "trn-loss-MF",
+        "trn-loss-MF",
+        "trn-auc",
+        "acc",
+        "val-auc",
+        "acc"
+      ],
+      "file": "/model/spromptgl/experiment/experiment83_8_5_3_tadpole_s02_cognitive_fidelity_optimization/logs/P2_result_Tadpole.txt",
+      "folds": 10,
+      "group": "P2",
+      "sha256": "fe3f3a876be808510ab0dfc333b68b6e95a9deaf0a3f86b8b64e71c5b29cc5fa",
+      "source": "real saved author_epoch_log and fold predictions",
+      "status": "PASS",
+      "trn_loss_mf_fields_per_epoch": 3
+    },
+    "P3": {
+      "epoch_denominator": 450,
+      "epochs_by_fold": [
+        332,
+        233,
+        432,
+        405,
+        277,
+        272,
+        277,
+        280,
+        450,
+        422
+      ],
+      "epochs_reconstructed": true,
+      "field_order": [
+        "epoch/450",
+        "trn-loss-MF",
+        "trn-loss-MF",
+        "trn-loss-MF",
+        "trn-auc",
+        "acc",
+        "val-auc",
+        "acc"
+      ],
+      "file": "/model/spromptgl/experiment/experiment83_8_5_3_tadpole_s02_cognitive_fidelity_optimization/logs/P3_result_Tadpole.txt",
+      "folds": 10,
+      "group": "P3",
+      "sha256": "9bf2559c9ef0fc881aa5b82beec18f6e6d89f58a6a17ee639bf778eddf0fd600",
+      "source": "real saved author_epoch_log and fold predictions",
+      "status": "PASS",
+      "trn_loss_mf_fields_per_epoch": 3
+    },
+    "R1": {
+      "epoch_denominator": 450,
+      "epochs_by_fold": [
+        280,
+        233,
+        309,
+        320,
+        423,
+        326,
+        450,
+        342,
+        428,
+        303
+      ],
+      "epochs_reconstructed": true,
+      "field_order": [
+        "epoch/450",
+        "trn-loss-MF",
+        "trn-loss-MF",
+        "trn-loss-MF",
+        "trn-auc",
+        "acc",
+        "val-auc",
+        "acc"
+      ],
+      "file": "/model/spromptgl/experiment/experiment83_8_5_3_tadpole_s02_cognitive_fidelity_optimization/logs/R1_result_Tadpole.txt",
+      "folds": 10,
+      "group": "R1",
+      "sha256": "0828457c84b0cec3a471d71304d864e934df63887e06eed7cc872d3874f2b98e",
+      "source": "real saved author_epoch_log and fold predictions",
+      "status": "PASS",
+      "trn_loss_mf_fields_per_epoch": 3
+    },
+    "R2": {
+      "epoch_denominator": 450,
+      "epochs_by_fold": [
+        302,
+        233,
+        275,
+        443,
+        291,
+        450,
+        363,
+        450,
+        378,
+        388
+      ],
+      "epochs_reconstructed": true,
+      "field_order": [
+        "epoch/450",
+        "trn-loss-MF",
+        "trn-loss-MF",
+        "trn-loss-MF",
+        "trn-auc",
+        "acc",
+        "val-auc",
+        "acc"
+      ],
+      "file": "/model/spromptgl/experiment/experiment83_8_5_3_tadpole_s02_cognitive_fidelity_optimization/logs/R2_result_Tadpole.txt",
+      "folds": 10,
+      "group": "R2",
+      "sha256": "90ee9413e0e278deec5f2da950cd111deb3520ef5c7baa5ac317e05d5ca26e8a",
+      "source": "real saved author_epoch_log and fold predictions",
+      "status": "PASS",
+      "trn_loss_mf_fields_per_epoch": 3
+    }
+  },
+  "script_sha256": "df7b4b83ab56c7990177802cbe6cfed48938a140504e9358d3ecfd2ce323461d",
+  "status": "PASS",
+  "strict_parser": {
+    "A1": {
+      "denominator": 450,
+      "epoch_counts": [
+        248,
+        233,
+        445,
+        450,
+        372,
+        271,
+        267,
+        279,
+        385,
+        284
+      ],
+      "fold_count": 10,
+      "status": "PASS"
+    },
+    "A2": {
+      "denominator": 450,
+      "epoch_counts": [
+        274,
+        233,
+        450,
+        380,
+        317,
+        253,
+        254,
+        281,
+        378,
+        450
+      ],
+      "fold_count": 10,
+      "status": "PASS"
+    },
+    "D1": {
+      "denominator": 450,
+      "epoch_counts": [
+        249,
+        233,
+        391,
+        256,
+        289,
+        438,
+        360,
+        351,
+        386,
+        450
+      ],
+      "fold_count": 10,
+      "status": "PASS"
+    },
+    "H0": {
+      "denominator": 450,
+      "epoch_counts": [
+        336,
+        233,
+        346,
+        264,
+        296,
+        271,
+        450,
+        278,
+        300,
+        450
+      ],
+      "fold_count": 10,
+      "status": "PASS"
+    },
+    "H1": {
+      "denominator": 450,
+      "epoch_counts": [
+        263,
+        233,
+        450,
+        383,
+        397,
+        450,
+        400,
+        279,
+        330,
+        450
+      ],
+      "fold_count": 10,
+      "status": "PASS"
+    },
+    "P1": {
+      "denominator": 450,
+      "epoch_counts": [
+        296,
+        233,
+        280,
+        408,
+        275,
+        253,
+        311,
+        281,
+        234,
+        401
+      ],
+      "fold_count": 10,
+      "status": "PASS"
+    },
+    "P2": {
+      "denominator": 450,
+      "epoch_counts": [
+        267,
+        233,
+        450,
+        249,
+        299,
+        253,
+        362,
+        387,
+        382,
+        409
+      ],
+      "fold_count": 10,
+      "status": "PASS"
+    },
+    "P3": {
+      "denominator": 450,
+      "epoch_counts": [
+        332,
+        233,
+        432,
+        405,
+        277,
+        272,
+        277,
+        280,
+        450,
+        422
+      ],
+      "fold_count": 10,
+      "status": "PASS"
+    },
+    "R1": {
+      "denominator": 450,
+      "epoch_counts": [
+        280,
+        233,
+        309,
+        320,
+        423,
+        326,
+        450,
+        342,
+        428,
+        303
+      ],
+      "fold_count": 10,
+      "status": "PASS"
+    },
+    "R2": {
+      "denominator": 450,
+      "epoch_counts": [
+        302,
+        233,
+        275,
+        443,
+        291,
+        450,
+        363,
+        450,
+        378,
+        388
+      ],
+      "fold_count": 10,
+      "status": "PASS"
+    }
+  },
+  "template": "/data/adodas/SPromptGL-main/result_Tadpole.txt",
+  "template_git_blob": "0446670764286afbeb86573dadfdbb50ae6af15e",
+  "template_sha256": "5c80d16204e0882e5e264e42952c714397c2d31f07835b9e60d6dafd9488e3b7",
+  "verification": {
+    "A1": {
+      "author_field_order": true,
+      "counter_count": 10,
+      "epoch_denominator_450": true,
+      "epoch_line_count": 3234,
+      "sha256": "5ff13d38c9703f85ee563c31dc55901e9a3b6d53ff5e3e1deba4b36972d3fede",
+      "status": "PASS",
+      "three_trn_loss_fields": true,
+      "train_test_boundary_count": 18
+    },
+    "A2": {
+      "author_field_order": true,
+      "counter_count": 10,
+      "epoch_denominator_450": true,
+      "epoch_line_count": 3270,
+      "sha256": "8561162783ff619bbcf11321b3e5cf2708173adf3bc67c70bb6191d05c6ca45b",
+      "status": "PASS",
+      "three_trn_loss_fields": true,
+      "train_test_boundary_count": 18
+    },
+    "D1": {
+      "author_field_order": true,
+      "counter_count": 10,
+      "epoch_denominator_450": true,
+      "epoch_line_count": 3403,
+      "sha256": "173c65560b6211c4cf99c4982d154aaee3c8ffe1843a7eb57a1ecb75e3730218",
+      "status": "PASS",
+      "three_trn_loss_fields": true,
+      "train_test_boundary_count": 18
+    },
+    "H0": {
+      "author_field_order": true,
+      "counter_count": 10,
+      "epoch_denominator_450": true,
+      "epoch_line_count": 3224,
+      "sha256": "ee60eee80e232b439876bc420797e81e1b4f099d8f5c98c4410c4725d2de9600",
+      "status": "PASS",
+      "three_trn_loss_fields": true,
+      "train_test_boundary_count": 18
+    },
+    "H1": {
+      "author_field_order": true,
+      "counter_count": 10,
+      "epoch_denominator_450": true,
+      "epoch_line_count": 3635,
+      "sha256": "1446ed5ca4a91e6330c22c1a38f2b824ca35f7108cc33cde0a19f8766751f1b4",
+      "status": "PASS",
+      "three_trn_loss_fields": true,
+      "train_test_boundary_count": 18
+    },
+    "P1": {
+      "author_field_order": true,
+      "counter_count": 10,
+      "epoch_denominator_450": true,
+      "epoch_line_count": 2972,
+      "sha256": "3e9eddb9eab38ea55f5f65155050e5d8fc645a884f41ee49616c4d634b3ed8cc",
+      "status": "PASS",
+      "three_trn_loss_fields": true,
+      "train_test_boundary_count": 18
+    },
+    "P2": {
+      "author_field_order": true,
+      "counter_count": 10,
+      "epoch_denominator_450": true,
+      "epoch_line_count": 3291,
+      "sha256": "fe3f3a876be808510ab0dfc333b68b6e95a9deaf0a3f86b8b64e71c5b29cc5fa",
+      "status": "PASS",
+      "three_trn_loss_fields": true,
+      "train_test_boundary_count": 18
+    },
+    "P3": {
+      "author_field_order": true,
+      "counter_count": 10,
+      "epoch_denominator_450": true,
+      "epoch_line_count": 3380,
+      "sha256": "9bf2559c9ef0fc881aa5b82beec18f6e6d89f58a6a17ee639bf778eddf0fd600",
+      "status": "PASS",
+      "three_trn_loss_fields": true,
+      "train_test_boundary_count": 18
+    },
+    "R1": {
+      "author_field_order": true,
+      "counter_count": 10,
+      "epoch_denominator_450": true,
+      "epoch_line_count": 3414,
+      "sha256": "0828457c84b0cec3a471d71304d864e934df63887e06eed7cc872d3874f2b98e",
+      "status": "PASS",
+      "three_trn_loss_fields": true,
+      "train_test_boundary_count": 18
+    },
+    "R2": {
+      "author_field_order": true,
+      "counter_count": 10,
+      "epoch_denominator_450": true,
+      "epoch_line_count": 3573,
+      "sha256": "90ee9413e0e278deec5f2da950cd111deb3520ef5c7baa5ac317e05d5ca26e8a",
+      "status": "PASS",
+      "three_trn_loss_fields": true,
+      "train_test_boundary_count": 18
+    }
+  }
+}

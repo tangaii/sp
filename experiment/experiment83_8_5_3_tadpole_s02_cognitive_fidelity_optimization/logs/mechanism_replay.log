@@ -1,0 +1,93 @@
+PASS mechanism A1 fold 01
+PASS mechanism A1 fold 02
+PASS mechanism A1 fold 03
+PASS mechanism A1 fold 04
+PASS mechanism A1 fold 05
+PASS mechanism A1 fold 06
+PASS mechanism A1 fold 07
+PASS mechanism A1 fold 08
+PASS mechanism A1 fold 09
+PASS mechanism A1 fold 10
+PASS mechanism A2 fold 01
+PASS mechanism A2 fold 02
+PASS mechanism A2 fold 03
+PASS mechanism A2 fold 04
+PASS mechanism A2 fold 05
+PASS mechanism A2 fold 06
+PASS mechanism A2 fold 07
+PASS mechanism A2 fold 08
+PASS mechanism A2 fold 09
+PASS mechanism A2 fold 10
+PASS mechanism P1 fold 01
+PASS mechanism P1 fold 02
+PASS mechanism P1 fold 03
+PASS mechanism P1 fold 04
+PASS mechanism P1 fold 05
+PASS mechanism P1 fold 06
+PASS mechanism P1 fold 07
+PASS mechanism P1 fold 08
+PASS mechanism P1 fold 09
+PASS mechanism P1 fold 10
+PASS mechanism P2 fold 01
+PASS mechanism P2 fold 02
+PASS mechanism P2 fold 03
+PASS mechanism P2 fold 04
+PASS mechanism P2 fold 05
+PASS mechanism P2 fold 06
+PASS mechanism P2 fold 07
+PASS mechanism P2 fold 08
+PASS mechanism P2 fold 09
+PASS mechanism P2 fold 10
+PASS mechanism P3 fold 01
+PASS mechanism P3 fold 02
+PASS mechanism P3 fold 03
+PASS mechanism P3 fold 04
+PASS mechanism P3 fold 05
+PASS mechanism P3 fold 06
+PASS mechanism P3 fold 07
+PASS mechanism P3 fold 08
+PASS mechanism P3 fold 09
+PASS mechanism P3 fold 10
+PASS mechanism R1 fold 01
+PASS mechanism R1 fold 02
+PASS mechanism R1 fold 03
+PASS mechanism R1 fold 04
+PASS mechanism R1 fold 05
+PASS mechanism R1 fold 06
+PASS mechanism R1 fold 07
+PASS mechanism R1 fold 08
+PASS mechanism R1 fold 09
+PASS mechanism R1 fold 10
+PASS mechanism R2 fold 01
+PASS mechanism R2 fold 02
+PASS mechanism R2 fold 03
+PASS mechanism R2 fold 04
+PASS mechanism R2 fold 05
+PASS mechanism R2 fold 06
+PASS mechanism R2 fold 07
+PASS mechanism R2 fold 08
+PASS mechanism R2 fold 09
+PASS mechanism R2 fold 10
+PASS mechanism D1 fold 01
+PASS mechanism D1 fold 02
+PASS mechanism D1 fold 03
+PASS mechanism D1 fold 04
+PASS mechanism D1 fold 05
+PASS mechanism D1 fold 06
+PASS mechanism D1 fold 07
+PASS mechanism D1 fold 08
+PASS mechanism D1 fold 09
+PASS mechanism D1 fold 10
+{
+  "status": "PASS",
+  "groups": {
+    "A1": 10,
+    "A2": 10,
+    "P1": 10,
+    "P2": 10,
+    "P3": 10,
+    "R1": 10,
+    "R2": 10,
+    "D1": 10
+  }
+}
