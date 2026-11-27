@@ -1,0 +1,14 @@
+{
+  "DARG_interventions": [
+    "direct_off",
+    "disease_neutral",
+    "cognitive_graph_off"
+  ],
+  "DPSL_intervention": "Residual-Off exactly reproduces Native, then Full-vs-Native deltas are measured",
+  "experiment": "Experiment 83.8.5.4",
+  "folds": 60,
+  "output": "/model/spromptgl/experiment/experiment83_8_5_4_tadpole_s02_relation_sampling/results/intervention_diagnostics.csv",
+  "residual_off_exact_native_all_folds": true,
+  "sha256": "d26b136f8e45d089f631beff6cab2d8d6ba98c5db38a747bf5309f06f308a98d",
+  "status": "PASS"
+}

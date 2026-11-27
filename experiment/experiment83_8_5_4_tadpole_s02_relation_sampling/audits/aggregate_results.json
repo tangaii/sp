@@ -1,0 +1,41 @@
+{
+  "bootstrap_replicates": 2000,
+  "bootstrap_seed": 83854,
+  "checkpoint_replay_status": "PASS",
+  "experiment": "Experiment 83.8.5.4",
+  "folds": 60,
+  "groups": [
+    "H0",
+    "H1",
+    "T1",
+    "T2",
+    "T3",
+    "T4"
+  ],
+  "holm_family_size": 12,
+  "intervention_audit_status": "PASS",
+  "latest_next_step_status": "PASS",
+  "log_audit_status": "PASS",
+  "oof_rows": 3588,
+  "outputs": {
+    "anchor_graph_summary.csv": "55605b0a313039088fe7fbda91e70e2b74f35453da4a6d647ee049388d303f1a",
+    "exposure_summary.csv": "99053ec25ecd3b8bbdfef69c79e9ba529739b3620594b92aa5d1e4f651db02a7",
+    "final_report.md": "7d8571f9e11379f88c931c5f259b62e5b2cf34755485ace768413b8b4d919e7d",
+    "fold_metrics.csv": "ca76dc74eca05a7bb725a317dcf694df9459165562de3c582f37f29c9a253a60",
+    "graph_mechanism_by_modality.csv": "66cd7694a587ceafc3a6c8b53cc6416b656e61a8a1733eef7cc98af87d6e9a67",
+    "group_summary.csv": "0078ca6543551c81d1ea3e6e18b63e87b2333cf415a8a6ca986e5a3a2a5a7640",
+    "intervention_diagnostics.csv": "d26b136f8e45d089f631beff6cab2d8d6ba98c5db38a747bf5309f06f308a98d",
+    "intervention_summary.csv": "c69da3806330d05696fab3f9ed7ed71cba7b610ea0f8ebb37795ff06f799ee92",
+    "mechanism_diagnostics.csv": "b381c68496ccd06bf2eb78a63c73947f4a0b5f0652282251231bb634a1f47855",
+    "oof_predictions.csv": "5bbe24580c627dfc82ce15ebcd0ac3b8f93f01ab8d1481963fa086a6d1f02853",
+    "paired_contrasts.csv": "34106a3fd5f941740c5849f5e47b10a051f3b0ca8d40de3ac4e63b258fc9e07d",
+    "relation_class_summary.csv": "80d844ba2d8e32607ab8d5045e6da4c3c837703aee5ad955b1e1f77045eb1675",
+    "relation_generalization.csv": "df0067a90396f9ac43053b2fac87ae63d71243774e9e2cb73cddc575135d069f",
+    "relation_summary.csv": "e506919dbae1609590d54a06946268b51ceb48825c8fed468273feaaf0ad857c",
+    "sampling_diagnostics.csv": "1cc4ad684f8169f22af1205725339865db387eff928fa5c59f7332f01ed0efa3"
+  },
+  "paired_comparisons": 12,
+  "patients_per_group": 598,
+  "relation_audit_status": "PASS",
+  "status": "PASS"
+}

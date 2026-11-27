@@ -1,0 +1,1227 @@
+{
+  "checks": [
+    {
+      "audit": {
+        "actual_support_count": 0,
+        "actual_support_fraction": 0.0,
+        "canonical_unordered_unique": true,
+        "different_pairs": 2048,
+        "fallback_by_relation": {
+          "AD-AD": 682,
+          "MCI-AD": 682,
+          "MCI-MCI": 683,
+          "NC-AD": 683,
+          "NC-MCI": 683,
+          "NC-NC": 683
+        },
+        "fold": 1,
+        "forced_support_by_relation": {
+          "AD-AD": 0,
+          "MCI-AD": 0,
+          "MCI-MCI": 0,
+          "NC-AD": 0,
+          "NC-MCI": 0,
+          "NC-NC": 0
+        },
+        "non_self": true,
+        "pair_count": 4096,
+        "pair_sha256": "1b7dc01b76a55af4381feeaaa8a2cf895ae97fe389898ad63bbca243aa969ded",
+        "patient_exposure": {
+          "AD": {
+            "count": 67,
+            "gini": 0.07405260250597506,
+            "max": 52,
+            "mean": 40.73134328358209,
+            "min": 27,
+            "p95": 49.699999999999996,
+            "std": 5.321267073753777,
+            "total_endpoint_exposure": 2729
+          },
+          "MCI": {
+            "count": 283,
+            "gini": 0.17847692958610276,
+            "max": 18,
+            "mean": 9.650176678445229,
+            "min": 2,
+            "p95": 14.0,
+            "std": 3.0394156793641995,
+            "total_endpoint_exposure": 2731
+          },
+          "NC": {
+            "count": 188,
+            "gini": 0.14942680913367185,
+            "max": 26,
+            "mean": 14.53191489361702,
+            "min": 4,
+            "p95": 21.0,
+            "std": 3.9185921474796044,
+            "total_endpoint_exposure": 2732
+          }
+        },
+        "relation_counts": {
+          "AD-AD": 682,
+          "MCI-AD": 682,
+          "MCI-MCI": 683,
+          "NC-AD": 683,
+          "NC-MCI": 683,
+          "NC-NC": 683
+        },
+        "same_pairs": 2048,
+        "sampler": "T1",
+        "seed": [
+          83854,
+          1,
+          1
+        ],
+        "support_available": 0,
+        "support_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "target_matches_labels": true,
+        "target_pair_sha256": "53b48f179b00902f3a6aa8fbf71fc7497a7d5369318e04b3e23fc7b6c7644c0e",
+        "target_relation_counts": {
+          "AD-AD": 682,
+          "MCI-AD": 682,
+          "MCI-MCI": 683,
+          "NC-AD": 683,
+          "NC-MCI": 683,
+          "NC-NC": 683
+        },
+        "target_sha256": "53b48f179b00902f3a6aa8fbf71fc7497a7d5369318e04b3e23fc7b6c7644c0e",
+        "target_support_count": 0,
+        "train_only": true
+      },
+      "fold": 1,
+      "sampler": "T1",
+      "test_label_permutation_invariant": true
+    },
+    {
+      "audit": {
+        "actual_support_count": 342,
+        "actual_support_fraction": 0.08349609375,
+        "canonical_unordered_unique": true,
+        "different_pairs": 2048,
+        "fallback_by_relation": {
+          "AD-AD": 614,
+          "MCI-AD": 614,
+          "MCI-MCI": 614,
+          "NC-AD": 683,
+          "NC-MCI": 615,
+          "NC-NC": 614
+        },
+        "fold": 1,
+        "forced_support_by_relation": {
+          "AD-AD": 68,
+          "MCI-AD": 68,
+          "MCI-MCI": 69,
+          "NC-AD": 0,
+          "NC-MCI": 68,
+          "NC-NC": 69
+        },
+        "non_self": true,
+        "pair_count": 4096,
+        "pair_sha256": "008b5d86c18619469dd56688eb7e996f09424af523ee63f4135fd7471f43072b",
+        "patient_exposure": {
+          "AD": {
+            "count": 67,
+            "gini": 0.07964209731846447,
+            "max": 58,
+            "mean": 40.73134328358209,
+            "min": 30,
+            "p95": 50.0,
+            "std": 5.829882079533072,
+            "total_endpoint_exposure": 2729
+          },
+          "MCI": {
+            "count": 283,
+            "gini": 0.19899258998567684,
+            "max": 28,
+            "mean": 9.650176678445229,
+            "min": 3,
+            "p95": 16.0,
+            "std": 3.5539096528154506,
+            "total_endpoint_exposure": 2731
+          },
+          "NC": {
+            "count": 188,
+            "gini": 0.1806213202080932,
+            "max": 57,
+            "mean": 14.53191489361702,
+            "min": 6,
+            "p95": 22.650000000000006,
+            "std": 5.592932713092697,
+            "total_endpoint_exposure": 2732
+          }
+        },
+        "relation_counts": {
+          "AD-AD": 682,
+          "MCI-AD": 682,
+          "MCI-MCI": 683,
+          "NC-AD": 683,
+          "NC-MCI": 683,
+          "NC-NC": 683
+        },
+        "requested_support_by_relation": {
+          "AD-AD": 68,
+          "MCI-AD": 68,
+          "MCI-MCI": 69,
+          "NC-AD": 68,
+          "NC-MCI": 68,
+          "NC-NC": 69
+        },
+        "same_pairs": 2048,
+        "sampler": "T2",
+        "seed": [
+          83854,
+          1,
+          2
+        ],
+        "support_available": 1634,
+        "support_sha256": "dea8dd45127d4b2e2d0eb8a3178b96eddd63dcd265243400a8978a7cbc20d8a3",
+        "support_shortfall_by_relation": {
+          "AD-AD": 0,
+          "MCI-AD": 0,
+          "MCI-MCI": 0,
+          "NC-AD": 68,
+          "NC-MCI": 0,
+          "NC-NC": 0
+        },
+        "target_matches_labels": true,
+        "target_pair_sha256": "0335e666530d24f5e795fc332334e4aa270a8fd7cc69f654f0d1cffa64d04e46",
+        "target_relation_counts": {
+          "AD-AD": 682,
+          "MCI-AD": 682,
+          "MCI-MCI": 683,
+          "NC-AD": 683,
+          "NC-MCI": 683,
+          "NC-NC": 683
+        },
+        "target_sha256": "0335e666530d24f5e795fc332334e4aa270a8fd7cc69f654f0d1cffa64d04e46",
+        "target_support_count": 410,
+        "train_only": true
+      },
+      "fold": 1,
+      "sampler": "T2",
+      "test_label_permutation_invariant": true
+    },
+    {
+      "audit": {
+        "actual_support_count": 743,
+        "actual_support_fraction": 0.181396484375,
+        "canonical_unordered_unique": true,
+        "different_pairs": 2048,
+        "fallback_by_relation": {
+          "AD-AD": 512,
+          "MCI-AD": 573,
+          "MCI-MCI": 561,
+          "NC-AD": 683,
+          "NC-MCI": 512,
+          "NC-NC": 512
+        },
+        "fold": 1,
+        "forced_support_by_relation": {
+          "AD-AD": 170,
+          "MCI-AD": 109,
+          "MCI-MCI": 122,
+          "NC-AD": 0,
+          "NC-MCI": 171,
+          "NC-NC": 171
+        },
+        "non_self": true,
+        "pair_count": 4096,
+        "pair_sha256": "a85287e5997651846f95014d3d0c1eeed00676efc70c97f813f42dbc26e889ca",
+        "patient_exposure": {
+          "AD": {
+            "count": 67,
+            "gini": 0.10452683449735564,
+            "max": 60,
+            "mean": 40.73134328358209,
+            "min": 25,
+            "p95": 55.0,
+            "std": 7.607109968719148,
+            "total_endpoint_exposure": 2729
+          },
+          "MCI": {
+            "count": 283,
+            "gini": 0.25633189411455704,
+            "max": 34,
+            "mean": 9.650176678445229,
+            "min": 1,
+            "p95": 18.0,
+            "std": 4.988455751182482,
+            "total_endpoint_exposure": 2731
+          },
+          "NC": {
+            "count": 188,
+            "gini": 0.22281626740599983,
+            "max": 64,
+            "mean": 14.53191489361702,
+            "min": 5,
+            "p95": 24.0,
+            "std": 7.342969032041662,
+            "total_endpoint_exposure": 2732
+          }
+        },
+        "relation_counts": {
+          "AD-AD": 682,
+          "MCI-AD": 682,
+          "MCI-MCI": 683,
+          "NC-AD": 683,
+          "NC-MCI": 683,
+          "NC-NC": 683
+        },
+        "requested_support_by_relation": {
+          "AD-AD": 170,
+          "MCI-AD": 170,
+          "MCI-MCI": 171,
+          "NC-AD": 171,
+          "NC-MCI": 171,
+          "NC-NC": 171
+        },
+        "same_pairs": 2048,
+        "sampler": "T3",
+        "seed": [
+          83854,
+          1,
+          2
+        ],
+        "support_available": 1634,
+        "support_sha256": "dea8dd45127d4b2e2d0eb8a3178b96eddd63dcd265243400a8978a7cbc20d8a3",
+        "support_shortfall_by_relation": {
+          "AD-AD": 0,
+          "MCI-AD": 61,
+          "MCI-MCI": 49,
+          "NC-AD": 171,
+          "NC-MCI": 0,
+          "NC-NC": 0
+        },
+        "target_matches_labels": true,
+        "target_pair_sha256": "0335e666530d24f5e795fc332334e4aa270a8fd7cc69f654f0d1cffa64d04e46",
+        "target_relation_counts": {
+          "AD-AD": 682,
+          "MCI-AD": 682,
+          "MCI-MCI": 683,
+          "NC-AD": 683,
+          "NC-MCI": 683,
+          "NC-NC": 683
+        },
+        "target_sha256": "0335e666530d24f5e795fc332334e4aa270a8fd7cc69f654f0d1cffa64d04e46",
+        "target_support_count": 1024,
+        "train_only": true
+      },
+      "fold": 1,
+      "sampler": "T3",
+      "test_label_permutation_invariant": true
+    },
+    {
+      "audit": {
+        "actual_support_count": 0,
+        "actual_support_fraction": 0.0,
+        "canonical_unordered_unique": true,
+        "coverage_strategy": "diagnosis_internal_standardized_exposure_greedy",
+        "different_pairs": 2048,
+        "fallback_by_relation": {
+          "AD-AD": 682,
+          "MCI-AD": 682,
+          "MCI-MCI": 683,
+          "NC-AD": 683,
+          "NC-MCI": 683,
+          "NC-NC": 683
+        },
+        "fold": 1,
+        "forced_support_by_relation": {
+          "AD-AD": 0,
+          "MCI-AD": 0,
+          "MCI-MCI": 0,
+          "NC-AD": 0,
+          "NC-MCI": 0,
+          "NC-NC": 0
+        },
+        "non_self": true,
+        "pair_count": 4096,
+        "pair_sha256": "de0e7d301f1938ac6087920b92dc1c97f25fbd9e2fba9293e3d5c4cdf350876e",
+        "patient_exposure": {
+          "AD": {
+            "count": 67,
+            "gini": 0.004823810591600444,
+            "max": 41,
+            "mean": 40.73134328358209,
+            "min": 40,
+            "p95": 41.0,
+            "std": 0.4432609673109701,
+            "total_endpoint_exposure": 2729
+          },
+          "MCI": {
+            "count": 283,
+            "gini": 0.02356920218457625,
+            "max": 10,
+            "mean": 9.650176678445229,
+            "min": 9,
+            "p95": 10.0,
+            "std": 0.4769140019449608,
+            "total_endpoint_exposure": 2731
+          },
+          "NC": {
+            "count": 188,
+            "gini": 0.017133422634808885,
+            "max": 15,
+            "mean": 14.53191489361702,
+            "min": 14,
+            "p95": 15.0,
+            "std": 0.49898039998121585,
+            "total_endpoint_exposure": 2732
+          }
+        },
+        "relation_counts": {
+          "AD-AD": 682,
+          "MCI-AD": 682,
+          "MCI-MCI": 683,
+          "NC-AD": 683,
+          "NC-MCI": 683,
+          "NC-NC": 683
+        },
+        "same_pairs": 2048,
+        "sampler": "T4",
+        "seed": [
+          83854,
+          1,
+          4
+        ],
+        "soft_fallback": "none_required",
+        "support_available": 0,
+        "support_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "target_matches_labels": true,
+        "target_pair_sha256": "4dfba4580c630d5e9548c212a394c5c195d75932206f3e36cdf045c25b4a0e91",
+        "target_relation_counts": {
+          "AD-AD": 682,
+          "MCI-AD": 682,
+          "MCI-MCI": 683,
+          "NC-AD": 683,
+          "NC-MCI": 683,
+          "NC-NC": 683
+        },
+        "target_sha256": "4dfba4580c630d5e9548c212a394c5c195d75932206f3e36cdf045c25b4a0e91",
+        "target_support_count": 0,
+        "train_only": true,
+        "uniform_global_hard_cap": false
+      },
+      "fold": 1,
+      "sampler": "T4",
+      "test_label_permutation_invariant": true
+    },
+    {
+      "audit": {
+        "actual_support_count": 0,
+        "actual_support_fraction": 0.0,
+        "canonical_unordered_unique": true,
+        "different_pairs": 2048,
+        "fallback_by_relation": {
+          "AD-AD": 682,
+          "MCI-AD": 682,
+          "MCI-MCI": 683,
+          "NC-AD": 683,
+          "NC-MCI": 683,
+          "NC-NC": 683
+        },
+        "fold": 2,
+        "forced_support_by_relation": {
+          "AD-AD": 0,
+          "MCI-AD": 0,
+          "MCI-MCI": 0,
+          "NC-AD": 0,
+          "NC-MCI": 0,
+          "NC-NC": 0
+        },
+        "non_self": true,
+        "pair_count": 4096,
+        "pair_sha256": "3fb92ef6cef4d35c79330813fef85e01a3d910f5a77c33d3c5b70050ee6956a1",
+        "patient_exposure": {
+          "AD": {
+            "count": 67,
+            "gini": 0.08738644629545567,
+            "max": 56,
+            "mean": 40.73134328358209,
+            "min": 27,
+            "p95": 51.0,
+            "std": 6.27618595453383,
+            "total_endpoint_exposure": 2729
+          },
+          "MCI": {
+            "count": 283,
+            "gini": 0.17127264117131794,
+            "max": 20,
+            "mean": 9.650176678445229,
+            "min": 1,
+            "p95": 14.0,
+            "std": 2.9712209071410487,
+            "total_endpoint_exposure": 2731
+          },
+          "NC": {
+            "count": 188,
+            "gini": 0.14445811656957727,
+            "max": 31,
+            "mean": 14.53191489361702,
+            "min": 6,
+            "p95": 21.0,
+            "std": 3.808451206002459,
+            "total_endpoint_exposure": 2732
+          }
+        },
+        "relation_counts": {
+          "AD-AD": 682,
+          "MCI-AD": 682,
+          "MCI-MCI": 683,
+          "NC-AD": 683,
+          "NC-MCI": 683,
+          "NC-NC": 683
+        },
+        "same_pairs": 2048,
+        "sampler": "T1",
+        "seed": [
+          83854,
+          2,
+          1
+        ],
+        "support_available": 0,
+        "support_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "target_matches_labels": true,
+        "target_pair_sha256": "e447a53befaf76a30363f3a527b0852cee44d219955ddf1b1b4f725c46305006",
+        "target_relation_counts": {
+          "AD-AD": 682,
+          "MCI-AD": 682,
+          "MCI-MCI": 683,
+          "NC-AD": 683,
+          "NC-MCI": 683,
+          "NC-NC": 683
+        },
+        "target_sha256": "e447a53befaf76a30363f3a527b0852cee44d219955ddf1b1b4f725c46305006",
+        "target_support_count": 0,
+        "train_only": true
+      },
+      "fold": 2,
+      "sampler": "T1",
+      "test_label_permutation_invariant": true
+    },
+    {
+      "audit": {
+        "actual_support_count": 339,
+        "actual_support_fraction": 0.082763671875,
+        "canonical_unordered_unique": true,
+        "different_pairs": 2048,
+        "fallback_by_relation": {
+          "AD-AD": 614,
+          "MCI-AD": 617,
+          "MCI-MCI": 614,
+          "NC-AD": 683,
+          "NC-MCI": 615,
+          "NC-NC": 614
+        },
+        "fold": 2,
+        "forced_support_by_relation": {
+          "AD-AD": 68,
+          "MCI-AD": 65,
+          "MCI-MCI": 69,
+          "NC-AD": 0,
+          "NC-MCI": 68,
+          "NC-NC": 69
+        },
+        "non_self": true,
+        "pair_count": 4096,
+        "pair_sha256": "224eb22811b55e905ba063fe6eabec180d2c606379a47725b6aa42eb0fec925d",
+        "patient_exposure": {
+          "AD": {
+            "count": 67,
+            "gini": 0.11116641052706419,
+            "max": 60,
+            "mean": 40.73134328358209,
+            "min": 24,
+            "p95": 56.39999999999999,
+            "std": 8.032735430356006,
+            "total_endpoint_exposure": 2729
+          },
+          "MCI": {
+            "count": 283,
+            "gini": 0.21911750054666163,
+            "max": 26,
+            "mean": 9.650176678445229,
+            "min": 3,
+            "p95": 17.0,
+            "std": 3.822181629246218,
+            "total_endpoint_exposure": 2731
+          },
+          "NC": {
+            "count": 188,
+            "gini": 0.18700741409924923,
+            "max": 63,
+            "mean": 14.53191489361702,
+            "min": 4,
+            "p95": 21.0,
+            "std": 6.319847371675011,
+            "total_endpoint_exposure": 2732
+          }
+        },
+        "relation_counts": {
+          "AD-AD": 682,
+          "MCI-AD": 682,
+          "MCI-MCI": 683,
+          "NC-AD": 683,
+          "NC-MCI": 683,
+          "NC-NC": 683
+        },
+        "requested_support_by_relation": {
+          "AD-AD": 68,
+          "MCI-AD": 68,
+          "MCI-MCI": 69,
+          "NC-AD": 68,
+          "NC-MCI": 68,
+          "NC-NC": 69
+        },
+        "same_pairs": 2048,
+        "sampler": "T2",
+        "seed": [
+          83854,
+          2,
+          2
+        ],
+        "support_available": 2165,
+        "support_sha256": "9fef85187abe4b21b79fac0a56e3d6724aca93edfe473c8bf7dbf63d2fd325ba",
+        "support_shortfall_by_relation": {
+          "AD-AD": 0,
+          "MCI-AD": 3,
+          "MCI-MCI": 0,
+          "NC-AD": 68,
+          "NC-MCI": 0,
+          "NC-NC": 0
+        },
+        "target_matches_labels": true,
+        "target_pair_sha256": "c2054aba72be423105aee5f0e759163f2aef593b410bd662c239847a7ac23036",
+        "target_relation_counts": {
+          "AD-AD": 682,
+          "MCI-AD": 682,
+          "MCI-MCI": 683,
+          "NC-AD": 683,
+          "NC-MCI": 683,
+          "NC-NC": 683
+        },
+        "target_sha256": "c2054aba72be423105aee5f0e759163f2aef593b410bd662c239847a7ac23036",
+        "target_support_count": 410,
+        "train_only": true
+      },
+      "fold": 2,
+      "sampler": "T2",
+      "test_label_permutation_invariant": true
+    },
+    {
+      "audit": {
+        "actual_support_count": 677,
+        "actual_support_fraction": 0.165283203125,
+        "canonical_unordered_unique": true,
+        "different_pairs": 2048,
+        "fallback_by_relation": {
+          "AD-AD": 512,
+          "MCI-AD": 617,
+          "MCI-MCI": 583,
+          "NC-AD": 683,
+          "NC-MCI": 512,
+          "NC-NC": 512
+        },
+        "fold": 2,
+        "forced_support_by_relation": {
+          "AD-AD": 170,
+          "MCI-AD": 65,
+          "MCI-MCI": 100,
+          "NC-AD": 0,
+          "NC-MCI": 171,
+          "NC-NC": 171
+        },
+        "non_self": true,
+        "pair_count": 4096,
+        "pair_sha256": "70d7bae77706fc3e95bd608e98c9127cb0710824fc3a8022eff585b47bf186d7",
+        "patient_exposure": {
+          "AD": {
+            "count": 67,
+            "gini": 0.10826774883369886,
+            "max": 57,
+            "mean": 40.73134328358209,
+            "min": 22,
+            "p95": 54.0,
+            "std": 7.747088214776538,
+            "total_endpoint_exposure": 2729
+          },
+          "MCI": {
+            "count": 283,
+            "gini": 0.26384153670784205,
+            "max": 34,
+            "mean": 9.650176678445229,
+            "min": 2,
+            "p95": 19.0,
+            "std": 5.038497550456671,
+            "total_endpoint_exposure": 2731
+          },
+          "NC": {
+            "count": 188,
+            "gini": 0.22629357340892808,
+            "max": 78,
+            "mean": 14.53191489361702,
+            "min": 5,
+            "p95": 24.30000000000001,
+            "std": 8.201844794636758,
+            "total_endpoint_exposure": 2732
+          }
+        },
+        "relation_counts": {
+          "AD-AD": 682,
+          "MCI-AD": 682,
+          "MCI-MCI": 683,
+          "NC-AD": 683,
+          "NC-MCI": 683,
+          "NC-NC": 683
+        },
+        "requested_support_by_relation": {
+          "AD-AD": 170,
+          "MCI-AD": 170,
+          "MCI-MCI": 171,
+          "NC-AD": 171,
+          "NC-MCI": 171,
+          "NC-NC": 171
+        },
+        "same_pairs": 2048,
+        "sampler": "T3",
+        "seed": [
+          83854,
+          2,
+          2
+        ],
+        "support_available": 2165,
+        "support_sha256": "9fef85187abe4b21b79fac0a56e3d6724aca93edfe473c8bf7dbf63d2fd325ba",
+        "support_shortfall_by_relation": {
+          "AD-AD": 0,
+          "MCI-AD": 105,
+          "MCI-MCI": 71,
+          "NC-AD": 171,
+          "NC-MCI": 0,
+          "NC-NC": 0
+        },
+        "target_matches_labels": true,
+        "target_pair_sha256": "c2054aba72be423105aee5f0e759163f2aef593b410bd662c239847a7ac23036",
+        "target_relation_counts": {
+          "AD-AD": 682,
+          "MCI-AD": 682,
+          "MCI-MCI": 683,
+          "NC-AD": 683,
+          "NC-MCI": 683,
+          "NC-NC": 683
+        },
+        "target_sha256": "c2054aba72be423105aee5f0e759163f2aef593b410bd662c239847a7ac23036",
+        "target_support_count": 1024,
+        "train_only": true
+      },
+      "fold": 2,
+      "sampler": "T3",
+      "test_label_permutation_invariant": true
+    },
+    {
+      "audit": {
+        "actual_support_count": 0,
+        "actual_support_fraction": 0.0,
+        "canonical_unordered_unique": true,
+        "coverage_strategy": "diagnosis_internal_standardized_exposure_greedy",
+        "different_pairs": 2048,
+        "fallback_by_relation": {
+          "AD-AD": 682,
+          "MCI-AD": 682,
+          "MCI-MCI": 683,
+          "NC-AD": 683,
+          "NC-MCI": 683,
+          "NC-NC": 683
+        },
+        "fold": 2,
+        "forced_support_by_relation": {
+          "AD-AD": 0,
+          "MCI-AD": 0,
+          "MCI-MCI": 0,
+          "NC-AD": 0,
+          "NC-MCI": 0,
+          "NC-NC": 0
+        },
+        "non_self": true,
+        "pair_count": 4096,
+        "pair_sha256": "10434d8ceb7c403f89324b52899296ce9093af70cb25ddfaf4dedbb3b6c6e7a4",
+        "patient_exposure": {
+          "AD": {
+            "count": 67,
+            "gini": 0.004823810591600444,
+            "max": 41,
+            "mean": 40.73134328358209,
+            "min": 40,
+            "p95": 41.0,
+            "std": 0.4432609673109701,
+            "total_endpoint_exposure": 2729
+          },
+          "MCI": {
+            "count": 283,
+            "gini": 0.02356920218457625,
+            "max": 10,
+            "mean": 9.650176678445229,
+            "min": 9,
+            "p95": 10.0,
+            "std": 0.47691400194496075,
+            "total_endpoint_exposure": 2731
+          },
+          "NC": {
+            "count": 188,
+            "gini": 0.017133422634808885,
+            "max": 15,
+            "mean": 14.53191489361702,
+            "min": 14,
+            "p95": 15.0,
+            "std": 0.49898039998121585,
+            "total_endpoint_exposure": 2732
+          }
+        },
+        "relation_counts": {
+          "AD-AD": 682,
+          "MCI-AD": 682,
+          "MCI-MCI": 683,
+          "NC-AD": 683,
+          "NC-MCI": 683,
+          "NC-NC": 683
+        },
+        "same_pairs": 2048,
+        "sampler": "T4",
+        "seed": [
+          83854,
+          2,
+          4
+        ],
+        "soft_fallback": "none_required",
+        "support_available": 0,
+        "support_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "target_matches_labels": true,
+        "target_pair_sha256": "cc564498b44c858fb011cee9c204fec8be9e5d4b5a5f42082488dbf5340b8380",
+        "target_relation_counts": {
+          "AD-AD": 682,
+          "MCI-AD": 682,
+          "MCI-MCI": 683,
+          "NC-AD": 683,
+          "NC-MCI": 683,
+          "NC-NC": 683
+        },
+        "target_sha256": "cc564498b44c858fb011cee9c204fec8be9e5d4b5a5f42082488dbf5340b8380",
+        "target_support_count": 0,
+        "train_only": true,
+        "uniform_global_hard_cap": false
+      },
+      "fold": 2,
+      "sampler": "T4",
+      "test_label_permutation_invariant": true
+    },
+    {
+      "audit": {
+        "actual_support_count": 0,
+        "actual_support_fraction": 0.0,
+        "canonical_unordered_unique": true,
+        "different_pairs": 2048,
+        "fallback_by_relation": {
+          "AD-AD": 682,
+          "MCI-AD": 682,
+          "MCI-MCI": 683,
+          "NC-AD": 683,
+          "NC-MCI": 683,
+          "NC-NC": 683
+        },
+        "fold": 10,
+        "forced_support_by_relation": {
+          "AD-AD": 0,
+          "MCI-AD": 0,
+          "MCI-MCI": 0,
+          "NC-AD": 0,
+          "NC-MCI": 0,
+          "NC-NC": 0
+        },
+        "non_self": true,
+        "pair_count": 4096,
+        "pair_sha256": "c1c28c3c59ea1e9cd6e702febd304c1d992b605add0c3ec1d97f960b6482f7f4",
+        "patient_exposure": {
+          "AD": {
+            "count": 67,
+            "gini": 0.08175319809891546,
+            "max": 52,
+            "mean": 40.73134328358209,
+            "min": 24,
+            "p95": 50.0,
+            "std": 5.913763580675721,
+            "total_endpoint_exposure": 2729
+          },
+          "MCI": {
+            "count": 283,
+            "gini": 0.17266226145822147,
+            "max": 21,
+            "mean": 9.650176678445229,
+            "min": 3,
+            "p95": 14.899999999999977,
+            "std": 2.9688414244303623,
+            "total_endpoint_exposure": 2731
+          },
+          "NC": {
+            "count": 189,
+            "gini": 0.14805131422993795,
+            "max": 27,
+            "mean": 14.455026455026456,
+            "min": 6,
+            "p95": 21.0,
+            "std": 3.831688898399105,
+            "total_endpoint_exposure": 2732
+          }
+        },
+        "relation_counts": {
+          "AD-AD": 682,
+          "MCI-AD": 682,
+          "MCI-MCI": 683,
+          "NC-AD": 683,
+          "NC-MCI": 683,
+          "NC-NC": 683
+        },
+        "same_pairs": 2048,
+        "sampler": "T1",
+        "seed": [
+          83854,
+          10,
+          1
+        ],
+        "support_available": 0,
+        "support_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "target_matches_labels": true,
+        "target_pair_sha256": "7f95617ba7367ccb6cd7fc748a9243324f9681462111c3eabe0a63cec2b4d69f",
+        "target_relation_counts": {
+          "AD-AD": 682,
+          "MCI-AD": 682,
+          "MCI-MCI": 683,
+          "NC-AD": 683,
+          "NC-MCI": 683,
+          "NC-NC": 683
+        },
+        "target_sha256": "7f95617ba7367ccb6cd7fc748a9243324f9681462111c3eabe0a63cec2b4d69f",
+        "target_support_count": 0,
+        "train_only": true
+      },
+      "fold": 10,
+      "sampler": "T1",
+      "test_label_permutation_invariant": true
+    },
+    {
+      "audit": {
+        "actual_support_count": 330,
+        "actual_support_fraction": 0.08056640625,
+        "canonical_unordered_unique": true,
+        "different_pairs": 2048,
+        "fallback_by_relation": {
+          "AD-AD": 614,
+          "MCI-AD": 626,
+          "MCI-MCI": 614,
+          "NC-AD": 683,
+          "NC-MCI": 615,
+          "NC-NC": 614
+        },
+        "fold": 10,
+        "forced_support_by_relation": {
+          "AD-AD": 68,
+          "MCI-AD": 56,
+          "MCI-MCI": 69,
+          "NC-AD": 0,
+          "NC-MCI": 68,
+          "NC-NC": 69
+        },
+        "non_self": true,
+        "pair_count": 4096,
+        "pair_sha256": "618a44d5c3c656d0e7ea0056de9ba798276321d90efec0a4aa499e05534925db",
+        "patient_exposure": {
+          "AD": {
+            "count": 67,
+            "gini": 0.08983663580230034,
+            "max": 69,
+            "mean": 40.73134328358209,
+            "min": 28,
+            "p95": 49.699999999999996,
+            "std": 6.759365177187449,
+            "total_endpoint_exposure": 2729
+          },
+          "MCI": {
+            "count": 283,
+            "gini": 0.19897447575474886,
+            "max": 31,
+            "mean": 9.650176678445229,
+            "min": 3,
+            "p95": 16.0,
+            "std": 3.6876105678655233,
+            "total_endpoint_exposure": 2731
+          },
+          "NC": {
+            "count": 189,
+            "gini": 0.1648926692850558,
+            "max": 59,
+            "mean": 14.455026455026456,
+            "min": 6,
+            "p95": 20.0,
+            "std": 5.401776958693263,
+            "total_endpoint_exposure": 2732
+          }
+        },
+        "relation_counts": {
+          "AD-AD": 682,
+          "MCI-AD": 682,
+          "MCI-MCI": 683,
+          "NC-AD": 683,
+          "NC-MCI": 683,
+          "NC-NC": 683
+        },
+        "requested_support_by_relation": {
+          "AD-AD": 68,
+          "MCI-AD": 68,
+          "MCI-MCI": 69,
+          "NC-AD": 68,
+          "NC-MCI": 68,
+          "NC-NC": 69
+        },
+        "same_pairs": 2048,
+        "sampler": "T2",
+        "seed": [
+          83854,
+          10,
+          2
+        ],
+        "support_available": 2068,
+        "support_sha256": "40b36ace4dd836073803cf16cc4ed6b8cdcd9cc7de3affc38df342f215373a9e",
+        "support_shortfall_by_relation": {
+          "AD-AD": 0,
+          "MCI-AD": 12,
+          "MCI-MCI": 0,
+          "NC-AD": 68,
+          "NC-MCI": 0,
+          "NC-NC": 0
+        },
+        "target_matches_labels": true,
+        "target_pair_sha256": "f821c81f0f118f12e34cd8235c130c821fd1c3fb475a785582af7a85ff2d3950",
+        "target_relation_counts": {
+          "AD-AD": 682,
+          "MCI-AD": 682,
+          "MCI-MCI": 683,
+          "NC-AD": 683,
+          "NC-MCI": 683,
+          "NC-NC": 683
+        },
+        "target_sha256": "f821c81f0f118f12e34cd8235c130c821fd1c3fb475a785582af7a85ff2d3950",
+        "target_support_count": 410,
+        "train_only": true
+      },
+      "fold": 10,
+      "sampler": "T2",
+      "test_label_permutation_invariant": true
+    },
+    {
+      "audit": {
+        "actual_support_count": 643,
+        "actual_support_fraction": 0.156982421875,
+        "canonical_unordered_unique": true,
+        "different_pairs": 2048,
+        "fallback_by_relation": {
+          "AD-AD": 512,
+          "MCI-AD": 626,
+          "MCI-MCI": 608,
+          "NC-AD": 683,
+          "NC-MCI": 512,
+          "NC-NC": 512
+        },
+        "fold": 10,
+        "forced_support_by_relation": {
+          "AD-AD": 170,
+          "MCI-AD": 56,
+          "MCI-MCI": 75,
+          "NC-AD": 0,
+          "NC-MCI": 171,
+          "NC-NC": 171
+        },
+        "non_self": true,
+        "pair_count": 4096,
+        "pair_sha256": "5f9e5ca27ebe4a33754c6dbb2b1e96f991eeb21cf89eb584262fc2cf35530414",
+        "patient_exposure": {
+          "AD": {
+            "count": 67,
+            "gini": 0.09532768550067544,
+            "max": 64,
+            "mean": 40.73134328358209,
+            "min": 26,
+            "p95": 49.699999999999996,
+            "std": 6.968119490964928,
+            "total_endpoint_exposure": 2729
+          },
+          "MCI": {
+            "count": 283,
+            "gini": 0.2285317251346599,
+            "max": 37,
+            "mean": 9.650176678445229,
+            "min": 3,
+            "p95": 17.0,
+            "std": 4.492776885000637,
+            "total_endpoint_exposure": 2731
+          },
+          "NC": {
+            "count": 189,
+            "gini": 0.2061787786531564,
+            "max": 66,
+            "mean": 14.455026455026456,
+            "min": 5,
+            "p95": 21.0,
+            "std": 7.3789589768009085,
+            "total_endpoint_exposure": 2732
+          }
+        },
+        "relation_counts": {
+          "AD-AD": 682,
+          "MCI-AD": 682,
+          "MCI-MCI": 683,
+          "NC-AD": 683,
+          "NC-MCI": 683,
+          "NC-NC": 683
+        },
+        "requested_support_by_relation": {
+          "AD-AD": 170,
+          "MCI-AD": 170,
+          "MCI-MCI": 171,
+          "NC-AD": 171,
+          "NC-MCI": 171,
+          "NC-NC": 171
+        },
+        "same_pairs": 2048,
+        "sampler": "T3",
+        "seed": [
+          83854,
+          10,
+          2
+        ],
+        "support_available": 2068,
+        "support_sha256": "40b36ace4dd836073803cf16cc4ed6b8cdcd9cc7de3affc38df342f215373a9e",
+        "support_shortfall_by_relation": {
+          "AD-AD": 0,
+          "MCI-AD": 114,
+          "MCI-MCI": 96,
+          "NC-AD": 171,
+          "NC-MCI": 0,
+          "NC-NC": 0
+        },
+        "target_matches_labels": true,
+        "target_pair_sha256": "f821c81f0f118f12e34cd8235c130c821fd1c3fb475a785582af7a85ff2d3950",
+        "target_relation_counts": {
+          "AD-AD": 682,
+          "MCI-AD": 682,
+          "MCI-MCI": 683,
+          "NC-AD": 683,
+          "NC-MCI": 683,
+          "NC-NC": 683
+        },
+        "target_sha256": "f821c81f0f118f12e34cd8235c130c821fd1c3fb475a785582af7a85ff2d3950",
+        "target_support_count": 1024,
+        "train_only": true
+      },
+      "fold": 10,
+      "sampler": "T3",
+      "test_label_permutation_invariant": true
+    },
+    {
+      "audit": {
+        "actual_support_count": 0,
+        "actual_support_fraction": 0.0,
+        "canonical_unordered_unique": true,
+        "coverage_strategy": "diagnosis_internal_standardized_exposure_greedy",
+        "different_pairs": 2048,
+        "fallback_by_relation": {
+          "AD-AD": 682,
+          "MCI-AD": 682,
+          "MCI-MCI": 683,
+          "NC-AD": 683,
+          "NC-MCI": 683,
+          "NC-NC": 683
+        },
+        "fold": 10,
+        "forced_support_by_relation": {
+          "AD-AD": 0,
+          "MCI-AD": 0,
+          "MCI-MCI": 0,
+          "NC-AD": 0,
+          "NC-MCI": 0,
+          "NC-NC": 0
+        },
+        "non_self": true,
+        "pair_count": 4096,
+        "pair_sha256": "ce954625f4797114d13ece005b74115d05521dc63a82e1592d1aa53e949c76a0",
+        "patient_exposure": {
+          "AD": {
+            "count": 67,
+            "gini": 0.004823810591600444,
+            "max": 41,
+            "mean": 40.73134328358209,
+            "min": 40,
+            "p95": 41.0,
+            "std": 0.4432609673109701,
+            "total_endpoint_exposure": 2729
+          },
+          "MCI": {
+            "count": 283,
+            "gini": 0.02356920218457625,
+            "max": 10,
+            "mean": 9.650176678445229,
+            "min": 9,
+            "p95": 10.0,
+            "std": 0.4769140019449608,
+            "total_endpoint_exposure": 2731
+          },
+          "NC": {
+            "count": 189,
+            "gini": 0.017155096950118912,
+            "max": 15,
+            "mean": 14.455026455026456,
+            "min": 14,
+            "p95": 15.0,
+            "std": 0.4979732726286748,
+            "total_endpoint_exposure": 2732
+          }
+        },
+        "relation_counts": {
+          "AD-AD": 682,
+          "MCI-AD": 682,
+          "MCI-MCI": 683,
+          "NC-AD": 683,
+          "NC-MCI": 683,
+          "NC-NC": 683
+        },
+        "same_pairs": 2048,
+        "sampler": "T4",
+        "seed": [
+          83854,
+          10,
+          4
+        ],
+        "soft_fallback": "none_required",
+        "support_available": 0,
+        "support_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "target_matches_labels": true,
+        "target_pair_sha256": "c7aed47a18369aaf9333d8dcd6374b9a39b6c2c7eccfa11e09b51b4995c7088c",
+        "target_relation_counts": {
+          "AD-AD": 682,
+          "MCI-AD": 682,
+          "MCI-MCI": 683,
+          "NC-AD": 683,
+          "NC-MCI": 683,
+          "NC-NC": 683
+        },
+        "target_sha256": "c7aed47a18369aaf9333d8dcd6374b9a39b6c2c7eccfa11e09b51b4995c7088c",
+        "target_support_count": 0,
+        "train_only": true,
+        "uniform_global_hard_cap": false
+      },
+      "fold": 10,
+      "sampler": "T4",
+      "test_label_permutation_invariant": true
+    }
+  ],
+  "experiment": "Experiment 83.8.5.4",
+  "status": "PASS"
+}

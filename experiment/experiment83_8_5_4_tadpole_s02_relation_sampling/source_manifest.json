@@ -1,0 +1,12 @@
+{
+  "paper": {"url": "https://papers.miccai.org/miccai-2025/paper/5129_paper.pdf", "title": "SPromptGL"},
+  "author_repository": {"url": "https://github.com/wanxixi11/SPromptGL", "commit": "ba3b9446fa451fde6864d6555bdf324de0c4b64a", "result_Tadpole_sha256": "5c80d16204e0882e5e264e42952c714397c2d31f07835b9e60d6dafd9488e3b7", "result_Tadpole_git_blob": "0446670764286afbeb86573dadfdbb50ae6af15e"},
+  "saber_repository": {"url": "https://github.com/tangaii/SPromptGL", "head": "c7e2edbb8c56bdfc416b708da0ec6d743b0ed7d4", "e83_8_5_1": "912a3ece628f818cec7525fe6323350f5a06e27e", "e83_8_5": "ae225e5135046d1d9622968b7d011f6aa55fa60d", "e83_8_5_2_source_commit": "21e53cf1e003cc23eacdb8e09bbe471f9fa08bd8", "e83_8_5_3_source_commit": "a8d8bed17f32fd07d2f1c9c77c4b01c38f0afc80", "commit_urls": {"e83_8_5_2": "https://github.com/tangaii/sp/commit/21e53cf", "e83_8_5_3": "https://github.com/tangaii/sp/commit/a8d8bed"}, "github_text_sha256": {"e83_8_5_2/code/run_e8385.py": "4bf2ab89f835d79ec938e1665a8199119785f4d63fe3a49393ec0e97cd7de9d6", "e83_8_5_2/code/common/fidelity_model.py": "5d24537f71e89bf7a4b2bd8ab43a459216d929453eda3628496be87b85269155", "e83_8_5_2/code/common/source_runtime.py": "9bd6b17b3f66a08460e95411f55f5c85b7169f9fb54c169cbe82dd1b4e7dbbb7", "e83_8_5_3/code/run_e83853.py": "03c0db5227be1d29a4e50ac04b37230a32d6e605e84d6e11a6afc594c61dfdbe", "e83_8_5_3/code/relation_sampling.py": "f64e8ac76536587a370af64dc5376cf6741b9d10b891f1aab237001bfed6a7b9", "e83_8_5_3/code/common/fidelity_model.py": "5d24537f71e89bf7a4b2bd8ab43a459216d929453eda3628496be87b85269155", "e83_8_5_3/code/common/source_runtime.py": "9bd6b17b3f66a08460e95411f55f5c85b7169f9fb54c169cbe82dd1b4e7dbbb7"}},
+  "runtime_rule": "E83.8.5.3 server directory is not a runtime dependency. This directory contains its own copied source snapshot and adapter.",
+  "historical_sources": {
+    "H0": {"root": "/model/spromptgl/experiment/experiment83_8_5_tadpole_cognitive_anchored_darg_dpsl", "group": "R0"},
+    "H1": {"root": "/model/spromptgl/experiment/experiment83_8_5_2_tadpole_cognitive_strong_anchor_factorial", "group": "S02"}
+  },
+  "local_reused": ["GFR", "CAM", "RES", "DARG RelationEncoder", "DARG RelationScorer", "Positive-DCR", "DPSL SCMR-DA-SRPE", "author TADPOLE log template"],
+  "local_changed": ["code/relation_sampling.py", "formal relation pair selection at epoch 11", "H0/H1 independent replay and audits"]
+}

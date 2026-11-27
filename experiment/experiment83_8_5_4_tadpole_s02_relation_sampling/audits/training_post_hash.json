@@ -1,0 +1,22 @@
+{
+  "author_log_groups": 6,
+  "best_latest_replay_folds": 60,
+  "data_sha256": "0b8a14a9c066752c2d937c93d43c2824c41beaaa7d0a451b083db8dcba07c5bc",
+  "experiment": "Experiment 83.8.5.4",
+  "historical_replayed_folds": 20,
+  "latest_next_step_recovery_folds": 40,
+  "new_trained_folds": 40,
+  "oof_rows": 3588,
+  "post_training_implementation_sha256": "a665ae71e27c7f2179050bd1c6c03f813078eae7886d9413746384ebcd26e95f",
+  "pretraining_implementation_sha256": "a665ae71e27c7f2179050bd1c6c03f813078eae7886d9413746384ebcd26e95f",
+  "provenance_audit_files_updated_after_seal": [
+    "audits/source_review.md",
+    "source_manifest.json"
+  ],
+  "root_model_files_changed": false,
+  "sampler_valid_folds": 40,
+  "source_unchanged": true,
+  "split_sha256": "7c5a4dc9bd8ee7ffc6e5aff8bf841513f26a5ff6cf1b6c110a8153aa6a106ec5",
+  "status": "PASS",
+  "warmup_exact_pairs": 40
+}

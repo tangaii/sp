@@ -1,0 +1,62 @@
+{
+  "data": {
+    "data_sha256": "0b8a14a9c066752c2d937c93d43c2824c41beaaa7d0a451b083db8dcba07c5bc",
+    "label_counts": [
+      209,
+      315,
+      74
+    ],
+    "modality_dims": [
+      145,
+      148,
+      3,
+      36,
+      24,
+      9
+    ],
+    "patient_count": 598,
+    "shape": [
+      598,
+      365
+    ],
+    "split_sha256": "7c5a4dc9bd8ee7ffc6e5aff8bf841513f26a5ff6cf1b6c110a8153aa6a106ec5",
+    "status": "PASS"
+  },
+  "experiment": "Experiment 83.8.5.4",
+  "formal_training_allowed": true,
+  "groups": {
+    "T1": {
+      "formal_training_allowed": true,
+      "status": "PASS"
+    },
+    "T2": {
+      "formal_training_allowed": true,
+      "status": "PASS"
+    },
+    "T3": {
+      "formal_training_allowed": true,
+      "status": "PASS"
+    },
+    "T4": {
+      "formal_training_allowed": true,
+      "status": "PASS"
+    }
+  },
+  "historical_b0_best_sha256": {
+    "1": "37f9bc3fedce0d18905af3b66a598deb4ffca10addf9016a07865b227267c8a7",
+    "10": "dc5ce24030352e59c2351d30788ea85e43fc6cc21e0e043c8420da6382eb76e8",
+    "2": "09b66f562b806a4dad8f074ae66cc889a060bf92f83b0ef7b65484a5cb5e9441",
+    "3": "034ccf614bd94478ebd097d54d12a00411a377f3c0ad9e8417d0b27dcf712e1b",
+    "4": "0b952d544b3b5d6467add0e10fbabde6445dff70a93e366460478d38474fc36a",
+    "5": "8d350f5ff217f0f37e0689d3b8d0d7969e154b7a3616c7d26f7b87e76aa21195",
+    "6": "bff9e50782a61f4ecc27200df511065102407ab788d41a94418985214babb16c",
+    "7": "7f03e118e0dc66a154430b61d280a5ca363cfc3fdafc6b8acbc3d2bcf0d4bc9a",
+    "8": "3184800a46676d11d2f3c79c010991e7b29a67d21a9544d1245aa0b9cf28118d",
+    "9": "f6b501e00bb987298400c373e4ad0186b84a04aa1c98941851887cf462c5887f"
+  },
+  "method_fidelity_sha256": "ae0522161465d6c5a206f432d5d2133845549ae5d873244daea3be179552b4b8",
+  "parity_sha256": "2db61178a82ff341f719b0d0d746b69697644413979f66b0159812c9021a9b34",
+  "sampler_audit_sha256": "c6c22811d4938f2d668f9c5c8e2bdf28bc67ad043e025f8c3e783e1b6276e08a",
+  "status": "PASS",
+  "warmup_pairing_sha256": "92672180d306ad36524c66616f1607bf309e7633825e6670ad0b837c351f8815"
+}

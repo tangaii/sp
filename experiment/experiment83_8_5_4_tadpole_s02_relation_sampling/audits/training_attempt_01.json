@@ -1,0 +1,10 @@
+{
+  "experiment": "Experiment 83.8.5.4",
+  "status": "FAILED_BEFORE_FORMAL_COMMIT",
+  "groups_requested": ["T1", "T2", "T3", "T4"],
+  "workers": 4,
+  "failure": "Final audit JSON serialization encountered runtime graph mechanism tensors after model training and checkpoint persistence.",
+  "recovery": "The incomplete T1/T2 checkpoint directories were removed before the sealed rerun. No failed checkpoint is used as a result.",
+  "formal_results_counted": 0,
+  "source_change": "Audit-only graph mechanism serialization now retains numeric edge diagnostics and excludes runtime tensors."
+}

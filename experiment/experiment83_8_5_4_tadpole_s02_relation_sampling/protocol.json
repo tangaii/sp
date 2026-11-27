@@ -1,0 +1,51 @@
+{
+  "experiment": "Experiment 83.8.5.4",
+  "title": "S02 TADPOLE six-disease relation sampling optimization",
+  "dataset": "TADPOLE",
+  "cohort": {"n": 598, "classes": {"NC": 209, "MCI": 315, "AD": 74}, "labels": [0, 1, 2]},
+  "modalities": [
+    {"index": 0, "name": "UCSFFSX", "dim": 145},
+    {"index": 1, "name": "UCBERKELEYAV45", "dim": 148},
+    {"index": 2, "name": "UPENNBIOMK9", "dim": 3},
+    {"index": 3, "name": "RISK_FACTOR", "dim": 36},
+    {"index": 4, "name": "COGNITIVE_TEST", "dim": 24},
+    {"index": 5, "name": "ROI_AVERAGE", "dim": 9}
+  ],
+  "data_sha256": "0b8a14a9c066752c2d937c93d43c2824c41beaaa7d0a451b083db8dcba07c5bc",
+  "split_sha256": "7c5a4dc9bd8ee7ffc6e5aff8bf841513f26a5ff6cf1b6c110a8153aa6a106ec5",
+  "split_protocol": "StratifiedKFold(n_splits=10, shuffle=True, random_state=10)",
+  "seed": 0,
+  "max_epochs": 450,
+  "early_stop": "wait > 200",
+  "warmup_epochs": 10,
+  "formal_relation_epoch": 11,
+  "pair_count": 4096,
+  "same_pairs": 2048,
+  "different_pairs": 2048,
+  "six_relation_quota": {"NC-NC": 683, "MCI-MCI": 683, "AD-AD": 682, "NC-MCI": 683, "NC-AD": 683, "MCI-AD": 682},
+  "historical_protocol": {
+    "rfe_all_data": true,
+    "mean_imputation": true,
+    "cv_before_standard_scaler": true,
+    "transductive_patient_graph": true,
+    "val_idx_equals_test_idx": true,
+    "test_acc_selects_best": true
+  },
+  "fixed_model": {
+    "base": "S02 / G4 E82.4.6.10-G1",
+    "alignment_anchor_index": 4,
+    "edge_anchor_index": 4,
+    "relation_bce": 0.05,
+    "conditional_adversarial": 0.01,
+    "preservation": 0.01,
+    "grl": 0.03,
+    "dpsl_residual_cap": 0.08,
+    "dpsl_shared_gradient_budget": 0.001
+  },
+  "groups": {"historical": ["H0", "H1"], "new_training": ["T1", "T2", "T3", "T4"]},
+  "limitations": [
+    "Full-data RFE, mean imputation, pre-CV StandardScaler and transductive graph construction are retained.",
+    "val_idx equals test_idx and outer test ACC selects Best, so this is a historical exploratory protocol.",
+    "Test labels are excluded from sampling and training and are used only for held-out evaluation."
+  ]
+}

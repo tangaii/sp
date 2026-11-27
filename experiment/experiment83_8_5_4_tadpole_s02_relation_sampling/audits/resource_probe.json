@@ -1,0 +1,24 @@
+{
+  "eight_worker": {
+    "hashes_match": true,
+    "seconds": 0.012928862124681473,
+    "workers": 8
+  },
+  "experiment": "Experiment 83.8.5.4",
+  "four_worker": {
+    "hashes_match": true,
+    "seconds": 0.00935865193605423,
+    "workers": 4
+  },
+  "gpu_index": 0,
+  "gpu_memory_total_mib": 98304,
+  "gpu_name": "PPU-ZW810E",
+  "gpu_query": [
+    "0, PPU-ZW810E, 98304, 2"
+  ],
+  "pid": 1430201,
+  "selection_rule": "highest stable read throughput within 25 percent tolerance",
+  "status": "PASS",
+  "training_policy": "one global GPU resource lock, one fold per worker task",
+  "worker_count": 4
+}

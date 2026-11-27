@@ -1,0 +1,12 @@
+{
+  "abide_core_files_modified": false,
+  "abide_runtime_dependency": false,
+  "cognitive_anchor_index": 4,
+  "darg_signed_edges": true,
+  "dpsl_native_residual_off_contract": true,
+  "experiment": "Experiment 83.8.5.4",
+  "note": "ABIDE is outside this TADPOLE-only experiment and no root model.py/network.py/layers.py/main.py file was modified.",
+  "original_graph_support": true,
+  "six_modalities": true,
+  "status": "PASS"
+}

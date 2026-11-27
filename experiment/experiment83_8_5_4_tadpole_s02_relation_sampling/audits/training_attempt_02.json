@@ -1,0 +1,10 @@
+{
+  "experiment": "Experiment 83.8.5.4",
+  "status": "FAILED_BEFORE_FORMAL_COMMIT",
+  "groups_requested": ["T1", "T2", "T3", "T4"],
+  "workers": 4,
+  "failure": "T2/T3 final audit JSON serialization encountered the NumPy array in frozen cognitive support after T1 completed.",
+  "recovery": "All incomplete T1/T2 directories from this attempt were removed before the next sealed rerun. No failed checkpoint is used as a result.",
+  "formal_results_counted": 0,
+  "source_change": "Experiment-local JSON writer now converts Tensor, ndarray, and NumPy scalar audit values deterministically."
+}

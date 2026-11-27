@@ -1,0 +1,11 @@
+{
+  "dataset": "TADPOLE",
+  "processed_data": "inputs/processed_standard_data.csv",
+  "processed_data_sha256": "0b8a14a9c066752c2d937c93d43c2824c41beaaa7d0a451b083db8dcba07c5bc",
+  "split_indices": "inputs/split_indices.json",
+  "split_sha256": "7c5a4dc9bd8ee7ffc6e5aff8bf841513f26a5ff6cf1b6c110a8153aa6a106ec5",
+  "patient_count": 598,
+  "feature_count": 365,
+  "modal_dims": [145, 148, 3, 36, 24, 9],
+  "labels": {"NC": 0, "MCI": 1, "AD": 2, "counts": [209, 315, 74]}
+}

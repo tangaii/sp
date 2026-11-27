@@ -1,0 +1,14 @@
+{
+  "experiment": "Experiment 83.8.5.4",
+  "prompt_contract": "TADPOLE MMGPL-12 frozen RN50 Prompt",
+  "files": {
+    "mmGPL12_rn50.pt": {"sha256": "14ec1779b0bca574eef4a23d559a83f75364810a7f10ba9c8568620bb18db086", "role": "TADPOLE Native frozen prompt"},
+    "mmGPL12_scmr.pt": {"sha256": "999439580169b9c3422744eb9a68585f0f1c0cb0bb8bfed04c1c63c1cc93bedf", "role": "SCMR prompt"},
+    "mmGPL12_class_rn50.pt": {"sha256": "92e0cbf0df65343072af0b271ec6512a889f54efc6e63ebc02927132627d77de", "role": "class-prefixed Native prompt"},
+    "mmGPL12_class_scmr.pt": {"sha256": "7e202ee46b034ddb33714c4c50e1c9ad18751dc79a2f84f5e73bcb733c02ceff", "role": "class-prefixed SCMR prompt"}
+  },
+  "n_prompt_vectors": 12,
+  "nclass": 3,
+  "frozen": true
+}
+
