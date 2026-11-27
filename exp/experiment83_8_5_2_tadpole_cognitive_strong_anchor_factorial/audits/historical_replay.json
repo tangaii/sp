@@ -1,0 +1,30 @@
+{
+  "experiment": "Experiment 83.8.5.2",
+  "groups": {
+    "B0": {
+      "OOF_correct": 560,
+      "checkpoint_replay_source": "/model/spromptgl/experiment/experiment83_8_5_tadpole_cognitive_anchored_darg_dpsl",
+      "folds": 10,
+      "status": "COMPLETE"
+    },
+    "B1": {
+      "OOF_correct": 554,
+      "checkpoint_replay_source": "/model/spromptgl/experiment/experiment83_8_5_tadpole_cognitive_anchored_darg_dpsl",
+      "folds": 10,
+      "status": "COMPLETE"
+    },
+    "B2": {
+      "OOF_correct": 553,
+      "checkpoint_replay_source": "/model/spromptgl/experiment/experiment83_8_5_1_tadpole_y3_cognitive_darg_fidelity_factorial",
+      "folds": 10,
+      "status": "COMPLETE"
+    },
+    "B3": {
+      "OOF_correct": 554,
+      "checkpoint_replay_source": "/model/spromptgl/experiment/experiment83_8_5_tadpole_cognitive_anchored_darg_dpsl",
+      "folds": 10,
+      "status": "COMPLETE"
+    }
+  },
+  "status": "PASS"
+}

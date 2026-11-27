@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "groups": {
+    "B0": "PASS",
+    "B1": "PASS",
+    "B2": "PASS",
+    "B3": "PASS",
+    "S01": "PASS",
+    "S02": "PASS",
+    "S03": "PASS",
+    "S04": "PASS",
+    "S05": "PASS",
+    "S06": "PASS",
+    "S07": "PASS",
+    "S08": "PASS",
+    "S09": "PASS",
+    "C01": "PASS",
+    "C02": "PASS",
+    "C03": "PASS"
+  }
+}

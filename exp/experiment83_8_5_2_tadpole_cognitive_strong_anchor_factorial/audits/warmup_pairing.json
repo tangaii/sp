@@ -1,0 +1,358 @@
+{
+  "constructor_pair_without_gate_exact": true,
+  "groups": {
+    "C01": {
+      "base_state_sha256": "1627930e48d7f13cba359718b45421ec1cbd6f762eedf2ab14683842c19b5584",
+      "base_state_without_adaptive_gate_sha256": "86dcfe1ed1cdf546cd5aefa71e5302a56c04c1243b85c1091ab715ee5b5f0acf",
+      "field_differences": [],
+      "gate_initialization": {
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.9900000691413879,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          1.0,
+          0.01
+        ],
+        "mode": "after_warmup",
+        "non_gate_optimizer_state_sha256": "c128b27a395ac74d8b7042ffc4b00cc58a36e264b5011c3ea18eb2ca3799f39a",
+        "optimizer_non_gate_state_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "parameter_identity_preserved": true,
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.9900000691413879,
+          0.10000000149011612
+        ],
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.99,
+          0.1
+        ],
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_unchanged": true,
+        "status": "PASS"
+      },
+      "history_exact": true,
+      "optimizer_state_sha256": "2432b78ac4f578ced46374342419e9820aef9d6947c2929ced60f0dbf3ba1b58",
+      "pair_sha256": "e5a20ecdf41e22e50ac633f158832a235d6b892631209f66468ffb31a0583bf2",
+      "pre_epoch_11_state": {
+        "initial_model_sha256": "df05373b5b3af38b3ff3c83c90fb64e6a0eb3ecea2aa242e284ffaad84e2574e",
+        "initial_optimizer_sha256": "e21aae58129b1ccc2d514578660751b225523730a08bd958089261f3b23934d1",
+        "initial_rng_sha256": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "initial_shared_darg_cam_gfr_sha256": "d5f0a7bfad8256eaccd9aaa45eee2fe1a4553446eac8b23ba5b3b373a256cc9d",
+        "initial_shared_optimizer_sha256": "2432b78ac4f578ced46374342419e9820aef9d6947c2929ced60f0dbf3ba1b58"
+      },
+      "rng_state_sha256": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+      "shared_state_exact": true,
+      "spectral_statistics_exact": true,
+      "status": "PASS"
+    },
+    "C02": {
+      "base_state_sha256": "1627930e48d7f13cba359718b45421ec1cbd6f762eedf2ab14683842c19b5584",
+      "base_state_without_adaptive_gate_sha256": "86dcfe1ed1cdf546cd5aefa71e5302a56c04c1243b85c1091ab715ee5b5f0acf",
+      "field_differences": [],
+      "gate_initialization": {
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.9900000691413879,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          1.0,
+          0.01
+        ],
+        "mode": "after_warmup",
+        "non_gate_optimizer_state_sha256": "0387d5ba83f3797ea47f6202a2585be9045d227d855f5fc0e0f3e94cc1685f97",
+        "optimizer_non_gate_state_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "parameter_identity_preserved": true,
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.9900000691413879,
+          0.10000000149011612
+        ],
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.99,
+          0.1
+        ],
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_unchanged": true,
+        "status": "PASS"
+      },
+      "history_exact": true,
+      "optimizer_state_sha256": "2432b78ac4f578ced46374342419e9820aef9d6947c2929ced60f0dbf3ba1b58",
+      "pair_sha256": "e5a20ecdf41e22e50ac633f158832a235d6b892631209f66468ffb31a0583bf2",
+      "pre_epoch_11_state": {
+        "initial_model_sha256": "882d34d5bcc639864159e7370be64c5287c5c0113661c09031b772305d286c8d",
+        "initial_optimizer_sha256": "2432b78ac4f578ced46374342419e9820aef9d6947c2929ced60f0dbf3ba1b58",
+        "initial_rng_sha256": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "initial_shared_darg_cam_gfr_sha256": "d5f0a7bfad8256eaccd9aaa45eee2fe1a4553446eac8b23ba5b3b373a256cc9d",
+        "initial_shared_optimizer_sha256": "2432b78ac4f578ced46374342419e9820aef9d6947c2929ced60f0dbf3ba1b58"
+      },
+      "rng_state_sha256": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+      "shared_state_exact": true,
+      "spectral_statistics_exact": true,
+      "status": "PASS"
+    },
+    "C03": {
+      "base_state_sha256": "882d34d5bcc639864159e7370be64c5287c5c0113661c09031b772305d286c8d",
+      "base_state_without_adaptive_gate_sha256": "86dcfe1ed1cdf546cd5aefa71e5302a56c04c1243b85c1091ab715ee5b5f0acf",
+      "field_differences": [
+        "legacy_reference_missing_base_state_without_adaptive_gate"
+      ],
+      "gate_initialization": {
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.9900000691413879,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          1.0,
+          0.01
+        ],
+        "mode": "constructor",
+        "optimizer_state_removed": false,
+        "parameter_identity_preserved": true,
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.9900000691413879,
+          0.10000000149011612
+        ],
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.9900000691413879,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.99,
+          0.1
+        ],
+        "rng_unchanged": true,
+        "status": "PASS_CONSTRUCTOR_INITIALIZATION"
+      },
+      "history_exact": null,
+      "optimizer_state_sha256": "2432b78ac4f578ced46374342419e9820aef9d6947c2929ced60f0dbf3ba1b58",
+      "pair_sha256": "e5a20ecdf41e22e50ac633f158832a235d6b892631209f66468ffb31a0583bf2",
+      "pre_epoch_11_state": {
+        "initial_model_sha256": "df05373b5b3af38b3ff3c83c90fb64e6a0eb3ecea2aa242e284ffaad84e2574e",
+        "initial_optimizer_sha256": "e21aae58129b1ccc2d514578660751b225523730a08bd958089261f3b23934d1",
+        "initial_rng_sha256": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "initial_shared_darg_cam_gfr_sha256": "d5f0a7bfad8256eaccd9aaa45eee2fe1a4553446eac8b23ba5b3b373a256cc9d",
+        "initial_shared_optimizer_sha256": "2432b78ac4f578ced46374342419e9820aef9d6947c2929ced60f0dbf3ba1b58"
+      },
+      "rng_state_sha256": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+      "shared_state_exact": null,
+      "spectral_statistics_exact": true,
+      "status": "PASS_CONSTRUCTOR_GATE_DIFFERENCE"
+    },
+    "S01": {
+      "base_state_sha256": "1627930e48d7f13cba359718b45421ec1cbd6f762eedf2ab14683842c19b5584",
+      "base_state_without_adaptive_gate_sha256": "86dcfe1ed1cdf546cd5aefa71e5302a56c04c1243b85c1091ab715ee5b5f0acf",
+      "field_differences": [],
+      "gate_initialization": {
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.009900000877678394,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01
+        ],
+        "mode": "after_warmup",
+        "non_gate_optimizer_state_sha256": "7079671e0880bf96b559dbdc62a1b297709d1b89eb4554c43a0eaceb18b9fbf4",
+        "optimizer_non_gate_state_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "parameter_identity_preserved": true,
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.9900000691413879,
+          0.10000000149011612
+        ],
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.99,
+          0.1
+        ],
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_unchanged": true,
+        "status": "PASS"
+      },
+      "history_exact": true,
+      "optimizer_state_sha256": "2432b78ac4f578ced46374342419e9820aef9d6947c2929ced60f0dbf3ba1b58",
+      "pair_sha256": "e5a20ecdf41e22e50ac633f158832a235d6b892631209f66468ffb31a0583bf2",
+      "pre_epoch_11_state": {
+        "initial_model_sha256": "df05373b5b3af38b3ff3c83c90fb64e6a0eb3ecea2aa242e284ffaad84e2574e",
+        "initial_optimizer_sha256": "e21aae58129b1ccc2d514578660751b225523730a08bd958089261f3b23934d1",
+        "initial_rng_sha256": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "initial_shared_darg_cam_gfr_sha256": "d5f0a7bfad8256eaccd9aaa45eee2fe1a4553446eac8b23ba5b3b373a256cc9d",
+        "initial_shared_optimizer_sha256": "2432b78ac4f578ced46374342419e9820aef9d6947c2929ced60f0dbf3ba1b58"
+      },
+      "rng_state_sha256": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+      "shared_state_exact": true,
+      "spectral_statistics_exact": true,
+      "status": "PASS"
+    },
+    "S09": {
+      "base_state_sha256": "1627930e48d7f13cba359718b45421ec1cbd6f762eedf2ab14683842c19b5584",
+      "base_state_without_adaptive_gate_sha256": "86dcfe1ed1cdf546cd5aefa71e5302a56c04c1243b85c1091ab715ee5b5f0acf",
+      "field_differences": [],
+      "gate_initialization": {
+        "effective_gate_after": [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.9900000691413879,
+          0.0010000000474974513
+        ],
+        "gate_scales": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          1.0,
+          0.01
+        ],
+        "mode": "after_warmup",
+        "non_gate_optimizer_state_sha256": "a7ce690aab5ab8a425a221783ee17f4aa6a3faefc3a60925a49f01bac1c49e34",
+        "optimizer_non_gate_state_unchanged": true,
+        "optimizer_state_present_before": false,
+        "optimizer_state_removed": true,
+        "parameter_identity_preserved": true,
+        "probabilities_after": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.9900000691413879,
+          0.10000000149011612
+        ],
+        "probabilities_before": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "probabilities_target": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.99,
+          0.1
+        ],
+        "rng_sha256_after": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_sha256_before": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "rng_unchanged": true,
+        "status": "PASS"
+      },
+      "history_exact": true,
+      "optimizer_state_sha256": "2432b78ac4f578ced46374342419e9820aef9d6947c2929ced60f0dbf3ba1b58",
+      "pair_sha256": "e5a20ecdf41e22e50ac633f158832a235d6b892631209f66468ffb31a0583bf2",
+      "pre_epoch_11_state": {
+        "initial_model_sha256": "df05373b5b3af38b3ff3c83c90fb64e6a0eb3ecea2aa242e284ffaad84e2574e",
+        "initial_optimizer_sha256": "e21aae58129b1ccc2d514578660751b225523730a08bd958089261f3b23934d1",
+        "initial_rng_sha256": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+        "initial_shared_darg_cam_gfr_sha256": "d5f0a7bfad8256eaccd9aaa45eee2fe1a4553446eac8b23ba5b3b373a256cc9d",
+        "initial_shared_optimizer_sha256": "2432b78ac4f578ced46374342419e9820aef9d6947c2929ced60f0dbf3ba1b58"
+      },
+      "rng_state_sha256": "829f9d296dfdf450cc0a7ac41c1b4726941db3f88b55cf04945dc1e167df9b77",
+      "shared_state_exact": true,
+      "spectral_statistics_exact": true,
+      "status": "PASS"
+    }
+  },
+  "status": "PASS"
+}

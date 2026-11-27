@@ -1,0 +1,19 @@
+{
+  "experiment": "Experiment 83.8.5.2",
+  "dataset": "TADPOLE",
+  "processed_path": "inputs/processed_standard_data.csv",
+  "processed_sha256": "0b8a14a9c066752c2d937c93d43c2824c41beaaa7d0a451b083db8dcba07c5bc",
+  "split_path": "inputs/split_indices.json",
+  "split_sha256": "7c5a4dc9bd8ee7ffc6e5aff8bf841513f26a5ff6cf1b6c110a8153aa6a106ec5",
+  "n_patients": 598,
+  "class_counts": {"0_NC": 209, "1_MCI": 315, "2_AD": 74},
+  "modality_order": ["UCSFFSX", "UCBERKELEYAV45", "UPENNBIOMK9", "RISK_FACTOR", "COGNITIVE_TEST", "ROI_AVERAGE"],
+  "modality_indices": {"UCSFFSX": 0, "UCBERKELEYAV45": 1, "UPENNBIOMK9": 2, "RISK_FACTOR": 3, "COGNITIVE_TEST": 4, "ROI_AVERAGE": 5},
+  "modality_dims": [145, 148, 3, 36, 24, 9],
+  "total_dim": 365,
+  "split_protocol": "StratifiedKFold(n_splits=10, shuffle=True, random_state=10)",
+  "preprocessing": ["all-data RFE", "mean imputation", "CV-before StandardScaler"],
+  "transductive_graph": true,
+  "test_labels_in_training_supervision": false
+}
+

@@ -1,0 +1,18 @@
+{
+  "activation": "PYTHONPATH=audits loads sitecustomize.py in parent and spawned workers.",
+  "adapter": "/model/spromptgl/experiment/experiment83_8_5_2_tadpole_cognitive_strong_anchor_factorial/audits/sitecustomize.py",
+  "adapter_sha256": "605fa31d719e74691fbafca71f06b5abf9b2b1fd58bb587c2ab3f88427d31270",
+  "checkpoint_bytes_changed": false,
+  "experiment": "Experiment 83.8.5.2",
+  "observed_validation": "S09 fold01 resumed from its original Latest checkpoint and completed audit export; training seal still passes.",
+  "optimizer_changed": false,
+  "prediction_values_changed": false,
+  "rng_changed": false,
+  "scope": "Converts tensors in the optional graph_mechanism diagnostic field to primitive JSON values after training and prediction are complete.",
+  "sealed_runner_sha256": "4bf2ab89f835d79ec938e1665a8199119785f4d63fe3a49393ec0e97cd7de9d6",
+  "source_module": "code/common/fold_checkpoint.py",
+  "source_module_sha256": "3e5e3f81934a5f479b825a5528b00ea0045f068047cea234641735deb65b3227",
+  "status": "AUDIT_ONLY_ADAPTER_REGISTERED",
+  "training_compute_changed": false,
+  "training_seal_implementation_sha256": "7ed31c60cecb6845eb829127d8d7268cc6456064319d527d72a386fada25bc47"
+}

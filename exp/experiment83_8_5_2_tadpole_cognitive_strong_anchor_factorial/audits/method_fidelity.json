@@ -1,0 +1,948 @@
+{
+  "config_contracts": {
+    "B0": {
+      "config_sha256": "82ad23f2fcb23855e49a0788e1d51d63aafccda9e820bba0f7d6e7efa390b5e6",
+      "expected_effective_gate": [
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001
+      ],
+      "status": "PASS",
+      "target_effective_gate": [
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001
+      ]
+    },
+    "B1": {
+      "config_sha256": "d0b2d6364832a35fad02871f8aa8dcb970b61bb098bf8b6de3c3e0fe0de7cc96",
+      "expected_effective_gate": [
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001
+      ],
+      "status": "PASS",
+      "target_effective_gate": [
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001
+      ]
+    },
+    "B2": {
+      "config_sha256": "f35e9ba26b55e7516df25f56f7d19ee3de426456b869dc06c614e1eb7504f0f0",
+      "expected_effective_gate": [
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001
+      ],
+      "status": "PASS",
+      "target_effective_gate": [
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001
+      ]
+    },
+    "B3": {
+      "config_sha256": "ba09a8358449f7466e17f4d5f290c7ec1e81fa9a0d3d96b9b01820ec44968fde",
+      "expected_effective_gate": [
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.010000000000000002,
+        0.001
+      ],
+      "status": "PASS",
+      "target_effective_gate": [
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.010000000000000002,
+        0.001
+      ]
+    },
+    "C01": {
+      "config_sha256": "ab3b570039444210acb1c825d9c29eed038809fbf6f75d20429d559cb9f36669",
+      "expected_effective_gate": [
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.99,
+        0.001
+      ],
+      "status": "PASS",
+      "target_effective_gate": [
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.99,
+        0.001
+      ]
+    },
+    "C02": {
+      "config_sha256": "32e0534e71b3d3fdb84a3ccad7b7d44a42e8e3b6cdb4cd9814a4abd227ee7ad9",
+      "expected_effective_gate": [
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.99,
+        0.001
+      ],
+      "status": "PASS",
+      "target_effective_gate": [
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.99,
+        0.001
+      ]
+    },
+    "C03": {
+      "config_sha256": "70b847c0a91b832a3251bdb168a3181b5f1416262c772bfe48a5fa36c80db4de",
+      "expected_effective_gate": [
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.99,
+        0.001
+      ],
+      "status": "PASS",
+      "target_effective_gate": [
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.99,
+        0.001
+      ]
+    },
+    "S01": {
+      "config_sha256": "f33ba0191e723ea56ec31c6f5bc9cbd4e8a0f60e9627c653eada93e0b924ace2",
+      "expected_effective_gate": [
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.0099,
+        0.001
+      ],
+      "status": "PASS",
+      "target_effective_gate": [
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.0099,
+        0.001
+      ]
+    },
+    "S02": {
+      "config_sha256": "779823ddfe8d2970d40f2ea7bf3970bd0f879720734b29b17e96fb46db281f57",
+      "expected_effective_gate": [
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.0099,
+        0.001
+      ],
+      "status": "PASS",
+      "target_effective_gate": [
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.0099,
+        0.001
+      ]
+    },
+    "S03": {
+      "config_sha256": "001f2b97dc037ba8cd85b6ea36bac9b6c50c90d1b9556762c0d38b4a9ffdee14",
+      "expected_effective_gate": [
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.010000000000000002,
+        0.001
+      ],
+      "status": "PASS",
+      "target_effective_gate": [
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.010000000000000002,
+        0.001
+      ]
+    },
+    "S04": {
+      "config_sha256": "1057f392fbe644d0552fb73f3a4ff3e151b711c0ad7293a856183a35879bb55c",
+      "expected_effective_gate": [
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.099,
+        0.001
+      ],
+      "status": "PASS",
+      "target_effective_gate": [
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.099,
+        0.001
+      ]
+    },
+    "S05": {
+      "config_sha256": "a52500b13332de2adfa8ee9f468154df34be2c34b6b31046fc764cb56aaf2813",
+      "expected_effective_gate": [
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.099,
+        0.001
+      ],
+      "status": "PASS",
+      "target_effective_gate": [
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.099,
+        0.001
+      ]
+    },
+    "S06": {
+      "config_sha256": "20d19579ee6db4bb06eae1f55e49063935ed8e8bea35e90fc2c711552b1bfc61",
+      "expected_effective_gate": [
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.1,
+        0.001
+      ],
+      "status": "PASS",
+      "target_effective_gate": [
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.1,
+        0.001
+      ]
+    },
+    "S07": {
+      "config_sha256": "71c7dfab6a53076d00df38bf8e15a62a1ebebdc0797f12d59cc2bc76d8f2ce09",
+      "expected_effective_gate": [
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.1,
+        0.001
+      ],
+      "status": "PASS",
+      "target_effective_gate": [
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.1,
+        0.001
+      ]
+    },
+    "S08": {
+      "config_sha256": "feba70b14ad46361bb9ea4971b92b2cde98dab9a041e29e25c5b0b0e5d40075d",
+      "expected_effective_gate": [
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.99,
+        0.001
+      ],
+      "status": "PASS",
+      "target_effective_gate": [
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.99,
+        0.001
+      ]
+    },
+    "S09": {
+      "config_sha256": "2aa9b081332e1ff4ec262d52336498f6541aa086547557575064ffaaa43e7c67",
+      "expected_effective_gate": [
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.99,
+        0.001
+      ],
+      "status": "PASS",
+      "target_effective_gate": [
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.99,
+        0.001
+      ]
+    }
+  },
+  "data": {
+    "class_counts": [
+      209,
+      315,
+      74
+    ],
+    "folds": 10,
+    "processed_sha256": "0b8a14a9c066752c2d937c93d43c2824c41beaaa7d0a451b083db8dcba07c5bc",
+    "shape": [
+      598,
+      365
+    ],
+    "split_sha256": "7c5a4dc9bd8ee7ffc6e5aff8bf841513f26a5ff6cf1b6c110a8153aa6a106ec5",
+    "test_partition_unique": true,
+    "val_equals_test": true
+  },
+  "dpsl_contract": {
+    "finite": true,
+    "full_native_logit_max_abs": 0.0,
+    "full_residual_off_logit_max_abs": 0.0,
+    "residual_cap": 0.08,
+    "residual_off_native_exact": true,
+    "residual_ratio_max": 0.0,
+    "shared_gradient_budget": 0.001
+  },
+  "experiment": "Experiment 83.8.5.2",
+  "formal_training_allowed": true,
+  "graph_and_relation_contract": {
+    "all_pair_indices_in_train": true,
+    "cognitive_graph_off_zero_delta": true,
+    "different_pairs": 2048,
+    "direct_positive": [
+      0,
+      0,
+      0,
+      0,
+      3334,
+      2590
+    ],
+    "finite_gradient_parameter_count": 130,
+    "finite_gradients": true,
+    "gate_gradient_finite": true,
+    "no_new_positive_support": true,
+    "nonnegative_finite": true,
+    "original_edges": [
+      0,
+      204,
+      91690,
+      1162,
+      3334,
+      4276
+    ],
+    "pair_count": 4096,
+    "same_pairs": 2048,
+    "signed_negative": [
+      0,
+      0,
+      2350,
+      0,
+      0,
+      0
+    ],
+    "signed_positive": [
+      0,
+      0,
+      0,
+      581,
+      0,
+      1295
+    ],
+    "symmetric": true,
+    "unused_parameter_count": 26
+  },
+  "historical_checkpoint_contracts": {
+    "B0": {
+      "folds": [
+        {
+          "best_epoch": 135,
+          "best_sha256": "37f9bc3fedce0d18905af3b66a598deb4ffca10addf9016a07865b227267c8a7",
+          "fold": 1,
+          "latest_epoch": 336,
+          "latest_sha256": "bfe1852fa7d3fedd4054e4a95e51353269ec5e16adce4c4730e1910f57939935",
+          "prediction_sha256": "224446ef88615ba49b7f83ad043e8313f41941f5b0d75003f7bcce83a0acb41a",
+          "source_path": "/model/spromptgl/experiment/experiment83_8_5_tadpole_cognitive_anchored_darg_dpsl/groups/R0/best_checkpoints/fold01.pt"
+        },
+        {
+          "best_epoch": 32,
+          "best_sha256": "09b66f562b806a4dad8f074ae66cc889a060bf92f83b0ef7b65484a5cb5e9441",
+          "fold": 2,
+          "latest_epoch": 233,
+          "latest_sha256": "ccac6229701bdb26304bf3f077de47bc384a3e5f7a42794200406fd67842ac46",
+          "prediction_sha256": "44b4893dc766d3848ea0987237f01ac16e0f406f41b23a233966d6a758d3eac5",
+          "source_path": "/model/spromptgl/experiment/experiment83_8_5_tadpole_cognitive_anchored_darg_dpsl/groups/R0/best_checkpoints/fold02.pt"
+        },
+        {
+          "best_epoch": 145,
+          "best_sha256": "034ccf614bd94478ebd097d54d12a00411a377f3c0ad9e8417d0b27dcf712e1b",
+          "fold": 3,
+          "latest_epoch": 346,
+          "latest_sha256": "9d4fb1cb4dbec569a6a0d61c80c0b5c0a39020538af87935a76b8777b944723d",
+          "prediction_sha256": "e20dcfcd6074554a72cb11c05763a6c5f9fad43ef9fda767de6d9b1a96a517e0",
+          "source_path": "/model/spromptgl/experiment/experiment83_8_5_tadpole_cognitive_anchored_darg_dpsl/groups/R0/best_checkpoints/fold03.pt"
+        },
+        {
+          "best_epoch": 63,
+          "best_sha256": "0b952d544b3b5d6467add0e10fbabde6445dff70a93e366460478d38474fc36a",
+          "fold": 4,
+          "latest_epoch": 264,
+          "latest_sha256": "715ba56a8ac1cfea90120f848bf95756998f60d637bff70f5abe150d64a9213c",
+          "prediction_sha256": "864c80f82ee7b31f91bac333296d643d5d02bbe7a1731e360880aa6944e7bad3",
+          "source_path": "/model/spromptgl/experiment/experiment83_8_5_tadpole_cognitive_anchored_darg_dpsl/groups/R0/best_checkpoints/fold04.pt"
+        },
+        {
+          "best_epoch": 95,
+          "best_sha256": "8d350f5ff217f0f37e0689d3b8d0d7969e154b7a3616c7d26f7b87e76aa21195",
+          "fold": 5,
+          "latest_epoch": 296,
+          "latest_sha256": "f1da04e0eb43e86b02622cd299afc404b911f253f134908c515e845f067ab47a",
+          "prediction_sha256": "a002235209be0c1ca3a92836bc725949fff7e09fa9320a9960b7f8d5a06a1ba5",
+          "source_path": "/model/spromptgl/experiment/experiment83_8_5_tadpole_cognitive_anchored_darg_dpsl/groups/R0/best_checkpoints/fold05.pt"
+        },
+        {
+          "best_epoch": 70,
+          "best_sha256": "bff9e50782a61f4ecc27200df511065102407ab788d41a94418985214babb16c",
+          "fold": 6,
+          "latest_epoch": 271,
+          "latest_sha256": "9b7db10eeeef552987d30b51590ed396b541ca2f0fe438b9d4fd7c5385249991",
+          "prediction_sha256": "11bdba45f46221ec28d1275bcc4070d4fa2975321f5ac9c927f19d803d4b8974",
+          "source_path": "/model/spromptgl/experiment/experiment83_8_5_tadpole_cognitive_anchored_darg_dpsl/groups/R0/best_checkpoints/fold06.pt"
+        },
+        {
+          "best_epoch": 298,
+          "best_sha256": "7f03e118e0dc66a154430b61d280a5ca363cfc3fdafc6b8acbc3d2bcf0d4bc9a",
+          "fold": 7,
+          "latest_epoch": 450,
+          "latest_sha256": "533f4d476fd331fbce50e68db334ecfda0c9cd2ad23468db6cbb15e8e9d9cd72",
+          "prediction_sha256": "57e428467c42a5507f6b0085458f77067277cdcfee0b3c41bce95695edf51a26",
+          "source_path": "/model/spromptgl/experiment/experiment83_8_5_tadpole_cognitive_anchored_darg_dpsl/groups/R0/best_checkpoints/fold07.pt"
+        },
+        {
+          "best_epoch": 77,
+          "best_sha256": "3184800a46676d11d2f3c79c010991e7b29a67d21a9544d1245aa0b9cf28118d",
+          "fold": 8,
+          "latest_epoch": 278,
+          "latest_sha256": "21d1a2d20360ab29f3a2dab3eab7a9f18b6907a2aa961a1db9d4923e4cd424cf",
+          "prediction_sha256": "4b76952efa4e50d4d39e3f4a475e1ffbaa5f392747bc00ef96e3755c2e798a8f",
+          "source_path": "/model/spromptgl/experiment/experiment83_8_5_tadpole_cognitive_anchored_darg_dpsl/groups/R0/best_checkpoints/fold08.pt"
+        },
+        {
+          "best_epoch": 99,
+          "best_sha256": "f6b501e00bb987298400c373e4ad0186b84a04aa1c98941851887cf462c5887f",
+          "fold": 9,
+          "latest_epoch": 300,
+          "latest_sha256": "cfe4fc1fdad06937d40f59fd8c63ec97a382201e4c76a9b5b7cb8ed30ead792d",
+          "prediction_sha256": "ca35e96f1d5975c9c863820e23a344c3f84438d0a7ad9040f186665ae1c8b3bc",
+          "source_path": "/model/spromptgl/experiment/experiment83_8_5_tadpole_cognitive_anchored_darg_dpsl/groups/R0/best_checkpoints/fold09.pt"
+        },
+        {
+          "best_epoch": 282,
+          "best_sha256": "dc5ce24030352e59c2351d30788ea85e43fc6cc21e0e043c8420da6382eb76e8",
+          "fold": 10,
+          "latest_epoch": 450,
+          "latest_sha256": "4176161a5d4193e1a36489d1fa33c1736fc1c525529184a431a6da682b98e47f",
+          "prediction_sha256": "3fe19daaa255cfadfdeee9dcecb7102fc0c728b4e566260bc343e11cd316bda2",
+          "source_path": "/model/spromptgl/experiment/experiment83_8_5_tadpole_cognitive_anchored_darg_dpsl/groups/R0/best_checkpoints/fold10.pt"
+        }
+      ],
+      "source_experiment": "Experiment 83.8.5",
+      "source_group": "R0",
+      "status": "PASS"
+    },
+    "B1": {
+      "folds": [
+        {
+          "best_epoch": 48,
+          "best_sha256": "4e5b11fab20e577fad2d1b0ba9e6eca639bc839b26e29f5c50fb7e479bf1e1f7",
+          "fold": 1,
+          "latest_epoch": 249,
+          "latest_sha256": "0aafe16ea7cd8fb1b10352446c2a57c95fd30d3230ff45e31c862e615b610c48",
+          "prediction_sha256": "3d6d09d5dd948b699af405ad9861028a3f7c9a246ee1ed2f4f547622852427f8",
+          "source_path": "/model/spromptgl/experiment/experiment83_8_5_tadpole_cognitive_anchored_darg_dpsl/groups/R1/best_checkpoints/fold01.pt"
+        },
+        {
+          "best_epoch": 32,
+          "best_sha256": "c8329bb1f2c8f621e3db931cacedc03cd34dc9afc191fb833cb574847f5627e7",
+          "fold": 2,
+          "latest_epoch": 233,
+          "latest_sha256": "ff9c4a6f41ad0559763966d021b78a0075d3b51140f3db234e5d812a260a7b4d",
+          "prediction_sha256": "6a617e095789386da83d873066a2fa23b5a62fc9aa3c5cf1cbc1132970528e0e",
+          "source_path": "/model/spromptgl/experiment/experiment83_8_5_tadpole_cognitive_anchored_darg_dpsl/groups/R1/best_checkpoints/fold02.pt"
+        },
+        {
+          "best_epoch": 152,
+          "best_sha256": "32ec33ff0bb3594e5ca4629af0ca78d95ee9750174d43b1f28934342e42caaa0",
+          "fold": 3,
+          "latest_epoch": 353,
+          "latest_sha256": "ff9c9e7327298c750ba7d41db01872bc93ddbbab7b7af77149c3d2b3b673c13b",
+          "prediction_sha256": "c5d6cc48acef2d63e5008158485abc20006aed7d6e7a70ba2d89811d9e787d2c",
+          "source_path": "/model/spromptgl/experiment/experiment83_8_5_tadpole_cognitive_anchored_darg_dpsl/groups/R1/best_checkpoints/fold03.pt"
+        },
+        {
+          "best_epoch": 61,
+          "best_sha256": "089a14033cdc8cad667ec59f73957ebc9181e9168dd3462d605a800f70b97381",
+          "fold": 4,
+          "latest_epoch": 262,
+          "latest_sha256": "bfbe983ccdb0c85f2fe1515933f3d791a8acd7943d86a492470a1fb808fa837a",
+          "prediction_sha256": "244336ed8a6b5e061532844f3df0126cda3f7aa0001dda5a49ba65ca34d08e4d",
+          "source_path": "/model/spromptgl/experiment/experiment83_8_5_tadpole_cognitive_anchored_darg_dpsl/groups/R1/best_checkpoints/fold04.pt"
+        },
+        {
+          "best_epoch": 308,
+          "best_sha256": "8c52fa10781b118b73a35c44fda90b4032b77c282bf64d2e2dff43b1cc72268a",
+          "fold": 5,
+          "latest_epoch": 450,
+          "latest_sha256": "919953a2e5995c4aefa13f98878b082f30701039d2def43ccf557b759e5d779c",
+          "prediction_sha256": "1ede6720300882edc6c01c0b5c312aa743d5b03fd1b68c72444faa36273e7dac",
+          "source_path": "/model/spromptgl/experiment/experiment83_8_5_tadpole_cognitive_anchored_darg_dpsl/groups/R1/best_checkpoints/fold05.pt"
+        },
+        {
+          "best_epoch": 68,
+          "best_sha256": "a5f640b0e76d7b4c59d434e418392a4d0de0e2c22cf79094b230f394b576e095",
+          "fold": 6,
+          "latest_epoch": 269,
+          "latest_sha256": "548159e6c72028f1e4604a3b062ca13b5caa26a40903d8b82a3bbc4bb311bd3a",
+          "prediction_sha256": "d619b2f1eb24aa48eab416b71e74516c8317ab09ae98f807ed796e2d620a747c",
+          "source_path": "/model/spromptgl/experiment/experiment83_8_5_tadpole_cognitive_anchored_darg_dpsl/groups/R1/best_checkpoints/fold06.pt"
+        },
+        {
+          "best_epoch": 189,
+          "best_sha256": "eb92c84e652c17dcb7a476d27a4806d5ed99d3c46f7d2b2991b89ff29e464ca1",
+          "fold": 7,
+          "latest_epoch": 390,
+          "latest_sha256": "76a50f2ce4d754d98bea74fa3e64ed202c57af3aba85a33556d79b753dfe27ee",
+          "prediction_sha256": "8c2508b4cc348bdc3fe19b14ab82e433cfe27f5965406e3f0af9994c95f2966f",
+          "source_path": "/model/spromptgl/experiment/experiment83_8_5_tadpole_cognitive_anchored_darg_dpsl/groups/R1/best_checkpoints/fold07.pt"
+        },
+        {
+          "best_epoch": 77,
+          "best_sha256": "e31e6a936565f748009fdb3d50852a334d681aa73121d5f32a5f68dfc890d7e5",
+          "fold": 8,
+          "latest_epoch": 278,
+          "latest_sha256": "6cfc98ff8be50b8e35a150cbad9a7e9d4b1cfcab7108ea645a78bf702bafbe33",
+          "prediction_sha256": "944270870b3317df122aae2ca8f61fe2edc6f09faa5edcd6ea5556377891c506",
+          "source_path": "/model/spromptgl/experiment/experiment83_8_5_tadpole_cognitive_anchored_darg_dpsl/groups/R1/best_checkpoints/fold08.pt"
+        },
+        {
+          "best_epoch": 101,
+          "best_sha256": "a7b3a38a91768e686b893ab8316afa3c66263e9d7702a62bb58908fbd6b1f550",
+          "fold": 9,
+          "latest_epoch": 302,
+          "latest_sha256": "d46922d44536af346f111efefd4ce3f49fa85d5bb9f7bf804def4ae726be18f8",
+          "prediction_sha256": "02536107c66cb0c75701b25279ab68f18d6a593340313279e9a1cb4e700f1f8f",
+          "source_path": "/model/spromptgl/experiment/experiment83_8_5_tadpole_cognitive_anchored_darg_dpsl/groups/R1/best_checkpoints/fold09.pt"
+        },
+        {
+          "best_epoch": 268,
+          "best_sha256": "653a3d3b482d5848eacd15d8ebd08386e6a36cf66c1d59b5697cc4d0d3f32f9b",
+          "fold": 10,
+          "latest_epoch": 450,
+          "latest_sha256": "bf6117d20a4727241d080c9c358a033a0d030da7aec326f69f662cafefc9b802",
+          "prediction_sha256": "be3d648a296ca03a42864f4ebdc910a717b628b4a588530b6bcf80cbe35b9495",
+          "source_path": "/model/spromptgl/experiment/experiment83_8_5_tadpole_cognitive_anchored_darg_dpsl/groups/R1/best_checkpoints/fold10.pt"
+        }
+      ],
+      "source_experiment": "Experiment 83.8.5",
+      "source_group": "R1",
+      "status": "PASS"
+    },
+    "B2": {
+      "folds": [
+        {
+          "best_epoch": 48,
+          "best_sha256": "5a33180862564f642dc4b9cffda4760901ae6001dae4c9b54849b54df63eda45",
+          "fold": 1,
+          "latest_epoch": 249,
+          "latest_sha256": "88788859e1a1be409602374f23ea80ef08bb86aa0a989879d96bdc5e391a0e5e",
+          "prediction_sha256": "43775317bb3a1bbc59c00c9c23e4727ed332329f13e25716ca4366da940ac9e3",
+          "source_path": "/model/spromptgl/experiment/experiment83_8_5_1_tadpole_y3_cognitive_darg_fidelity_factorial/groups/N1/best_checkpoints/fold01.pt"
+        },
+        {
+          "best_epoch": 32,
+          "best_sha256": "99c010e3098a8317096f0d82ea2451c1c9c82ce0cf1ddb9a53a9b1656112e428",
+          "fold": 2,
+          "latest_epoch": 233,
+          "latest_sha256": "0db8f69d430015b62f89e05d8fba9a06bb12b06e3e98f07b07099d3c80ffb4e0",
+          "prediction_sha256": "c4640049ded7a77f3b24fa8a0fcafc456af0789ccbc55f7c14ede7c102c2cac7",
+          "source_path": "/model/spromptgl/experiment/experiment83_8_5_1_tadpole_y3_cognitive_darg_fidelity_factorial/groups/N1/best_checkpoints/fold02.pt"
+        },
+        {
+          "best_epoch": 139,
+          "best_sha256": "8ee18a641592ecf80e36478e85717923d7bc38b3fbba2c2574fdc363c146b431",
+          "fold": 3,
+          "latest_epoch": 340,
+          "latest_sha256": "9a49eb5d8dca3f0bc4b0bb6efa2e507c0f9a79de18d57dede8244b4a1d07a0f0",
+          "prediction_sha256": "7a7b5404687458e450bea52f4eeb29a430f37df140854021ed80a58814117115",
+          "source_path": "/model/spromptgl/experiment/experiment83_8_5_1_tadpole_y3_cognitive_darg_fidelity_factorial/groups/N1/best_checkpoints/fold03.pt"
+        },
+        {
+          "best_epoch": 174,
+          "best_sha256": "50b566787ac3694d611890833388cf8ed3459e922211e01afc6c783805e74b25",
+          "fold": 4,
+          "latest_epoch": 375,
+          "latest_sha256": "7e495c8efea30a0827961c886fae594ad97433efa7ccc4725cf4e69250783606",
+          "prediction_sha256": "c6b14f4473599fe69ab3b9fed3d99dc9ce7a5b4a384c01d6688f077153832712",
+          "source_path": "/model/spromptgl/experiment/experiment83_8_5_1_tadpole_y3_cognitive_darg_fidelity_factorial/groups/N1/best_checkpoints/fold04.pt"
+        },
+        {
+          "best_epoch": 95,
+          "best_sha256": "1aa02a22acffac7c454a4eac112030daf3bc4531aa9942742b82b8a1d64536d2",
+          "fold": 5,
+          "latest_epoch": 296,
+          "latest_sha256": "fc03eb8f83f77e9f3fb6a921ca58cf11f3fd9d5ebd6e336d3d43665c2402e7ed",
+          "prediction_sha256": "cd7337a5a92b36391e38c8a69988ab8b20451ff196632140cacc975632fd0e4a",
+          "source_path": "/model/spromptgl/experiment/experiment83_8_5_1_tadpole_y3_cognitive_darg_fidelity_factorial/groups/N1/best_checkpoints/fold05.pt"
+        },
+        {
+          "best_epoch": 71,
+          "best_sha256": "54d81d3016d8056d16a19ddf2148d0bb1fe8ba1f27db2fd47239f8f8edf03dd8",
+          "fold": 6,
+          "latest_epoch": 272,
+          "latest_sha256": "86a7f34a53ea6c00828011f320141c88050a2eb34ce7d10e24425ce1ced73e29",
+          "prediction_sha256": "6d002419079e4ef30832927f41591591eed09187626efd9d129f123c5825fb8e",
+          "source_path": "/model/spromptgl/experiment/experiment83_8_5_1_tadpole_y3_cognitive_darg_fidelity_factorial/groups/N1/best_checkpoints/fold06.pt"
+        },
+        {
+          "best_epoch": 236,
+          "best_sha256": "ec079f019f19a61036c0491f5c1850eba3af9510effd6dcdd20fe4809b50c6a6",
+          "fold": 7,
+          "latest_epoch": 437,
+          "latest_sha256": "41a1b7c2fac901bfeaddec551ff49ff117d39ed0c129e0cfc4ae908b7c5897aa",
+          "prediction_sha256": "4122fd58e7e4f2f4b18807fe53de2970e77005b906decd4b5987d25730d0d3aa",
+          "source_path": "/model/spromptgl/experiment/experiment83_8_5_1_tadpole_y3_cognitive_darg_fidelity_factorial/groups/N1/best_checkpoints/fold07.pt"
+        },
+        {
+          "best_epoch": 79,
+          "best_sha256": "0570f5026a6d558987560b8e0be2dd4897ce4572abe785a4539ceea78c8d6a19",
+          "fold": 8,
+          "latest_epoch": 280,
+          "latest_sha256": "0c5a575528b88529d2d4ef9842cb47ce304f0f11dc4001f485b5e9ee5e817a26",
+          "prediction_sha256": "08e5cf6e3d4a59116f3711838065590f1f467edc143ebeb602b0f41fc8ed0398",
+          "source_path": "/model/spromptgl/experiment/experiment83_8_5_1_tadpole_y3_cognitive_darg_fidelity_factorial/groups/N1/best_checkpoints/fold08.pt"
+        },
+        {
+          "best_epoch": 33,
+          "best_sha256": "fa75db03f35a523a7da29906d72f830edae51be1df5784bb4d37546845d4cea6",
+          "fold": 9,
+          "latest_epoch": 234,
+          "latest_sha256": "7f516afd2cd5a13f6bf321f22caa0ccac5f6208d03f278acab12ec11ea0c9153",
+          "prediction_sha256": "c360219b3c9d28f66bf33a223b2034e796dd50358b49268878c6b0d9a0052500",
+          "source_path": "/model/spromptgl/experiment/experiment83_8_5_1_tadpole_y3_cognitive_darg_fidelity_factorial/groups/N1/best_checkpoints/fold09.pt"
+        },
+        {
+          "best_epoch": 364,
+          "best_sha256": "08404b8d1254a405f96c9029b231df5283e3a10b93ec5ade2249396db6ae456f",
+          "fold": 10,
+          "latest_epoch": 450,
+          "latest_sha256": "f53fa228fa641c94f07cda3f48089880cd7a1df839e91df1a65574d00ff3ccff",
+          "prediction_sha256": "a9178e4ad120b6898bdd84e576ffaf717fd269effa9042fde5427e92a3ef13b1",
+          "source_path": "/model/spromptgl/experiment/experiment83_8_5_1_tadpole_y3_cognitive_darg_fidelity_factorial/groups/N1/best_checkpoints/fold10.pt"
+        }
+      ],
+      "source_experiment": "Experiment 83.8.5.1",
+      "source_group": "N1",
+      "status": "PASS"
+    },
+    "B3": {
+      "folds": [
+        {
+          "best_epoch": 218,
+          "best_sha256": "fd91dc9ad51de2e4348bd25a80721c467ff18676ea617cabc0ee7d70c78e2dff",
+          "fold": 1,
+          "latest_epoch": 419,
+          "latest_sha256": "5cd0c83228830e8bd43105153273b5663fadc3e03ee4df485f509634d108a54f",
+          "prediction_sha256": "3e87b6025e227e0988fd37d2e71f4594271363f75faa7386d1baaa6a94111cbb",
+          "source_path": "/model/spromptgl/experiment/experiment83_8_5_tadpole_cognitive_anchored_darg_dpsl/groups/R4/best_checkpoints/fold01.pt"
+        },
+        {
+          "best_epoch": 32,
+          "best_sha256": "2932100a00a8748131c91b379bf64ba4323a14ab30bb25a845d83b31024e2da8",
+          "fold": 2,
+          "latest_epoch": 233,
+          "latest_sha256": "2e64fde4f818bd6f347748dafe29740da7afd09647c55bc34fb78c7d98256e5d",
+          "prediction_sha256": "b6829b0476c0588c4614fecbb192241a2a29f38ef84d7c1d79aa83f2607da848",
+          "source_path": "/model/spromptgl/experiment/experiment83_8_5_tadpole_cognitive_anchored_darg_dpsl/groups/R4/best_checkpoints/fold02.pt"
+        },
+        {
+          "best_epoch": 291,
+          "best_sha256": "2cae02f3fbb729ffad86367c183997b2edec42cdd5bd0b5dddce244b020eefa8",
+          "fold": 3,
+          "latest_epoch": 450,
+          "latest_sha256": "31a22a2bcda633085729a4cd829ceac6a2ab71f6c0f08b6e8fdc61148d2f6074",
+          "prediction_sha256": "72096ec4f3291056e79e873e3a6b1ddad064a77e246cfa8a7c1368b2dc90a544",
+          "source_path": "/model/spromptgl/experiment/experiment83_8_5_tadpole_cognitive_anchored_darg_dpsl/groups/R4/best_checkpoints/fold03.pt"
+        },
+        {
+          "best_epoch": 153,
+          "best_sha256": "0466e7b7188799e1db0eff4c5c71788ae3aacd34747d787075bfe797b8d3bdda",
+          "fold": 4,
+          "latest_epoch": 354,
+          "latest_sha256": "fa1eddcf2ff7fcf6dd7924b1d559ec688ec2846a87535f9b9090f4dc67617fa9",
+          "prediction_sha256": "8af53cc820d63147418fdaff2bd97bf7e5b125f731cc9382fc3cb62afbd66a7a",
+          "source_path": "/model/spromptgl/experiment/experiment83_8_5_tadpole_cognitive_anchored_darg_dpsl/groups/R4/best_checkpoints/fold04.pt"
+        },
+        {
+          "best_epoch": 126,
+          "best_sha256": "28d1cce738111e14a2cc9bce8991185ce76df4085004503f0d75f2c23a390aaf",
+          "fold": 5,
+          "latest_epoch": 327,
+          "latest_sha256": "a612dcd5e158eeec9bf78a48a153c2220b3b3b31cf709412fa0f8c128b291986",
+          "prediction_sha256": "1dbd80a0a93ea39bba6c22f2e19642d8dab01428f1930b501eebd6d79f6a6230",
+          "source_path": "/model/spromptgl/experiment/experiment83_8_5_tadpole_cognitive_anchored_darg_dpsl/groups/R4/best_checkpoints/fold05.pt"
+        },
+        {
+          "best_epoch": 152,
+          "best_sha256": "755bdacd4b96e2ee2e6c4242db5ac253e04baf92bca57d7bab096e590845ec81",
+          "fold": 6,
+          "latest_epoch": 353,
+          "latest_sha256": "462db8417a6ae3d1554c29c408cbf84c5321d9ab95fde85965395b6d49c80f49",
+          "prediction_sha256": "c65f2f3bfc510a78a8d52f492c91e5ad5daff0f6242cb62cf561dba22f91bb67",
+          "source_path": "/model/spromptgl/experiment/experiment83_8_5_tadpole_cognitive_anchored_darg_dpsl/groups/R4/best_checkpoints/fold06.pt"
+        },
+        {
+          "best_epoch": 147,
+          "best_sha256": "cf565638270a6aa405fdb5999d37dd131e697c9bc323e96c323d4e33d449a75b",
+          "fold": 7,
+          "latest_epoch": 348,
+          "latest_sha256": "6123a0c7f42c1c57ac393396e256c916feaeb5329e351d4f92db547462586a4c",
+          "prediction_sha256": "436ac0b034914cf0c13eae6a12a7c25de23de7d6af2a85a5ace03a379d42fd48",
+          "source_path": "/model/spromptgl/experiment/experiment83_8_5_tadpole_cognitive_anchored_darg_dpsl/groups/R4/best_checkpoints/fold07.pt"
+        },
+        {
+          "best_epoch": 77,
+          "best_sha256": "3a1c31eb2f3a1f3e77e24c86a30cbff16be1310da3d6f7a9c3048543b51c8ce3",
+          "fold": 8,
+          "latest_epoch": 278,
+          "latest_sha256": "13ee7953441c69835ae2a6193ddeada061f0bcabc5c8a90c2bfcf8ad4c129a14",
+          "prediction_sha256": "f77ec156f4f448fb274dc9eb045f3fa9e3d9b2cb2224ec30b9eefda6b5c113ca",
+          "source_path": "/model/spromptgl/experiment/experiment83_8_5_tadpole_cognitive_anchored_darg_dpsl/groups/R4/best_checkpoints/fold08.pt"
+        },
+        {
+          "best_epoch": 87,
+          "best_sha256": "4a1d8d73a968f599b17f359676bcace23bc8ceb46676448aa4d3edf590d94ee8",
+          "fold": 9,
+          "latest_epoch": 288,
+          "latest_sha256": "4ba962aab9f7739ae471ee15b4bf5869d0391cd4e9cae8d5ded27e11b7a45ff2",
+          "prediction_sha256": "3028f6e8c6a0563a9a3fe4985d464f1e23a65a8e7850f586d1d0866c22910e84",
+          "source_path": "/model/spromptgl/experiment/experiment83_8_5_tadpole_cognitive_anchored_darg_dpsl/groups/R4/best_checkpoints/fold09.pt"
+        },
+        {
+          "best_epoch": 122,
+          "best_sha256": "41cea6862f22dda1538a3e9fe278cc0d1c47e4254646a6d96b7ef8b07e2e404d",
+          "fold": 10,
+          "latest_epoch": 323,
+          "latest_sha256": "a7d8e63493b49e8ff1586cae902139f3e46a1bef6b0f5ba79013f9ac7515296b",
+          "prediction_sha256": "7b66c448a41346e34e088d50da02b57d07d30bd30653458cf126ecfbf0c7857b",
+          "source_path": "/model/spromptgl/experiment/experiment83_8_5_tadpole_cognitive_anchored_darg_dpsl/groups/R4/best_checkpoints/fold10.pt"
+        }
+      ],
+      "source_experiment": "Experiment 83.8.5",
+      "source_group": "R4",
+      "status": "PASS"
+    }
+  },
+  "model_contracts": {
+    "C01": {
+      "alignment_anchor_index": null,
+      "dpsl_constructed": false,
+      "edge_anchor_index": null,
+      "initial_effective_gate": [
+        0.0010000000474974513,
+        0.0010000000474974513,
+        0.0010000000474974513,
+        0.0010000000474974513,
+        0.10000000149011612,
+        0.0010000000474974513
+      ],
+      "initial_probabilities": [
+        0.10000000149011612,
+        0.10000000149011612,
+        0.10000000149011612,
+        0.10000000149011612,
+        0.10000000149011612,
+        0.10000000149011612
+      ],
+      "modalities": [
+        "UCSFFSX",
+        "UCBERKELEYAV45",
+        "UPENNBIOMK9",
+        "RISK_FACTOR",
+        "COGNITIVE_TEST",
+        "ROI_AVERAGE"
+      ]
+    },
+    "C02": {
+      "alignment_anchor_index": 4,
+      "dpsl_constructed": false,
+      "edge_anchor_index": 4,
+      "initial_effective_gate": [
+        0.0010000000474974513,
+        0.0010000000474974513,
+        0.0010000000474974513,
+        0.0010000000474974513,
+        0.10000000149011612,
+        0.0010000000474974513
+      ],
+      "initial_probabilities": [
+        0.10000000149011612,
+        0.10000000149011612,
+        0.10000000149011612,
+        0.10000000149011612,
+        0.10000000149011612,
+        0.10000000149011612
+      ],
+      "modalities": [
+        "UCSFFSX",
+        "UCBERKELEYAV45",
+        "UPENNBIOMK9",
+        "RISK_FACTOR",
+        "COGNITIVE_TEST",
+        "ROI_AVERAGE"
+      ]
+    },
+    "C03": {
+      "alignment_anchor_index": 4,
+      "dpsl_constructed": false,
+      "edge_anchor_index": 4,
+      "initial_effective_gate": [
+        0.0010000000474974513,
+        0.0010000000474974513,
+        0.0010000000474974513,
+        0.0010000000474974513,
+        0.9900000691413879,
+        0.0010000000474974513
+      ],
+      "initial_probabilities": [
+        0.10000000149011612,
+        0.10000000149011612,
+        0.10000000149011612,
+        0.10000000149011612,
+        0.9900000691413879,
+        0.10000000149011612
+      ],
+      "modalities": [
+        "UCSFFSX",
+        "UCBERKELEYAV45",
+        "UPENNBIOMK9",
+        "RISK_FACTOR",
+        "COGNITIVE_TEST",
+        "ROI_AVERAGE"
+      ]
+    },
+    "S01": {
+      "alignment_anchor_index": 4,
+      "dpsl_constructed": false,
+      "edge_anchor_index": null,
+      "initial_effective_gate": [
+        0.0010000000474974513,
+        0.0010000000474974513,
+        0.0010000000474974513,
+        0.0010000000474974513,
+        0.0010000000474974513,
+        0.0010000000474974513
+      ],
+      "initial_probabilities": [
+        0.10000000149011612,
+        0.10000000149011612,
+        0.10000000149011612,
+        0.10000000149011612,
+        0.10000000149011612,
+        0.10000000149011612
+      ],
+      "modalities": [
+        "UCSFFSX",
+        "UCBERKELEYAV45",
+        "UPENNBIOMK9",
+        "RISK_FACTOR",
+        "COGNITIVE_TEST",
+        "ROI_AVERAGE"
+      ]
+    },
+    "S09": {
+      "alignment_anchor_index": 4,
+      "dpsl_constructed": false,
+      "edge_anchor_index": 4,
+      "initial_effective_gate": [
+        0.0010000000474974513,
+        0.0010000000474974513,
+        0.0010000000474974513,
+        0.0010000000474974513,
+        0.10000000149011612,
+        0.0010000000474974513
+      ],
+      "initial_probabilities": [
+        0.10000000149011612,
+        0.10000000149011612,
+        0.10000000149011612,
+        0.10000000149011612,
+        0.10000000149011612,
+        0.10000000149011612
+      ],
+      "modalities": [
+        "UCSFFSX",
+        "UCBERKELEYAV45",
+        "UPENNBIOMK9",
+        "RISK_FACTOR",
+        "COGNITIVE_TEST",
+        "ROI_AVERAGE"
+      ]
+    }
+  },
+  "paper_aloss": {
+    "coefficient": 0.01,
+    "epoch_11_onward": true,
+    "squared_frobenius": true,
+    "test_labels_used": false
+  },
+  "source_sha256": {
+    "cadr_gfr.py": "f5032d96c9ac68afda47a253f794ddfe41373fabebbbbe27057f1425f988815d",
+    "e61_run.py": "f5bd8236b6a5f66903f56a01832caab6c21177238f24676562f536df3af2b334",
+    "fidelity_model.py": "5d24537f71e89bf7a4b2bd8ab43a459216d929453eda3628496be87b85269155",
+    "soft_positive_dcr.py": "3374598e5ab5547a853c4298000710bb7e8f11f93ec3bd63ddb8ff330aa36718",
+    "source_runtime.py": "9bd6b17b3f66a08460e95411f55f5c85b7169f9fb54c169cbe82dd1b4e7dbbb7"
+  },
+  "status": "PASS"
+}

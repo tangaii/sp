@@ -1,0 +1,59 @@
+{
+  "experiment": "Experiment 83.8.5.2",
+  "status": "PASS",
+  "data_sha256": "0b8a14a9c066752c2d937c93d43c2824c41beaaa7d0a451b083db8dcba07c5bc",
+  "split_sha256": "7c5a4dc9bd8ee7ffc6e5aff8bf841513f26a5ff6cf1b6c110a8153aa6a106ec5",
+  "group_count": 16,
+  "fold_count": 160,
+  "oof_rows": 9568,
+  "patients_per_group": 598,
+  "unique_patients_per_group": {
+    "B0": 598,
+    "B1": 598,
+    "B2": 598,
+    "B3": 598,
+    "S01": 598,
+    "S02": 598,
+    "S03": 598,
+    "S04": 598,
+    "S05": 598,
+    "S06": 598,
+    "S07": 598,
+    "S08": 598,
+    "S09": 598,
+    "C01": 598,
+    "C02": 598,
+    "C03": 598
+  },
+  "paired_contrasts": [
+    "S09 vs B0",
+    "S09 vs B2",
+    "S09 vs S08",
+    "S09 vs S05",
+    "S02 vs B3",
+    "S01 vs S03",
+    "S04 vs S06",
+    "S05 vs S07"
+  ],
+  "diagnostic_contrasts": [
+    "S09 vs C02",
+    "C01 vs S08",
+    "C03 vs S09"
+  ],
+  "bootstrap_replicates": 2000,
+  "bootstrap_seed": 8352,
+  "holm_family_count": 8,
+  "diagnostic_holm_family_count": 3,
+  "checkpoint_replay": {
+    "best_latest_status": "PASS",
+    "latest_next_step_recovery_status": "PASS",
+    "latest_next_step_recovery_passed": 120,
+    "latest_next_step_recovery_expected": 120
+  },
+  "outputs": {
+    "group_summary.csv": "8b9d5316d1ff0425ab2e2e4bfd28846d943f3dc52f812fb2f06587c8a24278f2",
+    "fold_metrics.csv": "f3ee882bf9b34632c9e3e5ed946c64d56760c8f4099d69c2c3f170f88963cc3d",
+    "oof_predictions.csv": "a5e3ebbcfc6e35b55a744bebbe86f6f8b37536b92cd3f2cc677990bff3b1ec23",
+    "paired_contrasts.csv": "211104541252838969bf2511b6fc5efc0443f0c4207be36bc159389b466d4978"
+  }
+}

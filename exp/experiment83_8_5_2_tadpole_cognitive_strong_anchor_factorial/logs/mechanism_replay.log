@@ -1,0 +1,137 @@
+PASS mechanism S01 fold 01
+PASS mechanism S01 fold 02
+PASS mechanism S01 fold 03
+PASS mechanism S01 fold 04
+PASS mechanism S01 fold 05
+PASS mechanism S01 fold 06
+PASS mechanism S01 fold 07
+PASS mechanism S01 fold 08
+PASS mechanism S01 fold 09
+PASS mechanism S01 fold 10
+PASS mechanism S02 fold 01
+PASS mechanism S02 fold 02
+PASS mechanism S02 fold 03
+PASS mechanism S02 fold 04
+PASS mechanism S02 fold 05
+PASS mechanism S02 fold 06
+PASS mechanism S02 fold 07
+PASS mechanism S02 fold 08
+PASS mechanism S02 fold 09
+PASS mechanism S02 fold 10
+PASS mechanism S03 fold 01
+PASS mechanism S03 fold 02
+PASS mechanism S03 fold 03
+PASS mechanism S03 fold 04
+PASS mechanism S03 fold 05
+PASS mechanism S03 fold 06
+PASS mechanism S03 fold 07
+PASS mechanism S03 fold 08
+PASS mechanism S03 fold 09
+PASS mechanism S03 fold 10
+PASS mechanism S04 fold 01
+PASS mechanism S04 fold 02
+PASS mechanism S04 fold 03
+PASS mechanism S04 fold 04
+PASS mechanism S04 fold 05
+PASS mechanism S04 fold 06
+PASS mechanism S04 fold 07
+PASS mechanism S04 fold 08
+PASS mechanism S04 fold 09
+PASS mechanism S04 fold 10
+PASS mechanism S05 fold 01
+PASS mechanism S05 fold 02
+PASS mechanism S05 fold 03
+PASS mechanism S05 fold 04
+PASS mechanism S05 fold 05
+PASS mechanism S05 fold 06
+PASS mechanism S05 fold 07
+PASS mechanism S05 fold 08
+PASS mechanism S05 fold 09
+PASS mechanism S05 fold 10
+PASS mechanism S06 fold 01
+PASS mechanism S06 fold 02
+PASS mechanism S06 fold 03
+PASS mechanism S06 fold 04
+PASS mechanism S06 fold 05
+PASS mechanism S06 fold 06
+PASS mechanism S06 fold 07
+PASS mechanism S06 fold 08
+PASS mechanism S06 fold 09
+PASS mechanism S06 fold 10
+PASS mechanism S07 fold 01
+PASS mechanism S07 fold 02
+PASS mechanism S07 fold 03
+PASS mechanism S07 fold 04
+PASS mechanism S07 fold 05
+PASS mechanism S07 fold 06
+PASS mechanism S07 fold 07
+PASS mechanism S07 fold 08
+PASS mechanism S07 fold 09
+PASS mechanism S07 fold 10
+PASS mechanism S08 fold 01
+PASS mechanism S08 fold 02
+PASS mechanism S08 fold 03
+PASS mechanism S08 fold 04
+PASS mechanism S08 fold 05
+PASS mechanism S08 fold 06
+PASS mechanism S08 fold 07
+PASS mechanism S08 fold 08
+PASS mechanism S08 fold 09
+PASS mechanism S08 fold 10
+PASS mechanism S09 fold 01
+PASS mechanism S09 fold 02
+PASS mechanism S09 fold 03
+PASS mechanism S09 fold 04
+PASS mechanism S09 fold 05
+PASS mechanism S09 fold 06
+PASS mechanism S09 fold 07
+PASS mechanism S09 fold 08
+PASS mechanism S09 fold 09
+PASS mechanism S09 fold 10
+PASS mechanism C01 fold 01
+PASS mechanism C01 fold 02
+PASS mechanism C01 fold 03
+PASS mechanism C01 fold 04
+PASS mechanism C01 fold 05
+PASS mechanism C01 fold 06
+PASS mechanism C01 fold 07
+PASS mechanism C01 fold 08
+PASS mechanism C01 fold 09
+PASS mechanism C01 fold 10
+PASS mechanism C02 fold 01
+PASS mechanism C02 fold 02
+PASS mechanism C02 fold 03
+PASS mechanism C02 fold 04
+PASS mechanism C02 fold 05
+PASS mechanism C02 fold 06
+PASS mechanism C02 fold 07
+PASS mechanism C02 fold 08
+PASS mechanism C02 fold 09
+PASS mechanism C02 fold 10
+PASS mechanism C03 fold 01
+PASS mechanism C03 fold 02
+PASS mechanism C03 fold 03
+PASS mechanism C03 fold 04
+PASS mechanism C03 fold 05
+PASS mechanism C03 fold 06
+PASS mechanism C03 fold 07
+PASS mechanism C03 fold 08
+PASS mechanism C03 fold 09
+PASS mechanism C03 fold 10
+{
+  "status": "PASS",
+  "groups": {
+    "S01": 10,
+    "S02": 10,
+    "S03": 10,
+    "S04": 10,
+    "S05": 10,
+    "S06": 10,
+    "S07": 10,
+    "S08": 10,
+    "S09": 10,
+    "C01": 10,
+    "C02": 10,
+    "C03": 10
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "cpu_threads_per_worker": 1,
+  "experiment": "Experiment 83.8.5.2",
+  "global_worker_limit": 8,
+  "gpu": "PPU-ZW810E",
+  "gpu_index": 0,
+  "gpu_memory_mib": 98304,
+  "historical_compatible_probe": {
+    "historical_best_workers": 4,
+    "source": "/model/spromptgl/experiment/experiment83_8_5_1_tadpole_y3_cognitive_darg_fidelity_factorial/audits/resource_probe.json"
+  },
+  "probe": "registered S09 TADPOLE six-modality DARG forward, graph loss, backward and optimizer step",
+  "selected_aggregate_steps_per_second": 48.609252825872346,
+  "selection_basis": "highest aggregate DARG steps per second",
+  "status": "PASS",
+  "steps_per_worker": 2,
+  "trials": [
+    {
+      "aggregate_steps_per_second": 6.5211680944919745,
+      "status": "PASS",
+      "worker_records": [
+        {
+          "elapsed_seconds": 0.30669352039694786,
+          "peak_memory_mib": 448,
+          "status": "PASS",
+          "steps": 2,
+          "steps_per_second": 6.5211680944919745,
+          "worker": 0
+        }
+      ],
+      "workers": 1
+    },
+    {
+      "aggregate_steps_per_second": 12.523754849492647,
+      "status": "PASS",
+      "worker_records": [
+        {
+          "elapsed_seconds": 0.3338874354958534,
+          "peak_memory_mib": 448,
+          "status": "PASS",
+          "steps": 2,
+          "steps_per_second": 5.990042713137189,
+          "worker": 0
+        },
+        {
+          "elapsed_seconds": 0.30610470101237297,
+          "peak_memory_mib": 450,
+          "status": "PASS",
+          "steps": 2,
+          "steps_per_second": 6.533712136355458,
+          "worker": 1
+        }
+      ],
+      "workers": 2
+    },
+    {
+      "aggregate_steps_per_second": 26.06442086074233,
+      "status": "PASS",
+      "worker_records": [
+        {
+          "elapsed_seconds": 0.32602114975452423,
+          "peak_memory_mib": 448,
+          "status": "PASS",
+          "steps": 2,
+          "steps_per_second": 6.134571335344006,
+          "worker": 0
+        },
+        {
+          "elapsed_seconds": 0.30221954360604286,
+          "peak_memory_mib": 450,
+          "status": "PASS",
+          "steps": 2,
+          "steps_per_second": 6.61770571200085,
+          "worker": 1
+        },
+        {
+          "elapsed_seconds": 0.29675542563199997,
+          "peak_memory_mib": 450,
+          "status": "PASS",
+          "steps": 2,
+          "steps_per_second": 6.739556642445881,
+          "worker": 2
+        },
+        {
+          "elapsed_seconds": 0.3042941763997078,
+          "peak_memory_mib": 450,
+          "status": "PASS",
+          "steps": 2,
+          "steps_per_second": 6.572587170951592,
+          "worker": 3
+        }
+      ],
+      "workers": 4
+    },
+    {
+      "aggregate_steps_per_second": 48.609252825872346,
+      "status": "PASS",
+      "worker_records": [
+        {
+          "elapsed_seconds": 0.3128018267452717,
+          "peak_memory_mib": 448,
+          "status": "PASS",
+          "steps": 2,
+          "steps_per_second": 6.393824552785263,
+          "worker": 0
+        },
+        {
+          "elapsed_seconds": 0.32512306049466133,
+          "peak_memory_mib": 450,
+          "status": "PASS",
+          "steps": 2,
+          "steps_per_second": 6.1515168962702385,
+          "worker": 1
+        },
+        {
+          "elapsed_seconds": 0.2900867722928524,
+          "peak_memory_mib": 450,
+          "status": "PASS",
+          "steps": 2,
+          "steps_per_second": 6.894488791032955,
+          "worker": 2
+        },
+        {
+          "elapsed_seconds": 0.31538956239819527,
+          "peak_memory_mib": 450,
+          "status": "PASS",
+          "steps": 2,
+          "steps_per_second": 6.341363946200917,
+          "worker": 3
+        },
+        {
+          "elapsed_seconds": 0.31406059861183167,
+          "peak_memory_mib": 450,
+          "status": "PASS",
+          "steps": 2,
+          "steps_per_second": 6.368197758140086,
+          "worker": 4
+        },
+        {
+          "elapsed_seconds": 0.4177379459142685,
+          "peak_memory_mib": 448,
+          "status": "PASS",
+          "steps": 2,
+          "steps_per_second": 4.787690511626291,
+          "worker": 5
+        },
+        {
+          "elapsed_seconds": 0.31496959552168846,
+          "peak_memory_mib": 448,
+          "status": "PASS",
+          "steps": 2,
+          "steps_per_second": 6.349819247433621,
+          "worker": 6
+        },
+        {
+          "elapsed_seconds": 0.3757737800478935,
+          "peak_memory_mib": 452,
+          "status": "PASS",
+          "steps": 2,
+          "steps_per_second": 5.322351122382977,
+          "worker": 7
+        }
+      ],
+      "workers": 8
+    }
+  ],
+  "worker_count": 8
+}

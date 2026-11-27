@@ -1,0 +1,55 @@
+{
+  "abide": {
+    "anchor_probability": 0.99,
+    "formula": "g_m=scale_m*sigmoid(theta_m)",
+    "four_modality_gate_scales": [
+      0.01,
+      0.01,
+      0.01,
+      1.0
+    ],
+    "gate_optimizer_state_cleared": true,
+    "non_anchor_effective_gate": 0.001,
+    "non_anchor_probability": 0.1,
+    "other_optimizer_state_preserved": true,
+    "parameter_identity_preserved": true,
+    "rng_preserved": true
+  },
+  "experiment": "Experiment 83.8.5.2",
+  "source_bindings": {
+    "original_support": true,
+    "positive_dcr": true,
+    "signed_edges": true,
+    "two_gate_direct_path": true
+  },
+  "status": "PASS",
+  "tadpole": {
+    "S09_initial_effective_gate": [
+      0.001,
+      0.001,
+      0.001,
+      0.001,
+      0.001,
+      0.001
+    ],
+    "S09_target_effective_gate": [
+      0.001,
+      0.001,
+      0.001,
+      0.001,
+      0.99,
+      0.001
+    ],
+    "alignment_anchor_index": 4,
+    "alignment_anchor_name": "COGNITIVE_TEST",
+    "no_CORR_rename": true,
+    "six_modality_order": [
+      "UCSFFSX",
+      "UCBERKELEYAV45",
+      "UPENNBIOMK9",
+      "RISK_FACTOR",
+      "COGNITIVE_TEST",
+      "ROI_AVERAGE"
+    ]
+  }
+}

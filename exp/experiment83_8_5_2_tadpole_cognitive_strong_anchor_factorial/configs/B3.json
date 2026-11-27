@@ -1,0 +1,106 @@
+{
+  "experiment": "Experiment 83.8.5.2",
+  "group": "B3",
+  "base_reference": "H4",
+  "method": "Historical E83.8.5-R4 COGNITIVE_TEST alignment and edge anchor with scale 0.10",
+  "kind": "REUSED_VERIFIED_FORMAL",
+  "training": false,
+  "alignment_anchor_index": 4,
+  "edge_anchor_index": 4,
+  "source_experiment": "Experiment 83.8.5",
+  "source_group": "R4",
+  "source_root": "/model/spromptgl/experiment/experiment83_8_5_tadpole_cognitive_anchored_darg_dpsl",
+  "darg_gate_scales": [
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.1,
+    0.01
+  ],
+  "darg_initial_gate_probabilities": [
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.1
+  ],
+  "target_gate_probabilities": [
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.1
+  ],
+  "supervision_kind": "paper_aloss",
+  "supervision_coefficient": 0.01,
+  "graph_supervision_schedule": "epoch_11_onward",
+  "darg_direct_scale": 0.02,
+  "darg_direct_single_gate": false,
+  "darg_grl_scale": 0.03,
+  "dpsl_confidence_protection": true,
+  "dpsl_confidence_mode": "old",
+  "dpsl_shared_cap": 0.001,
+  "dpsl_residual_cap": 0.08,
+  "initial_base_weight_decay": 0.11,
+  "intermediate_base_weight_decay": null,
+  "data_sha256": "0b8a14a9c066752c2d937c93d43c2824c41beaaa7d0a451b083db8dcba07c5bc",
+  "split_sha256": "7c5a4dc9bd8ee7ffc6e5aff8bf841513f26a5ff6cf1b6c110a8153aa6a106ec5",
+  "training_seed": 0,
+  "max_epochs": 450,
+  "early_stop_wait_gt": 200,
+  "modalities": [
+    "UCSFFSX",
+    "UCBERKELEYAV45",
+    "UPENNBIOMK9",
+    "RISK_FACTOR",
+    "COGNITIVE_TEST",
+    "ROI_AVERAGE"
+  ],
+  "modal_dims": [
+    145,
+    148,
+    3,
+    36,
+    24,
+    9
+  ],
+  "pair_count": 4096,
+  "same_pairs": 2048,
+  "different_pairs": 2048,
+  "history_preserved": {
+    "rfe_all_data": true,
+    "mean_imputation": true,
+    "cv_before_standard_scaler": true,
+    "transductive_patient_graph": true,
+    "val_idx_equals_test_idx": true,
+    "test_acc_selects_best": true
+  },
+  "losses": {
+    "relation_bce": 0.05,
+    "conditional_adversarial": 0.01,
+    "preservation": 0.01,
+    "grl": 0.03
+  },
+  "dpsl": {
+    "prompt_source": "TADPOLE MMGPL-12 frozen RN50",
+    "class_pairs": [
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "residual_cap": 0.08,
+    "shared_gradient_budget": 0.001
+  }
+}

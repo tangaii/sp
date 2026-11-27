@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "best_replay": "PASS 160/160",
+  "latest_replay": "PASS 160/160",
+  "latest_next_step": "PASS 120/120",
+  "oof_rows": 9568,
+  "final_report_sha256": "92aa34cb96baa4a98152c841a565965a97873bbc271cf6bc88878bb3bba2106f"
+}

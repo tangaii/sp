@@ -1,0 +1,77 @@
+{
+  "experiment": "Experiment 83.8.5.2",
+  "title": "Y3/Z0-Based COGNITIVE_TEST Strong-Anchor DARG+DPSL Factorial",
+  "authoritative_directory": "/model/spromptgl/experiment/experiment83_8_5_2_tadpole_cognitive_strong_anchor_factorial",
+  "dataset": "TADPOLE",
+  "cohort": {"n": 598, "classes": {"NC": 209, "MCI": 315, "AD": 74}, "labels": [0, 1, 2]},
+  "modalities": [
+    {"index": 0, "name": "UCSFFSX", "dim": 145},
+    {"index": 1, "name": "UCBERKELEYAV45", "dim": 148},
+    {"index": 2, "name": "UPENNBIOMK9", "dim": 3},
+    {"index": 3, "name": "RISK_FACTOR", "dim": 36},
+    {"index": 4, "name": "COGNITIVE_TEST", "dim": 24},
+    {"index": 5, "name": "ROI_AVERAGE", "dim": 9}
+  ],
+  "data_sha256": "0b8a14a9c066752c2d937c93d43c2824c41beaaa7d0a451b083db8dcba07c5bc",
+  "split_sha256": "7c5a4dc9bd8ee7ffc6e5aff8bf841513f26a5ff6cf1b6c110a8153aa6a106ec5",
+  "split_protocol": "StratifiedKFold(n_splits=10, shuffle=True, random_state=10)",
+  "seed": 0,
+  "hardware": {"device": "PPU-ZW810E", "memory_mib": 98304, "physical_gpu_count": 1, "worker_limit": 8},
+  "training": {
+    "max_epochs": 450,
+    "early_stop_rule": "wait > 200",
+    "warmup_epochs": 10,
+    "best_rule": "first strict improvement of outer test-fold ACC",
+    "val_idx_equals_test_idx": true,
+    "darg_positive_dcr_after_warmup": true,
+    "paper_aloss": {"coefficient": 0.01, "formula": "squared Frobenius norm, epoch 11 onward, train-patient labels only"}
+  },
+  "darg": {
+    "reference": "E74.4-G2 Positive-DCR",
+    "relation_bce": 0.05,
+    "conditional_adversarial": 0.01,
+    "preservation": 0.01,
+    "grl": 0.03,
+    "pair_count": 4096,
+    "same_pairs": 2048,
+    "different_pairs": 2048,
+    "reweight_strength": 0.8,
+    "direct_scale": 0.02,
+    "direct_single_gate": false,
+    "original_graph_support_preserved": true,
+    "signed_edges_preserved": true,
+    "gate_formula": "g_m = scale_m * sigmoid(theta_m)",
+    "alignment_anchor_index": 4,
+    "alignment_anchor_name": "COGNITIVE_TEST"
+  },
+  "dpsl": {
+    "reference": "E82.4.6.10-G1 SCMR-DA-SRPE",
+    "prompt_source": "TADPOLE MMGPL-12 frozen RN50 Prompt",
+    "nclass": 3,
+    "class_pairs": [[1, 0], [2, 0], [2, 1]],
+    "residual_cap": 0.08,
+    "shared_gradient_budget": 0.001,
+    "native_residual_off_exact": true
+  },
+  "groups": {
+    "historical_replay": ["B0", "B1", "B2", "B3"],
+    "new_training": ["S01", "S02", "S03", "S04", "S05", "S06", "S07", "S08", "S09", "C01", "C02", "C03"],
+    "total": 16,
+    "folds": {"historical": 40, "new": 120, "total": 160}
+  },
+  "required_comparisons": ["S09 vs B0", "S09 vs B2", "S09 vs S08", "S09 vs S05", "S02 vs B3", "S01 vs S03", "S04 vs S06", "S05 vs S07"],
+  "known_limitations": [
+    "Full-data RFE, mean imputation and StandardScaler precede outer CV.",
+    "The transductive patient graph includes all patients.",
+    "val_idx equals test_idx and test ACC selects Best checkpoints.",
+    "The resulting estimates are protocol-matched exploratory comparisons, not unbiased independent generalization estimates.",
+    "Test labels are used only after training for diagnostics and paired evaluation."
+  ],
+  "log_template": {
+    "source": "/data/adodas/SPromptGL-main/result_Tadpole.txt",
+    "fields": ["Epoch", "trn-loss-MF", "trn-loss-MF", "trn-loss-MF", "trn-AUC", "trn-ACC", "val-AUC", "val-ACC"],
+    "separator": "author template exact",
+    "custom_fields_forbidden": true
+  }
+}
+
