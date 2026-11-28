@@ -1,0 +1,336 @@
+{
+  "experiment": "Experiment 83.8.5.5",
+  "format_contract": {
+    "custom_fields_added": false,
+    "epoch_denominator": 450,
+    "epoch_field_order": [
+      "epoch/450",
+      "trn-loss-MF",
+      "trn-loss-MF",
+      "trn-loss-MF",
+      "trn-auc",
+      "acc",
+      "val-auc",
+      "acc"
+    ],
+    "fold_fields": [
+      "time",
+      "tst-auc",
+      "acc",
+      "sens",
+      "spes",
+      "train_shape",
+      "test_shape",
+      "next_fold_Counter"
+    ],
+    "fold_metric_decimal_precision": 4,
+    "loss_fields": 3,
+    "per_epoch_decimal_precision": 4,
+    "time_decimal_precision": 4
+  },
+  "groups": {
+    "H0": {
+      "epochs_reconstructed": false,
+      "file": "/model/spromptgl/experiment/experiment83_8_5_5_tadpole_s02_discriminative_relation_sampling/logs/H0_result_Tadpole.txt",
+      "group": "H0",
+      "sha256": "ee60eee80e232b439876bc420797e81e1b4f099d8f5c98c4410c4725d2de9600",
+      "source": "/model/spromptgl/experiment/experiment83_8_5_tadpole_cognitive_anchored_darg_dpsl/groups/R0/logs/result_Tadpole.txt",
+      "source_sha256": "ee60eee80e232b439876bc420797e81e1b4f099d8f5c98c4410c4725d2de9600",
+      "status": "PASS"
+    },
+    "H1": {
+      "epochs_reconstructed": false,
+      "file": "/model/spromptgl/experiment/experiment83_8_5_5_tadpole_s02_discriminative_relation_sampling/logs/H1_result_Tadpole.txt",
+      "group": "H1",
+      "sha256": "1446ed5ca4a91e6330c22c1a38f2b824ca35f7108cc33cde0a19f8766751f1b4",
+      "source": "/model/spromptgl/experiment/experiment83_8_5_2_tadpole_cognitive_strong_anchor_factorial/logs/S02_result_Tadpole.txt",
+      "source_sha256": "1446ed5ca4a91e6330c22c1a38f2b824ca35f7108cc33cde0a19f8766751f1b4",
+      "status": "PASS"
+    },
+    "U1": {
+      "epoch_denominator": 450,
+      "epochs_by_fold": [
+        249,
+        233,
+        322,
+        450,
+        433,
+        253,
+        322,
+        450,
+        342,
+        450
+      ],
+      "epochs_reconstructed": true,
+      "field_order": [
+        "epoch/450",
+        "trn-loss-MF",
+        "trn-loss-MF",
+        "trn-loss-MF",
+        "trn-auc",
+        "acc",
+        "val-auc",
+        "acc"
+      ],
+      "file": "/model/spromptgl/experiment/experiment83_8_5_5_tadpole_s02_discriminative_relation_sampling/logs/U1_result_Tadpole.txt",
+      "folds": 10,
+      "group": "U1",
+      "sha256": "53a38adc40e166b7a16112fc8c75b333d2c0fb7634d6d46c3fd443d58986ba7d",
+      "source": "real saved author_epoch_log and fold predictions",
+      "status": "PASS",
+      "trn_loss_mf_fields_per_epoch": 3
+    },
+    "U2": {
+      "epoch_denominator": 450,
+      "epochs_by_fold": [
+        326,
+        233,
+        450,
+        383,
+        296,
+        450,
+        447,
+        276,
+        234,
+        305
+      ],
+      "epochs_reconstructed": true,
+      "field_order": [
+        "epoch/450",
+        "trn-loss-MF",
+        "trn-loss-MF",
+        "trn-loss-MF",
+        "trn-auc",
+        "acc",
+        "val-auc",
+        "acc"
+      ],
+      "file": "/model/spromptgl/experiment/experiment83_8_5_5_tadpole_s02_discriminative_relation_sampling/logs/U2_result_Tadpole.txt",
+      "folds": 10,
+      "group": "U2",
+      "sha256": "8602ded1f0a9e618bd368d08617140cdf226bc7fb1f950bf5c0573391307b39e",
+      "source": "real saved author_epoch_log and fold predictions",
+      "status": "PASS",
+      "trn_loss_mf_fields_per_epoch": 3
+    },
+    "U3": {
+      "epoch_denominator": 450,
+      "epochs_by_fold": [
+        296,
+        233,
+        450,
+        251,
+        412,
+        335,
+        450,
+        273,
+        416,
+        265
+      ],
+      "epochs_reconstructed": true,
+      "field_order": [
+        "epoch/450",
+        "trn-loss-MF",
+        "trn-loss-MF",
+        "trn-loss-MF",
+        "trn-auc",
+        "acc",
+        "val-auc",
+        "acc"
+      ],
+      "file": "/model/spromptgl/experiment/experiment83_8_5_5_tadpole_s02_discriminative_relation_sampling/logs/U3_result_Tadpole.txt",
+      "folds": 10,
+      "group": "U3",
+      "sha256": "6c876e4950b60825264cd7ba6ce80d7afe989ce6299b81ee002fa3be3fe06227",
+      "source": "real saved author_epoch_log and fold predictions",
+      "status": "PASS",
+      "trn_loss_mf_fields_per_epoch": 3
+    },
+    "U4": {
+      "epoch_denominator": 450,
+      "epochs_by_fold": [
+        284,
+        233,
+        395,
+        373,
+        293,
+        253,
+        275,
+        278,
+        302,
+        360
+      ],
+      "epochs_reconstructed": true,
+      "field_order": [
+        "epoch/450",
+        "trn-loss-MF",
+        "trn-loss-MF",
+        "trn-loss-MF",
+        "trn-auc",
+        "acc",
+        "val-auc",
+        "acc"
+      ],
+      "file": "/model/spromptgl/experiment/experiment83_8_5_5_tadpole_s02_discriminative_relation_sampling/logs/U4_result_Tadpole.txt",
+      "folds": 10,
+      "group": "U4",
+      "sha256": "8baf7f2478f5866c8f7bf3cc84916edf2000deb6f5ac48e54541a624911af8a9",
+      "source": "real saved author_epoch_log and fold predictions",
+      "status": "PASS",
+      "trn_loss_mf_fields_per_epoch": 3
+    },
+    "U5": {
+      "epoch_denominator": 450,
+      "epochs_by_fold": [
+        284,
+        233,
+        348,
+        450,
+        276,
+        422,
+        285,
+        282,
+        349,
+        359
+      ],
+      "epochs_reconstructed": true,
+      "field_order": [
+        "epoch/450",
+        "trn-loss-MF",
+        "trn-loss-MF",
+        "trn-loss-MF",
+        "trn-auc",
+        "acc",
+        "val-auc",
+        "acc"
+      ],
+      "file": "/model/spromptgl/experiment/experiment83_8_5_5_tadpole_s02_discriminative_relation_sampling/logs/U5_result_Tadpole.txt",
+      "folds": 10,
+      "group": "U5",
+      "sha256": "fe02236fedde37d7ae7ca426ff29b5408f1bdcc3fbcb7486a590fb8a0c3dfd80",
+      "source": "real saved author_epoch_log and fold predictions",
+      "status": "PASS",
+      "trn_loss_mf_fields_per_epoch": 3
+    },
+    "U6": {
+      "epoch_denominator": 450,
+      "epochs_by_fold": [
+        277,
+        233,
+        445,
+        292,
+        276,
+        320,
+        385,
+        274,
+        310,
+        377
+      ],
+      "epochs_reconstructed": true,
+      "field_order": [
+        "epoch/450",
+        "trn-loss-MF",
+        "trn-loss-MF",
+        "trn-loss-MF",
+        "trn-auc",
+        "acc",
+        "val-auc",
+        "acc"
+      ],
+      "file": "/model/spromptgl/experiment/experiment83_8_5_5_tadpole_s02_discriminative_relation_sampling/logs/U6_result_Tadpole.txt",
+      "folds": 10,
+      "group": "U6",
+      "sha256": "d5639190daea84a4635796a9acb2a1defe702ca7f467bf872259a445d09b5c5b",
+      "source": "real saved author_epoch_log and fold predictions",
+      "status": "PASS",
+      "trn_loss_mf_fields_per_epoch": 3
+    }
+  },
+  "script_sha256": "863f5b6a16c621e83afc4c584be096fddae8b766a861c89484f7d777dcabe7a6",
+  "status": "PASS",
+  "template": "/data/adodas/SPromptGL-main/result_Tadpole.txt",
+  "template_git_blob": "0446670764286afbeb86573dadfdbb50ae6af15e",
+  "template_sha256": "5c80d16204e0882e5e264e42952c714397c2d31f07835b9e60d6dafd9488e3b7",
+  "verification": {
+    "H0": {
+      "author_field_order": true,
+      "counter_count": 10,
+      "epoch_denominator_450": true,
+      "epoch_line_count": 3224,
+      "sha256": "ee60eee80e232b439876bc420797e81e1b4f099d8f5c98c4410c4725d2de9600",
+      "status": "PASS",
+      "three_trn_loss_fields": true,
+      "train_test_boundary_count": 18
+    },
+    "H1": {
+      "author_field_order": true,
+      "counter_count": 10,
+      "epoch_denominator_450": true,
+      "epoch_line_count": 3635,
+      "sha256": "1446ed5ca4a91e6330c22c1a38f2b824ca35f7108cc33cde0a19f8766751f1b4",
+      "status": "PASS",
+      "three_trn_loss_fields": true,
+      "train_test_boundary_count": 18
+    },
+    "U1": {
+      "author_field_order": true,
+      "counter_count": 10,
+      "epoch_denominator_450": true,
+      "epoch_line_count": 3504,
+      "sha256": "53a38adc40e166b7a16112fc8c75b333d2c0fb7634d6d46c3fd443d58986ba7d",
+      "status": "PASS",
+      "three_trn_loss_fields": true,
+      "train_test_boundary_count": 18
+    },
+    "U2": {
+      "author_field_order": true,
+      "counter_count": 10,
+      "epoch_denominator_450": true,
+      "epoch_line_count": 3400,
+      "sha256": "8602ded1f0a9e618bd368d08617140cdf226bc7fb1f950bf5c0573391307b39e",
+      "status": "PASS",
+      "three_trn_loss_fields": true,
+      "train_test_boundary_count": 18
+    },
+    "U3": {
+      "author_field_order": true,
+      "counter_count": 10,
+      "epoch_denominator_450": true,
+      "epoch_line_count": 3381,
+      "sha256": "6c876e4950b60825264cd7ba6ce80d7afe989ce6299b81ee002fa3be3fe06227",
+      "status": "PASS",
+      "three_trn_loss_fields": true,
+      "train_test_boundary_count": 18
+    },
+    "U4": {
+      "author_field_order": true,
+      "counter_count": 10,
+      "epoch_denominator_450": true,
+      "epoch_line_count": 3046,
+      "sha256": "8baf7f2478f5866c8f7bf3cc84916edf2000deb6f5ac48e54541a624911af8a9",
+      "status": "PASS",
+      "three_trn_loss_fields": true,
+      "train_test_boundary_count": 18
+    },
+    "U5": {
+      "author_field_order": true,
+      "counter_count": 10,
+      "epoch_denominator_450": true,
+      "epoch_line_count": 3288,
+      "sha256": "fe02236fedde37d7ae7ca426ff29b5408f1bdcc3fbcb7486a590fb8a0c3dfd80",
+      "status": "PASS",
+      "three_trn_loss_fields": true,
+      "train_test_boundary_count": 18
+    },
+    "U6": {
+      "author_field_order": true,
+      "counter_count": 10,
+      "epoch_denominator_450": true,
+      "epoch_line_count": 3189,
+      "sha256": "d5639190daea84a4635796a9acb2a1defe702ca7f467bf872259a445d09b5c5b",
+      "status": "PASS",
+      "three_trn_loss_fields": true,
+      "train_test_boundary_count": 18
+    }
+  }
+}

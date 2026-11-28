@@ -1,0 +1,18 @@
+{
+  "abide_core_files_modified": false,
+  "abide_runtime_dependency": false,
+  "cognitive_anchor_index": 4,
+  "darg_signed_edges": true,
+  "dpsl_caps": {
+    "residual": 0.08,
+    "shared_gradient": 0.001
+  },
+  "dpsl_native_residual_off_contract": true,
+  "experiment": "Experiment 83.8.5.5",
+  "original_graph_support": true,
+  "positive_dcr": true,
+  "root_model_files_changed": false,
+  "six_modalities": true,
+  "status": "PASS",
+  "training_change": "TADPOLE relation sampling after epoch 10 only"
+}

@@ -1,0 +1,35 @@
+{
+  "abide_core_unchanged": true,
+  "core_file_sha256": {
+    "code/common/fidelity_model.py": "5d24537f71e89bf7a4b2bd8ab43a459216d929453eda3628496be87b85269155",
+    "code/common/run_e833.py": "200abb31371f79eed5a51108661c4ca1d0eeb8c9a214d51fdc002c0fde94c071",
+    "code/common/source_runtime.py": "9bd6b17b3f66a08460e95411f55f5c85b7169f9fb54c169cbe82dd1b4e7dbbb7",
+    "code/relation_sampling.py": "0b34ddefafb3a3445a47240cd67bfbf0c771897e524b0afdaa2301b9ee1afe6f",
+    "code/run_e83855.py": "8aebef9cd9a37ab40ab1bec89887a0cb99a82586ea2786c516a7e846ed9c23b0"
+  },
+  "darg_forward_unchanged": true,
+  "dpsl_forward_unchanged": true,
+  "experiment": "Experiment 83.8.5.5",
+  "model_identity": {
+    "alignment_anchor_index": 4,
+    "conditional_adversarial": 0.01,
+    "dpsl_residual_cap": 0.08,
+    "dpsl_shared_gradient_budget": 0.001,
+    "edge_anchor_index": 4,
+    "effective_gate_index_4": 0.0099,
+    "gate_probability_index_4": 0.99,
+    "gate_scales": [
+      0.01,
+      0.01,
+      0.01,
+      0.01,
+      0.01,
+      0.01
+    ],
+    "grl": 0.03,
+    "preservation": 0.01,
+    "relation_bce": 0.05
+  },
+  "status": "PASS",
+  "training_change_scope": "formal relation tensors at epoch 11 only"
+}

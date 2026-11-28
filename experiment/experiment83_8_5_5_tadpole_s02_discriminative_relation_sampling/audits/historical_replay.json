@@ -1,0 +1,16 @@
+{
+  "experiment": "Experiment 83.8.5.5",
+  "groups": {
+    "H0": {
+      "OOF_correct": 560,
+      "folds": 10,
+      "status": "PASS"
+    },
+    "H1": {
+      "OOF_correct": 559,
+      "folds": 10,
+      "status": "PASS"
+    }
+  },
+  "status": "PASS"
+}

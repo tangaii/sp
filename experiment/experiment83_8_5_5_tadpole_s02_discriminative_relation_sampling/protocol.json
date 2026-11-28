@@ -1,0 +1,23 @@
+{
+  "experiment": "Experiment 83.8.5.5",
+  "title": "S02 Cognitive-Anchored Discriminative Relation Sampling",
+  "dataset": "TADPOLE",
+  "cohort": {"n": 598, "classes": {"NC": 209, "MCI": 315, "AD": 74}, "labels": [0,1,2]},
+  "modalities": [
+    {"index":0,"name":"UCSFFSX","dim":145},{"index":1,"name":"UCBERKELEYAV45","dim":148},
+    {"index":2,"name":"UPENNBIOMK9","dim":3},{"index":3,"name":"RISK_FACTOR","dim":36},
+    {"index":4,"name":"COGNITIVE_TEST","dim":24},{"index":5,"name":"ROI_AVERAGE","dim":9}
+  ],
+  "data_sha256": "0b8a14a9c066752c2d937c93d43c2824c41beaaa7d0a451b083db8dcba07c5bc",
+  "split_sha256": "7c5a4dc9bd8ee7ffc6e5aff8bf841513f26a5ff6cf1b6c110a8153aa6a106ec5",
+  "split_protocol": "StratifiedKFold(n_splits=10, shuffle=True, random_state=10)",
+  "seed": 0, "max_epochs": 450, "early_stop": "wait > 200", "warmup_epochs": 10,
+  "formal_relation_epoch": 11, "pair_count": 4096, "same_pairs": 2048, "different_pairs": 2048,
+  "historical_s02_relation_quotas": "read independently from each genuine S02 Best checkpoint",
+  "historical_protocol": {"rfe_all_data":true,"mean_imputation":true,"cv_before_standard_scaler":true,"transductive_patient_graph":true,"val_idx_equals_test_idx":true,"test_acc_selects_best":true},
+  "fixed_model": {"base":"G4 E82.4.6.10-G1 / S02 E83.8.5.2","alignment_anchor_index":4,"edge_anchor_index":4,"relation_bce":0.05,"conditional_adversarial":0.01,"preservation":0.01,"grl":0.03,"dpsl_residual_cap":0.08,"dpsl_shared_gradient_budget":0.001},
+  "groups": {"historical":["H0","H1"],"new_training":["U1","U2","U3","U4","U5","U6"]},
+  "common_random_base": {"seed":"SeedSequence(83855, fold, 1)","placebo_positions":true,"byte_identical_unaffected_positions":true},
+  "interventions": {"U1":"historical-distribution random placebo control","U2":"10% MCI-MCI similarity percentile 10-30","U3":"10% NC-MCI similarity percentile 70-90","U4":"10% MCI-AD similarity percentile 70-90","U5":"U3 and U4 combined","U6":"approximately 5% randomized frozen epoch-10 COGNITIVE_TEST graph-supported pairs with deterministic shortfall fallback"},
+  "abide_unchanged": true
+}

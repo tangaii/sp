@@ -1,0 +1,272 @@
+{
+  "descriptive_groups": [],
+  "descriptive_performance_go": false,
+  "descriptive_thresholds": {
+    "ACC_mean_strictly_above_H0": 0.9364406779661016,
+    "AUC_original_mean_strictly_above_H1": 0.9443400233823392
+  },
+  "execution_go": true,
+  "experiment": "Experiment 83.8.5.5",
+  "final_replacement": false,
+  "interpretation": "No new sampler met both preregistered ACC and AUC_original thresholds. Retain historical Y3/Z0 as ACC reference and S02 as the TADPOLE base.",
+  "method_fidelity_go": true,
+  "paired_results": [
+    {
+      "ACC_paired_bootstrap_95ci": [
+        -0.02341137123745818,
+        0.010033444816053505
+      ],
+      "AUC_original_paired_bootstrap_95ci": [
+        -0.020869708766659396,
+        0.013306624251917771
+      ],
+      "McNemar_exact_holm_p": 1.0,
+      "baseline": "H0",
+      "corrected": 11,
+      "damaged": 15,
+      "delta_ACC_OOF": -0.0066889632107023,
+      "delta_AUC_original_OOF": -0.0040907011801561,
+      "group": "U1",
+      "net_correct": -4,
+      "paired_fold_holm_p_ACC": 1.0,
+      "paired_fold_holm_p_AUC_original": 1.0,
+      "statistical_support": false
+    },
+    {
+      "ACC_paired_bootstrap_95ci": [
+        -0.02341137123745818,
+        0.0117056856187292
+      ],
+      "AUC_original_paired_bootstrap_95ci": [
+        -0.02137628890120536,
+        0.012365467847698174
+      ],
+      "McNemar_exact_holm_p": 1.0,
+      "baseline": "H1",
+      "corrected": 14,
+      "damaged": 17,
+      "delta_ACC_OOF": -0.0050167224080267,
+      "delta_AUC_original_OOF": -0.0039383632362914,
+      "group": "U1",
+      "net_correct": -3,
+      "paired_fold_holm_p_ACC": 1.0,
+      "paired_fold_holm_p_AUC_original": 1.0,
+      "statistical_support": false
+    },
+    {
+      "ACC_paired_bootstrap_95ci": [
+        -0.03177257525083621,
+        0.0050167224080267525
+      ],
+      "AUC_original_paired_bootstrap_95ci": [
+        -0.02644220955853613,
+        0.007096203428926587
+      ],
+      "McNemar_exact_holm_p": 1.0,
+      "baseline": "H0",
+      "corrected": 12,
+      "damaged": 20,
+      "delta_ACC_OOF": -0.0133779264214046,
+      "delta_AUC_original_OOF": -0.0092653205844039,
+      "group": "U2",
+      "net_correct": -8,
+      "paired_fold_holm_p_ACC": 0.9424846035265022,
+      "paired_fold_holm_p_AUC_original": 1.0,
+      "statistical_support": false
+    },
+    {
+      "ACC_paired_bootstrap_95ci": [
+        -0.030100334448160626,
+        0.006688963210702337
+      ],
+      "AUC_original_paired_bootstrap_95ci": [
+        -0.025284352827520958,
+        0.007479007239777187
+      ],
+      "McNemar_exact_holm_p": 1.0,
+      "baseline": "H1",
+      "corrected": 12,
+      "damaged": 19,
+      "delta_ACC_OOF": -0.011705685618729,
+      "delta_AUC_original_OOF": -0.0091129826405392,
+      "group": "U2",
+      "net_correct": -7,
+      "paired_fold_holm_p_ACC": 0.0264757411990324,
+      "paired_fold_holm_p_AUC_original": 1.0,
+      "statistical_support": false
+    },
+    {
+      "ACC_paired_bootstrap_95ci": [
+        -0.02842809364548493,
+        0.006688963210702337
+      ],
+      "AUC_original_paired_bootstrap_95ci": [
+        -0.02082480431674163,
+        0.0066860705946642455
+      ],
+      "McNemar_exact_holm_p": 1.0,
+      "baseline": "H0",
+      "corrected": 11,
+      "damaged": 17,
+      "delta_ACC_OOF": -0.0100334448160535,
+      "delta_AUC_original_OOF": -0.0065450098972652,
+      "group": "U3",
+      "net_correct": -6,
+      "paired_fold_holm_p_ACC": 1.0,
+      "paired_fold_holm_p_AUC_original": 1.0,
+      "statistical_support": false
+    },
+    {
+      "ACC_paired_bootstrap_95ci": [
+        -0.025083612040133874,
+        0.00836120401337792
+      ],
+      "AUC_original_paired_bootstrap_95ci": [
+        -0.020691215756461302,
+        0.00847675662528534
+      ],
+      "McNemar_exact_holm_p": 1.0,
+      "baseline": "H1",
+      "corrected": 10,
+      "damaged": 15,
+      "delta_ACC_OOF": -0.0083612040133779,
+      "delta_AUC_original_OOF": -0.0063926719534005,
+      "group": "U3",
+      "net_correct": -5,
+      "paired_fold_holm_p_ACC": 1.0,
+      "paired_fold_holm_p_AUC_original": 1.0,
+      "statistical_support": false
+    },
+    {
+      "ACC_paired_bootstrap_95ci": [
+        -0.028428093645485042,
+        0.00836120401337792
+      ],
+      "AUC_original_paired_bootstrap_95ci": [
+        -0.021203934524855406,
+        0.007866690524164343
+      ],
+      "McNemar_exact_holm_p": 1.0,
+      "baseline": "H0",
+      "corrected": 12,
+      "damaged": 18,
+      "delta_ACC_OOF": -0.0100334448160535,
+      "delta_AUC_original_OOF": -0.0067133336647472,
+      "group": "U4",
+      "net_correct": -6,
+      "paired_fold_holm_p_ACC": 1.0,
+      "paired_fold_holm_p_AUC_original": 1.0,
+      "statistical_support": false
+    },
+    {
+      "ACC_paired_bootstrap_95ci": [
+        -0.026755852842809458,
+        0.010033444816053616
+      ],
+      "AUC_original_paired_bootstrap_95ci": [
+        -0.023265079152249134,
+        0.01014163918771696
+      ],
+      "McNemar_exact_holm_p": 1.0,
+      "baseline": "H1",
+      "corrected": 14,
+      "damaged": 19,
+      "delta_ACC_OOF": -0.0083612040133779,
+      "delta_AUC_original_OOF": -0.0065609957208825,
+      "group": "U4",
+      "net_correct": -5,
+      "paired_fold_holm_p_ACC": 1.0,
+      "paired_fold_holm_p_AUC_original": 1.0,
+      "statistical_support": false
+    },
+    {
+      "ACC_paired_bootstrap_95ci": [
+        -0.03511705685618738,
+        0.0050167224080267525
+      ],
+      "AUC_original_paired_bootstrap_95ci": [
+        -0.037995446578395306,
+        0.004285773991947349
+      ],
+      "McNemar_exact_holm_p": 1.0,
+      "baseline": "H0",
+      "corrected": 14,
+      "damaged": 23,
+      "delta_ACC_OOF": -0.0150501672240802,
+      "delta_AUC_original_OOF": -0.0164256769901542,
+      "group": "U5",
+      "net_correct": -9,
+      "paired_fold_holm_p_ACC": 0.9424846035265022,
+      "paired_fold_holm_p_AUC_original": 1.0,
+      "statistical_support": false
+    },
+    {
+      "ACC_paired_bootstrap_95ci": [
+        -0.03177257525083621,
+        0.0050167224080267525
+      ],
+      "AUC_original_paired_bootstrap_95ci": [
+        -0.03361436575485702,
+        0.0006730332438368758
+      ],
+      "McNemar_exact_holm_p": 1.0,
+      "baseline": "H1",
+      "corrected": 12,
+      "damaged": 20,
+      "delta_ACC_OOF": -0.0133779264214046,
+      "delta_AUC_original_OOF": -0.0162733390462895,
+      "group": "U5",
+      "net_correct": -8,
+      "paired_fold_holm_p_ACC": 0.0616740520283788,
+      "paired_fold_holm_p_AUC_original": 0.4822410484278656,
+      "statistical_support": false
+    },
+    {
+      "ACC_paired_bootstrap_95ci": [
+        -0.025083612040133874,
+        0.00836120401337792
+      ],
+      "AUC_original_paired_bootstrap_95ci": [
+        -0.021049113371189625,
+        0.009163115925903931
+      ],
+      "McNemar_exact_holm_p": 1.0,
+      "baseline": "H0",
+      "corrected": 11,
+      "damaged": 16,
+      "delta_ACC_OOF": -0.0083612040133779,
+      "delta_AUC_original_OOF": -0.0058534623236272,
+      "group": "U6",
+      "net_correct": -5,
+      "paired_fold_holm_p_ACC": 1.0,
+      "paired_fold_holm_p_AUC_original": 1.0,
+      "statistical_support": false
+    },
+    {
+      "ACC_paired_bootstrap_95ci": [
+        -0.02341137123745818,
+        0.00836120401337792
+      ],
+      "AUC_original_paired_bootstrap_95ci": [
+        -0.017507945024750508,
+        0.004590173518057466
+      ],
+      "McNemar_exact_holm_p": 1.0,
+      "baseline": "H1",
+      "corrected": 9,
+      "damaged": 13,
+      "delta_ACC_OOF": -0.0066889632107023,
+      "delta_AUC_original_OOF": -0.0057011243797625,
+      "group": "U6",
+      "net_correct": -4,
+      "paired_fold_holm_p_ACC": 1.0,
+      "paired_fold_holm_p_AUC_original": 1.0,
+      "statistical_support": false
+    }
+  ],
+  "retain_H0_Y3_Z0_and_H1_S02": true,
+  "statistical_support": false,
+  "statistical_support_groups": [],
+  "statistical_support_rule": "positive lower bounds for patient-paired ACC and AUC_original bootstrap 95% CIs, plus Holm-adjusted McNemar and paired-fold p-values below 0.05",
+  "status": "PASS"
+}

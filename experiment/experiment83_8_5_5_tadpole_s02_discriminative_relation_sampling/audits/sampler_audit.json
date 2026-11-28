@@ -1,0 +1,5881 @@
+{
+  "common_random_base": true,
+  "experiment": "Experiment 83.8.5.5",
+  "folds": [
+    {
+      "fold": 1,
+      "s02_quotas": [
+        551,
+        1319,
+        178,
+        1107,
+        231,
+        710
+      ],
+      "samplers": {
+        "U1": {
+          "pair_sha256": "5f350f89a814cd60d529a88ca6596d8c3a48af998f008d46155905d693c3dbe0",
+          "status": "PASS"
+        },
+        "U2": {
+          "pair_sha256": "bca4c12bb2429fe4d1f3ef7ac126ad6aae2b2f45ddac83da7141a63a548f4e52",
+          "status": "PASS"
+        },
+        "U3": {
+          "pair_sha256": "d42109fe8d22cbe10078668e7cf9af278348020bfc0ebc4bb92364dbf530ddb4",
+          "status": "PASS"
+        },
+        "U4": {
+          "pair_sha256": "6ec022526d9435966501b0e5e43a443cdbf9a5f7ada1866c799bb72d5d004054",
+          "status": "PASS"
+        },
+        "U5": {
+          "pair_sha256": "bfd7130b3db14f22bb99dcebd2963eea340abeb8b730210ea2fc4faae0f80a59",
+          "status": "PASS"
+        },
+        "U6": {
+          "pair_sha256": "b268c48ae4d0283450a695b8419f568e610416b995bd771fa4a62dbd151eb9ec",
+          "status": "PASS"
+        }
+      },
+      "support_edge_count": 3024,
+      "support_edge_sha256": "d575cf8779290b219b75ed6d33fcadce331a259f822b5b5d0e1de7294f801966"
+    },
+    {
+      "fold": 2,
+      "s02_quotas": [
+        528,
+        1337,
+        183,
+        1061,
+        227,
+        760
+      ],
+      "samplers": {
+        "U1": {
+          "pair_sha256": "0640436d084207f1d2850276782eabc1aab0c96ef759a388998836ee210b0bf3",
+          "status": "PASS"
+        },
+        "U2": {
+          "pair_sha256": "1405705de6d94da94fe24eebb537f2f0f61ba6a2ae0ecaff6a54e2a1827fced2",
+          "status": "PASS"
+        },
+        "U3": {
+          "pair_sha256": "2ef2a22bef42fa056adf1df849d0af9e688a9ada2edb690533997f4a3250dffe",
+          "status": "PASS"
+        },
+        "U4": {
+          "pair_sha256": "9959174f8aa97c29aa711c3e94adb6de56e10a0335ed46ed8add8e32b6af53f9",
+          "status": "PASS"
+        },
+        "U5": {
+          "pair_sha256": "163d2b8d07663bee581642345dfb671dab5407cf1e57d5d813c7b8bf5ccdb064",
+          "status": "PASS"
+        },
+        "U6": {
+          "pair_sha256": "775b237040290a407e23f6249ad5852932592eac4ecd424a274bfba985a4d992",
+          "status": "PASS"
+        }
+      },
+      "support_edge_count": 3287,
+      "support_edge_sha256": "b6185fcb8e9b3f438f1a02128214e252ac6dcc66ee509d5f89c46dd41df8fe5a"
+    },
+    {
+      "fold": 3,
+      "s02_quotas": [
+        534,
+        1317,
+        197,
+        1135,
+        266,
+        647
+      ],
+      "samplers": {
+        "U1": {
+          "pair_sha256": "226ab2f960d70e98dc643f694dc55c593b2948e32733be5ea0f7d64b376bbd73",
+          "status": "PASS"
+        },
+        "U2": {
+          "pair_sha256": "e08e2024b893c4d4ab75e5f1886bf0378eee667d1b9ff140d3f1a795c85279f5",
+          "status": "PASS"
+        },
+        "U3": {
+          "pair_sha256": "ba4d84b9e1e23fec6f18a4df94b61541d2313b7579a110429c89928dc3af5190",
+          "status": "PASS"
+        },
+        "U4": {
+          "pair_sha256": "983fdb94dea654f0d690321942a402015cbeda5b0e84f0ec6bee8cd88c15718f",
+          "status": "PASS"
+        },
+        "U5": {
+          "pair_sha256": "5f2378032846cdb1eaa84c0b4990617e325f264e8aff99b65f95095a229b6e34",
+          "status": "PASS"
+        },
+        "U6": {
+          "pair_sha256": "d99043a275169447361c3285bf33d83c3e2464c2d0f01e228eff96965ba6455d",
+          "status": "PASS"
+        }
+      },
+      "support_edge_count": 3119,
+      "support_edge_sha256": "4c0d36a7dbe01f86f8b2b5d025365e10fca2a5b8c6216cec21499f70d6f042d2"
+    },
+    {
+      "fold": 4,
+      "s02_quotas": [
+        583,
+        1286,
+        179,
+        1161,
+        245,
+        642
+      ],
+      "samplers": {
+        "U1": {
+          "pair_sha256": "b5861e548ed2bb7ee0a3bd96f5b70064517449b273660aa83f18a982916f0e2a",
+          "status": "PASS"
+        },
+        "U2": {
+          "pair_sha256": "828df036f81eac0f2cd3ec0404592629fb94920c2118181a2c3624e2f2d15b92",
+          "status": "PASS"
+        },
+        "U3": {
+          "pair_sha256": "dd558a8a7798b6196058d2df3fe0987871c558b620d718ddd25ab2d510c301a5",
+          "status": "PASS"
+        },
+        "U4": {
+          "pair_sha256": "a6530ea6eae33dadd578331c56b07e5f8dd8cea2d0c94d3aab7b5d2b0d474c4f",
+          "status": "PASS"
+        },
+        "U5": {
+          "pair_sha256": "911c2c403d893ecbb57dc1ce9e068a3a2466c94a339e1db79d1ab6d10e55171d",
+          "status": "PASS"
+        },
+        "U6": {
+          "pair_sha256": "33ec0a9fa87f2e02c5f1786db0dd294745c1f0d73d5c6c1c76616832e3f08edf",
+          "status": "PASS"
+        }
+      },
+      "support_edge_count": 3410,
+      "support_edge_sha256": "63c17c3147b5d9be4346a44a65d3fac7cf92739935858cb929f223d60f1f4171"
+    },
+    {
+      "fold": 5,
+      "s02_quotas": [
+        541,
+        1341,
+        166,
+        1130,
+        251,
+        667
+      ],
+      "samplers": {
+        "U1": {
+          "pair_sha256": "a7688d9178549e4e220378ce9c7faf0a8ef5d0d3979903a3d0eb6d9822790389",
+          "status": "PASS"
+        },
+        "U2": {
+          "pair_sha256": "09f2e4831bd53833bd5e38dd195857be35f201c9fd2397eb7b8ab7386ebad8aa",
+          "status": "PASS"
+        },
+        "U3": {
+          "pair_sha256": "644878f2d9410087e917a1970196ce7f4a8e51257b618daff61dfd61bcb14b4a",
+          "status": "PASS"
+        },
+        "U4": {
+          "pair_sha256": "d9fd7d10cb221099a3cf6bae667289ce22a4a2cbaaeefe63f8424ce03a2ef39c",
+          "status": "PASS"
+        },
+        "U5": {
+          "pair_sha256": "edbc75567d476eca9d23f5ac6e9e30c2720821830a0024f929626ab37f4afa73",
+          "status": "PASS"
+        },
+        "U6": {
+          "pair_sha256": "a5167e7ef8fcaf9f0b2c1c17cd9463632e445851b305059104bf2695c348971b",
+          "status": "PASS"
+        }
+      },
+      "support_edge_count": 3123,
+      "support_edge_sha256": "10c43910f675f9701567103c5af3749eb3afc4734b899a571db362055b4b791e"
+    },
+    {
+      "fold": 6,
+      "s02_quotas": [
+        537,
+        1322,
+        189,
+        1133,
+        221,
+        694
+      ],
+      "samplers": {
+        "U1": {
+          "pair_sha256": "d8a016244cad12cc5d522b5b69e032457c32decce71566036b479d69990df138",
+          "status": "PASS"
+        },
+        "U2": {
+          "pair_sha256": "33f43329d60e7697bedd91ee5eff03cf6a993fdc1c305a17a8fa5b9e4fca0519",
+          "status": "PASS"
+        },
+        "U3": {
+          "pair_sha256": "68855608183e38b0a1e4c5e95a94385e1572dd44b76fc8c0a5dd1ed0469c1a58",
+          "status": "PASS"
+        },
+        "U4": {
+          "pair_sha256": "bd09e6c229fb66ed7f2449dc1a40ca92e785f25a6710ade78e1fcefe5492a187",
+          "status": "PASS"
+        },
+        "U5": {
+          "pair_sha256": "10cd5e742a6a470ad7726eaabbf0473d9e3756e711c66dbac260b17f9e0a2154",
+          "status": "PASS"
+        },
+        "U6": {
+          "pair_sha256": "0005d68cb4085fee6ec832fb0da040199775b39e28aadff2787f062ac5f76b87",
+          "status": "PASS"
+        }
+      },
+      "support_edge_count": 3481,
+      "support_edge_sha256": "b806e63496f65c085767345cd0548d978a1a4caadbbbe3be77a534976a552508"
+    },
+    {
+      "fold": 7,
+      "s02_quotas": [
+        589,
+        1288,
+        171,
+        1119,
+        270,
+        659
+      ],
+      "samplers": {
+        "U1": {
+          "pair_sha256": "95ea71ee1dc5b2bfdad5bb5b3edbb08e59ec80476c4a350c94d79c7310e5c278",
+          "status": "PASS"
+        },
+        "U2": {
+          "pair_sha256": "7f5763e8992a1858069024237f0d9901c4b4363456b38c5dd03e1947aa64d03d",
+          "status": "PASS"
+        },
+        "U3": {
+          "pair_sha256": "a8e9669a42299e9b3f5b9698f9be421a5af963ef5141e472db2ed92409062bd6",
+          "status": "PASS"
+        },
+        "U4": {
+          "pair_sha256": "1b6de122641020b4080c5678343debb65ebcadd3332b959ca5b405a544fdbcf3",
+          "status": "PASS"
+        },
+        "U5": {
+          "pair_sha256": "90a8b8569722940f7952b5cb0cb84348380648a2a530a9a23c6b92e05b156735",
+          "status": "PASS"
+        },
+        "U6": {
+          "pair_sha256": "704ed1d8b5911544ad1561461a4ef00c62ece5141f6878055aa0ac818f126f7c",
+          "status": "PASS"
+        }
+      },
+      "support_edge_count": 3543,
+      "support_edge_sha256": "fc596515c682facefb9c64a8b695b24cf4199e3116ecca864b8436a58b41acec"
+    },
+    {
+      "fold": 8,
+      "s02_quotas": [
+        570,
+        1310,
+        168,
+        1113,
+        228,
+        707
+      ],
+      "samplers": {
+        "U1": {
+          "pair_sha256": "8496a7c9313a4a0996f4f3c99af64e5b3c542ca73340bd63884eb5817c6ad4df",
+          "status": "PASS"
+        },
+        "U2": {
+          "pair_sha256": "7b85ad1b00ebffe0fff4890447fc593128cba470efaa866421a2a9e8ccbd008e",
+          "status": "PASS"
+        },
+        "U3": {
+          "pair_sha256": "066a7987498f1b9f445f2215980e8ce856bd6c1278aa58d7a3c0ca330fdf25b8",
+          "status": "PASS"
+        },
+        "U4": {
+          "pair_sha256": "39efcde2fd5484f256f56708eed6115dc8ef17991ba17aeb31e83948f7f29a96",
+          "status": "PASS"
+        },
+        "U5": {
+          "pair_sha256": "ad81929665d62437122753a2f3c43d796330a0d44de176dcca97a80943a278e5",
+          "status": "PASS"
+        },
+        "U6": {
+          "pair_sha256": "27e454babf6066d9d38030e66df9753f24ba537d5662a3dcc144f1eb6e863f97",
+          "status": "PASS"
+        }
+      },
+      "support_edge_count": 3326,
+      "support_edge_sha256": "153caf115cb3dc03cb0093155aea49c1c28188f5a166f82a2cb7feb05ebfbab2"
+    },
+    {
+      "fold": 9,
+      "s02_quotas": [
+        530,
+        1337,
+        181,
+        1134,
+        239,
+        675
+      ],
+      "samplers": {
+        "U1": {
+          "pair_sha256": "120f136a068421c437d46f9d78e38a72060ae568c339bd7b9c60caa28c27ae51",
+          "status": "PASS"
+        },
+        "U2": {
+          "pair_sha256": "5d018cf79ff59899bf47df0fc97bd5ac42707bc1c6372d33745e0377ac6a514a",
+          "status": "PASS"
+        },
+        "U3": {
+          "pair_sha256": "95b48b48c4da21fded6717ff1e0b93e5d02861dd505b618167a71f07a89bec78",
+          "status": "PASS"
+        },
+        "U4": {
+          "pair_sha256": "7df9c98f374c0a69fe141df02d1defc2508ac0fee2e13c2928a8941388058be2",
+          "status": "PASS"
+        },
+        "U5": {
+          "pair_sha256": "2fdc4184464e65d8019f73b31b1b4b9b27bbfe5bbc95a51084b86301b243d615",
+          "status": "PASS"
+        },
+        "U6": {
+          "pair_sha256": "fb8335c87d146e77e2cb9793f12b41951a489777ee9209397ba83646debc1b48",
+          "status": "PASS"
+        }
+      },
+      "support_edge_count": 3361,
+      "support_edge_sha256": "dce918aaa1211d800a8b027b7533d1de6bc1d9a9cd32b6feeed53e6832f617bf"
+    },
+    {
+      "fold": 10,
+      "s02_quotas": [
+        558,
+        1325,
+        165,
+        1119,
+        246,
+        683
+      ],
+      "samplers": {
+        "U1": {
+          "pair_sha256": "09eeacec550fdc82c303a26d8b79b57fc332311c950c1a72b62eab1020e0481a",
+          "status": "PASS"
+        },
+        "U2": {
+          "pair_sha256": "1240dec76564477a7ded69e5cb0c221b8c6bed9165a07c1541468d5332d3ba47",
+          "status": "PASS"
+        },
+        "U3": {
+          "pair_sha256": "681dc58ac5bb3c8154d45117e3318e7d853d6232adcb283e4b2092a0e559a200",
+          "status": "PASS"
+        },
+        "U4": {
+          "pair_sha256": "669212a62c669e11f6a5dbd684671602eb606eaea38a70467236dba773b6ea36",
+          "status": "PASS"
+        },
+        "U5": {
+          "pair_sha256": "d1d202766829b1e69ced4f874c024a1561d6503f9b6153bc722b52f1fc3638f9",
+          "status": "PASS"
+        },
+        "U6": {
+          "pair_sha256": "3cc059bd3c8c589b67257ab7adbbbcc0856e81829d228ca13570e8e0e288c704",
+          "status": "PASS"
+        }
+      },
+      "support_edge_count": 3487,
+      "support_edge_sha256": "bf41137256b47cc51ca6d1d2d3305564afb1249a3bc6a73ba5ad25e227a70cff"
+    }
+  ],
+  "group_fold_count": {
+    "U1": 10,
+    "U2": 10,
+    "U3": 10,
+    "U4": 10,
+    "U5": 10,
+    "U6": 10
+  },
+  "historical_quota_source": "H1/S02 true per-fold Best relation_pairs",
+  "loss_test_label_invariant": true,
+  "rows": [
+    {
+      "actual_support_count": 83,
+      "actual_support_fraction": 0.020263671875,
+      "common_base_pair_sha256": "5d63939586b62ccc95c63caf63d233658b48155cdafcad304d428f4f7edf841a",
+      "difficulty_sampling": {
+        "MCI-AD": {
+          "status": "not_applied_in_group"
+        },
+        "MCI-MCI": {
+          "status": "not_applied_in_group"
+        },
+        "NC-MCI": {
+          "status": "not_applied_in_group"
+        }
+      },
+      "fold": 1,
+      "group": "U1",
+      "label_invariance": {
+        "pairs_equal": true,
+        "sampling_pairs_equal": true,
+        "sampling_targets_equal": true,
+        "supervision_loss_equal": true,
+        "supervision_loss_max_abs": 0.0,
+        "targets_equal": true,
+        "test_labels_read_by_sampler": false,
+        "total_loss_equal": true,
+        "total_loss_max_abs": 0.0
+      },
+      "pair_sha256": "5f350f89a814cd60d529a88ca6596d8c3a48af998f008d46155905d693c3dbe0",
+      "patient_exposure": {
+        "AD": {
+          "count": 67,
+          "gini": 0.12299336010771125,
+          "max": 29,
+          "mean": 19.35820895522388,
+          "min": 9,
+          "p95": 26.0,
+          "std": 4.2310208095288395,
+          "total_endpoint_exposure": 1297
+        },
+        "MCI": {
+          "count": 283,
+          "gini": 0.13840485736834382,
+          "max": 28,
+          "mean": 15.742049469964664,
+          "min": 6,
+          "p95": 22.0,
+          "std": 3.904409761751286,
+          "total_endpoint_exposure": 4455
+        },
+        "NC": {
+          "count": 188,
+          "gini": 0.15331356818974537,
+          "max": 23,
+          "mean": 12.97872340425532,
+          "min": 6,
+          "p95": 19.0,
+          "std": 3.5067676921773776,
+          "total_endpoint_exposure": 2440
+        }
+      },
+      "quotas": [
+        551,
+        1319,
+        178,
+        1107,
+        231,
+        710
+      ],
+      "relation_counts": {
+        "AD-AD": 178,
+        "MCI-AD": 710,
+        "MCI-MCI": 1319,
+        "NC-AD": 231,
+        "NC-MCI": 1107,
+        "NC-NC": 551
+      },
+      "requested_support_count": 205,
+      "support_pool_count": 3024,
+      "support_shortfall_by_relation": {}
+    },
+    {
+      "actual_support_count": 83,
+      "actual_support_fraction": 0.020263671875,
+      "common_base_pair_sha256": "5d63939586b62ccc95c63caf63d233658b48155cdafcad304d428f4f7edf841a",
+      "difficulty_sampling": {
+        "MCI-MCI": {
+          "band_percentiles": [
+            10.0,
+            30.0
+          ],
+          "candidate_count_after_exclusions": 7697,
+          "candidate_count_before_exclusions": 7980,
+          "fallback": "none",
+          "selected_pair_sha256": "8d5f44cf935e73c5efbf25e3f2a908122ca94bc96a164d43e0fc79b7f01321ab",
+          "selected_percentile_max": 0.29937598676791216,
+          "selected_percentile_mean": 0.20740523041101944,
+          "selected_percentile_min": 0.10006766408540711,
+          "selected_similarity_max": -0.18232782185077667,
+          "selected_similarity_mean": -0.31626144841764914,
+          "selected_similarity_min": -0.4923732578754425,
+          "similarity_lower": -0.49239518642425534,
+          "similarity_upper": -0.18162737488746644
+        }
+      },
+      "fold": 1,
+      "group": "U2",
+      "label_invariance": {
+        "pairs_equal": true,
+        "sampling_pairs_equal": true,
+        "sampling_targets_equal": true,
+        "supervision_loss_equal": true,
+        "supervision_loss_max_abs": 0.0,
+        "targets_equal": true,
+        "test_labels_read_by_sampler": false,
+        "total_loss_equal": true,
+        "total_loss_max_abs": 0.0
+      },
+      "pair_sha256": "bca4c12bb2429fe4d1f3ef7ac126ad6aae2b2f45ddac83da7141a63a548f4e52",
+      "patient_exposure": {
+        "AD": {
+          "count": 67,
+          "gini": 0.12299336010771125,
+          "max": 29,
+          "mean": 19.35820895522388,
+          "min": 9,
+          "p95": 26.0,
+          "std": 4.2310208095288395,
+          "total_endpoint_exposure": 1297
+        },
+        "MCI": {
+          "count": 283,
+          "gini": 0.13982780296090072,
+          "max": 29,
+          "mean": 15.742049469964664,
+          "min": 7,
+          "p95": 22.0,
+          "std": 3.9627994581174435,
+          "total_endpoint_exposure": 4455
+        },
+        "NC": {
+          "count": 188,
+          "gini": 0.15331356818974537,
+          "max": 23,
+          "mean": 12.97872340425532,
+          "min": 6,
+          "p95": 19.0,
+          "std": 3.5067676921773776,
+          "total_endpoint_exposure": 2440
+        }
+      },
+      "quotas": [
+        551,
+        1319,
+        178,
+        1107,
+        231,
+        710
+      ],
+      "relation_counts": {
+        "AD-AD": 178,
+        "MCI-AD": 710,
+        "MCI-MCI": 1319,
+        "NC-AD": 231,
+        "NC-MCI": 1107,
+        "NC-NC": 551
+      },
+      "requested_support_count": 205,
+      "support_pool_count": 3024,
+      "support_shortfall_by_relation": {}
+    },
+    {
+      "actual_support_count": 82,
+      "actual_support_fraction": 0.02001953125,
+      "common_base_pair_sha256": "5d63939586b62ccc95c63caf63d233658b48155cdafcad304d428f4f7edf841a",
+      "difficulty_sampling": {
+        "NC-MCI": {
+          "band_percentiles": [
+            70.0,
+            90.0
+          ],
+          "candidate_count_after_exclusions": 10413,
+          "candidate_count_before_exclusions": 10640,
+          "fallback": "none",
+          "selected_pair_sha256": "895635e3cb684ad20ff6d851dcc9270603478a0fec1be21d53a01e911e2ad351",
+          "selected_percentile_max": 0.8998947447560334,
+          "selected_percentile_mean": 0.8123698279137721,
+          "selected_percentile_min": 0.7013946319825577,
+          "selected_similarity_max": 0.7449510097503662,
+          "selected_similarity_mean": 0.6166427879183142,
+          "selected_similarity_min": 0.4563407897949219,
+          "similarity_lower": 0.45390453338623044,
+          "similarity_upper": 0.7452793300151825
+        }
+      },
+      "fold": 1,
+      "group": "U3",
+      "label_invariance": {
+        "pairs_equal": true,
+        "sampling_pairs_equal": true,
+        "sampling_targets_equal": true,
+        "supervision_loss_equal": true,
+        "supervision_loss_max_abs": 0.0,
+        "targets_equal": true,
+        "test_labels_read_by_sampler": false,
+        "total_loss_equal": true,
+        "total_loss_max_abs": 0.0
+      },
+      "pair_sha256": "d42109fe8d22cbe10078668e7cf9af278348020bfc0ebc4bb92364dbf530ddb4",
+      "patient_exposure": {
+        "AD": {
+          "count": 67,
+          "gini": 0.12299336010771125,
+          "max": 29,
+          "mean": 19.35820895522388,
+          "min": 9,
+          "p95": 26.0,
+          "std": 4.2310208095288395,
+          "total_endpoint_exposure": 1297
+        },
+        "MCI": {
+          "count": 283,
+          "gini": 0.1376275515262559,
+          "max": 30,
+          "mean": 15.742049469964664,
+          "min": 6,
+          "p95": 22.899999999999977,
+          "std": 3.9062193823794775,
+          "total_endpoint_exposure": 4455
+        },
+        "NC": {
+          "count": 188,
+          "gini": 0.15741628880362749,
+          "max": 25,
+          "mean": 12.97872340425532,
+          "min": 5,
+          "p95": 19.0,
+          "std": 3.6290164056436787,
+          "total_endpoint_exposure": 2440
+        }
+      },
+      "quotas": [
+        551,
+        1319,
+        178,
+        1107,
+        231,
+        710
+      ],
+      "relation_counts": {
+        "AD-AD": 178,
+        "MCI-AD": 710,
+        "MCI-MCI": 1319,
+        "NC-AD": 231,
+        "NC-MCI": 1107,
+        "NC-NC": 551
+      },
+      "requested_support_count": 205,
+      "support_pool_count": 3024,
+      "support_shortfall_by_relation": {}
+    },
+    {
+      "actual_support_count": 83,
+      "actual_support_fraction": 0.020263671875,
+      "common_base_pair_sha256": "5d63939586b62ccc95c63caf63d233658b48155cdafcad304d428f4f7edf841a",
+      "difficulty_sampling": {
+        "MCI-AD": {
+          "band_percentiles": [
+            70.0,
+            90.0
+          ],
+          "candidate_count_after_exclusions": 3657,
+          "candidate_count_before_exclusions": 3793,
+          "fallback": "none",
+          "selected_pair_sha256": "2155f74fa7b47033dafb4cd6c0b30941c5e8d7c7b13c7b56e02bf48a34e7df62",
+          "selected_percentile_max": 0.8975792416011814,
+          "selected_percentile_mean": 0.7982604768423843,
+          "selected_percentile_min": 0.7027582933389589,
+          "selected_similarity_max": 0.5795944929122925,
+          "selected_similarity_mean": 0.3942455082712039,
+          "selected_similarity_min": 0.22881242632865906,
+          "similarity_lower": 0.2240041345357895,
+          "similarity_upper": 0.5841012001037598
+        }
+      },
+      "fold": 1,
+      "group": "U4",
+      "label_invariance": {
+        "pairs_equal": true,
+        "sampling_pairs_equal": true,
+        "sampling_targets_equal": true,
+        "supervision_loss_equal": true,
+        "supervision_loss_max_abs": 0.0,
+        "targets_equal": true,
+        "test_labels_read_by_sampler": false,
+        "total_loss_equal": true,
+        "total_loss_max_abs": 0.0
+      },
+      "pair_sha256": "6ec022526d9435966501b0e5e43a443cdbf9a5f7ada1866c799bb72d5d004054",
+      "patient_exposure": {
+        "AD": {
+          "count": 67,
+          "gini": 0.12471950195054028,
+          "max": 28,
+          "mean": 19.35820895522388,
+          "min": 10,
+          "p95": 27.699999999999996,
+          "std": 4.300994305511135,
+          "total_endpoint_exposure": 1297
+        },
+        "MCI": {
+          "count": 283,
+          "gini": 0.13919326757960446,
+          "max": 28,
+          "mean": 15.742049469964664,
+          "min": 5,
+          "p95": 22.0,
+          "std": 3.907123878390125,
+          "total_endpoint_exposure": 4455
+        },
+        "NC": {
+          "count": 188,
+          "gini": 0.15331356818974537,
+          "max": 23,
+          "mean": 12.97872340425532,
+          "min": 6,
+          "p95": 19.0,
+          "std": 3.5067676921773776,
+          "total_endpoint_exposure": 2440
+        }
+      },
+      "quotas": [
+        551,
+        1319,
+        178,
+        1107,
+        231,
+        710
+      ],
+      "relation_counts": {
+        "AD-AD": 178,
+        "MCI-AD": 710,
+        "MCI-MCI": 1319,
+        "NC-AD": 231,
+        "NC-MCI": 1107,
+        "NC-NC": 551
+      },
+      "requested_support_count": 205,
+      "support_pool_count": 3024,
+      "support_shortfall_by_relation": {}
+    },
+    {
+      "actual_support_count": 82,
+      "actual_support_fraction": 0.02001953125,
+      "common_base_pair_sha256": "5d63939586b62ccc95c63caf63d233658b48155cdafcad304d428f4f7edf841a",
+      "difficulty_sampling": {
+        "MCI-AD": {
+          "band_percentiles": [
+            70.0,
+            90.0
+          ],
+          "candidate_count_after_exclusions": 3657,
+          "candidate_count_before_exclusions": 3793,
+          "fallback": "none",
+          "selected_pair_sha256": "2155f74fa7b47033dafb4cd6c0b30941c5e8d7c7b13c7b56e02bf48a34e7df62",
+          "selected_percentile_max": 0.8975792416011814,
+          "selected_percentile_mean": 0.7982604768423843,
+          "selected_percentile_min": 0.7027582933389589,
+          "selected_similarity_max": 0.5795944929122925,
+          "selected_similarity_mean": 0.3942455082712039,
+          "selected_similarity_min": 0.22881242632865906,
+          "similarity_lower": 0.2240041345357895,
+          "similarity_upper": 0.5841012001037598
+        },
+        "NC-MCI": {
+          "band_percentiles": [
+            70.0,
+            90.0
+          ],
+          "candidate_count_after_exclusions": 10413,
+          "candidate_count_before_exclusions": 10640,
+          "fallback": "none",
+          "selected_pair_sha256": "895635e3cb684ad20ff6d851dcc9270603478a0fec1be21d53a01e911e2ad351",
+          "selected_percentile_max": 0.8998947447560334,
+          "selected_percentile_mean": 0.8123698279137721,
+          "selected_percentile_min": 0.7013946319825577,
+          "selected_similarity_max": 0.7449510097503662,
+          "selected_similarity_mean": 0.6166427879183142,
+          "selected_similarity_min": 0.4563407897949219,
+          "similarity_lower": 0.45390453338623044,
+          "similarity_upper": 0.7452793300151825
+        }
+      },
+      "fold": 1,
+      "group": "U5",
+      "label_invariance": {
+        "pairs_equal": true,
+        "sampling_pairs_equal": true,
+        "sampling_targets_equal": true,
+        "supervision_loss_equal": true,
+        "supervision_loss_max_abs": 0.0,
+        "targets_equal": true,
+        "test_labels_read_by_sampler": false,
+        "total_loss_equal": true,
+        "total_loss_max_abs": 0.0
+      },
+      "pair_sha256": "bfd7130b3db14f22bb99dcebd2963eea340abeb8b730210ea2fc4faae0f80a59",
+      "patient_exposure": {
+        "AD": {
+          "count": 67,
+          "gini": 0.12471950195054028,
+          "max": 28,
+          "mean": 19.35820895522388,
+          "min": 10,
+          "p95": 27.699999999999996,
+          "std": 4.300994305511135,
+          "total_endpoint_exposure": 1297
+        },
+        "MCI": {
+          "count": 283,
+          "gini": 0.13803999952409846,
+          "max": 28,
+          "mean": 15.742049469964664,
+          "min": 5,
+          "p95": 22.899999999999977,
+          "std": 3.890810779326196,
+          "total_endpoint_exposure": 4455
+        },
+        "NC": {
+          "count": 188,
+          "gini": 0.15741628880362749,
+          "max": 25,
+          "mean": 12.97872340425532,
+          "min": 5,
+          "p95": 19.0,
+          "std": 3.6290164056436787,
+          "total_endpoint_exposure": 2440
+        }
+      },
+      "quotas": [
+        551,
+        1319,
+        178,
+        1107,
+        231,
+        710
+      ],
+      "relation_counts": {
+        "AD-AD": 178,
+        "MCI-AD": 710,
+        "MCI-MCI": 1319,
+        "NC-AD": 231,
+        "NC-MCI": 1107,
+        "NC-NC": 551
+      },
+      "requested_support_count": 205,
+      "support_pool_count": 3024,
+      "support_shortfall_by_relation": {}
+    },
+    {
+      "actual_support_count": 269,
+      "actual_support_fraction": 0.065673828125,
+      "common_base_pair_sha256": "5d63939586b62ccc95c63caf63d233658b48155cdafcad304d428f4f7edf841a",
+      "difficulty_sampling": {
+        "MCI-AD": {
+          "status": "not_applied_in_group"
+        },
+        "MCI-MCI": {
+          "status": "not_applied_in_group"
+        },
+        "NC-MCI": {
+          "status": "not_applied_in_group"
+        }
+      },
+      "fold": 1,
+      "group": "U6",
+      "label_invariance": {
+        "pairs_equal": true,
+        "sampling_pairs_equal": true,
+        "sampling_targets_equal": true,
+        "supervision_loss_equal": true,
+        "supervision_loss_max_abs": 0.0,
+        "targets_equal": true,
+        "test_labels_read_by_sampler": false,
+        "total_loss_equal": true,
+        "total_loss_max_abs": 0.0
+      },
+      "pair_sha256": "b268c48ae4d0283450a695b8419f568e610416b995bd771fa4a62dbd151eb9ec",
+      "patient_exposure": {
+        "AD": {
+          "count": 67,
+          "gini": 0.12368381684484286,
+          "max": 32,
+          "mean": 19.35820895522388,
+          "min": 10,
+          "p95": 25.699999999999996,
+          "std": 4.332113656456524,
+          "total_endpoint_exposure": 1297
+        },
+        "MCI": {
+          "count": 283,
+          "gini": 0.1507069120732254,
+          "max": 32,
+          "mean": 15.742049469964664,
+          "min": 7,
+          "p95": 24.0,
+          "std": 4.274242689645837,
+          "total_endpoint_exposure": 4455
+        },
+        "NC": {
+          "count": 188,
+          "gini": 0.15549354726194628,
+          "max": 23,
+          "mean": 12.97872340425532,
+          "min": 5,
+          "p95": 19.0,
+          "std": 3.5699059031769096,
+          "total_endpoint_exposure": 2440
+        }
+      },
+      "quotas": [
+        551,
+        1319,
+        178,
+        1107,
+        231,
+        710
+      ],
+      "relation_counts": {
+        "AD-AD": 178,
+        "MCI-AD": 710,
+        "MCI-MCI": 1319,
+        "NC-AD": 231,
+        "NC-MCI": 1107,
+        "NC-NC": 551
+      },
+      "requested_support_count": 205,
+      "support_pool_count": 3024,
+      "support_shortfall_by_relation": {
+        "AD-AD": 0,
+        "MCI-AD": 0,
+        "MCI-MCI": 0,
+        "NC-AD": 12,
+        "NC-MCI": 0,
+        "NC-NC": 0
+      }
+    },
+    {
+      "actual_support_count": 95,
+      "actual_support_fraction": 0.023193359375,
+      "common_base_pair_sha256": "c4fbec365cf43ebd71873d5122ed482450f05609d7415068de6b65e58f4eda1f",
+      "difficulty_sampling": {
+        "MCI-AD": {
+          "status": "not_applied_in_group"
+        },
+        "MCI-MCI": {
+          "status": "not_applied_in_group"
+        },
+        "NC-MCI": {
+          "status": "not_applied_in_group"
+        }
+      },
+      "fold": 2,
+      "group": "U1",
+      "label_invariance": {
+        "pairs_equal": true,
+        "sampling_pairs_equal": true,
+        "sampling_targets_equal": true,
+        "supervision_loss_equal": true,
+        "supervision_loss_max_abs": 0.0,
+        "targets_equal": true,
+        "test_labels_read_by_sampler": false,
+        "total_loss_equal": true,
+        "total_loss_max_abs": 0.0
+      },
+      "pair_sha256": "0640436d084207f1d2850276782eabc1aab0c96ef759a388998836ee210b0bf3",
+      "patient_exposure": {
+        "AD": {
+          "count": 67,
+          "gini": 0.11161487462907194,
+          "max": 31,
+          "mean": 20.19402985074627,
+          "min": 11,
+          "p95": 27.699999999999996,
+          "std": 4.104016256296355,
+          "total_endpoint_exposure": 1353
+        },
+        "MCI": {
+          "count": 283,
+          "gini": 0.14757347189849734,
+          "max": 27,
+          "mean": 15.883392226148409,
+          "min": 5,
+          "p95": 23.0,
+          "std": 4.135151367486367,
+          "total_endpoint_exposure": 4495
+        },
+        "NC": {
+          "count": 188,
+          "gini": 0.1481827753975746,
+          "max": 23,
+          "mean": 12.46808510638298,
+          "min": 6,
+          "p95": 18.0,
+          "std": 3.286665929011818,
+          "total_endpoint_exposure": 2344
+        }
+      },
+      "quotas": [
+        528,
+        1337,
+        183,
+        1061,
+        227,
+        760
+      ],
+      "relation_counts": {
+        "AD-AD": 183,
+        "MCI-AD": 760,
+        "MCI-MCI": 1337,
+        "NC-AD": 227,
+        "NC-MCI": 1061,
+        "NC-NC": 528
+      },
+      "requested_support_count": 205,
+      "support_pool_count": 3287,
+      "support_shortfall_by_relation": {}
+    },
+    {
+      "actual_support_count": 94,
+      "actual_support_fraction": 0.02294921875,
+      "common_base_pair_sha256": "c4fbec365cf43ebd71873d5122ed482450f05609d7415068de6b65e58f4eda1f",
+      "difficulty_sampling": {
+        "MCI-MCI": {
+          "band_percentiles": [
+            10.0,
+            30.0
+          ],
+          "candidate_count_after_exclusions": 7735,
+          "candidate_count_before_exclusions": 7980,
+          "fallback": "none",
+          "selected_pair_sha256": "55032231bc89f11691f5d993419acb9487a54caa42480f28b1ad891755067faf",
+          "selected_percentile_max": 0.2945643184722953,
+          "selected_percentile_mean": 0.19589856147426166,
+          "selected_percentile_min": 0.10239831591609654,
+          "selected_similarity_max": -0.19359664618968964,
+          "selected_similarity_mean": -0.33942871385101064,
+          "selected_similarity_min": -0.49574193358421326,
+          "similarity_lower": -0.4998144268989563,
+          "similarity_upper": -0.18665467202663422
+        }
+      },
+      "fold": 2,
+      "group": "U2",
+      "label_invariance": {
+        "pairs_equal": true,
+        "sampling_pairs_equal": true,
+        "sampling_targets_equal": true,
+        "supervision_loss_equal": true,
+        "supervision_loss_max_abs": 0.0,
+        "targets_equal": true,
+        "test_labels_read_by_sampler": false,
+        "total_loss_equal": true,
+        "total_loss_max_abs": 0.0
+      },
+      "pair_sha256": "1405705de6d94da94fe24eebb537f2f0f61ba6a2ae0ecaff6a54e2a1827fced2",
+      "patient_exposure": {
+        "AD": {
+          "count": 67,
+          "gini": 0.11161487462907194,
+          "max": 31,
+          "mean": 20.19402985074627,
+          "min": 11,
+          "p95": 27.699999999999996,
+          "std": 4.104016256296355,
+          "total_endpoint_exposure": 1353
+        },
+        "MCI": {
+          "count": 283,
+          "gini": 0.14377341136795105,
+          "max": 29,
+          "mean": 15.883392226148409,
+          "min": 4,
+          "p95": 22.899999999999977,
+          "std": 4.04792488977951,
+          "total_endpoint_exposure": 4495
+        },
+        "NC": {
+          "count": 188,
+          "gini": 0.1481827753975746,
+          "max": 23,
+          "mean": 12.46808510638298,
+          "min": 6,
+          "p95": 18.0,
+          "std": 3.286665929011818,
+          "total_endpoint_exposure": 2344
+        }
+      },
+      "quotas": [
+        528,
+        1337,
+        183,
+        1061,
+        227,
+        760
+      ],
+      "relation_counts": {
+        "AD-AD": 183,
+        "MCI-AD": 760,
+        "MCI-MCI": 1337,
+        "NC-AD": 227,
+        "NC-MCI": 1061,
+        "NC-NC": 528
+      },
+      "requested_support_count": 205,
+      "support_pool_count": 3287,
+      "support_shortfall_by_relation": {}
+    },
+    {
+      "actual_support_count": 92,
+      "actual_support_fraction": 0.0224609375,
+      "common_base_pair_sha256": "c4fbec365cf43ebd71873d5122ed482450f05609d7415068de6b65e58f4eda1f",
+      "difficulty_sampling": {
+        "NC-MCI": {
+          "band_percentiles": [
+            70.0,
+            90.0
+          ],
+          "candidate_count_after_exclusions": 10430,
+          "candidate_count_before_exclusions": 10640,
+          "fallback": "none",
+          "selected_pair_sha256": "f66facb567bde56a203f366a4ea6fb86521be74c089d4db362daf52766ba834f",
+          "selected_percentile_max": 0.8994812420118788,
+          "selected_percentile_mean": 0.797329928378204,
+          "selected_percentile_min": 0.7002856928050523,
+          "selected_similarity_max": 0.7488301396369934,
+          "selected_similarity_mean": 0.586262250846287,
+          "selected_similarity_min": 0.43514567613601685,
+          "similarity_lower": 0.4346093565225601,
+          "similarity_upper": 0.7494813263416292
+        }
+      },
+      "fold": 2,
+      "group": "U3",
+      "label_invariance": {
+        "pairs_equal": true,
+        "sampling_pairs_equal": true,
+        "sampling_targets_equal": true,
+        "supervision_loss_equal": true,
+        "supervision_loss_max_abs": 0.0,
+        "targets_equal": true,
+        "test_labels_read_by_sampler": false,
+        "total_loss_equal": true,
+        "total_loss_max_abs": 0.0
+      },
+      "pair_sha256": "2ef2a22bef42fa056adf1df849d0af9e688a9ada2edb690533997f4a3250dffe",
+      "patient_exposure": {
+        "AD": {
+          "count": 67,
+          "gini": 0.11161487462907194,
+          "max": 31,
+          "mean": 20.19402985074627,
+          "min": 11,
+          "p95": 27.699999999999996,
+          "std": 4.104016256296355,
+          "total_endpoint_exposure": 1353
+        },
+        "MCI": {
+          "count": 283,
+          "gini": 0.14539437223141535,
+          "max": 27,
+          "mean": 15.883392226148409,
+          "min": 5,
+          "p95": 22.0,
+          "std": 4.07402872444121,
+          "total_endpoint_exposure": 4495
+        },
+        "NC": {
+          "count": 188,
+          "gini": 0.14583635901532205,
+          "max": 23,
+          "mean": 12.46808510638298,
+          "min": 6,
+          "p95": 18.0,
+          "std": 3.241033876481637,
+          "total_endpoint_exposure": 2344
+        }
+      },
+      "quotas": [
+        528,
+        1337,
+        183,
+        1061,
+        227,
+        760
+      ],
+      "relation_counts": {
+        "AD-AD": 183,
+        "MCI-AD": 760,
+        "MCI-MCI": 1337,
+        "NC-AD": 227,
+        "NC-MCI": 1061,
+        "NC-NC": 528
+      },
+      "requested_support_count": 205,
+      "support_pool_count": 3287,
+      "support_shortfall_by_relation": {}
+    },
+    {
+      "actual_support_count": 95,
+      "actual_support_fraction": 0.023193359375,
+      "common_base_pair_sha256": "c4fbec365cf43ebd71873d5122ed482450f05609d7415068de6b65e58f4eda1f",
+      "difficulty_sampling": {
+        "MCI-AD": {
+          "band_percentiles": [
+            70.0,
+            90.0
+          ],
+          "candidate_count_after_exclusions": 3644,
+          "candidate_count_before_exclusions": 3793,
+          "fallback": "none",
+          "selected_pair_sha256": "5ed910ab994e0517bec0c60140f3c99dd9378d4f4ac08c5b1e1bcea99a142b5f",
+          "selected_percentile_max": 0.8968936237540214,
+          "selected_percentile_mean": 0.8093045558889577,
+          "selected_percentile_min": 0.7015980169822267,
+          "selected_similarity_max": 0.5973625183105469,
+          "selected_similarity_mean": 0.42787758398212883,
+          "selected_similarity_min": 0.24007101356983185,
+          "similarity_lower": 0.2376440167427063,
+          "similarity_upper": 0.6036839485168457
+        }
+      },
+      "fold": 2,
+      "group": "U4",
+      "label_invariance": {
+        "pairs_equal": true,
+        "sampling_pairs_equal": true,
+        "sampling_targets_equal": true,
+        "supervision_loss_equal": true,
+        "supervision_loss_max_abs": 0.0,
+        "targets_equal": true,
+        "test_labels_read_by_sampler": false,
+        "total_loss_equal": true,
+        "total_loss_max_abs": 0.0
+      },
+      "pair_sha256": "9959174f8aa97c29aa711c3e94adb6de56e10a0335ed46ed8add8e32b6af53f9",
+      "patient_exposure": {
+        "AD": {
+          "count": 67,
+          "gini": 0.10451070589403316,
+          "max": 31,
+          "mean": 20.19402985074627,
+          "min": 13,
+          "p95": 27.39999999999999,
+          "std": 3.852654855024617,
+          "total_endpoint_exposure": 1353
+        },
+        "MCI": {
+          "count": 283,
+          "gini": 0.14638329985810697,
+          "max": 26,
+          "mean": 15.883392226148409,
+          "min": 4,
+          "p95": 23.0,
+          "std": 4.1120146049322726,
+          "total_endpoint_exposure": 4495
+        },
+        "NC": {
+          "count": 188,
+          "gini": 0.1481827753975746,
+          "max": 23,
+          "mean": 12.46808510638298,
+          "min": 6,
+          "p95": 18.0,
+          "std": 3.286665929011818,
+          "total_endpoint_exposure": 2344
+        }
+      },
+      "quotas": [
+        528,
+        1337,
+        183,
+        1061,
+        227,
+        760
+      ],
+      "relation_counts": {
+        "AD-AD": 183,
+        "MCI-AD": 760,
+        "MCI-MCI": 1337,
+        "NC-AD": 227,
+        "NC-MCI": 1061,
+        "NC-NC": 528
+      },
+      "requested_support_count": 205,
+      "support_pool_count": 3287,
+      "support_shortfall_by_relation": {}
+    },
+    {
+      "actual_support_count": 92,
+      "actual_support_fraction": 0.0224609375,
+      "common_base_pair_sha256": "c4fbec365cf43ebd71873d5122ed482450f05609d7415068de6b65e58f4eda1f",
+      "difficulty_sampling": {
+        "MCI-AD": {
+          "band_percentiles": [
+            70.0,
+            90.0
+          ],
+          "candidate_count_after_exclusions": 3644,
+          "candidate_count_before_exclusions": 3793,
+          "fallback": "none",
+          "selected_pair_sha256": "5ed910ab994e0517bec0c60140f3c99dd9378d4f4ac08c5b1e1bcea99a142b5f",
+          "selected_percentile_max": 0.8968936237540214,
+          "selected_percentile_mean": 0.8093045558889577,
+          "selected_percentile_min": 0.7015980169822267,
+          "selected_similarity_max": 0.5973625183105469,
+          "selected_similarity_mean": 0.42787758398212883,
+          "selected_similarity_min": 0.24007101356983185,
+          "similarity_lower": 0.2376440167427063,
+          "similarity_upper": 0.6036839485168457
+        },
+        "NC-MCI": {
+          "band_percentiles": [
+            70.0,
+            90.0
+          ],
+          "candidate_count_after_exclusions": 10430,
+          "candidate_count_before_exclusions": 10640,
+          "fallback": "none",
+          "selected_pair_sha256": "f66facb567bde56a203f366a4ea6fb86521be74c089d4db362daf52766ba834f",
+          "selected_percentile_max": 0.8994812420118788,
+          "selected_percentile_mean": 0.797329928378204,
+          "selected_percentile_min": 0.7002856928050523,
+          "selected_similarity_max": 0.7488301396369934,
+          "selected_similarity_mean": 0.586262250846287,
+          "selected_similarity_min": 0.43514567613601685,
+          "similarity_lower": 0.4346093565225601,
+          "similarity_upper": 0.7494813263416292
+        }
+      },
+      "fold": 2,
+      "group": "U5",
+      "label_invariance": {
+        "pairs_equal": true,
+        "sampling_pairs_equal": true,
+        "sampling_targets_equal": true,
+        "supervision_loss_equal": true,
+        "supervision_loss_max_abs": 0.0,
+        "targets_equal": true,
+        "test_labels_read_by_sampler": false,
+        "total_loss_equal": true,
+        "total_loss_max_abs": 0.0
+      },
+      "pair_sha256": "163d2b8d07663bee581642345dfb671dab5407cf1e57d5d813c7b8bf5ccdb064",
+      "patient_exposure": {
+        "AD": {
+          "count": 67,
+          "gini": 0.10451070589403316,
+          "max": 31,
+          "mean": 20.19402985074627,
+          "min": 13,
+          "p95": 27.39999999999999,
+          "std": 3.852654855024617,
+          "total_endpoint_exposure": 1353
+        },
+        "MCI": {
+          "count": 283,
+          "gini": 0.14350298918704332,
+          "max": 27,
+          "mean": 15.883392226148409,
+          "min": 4,
+          "p95": 23.0,
+          "std": 4.0304284086326,
+          "total_endpoint_exposure": 4495
+        },
+        "NC": {
+          "count": 188,
+          "gini": 0.14583635901532205,
+          "max": 23,
+          "mean": 12.46808510638298,
+          "min": 6,
+          "p95": 18.0,
+          "std": 3.241033876481637,
+          "total_endpoint_exposure": 2344
+        }
+      },
+      "quotas": [
+        528,
+        1337,
+        183,
+        1061,
+        227,
+        760
+      ],
+      "relation_counts": {
+        "AD-AD": 183,
+        "MCI-AD": 760,
+        "MCI-MCI": 1337,
+        "NC-AD": 227,
+        "NC-MCI": 1061,
+        "NC-NC": 528
+      },
+      "requested_support_count": 205,
+      "support_pool_count": 3287,
+      "support_shortfall_by_relation": {}
+    },
+    {
+      "actual_support_count": 283,
+      "actual_support_fraction": 0.069091796875,
+      "common_base_pair_sha256": "c4fbec365cf43ebd71873d5122ed482450f05609d7415068de6b65e58f4eda1f",
+      "difficulty_sampling": {
+        "MCI-AD": {
+          "status": "not_applied_in_group"
+        },
+        "MCI-MCI": {
+          "status": "not_applied_in_group"
+        },
+        "NC-MCI": {
+          "status": "not_applied_in_group"
+        }
+      },
+      "fold": 2,
+      "group": "U6",
+      "label_invariance": {
+        "pairs_equal": true,
+        "sampling_pairs_equal": true,
+        "sampling_targets_equal": true,
+        "supervision_loss_equal": true,
+        "supervision_loss_max_abs": 0.0,
+        "targets_equal": true,
+        "test_labels_read_by_sampler": false,
+        "total_loss_equal": true,
+        "total_loss_max_abs": 0.0
+      },
+      "pair_sha256": "775b237040290a407e23f6249ad5852932592eac4ecd424a274bfba985a4d992",
+      "patient_exposure": {
+        "AD": {
+          "count": 67,
+          "gini": 0.11521108426823752,
+          "max": 30,
+          "mean": 20.19402985074627,
+          "min": 12,
+          "p95": 28.0,
+          "std": 4.161797853361365,
+          "total_endpoint_exposure": 1353
+        },
+        "MCI": {
+          "count": 283,
+          "gini": 0.1575806648140651,
+          "max": 33,
+          "mean": 15.883392226148409,
+          "min": 5,
+          "p95": 23.0,
+          "std": 4.48206159320804,
+          "total_endpoint_exposure": 4495
+        },
+        "NC": {
+          "count": 188,
+          "gini": 0.15262145087502724,
+          "max": 23,
+          "mean": 12.46808510638298,
+          "min": 6,
+          "p95": 18.0,
+          "std": 3.3555356856153016,
+          "total_endpoint_exposure": 2344
+        }
+      },
+      "quotas": [
+        528,
+        1337,
+        183,
+        1061,
+        227,
+        760
+      ],
+      "relation_counts": {
+        "AD-AD": 183,
+        "MCI-AD": 760,
+        "MCI-MCI": 1337,
+        "NC-AD": 227,
+        "NC-MCI": 1061,
+        "NC-NC": 528
+      },
+      "requested_support_count": 205,
+      "support_pool_count": 3287,
+      "support_shortfall_by_relation": {
+        "AD-AD": 0,
+        "MCI-AD": 0,
+        "MCI-MCI": 0,
+        "NC-AD": 11,
+        "NC-MCI": 0,
+        "NC-NC": 0
+      }
+    },
+    {
+      "actual_support_count": 79,
+      "actual_support_fraction": 0.019287109375,
+      "common_base_pair_sha256": "1b9dc407dbef7efd245631fee7cc095ea623a6dc5fa854abba4e613daee1020e",
+      "difficulty_sampling": {
+        "MCI-AD": {
+          "status": "not_applied_in_group"
+        },
+        "MCI-MCI": {
+          "status": "not_applied_in_group"
+        },
+        "NC-MCI": {
+          "status": "not_applied_in_group"
+        }
+      },
+      "fold": 3,
+      "group": "U1",
+      "label_invariance": {
+        "pairs_equal": true,
+        "sampling_pairs_equal": true,
+        "sampling_targets_equal": true,
+        "supervision_loss_equal": true,
+        "supervision_loss_max_abs": 0.0,
+        "targets_equal": true,
+        "test_labels_read_by_sampler": false,
+        "total_loss_equal": true,
+        "total_loss_max_abs": 0.0
+      },
+      "pair_sha256": "226ab2f960d70e98dc643f694dc55c593b2948e32733be5ea0f7d64b376bbd73",
+      "patient_exposure": {
+        "AD": {
+          "count": 67,
+          "gini": 0.12429055944455229,
+          "max": 29,
+          "mean": 19.507462686567163,
+          "min": 12,
+          "p95": 26.0,
+          "std": 4.240434835236981,
+          "total_endpoint_exposure": 1307
+        },
+        "MCI": {
+          "count": 283,
+          "gini": 0.12620346187330364,
+          "max": 27,
+          "mean": 15.604240282685513,
+          "min": 8,
+          "p95": 21.0,
+          "std": 3.48529212146503,
+          "total_endpoint_exposure": 4416
+        },
+        "NC": {
+          "count": 188,
+          "gini": 0.15353575829649355,
+          "max": 23,
+          "mean": 13.132978723404255,
+          "min": 5,
+          "p95": 19.650000000000006,
+          "std": 3.5860809017073025,
+          "total_endpoint_exposure": 2469
+        }
+      },
+      "quotas": [
+        534,
+        1317,
+        197,
+        1135,
+        266,
+        647
+      ],
+      "relation_counts": {
+        "AD-AD": 197,
+        "MCI-AD": 647,
+        "MCI-MCI": 1317,
+        "NC-AD": 266,
+        "NC-MCI": 1135,
+        "NC-NC": 534
+      },
+      "requested_support_count": 205,
+      "support_pool_count": 3119,
+      "support_shortfall_by_relation": {}
+    },
+    {
+      "actual_support_count": 79,
+      "actual_support_fraction": 0.019287109375,
+      "common_base_pair_sha256": "1b9dc407dbef7efd245631fee7cc095ea623a6dc5fa854abba4e613daee1020e",
+      "difficulty_sampling": {
+        "MCI-MCI": {
+          "band_percentiles": [
+            10.0,
+            30.0
+          ],
+          "candidate_count_after_exclusions": 7743,
+          "candidate_count_before_exclusions": 7980,
+          "fallback": "none",
+          "selected_pair_sha256": "f59137dd7b304c79a949dc0c81ec84463c166ae2c674d99d795128af2135c4eb",
+          "selected_percentile_max": 0.2986492243690951,
+          "selected_percentile_mean": 0.19943001931198312,
+          "selected_percentile_min": 0.10159637120016039,
+          "selected_similarity_max": -0.1856275498867035,
+          "selected_similarity_mean": -0.3315957289076213,
+          "selected_similarity_min": -0.4936423599720001,
+          "similarity_lower": -0.49676758050918574,
+          "similarity_upper": -0.1842121750116348
+        }
+      },
+      "fold": 3,
+      "group": "U2",
+      "label_invariance": {
+        "pairs_equal": true,
+        "sampling_pairs_equal": true,
+        "sampling_targets_equal": true,
+        "supervision_loss_equal": true,
+        "supervision_loss_max_abs": 0.0,
+        "targets_equal": true,
+        "test_labels_read_by_sampler": false,
+        "total_loss_equal": true,
+        "total_loss_max_abs": 0.0
+      },
+      "pair_sha256": "e08e2024b893c4d4ab75e5f1886bf0378eee667d1b9ff140d3f1a795c85279f5",
+      "patient_exposure": {
+        "AD": {
+          "count": 67,
+          "gini": 0.12429055944455229,
+          "max": 29,
+          "mean": 19.507462686567163,
+          "min": 12,
+          "p95": 26.0,
+          "std": 4.240434835236981,
+          "total_endpoint_exposure": 1307
+        },
+        "MCI": {
+          "count": 283,
+          "gini": 0.12454710144927536,
+          "max": 26,
+          "mean": 15.604240282685513,
+          "min": 8,
+          "p95": 21.0,
+          "std": 3.43319634505189,
+          "total_endpoint_exposure": 4416
+        },
+        "NC": {
+          "count": 188,
+          "gini": 0.15353575829649355,
+          "max": 23,
+          "mean": 13.132978723404255,
+          "min": 5,
+          "p95": 19.650000000000006,
+          "std": 3.5860809017073025,
+          "total_endpoint_exposure": 2469
+        }
+      },
+      "quotas": [
+        534,
+        1317,
+        197,
+        1135,
+        266,
+        647
+      ],
+      "relation_counts": {
+        "AD-AD": 197,
+        "MCI-AD": 647,
+        "MCI-MCI": 1317,
+        "NC-AD": 266,
+        "NC-MCI": 1135,
+        "NC-NC": 534
+      },
+      "requested_support_count": 205,
+      "support_pool_count": 3119,
+      "support_shortfall_by_relation": {}
+    },
+    {
+      "actual_support_count": 79,
+      "actual_support_fraction": 0.019287109375,
+      "common_base_pair_sha256": "1b9dc407dbef7efd245631fee7cc095ea623a6dc5fa854abba4e613daee1020e",
+      "difficulty_sampling": {
+        "NC-MCI": {
+          "band_percentiles": [
+            70.0,
+            90.0
+          ],
+          "candidate_count_after_exclusions": 10416,
+          "candidate_count_before_exclusions": 10640,
+          "fallback": "none",
+          "selected_pair_sha256": "ae9b71cc17de1ebceab8df567ab4d6a8597ee62aae7fb66f4c18882b509e6ebe",
+          "selected_percentile_max": 0.8998571535974739,
+          "selected_percentile_mean": 0.8048009844926579,
+          "selected_percentile_min": 0.7006240132320878,
+          "selected_similarity_max": 0.7440779209136963,
+          "selected_similarity_mean": 0.5987730826202192,
+          "selected_similarity_min": 0.4409833550453186,
+          "similarity_lower": 0.4400805473327636,
+          "similarity_upper": 0.7442618787288667
+        }
+      },
+      "fold": 3,
+      "group": "U3",
+      "label_invariance": {
+        "pairs_equal": true,
+        "sampling_pairs_equal": true,
+        "sampling_targets_equal": true,
+        "supervision_loss_equal": true,
+        "supervision_loss_max_abs": 0.0,
+        "targets_equal": true,
+        "test_labels_read_by_sampler": false,
+        "total_loss_equal": true,
+        "total_loss_max_abs": 0.0
+      },
+      "pair_sha256": "ba4d84b9e1e23fec6f18a4df94b61541d2313b7579a110429c89928dc3af5190",
+      "patient_exposure": {
+        "AD": {
+          "count": 67,
+          "gini": 0.12429055944455229,
+          "max": 29,
+          "mean": 19.507462686567163,
+          "min": 12,
+          "p95": 26.0,
+          "std": 4.240434835236981,
+          "total_endpoint_exposure": 1307
+        },
+        "MCI": {
+          "count": 283,
+          "gini": 0.12946337122957954,
+          "max": 26,
+          "mean": 15.604240282685513,
+          "min": 7,
+          "p95": 22.0,
+          "std": 3.585244057643069,
+          "total_endpoint_exposure": 4416
+        },
+        "NC": {
+          "count": 188,
+          "gini": 0.15041191627241626,
+          "max": 23,
+          "mean": 13.132978723404255,
+          "min": 5,
+          "p95": 20.0,
+          "std": 3.514162479982609,
+          "total_endpoint_exposure": 2469
+        }
+      },
+      "quotas": [
+        534,
+        1317,
+        197,
+        1135,
+        266,
+        647
+      ],
+      "relation_counts": {
+        "AD-AD": 197,
+        "MCI-AD": 647,
+        "MCI-MCI": 1317,
+        "NC-AD": 266,
+        "NC-MCI": 1135,
+        "NC-NC": 534
+      },
+      "requested_support_count": 205,
+      "support_pool_count": 3119,
+      "support_shortfall_by_relation": {}
+    },
+    {
+      "actual_support_count": 79,
+      "actual_support_fraction": 0.019287109375,
+      "common_base_pair_sha256": "1b9dc407dbef7efd245631fee7cc095ea623a6dc5fa854abba4e613daee1020e",
+      "difficulty_sampling": {
+        "MCI-AD": {
+          "band_percentiles": [
+            70.0,
+            90.0
+          ],
+          "candidate_count_after_exclusions": 3669,
+          "candidate_count_before_exclusions": 3793,
+          "fallback": "none",
+          "selected_pair_sha256": "7dab0c570ba9f07473f59ad21d27a557c4c7fafbfecc35681cc99f8140ba511b",
+          "selected_percentile_max": 0.891883339486314,
+          "selected_percentile_mean": 0.8032706811146767,
+          "selected_percentile_min": 0.7015980169822267,
+          "selected_similarity_max": 0.58370041847229,
+          "selected_similarity_mean": 0.4134481450686088,
+          "selected_similarity_min": 0.23891490697860718,
+          "similarity_lower": 0.23624548316001892,
+          "similarity_upper": 0.6022302508354187
+        }
+      },
+      "fold": 3,
+      "group": "U4",
+      "label_invariance": {
+        "pairs_equal": true,
+        "sampling_pairs_equal": true,
+        "sampling_targets_equal": true,
+        "supervision_loss_equal": true,
+        "supervision_loss_max_abs": 0.0,
+        "targets_equal": true,
+        "test_labels_read_by_sampler": false,
+        "total_loss_equal": true,
+        "total_loss_max_abs": 0.0
+      },
+      "pair_sha256": "983fdb94dea654f0d690321942a402015cbeda5b0e84f0ec6bee8cd88c15718f",
+      "patient_exposure": {
+        "AD": {
+          "count": 67,
+          "gini": 0.12714545101577043,
+          "max": 30,
+          "mean": 19.507462686567163,
+          "min": 12,
+          "p95": 27.0,
+          "std": 4.361887631667541,
+          "total_endpoint_exposure": 1307
+        },
+        "MCI": {
+          "count": 283,
+          "gini": 0.12831432119629232,
+          "max": 27,
+          "mean": 15.604240282685513,
+          "min": 8,
+          "p95": 21.0,
+          "std": 3.5426103408461227,
+          "total_endpoint_exposure": 4416
+        },
+        "NC": {
+          "count": 188,
+          "gini": 0.15353575829649355,
+          "max": 23,
+          "mean": 13.132978723404255,
+          "min": 5,
+          "p95": 19.650000000000006,
+          "std": 3.5860809017073025,
+          "total_endpoint_exposure": 2469
+        }
+      },
+      "quotas": [
+        534,
+        1317,
+        197,
+        1135,
+        266,
+        647
+      ],
+      "relation_counts": {
+        "AD-AD": 197,
+        "MCI-AD": 647,
+        "MCI-MCI": 1317,
+        "NC-AD": 266,
+        "NC-MCI": 1135,
+        "NC-NC": 534
+      },
+      "requested_support_count": 205,
+      "support_pool_count": 3119,
+      "support_shortfall_by_relation": {}
+    },
+    {
+      "actual_support_count": 79,
+      "actual_support_fraction": 0.019287109375,
+      "common_base_pair_sha256": "1b9dc407dbef7efd245631fee7cc095ea623a6dc5fa854abba4e613daee1020e",
+      "difficulty_sampling": {
+        "MCI-AD": {
+          "band_percentiles": [
+            70.0,
+            90.0
+          ],
+          "candidate_count_after_exclusions": 3669,
+          "candidate_count_before_exclusions": 3793,
+          "fallback": "none",
+          "selected_pair_sha256": "7dab0c570ba9f07473f59ad21d27a557c4c7fafbfecc35681cc99f8140ba511b",
+          "selected_percentile_max": 0.891883339486314,
+          "selected_percentile_mean": 0.8032706811146767,
+          "selected_percentile_min": 0.7015980169822267,
+          "selected_similarity_max": 0.58370041847229,
+          "selected_similarity_mean": 0.4134481450686088,
+          "selected_similarity_min": 0.23891490697860718,
+          "similarity_lower": 0.23624548316001892,
+          "similarity_upper": 0.6022302508354187
+        },
+        "NC-MCI": {
+          "band_percentiles": [
+            70.0,
+            90.0
+          ],
+          "candidate_count_after_exclusions": 10416,
+          "candidate_count_before_exclusions": 10640,
+          "fallback": "none",
+          "selected_pair_sha256": "ae9b71cc17de1ebceab8df567ab4d6a8597ee62aae7fb66f4c18882b509e6ebe",
+          "selected_percentile_max": 0.8998571535974739,
+          "selected_percentile_mean": 0.8048009844926579,
+          "selected_percentile_min": 0.7006240132320878,
+          "selected_similarity_max": 0.7440779209136963,
+          "selected_similarity_mean": 0.5987730826202192,
+          "selected_similarity_min": 0.4409833550453186,
+          "similarity_lower": 0.4400805473327636,
+          "similarity_upper": 0.7442618787288667
+        }
+      },
+      "fold": 3,
+      "group": "U5",
+      "label_invariance": {
+        "pairs_equal": true,
+        "sampling_pairs_equal": true,
+        "sampling_targets_equal": true,
+        "supervision_loss_equal": true,
+        "supervision_loss_max_abs": 0.0,
+        "targets_equal": true,
+        "test_labels_read_by_sampler": false,
+        "total_loss_equal": true,
+        "total_loss_max_abs": 0.0
+      },
+      "pair_sha256": "5f2378032846cdb1eaa84c0b4990617e325f264e8aff99b65f95095a229b6e34",
+      "patient_exposure": {
+        "AD": {
+          "count": 67,
+          "gini": 0.12714545101577043,
+          "max": 30,
+          "mean": 19.507462686567163,
+          "min": 12,
+          "p95": 27.0,
+          "std": 4.361887631667541,
+          "total_endpoint_exposure": 1307
+        },
+        "MCI": {
+          "count": 283,
+          "gini": 0.13100930762533927,
+          "max": 26,
+          "mean": 15.604240282685513,
+          "min": 8,
+          "p95": 22.0,
+          "std": 3.6283507295283868,
+          "total_endpoint_exposure": 4416
+        },
+        "NC": {
+          "count": 188,
+          "gini": 0.15041191627241626,
+          "max": 23,
+          "mean": 13.132978723404255,
+          "min": 5,
+          "p95": 20.0,
+          "std": 3.514162479982609,
+          "total_endpoint_exposure": 2469
+        }
+      },
+      "quotas": [
+        534,
+        1317,
+        197,
+        1135,
+        266,
+        647
+      ],
+      "relation_counts": {
+        "AD-AD": 197,
+        "MCI-AD": 647,
+        "MCI-MCI": 1317,
+        "NC-AD": 266,
+        "NC-MCI": 1135,
+        "NC-NC": 534
+      },
+      "requested_support_count": 205,
+      "support_pool_count": 3119,
+      "support_shortfall_by_relation": {}
+    },
+    {
+      "actual_support_count": 267,
+      "actual_support_fraction": 0.065185546875,
+      "common_base_pair_sha256": "1b9dc407dbef7efd245631fee7cc095ea623a6dc5fa854abba4e613daee1020e",
+      "difficulty_sampling": {
+        "MCI-AD": {
+          "status": "not_applied_in_group"
+        },
+        "MCI-MCI": {
+          "status": "not_applied_in_group"
+        },
+        "NC-MCI": {
+          "status": "not_applied_in_group"
+        }
+      },
+      "fold": 3,
+      "group": "U6",
+      "label_invariance": {
+        "pairs_equal": true,
+        "sampling_pairs_equal": true,
+        "sampling_targets_equal": true,
+        "supervision_loss_equal": true,
+        "supervision_loss_max_abs": 0.0,
+        "targets_equal": true,
+        "test_labels_read_by_sampler": false,
+        "total_loss_equal": true,
+        "total_loss_max_abs": 0.0
+      },
+      "pair_sha256": "d99043a275169447361c3285bf33d83c3e2464c2d0f01e228eff96965ba6455d",
+      "patient_exposure": {
+        "AD": {
+          "count": 67,
+          "gini": 0.11335061494364444,
+          "max": 28,
+          "mean": 19.507462686567163,
+          "min": 10,
+          "p95": 25.699999999999996,
+          "std": 3.8993804878347293,
+          "total_endpoint_exposure": 1307
+        },
+        "MCI": {
+          "count": 283,
+          "gini": 0.13567752342909817,
+          "max": 31,
+          "mean": 15.604240282685513,
+          "min": 7,
+          "p95": 22.0,
+          "std": 3.820011891856491,
+          "total_endpoint_exposure": 4416
+        },
+        "NC": {
+          "count": 188,
+          "gini": 0.15307472230121594,
+          "max": 23,
+          "mean": 13.132978723404255,
+          "min": 5,
+          "p95": 19.0,
+          "std": 3.556291646665533,
+          "total_endpoint_exposure": 2469
+        }
+      },
+      "quotas": [
+        534,
+        1317,
+        197,
+        1135,
+        266,
+        647
+      ],
+      "relation_counts": {
+        "AD-AD": 197,
+        "MCI-AD": 647,
+        "MCI-MCI": 1317,
+        "NC-AD": 266,
+        "NC-MCI": 1135,
+        "NC-NC": 534
+      },
+      "requested_support_count": 205,
+      "support_pool_count": 3119,
+      "support_shortfall_by_relation": {
+        "AD-AD": 0,
+        "MCI-AD": 0,
+        "MCI-MCI": 0,
+        "NC-AD": 13,
+        "NC-MCI": 0,
+        "NC-NC": 0
+      }
+    },
+    {
+      "actual_support_count": 99,
+      "actual_support_fraction": 0.024169921875,
+      "common_base_pair_sha256": "3efada0f64e97b91031a2c0b0785b0fd9eaaba4b7a0d6e727a565da278f0ef4d",
+      "difficulty_sampling": {
+        "MCI-AD": {
+          "status": "not_applied_in_group"
+        },
+        "MCI-MCI": {
+          "status": "not_applied_in_group"
+        },
+        "NC-MCI": {
+          "status": "not_applied_in_group"
+        }
+      },
+      "fold": 4,
+      "group": "U1",
+      "label_invariance": {
+        "pairs_equal": true,
+        "sampling_pairs_equal": true,
+        "sampling_targets_equal": true,
+        "supervision_loss_equal": true,
+        "supervision_loss_max_abs": 0.0,
+        "targets_equal": true,
+        "test_labels_read_by_sampler": false,
+        "total_loss_equal": true,
+        "total_loss_max_abs": 0.0
+      },
+      "pair_sha256": "b5861e548ed2bb7ee0a3bd96f5b70064517449b273660aa83f18a982916f0e2a",
+      "patient_exposure": {
+        "AD": {
+          "count": 67,
+          "gini": 0.11674159323862615,
+          "max": 27,
+          "mean": 18.582089552238806,
+          "min": 12,
+          "p95": 26.0,
+          "std": 3.813367116879753,
+          "total_endpoint_exposure": 1245
+        },
+        "MCI": {
+          "count": 283,
+          "gini": 0.13793760726905605,
+          "max": 25,
+          "mean": 15.459363957597173,
+          "min": 3,
+          "p95": 22.0,
+          "std": 3.801749032816904,
+          "total_endpoint_exposure": 4375
+        },
+        "NC": {
+          "count": 188,
+          "gini": 0.1403659706826379,
+          "max": 22,
+          "mean": 13.680851063829786,
+          "min": 5,
+          "p95": 20.0,
+          "std": 3.4137169047063045,
+          "total_endpoint_exposure": 2572
+        }
+      },
+      "quotas": [
+        583,
+        1286,
+        179,
+        1161,
+        245,
+        642
+      ],
+      "relation_counts": {
+        "AD-AD": 179,
+        "MCI-AD": 642,
+        "MCI-MCI": 1286,
+        "NC-AD": 245,
+        "NC-MCI": 1161,
+        "NC-NC": 583
+      },
+      "requested_support_count": 205,
+      "support_pool_count": 3410,
+      "support_shortfall_by_relation": {}
+    },
+    {
+      "actual_support_count": 99,
+      "actual_support_fraction": 0.024169921875,
+      "common_base_pair_sha256": "3efada0f64e97b91031a2c0b0785b0fd9eaaba4b7a0d6e727a565da278f0ef4d",
+      "difficulty_sampling": {
+        "MCI-MCI": {
+          "band_percentiles": [
+            10.0,
+            30.0
+          ],
+          "candidate_count_after_exclusions": 7694,
+          "candidate_count_before_exclusions": 7980,
+          "fallback": "none",
+          "selected_pair_sha256": "6f1ff20a519a27e22c61a97b0d1e1fa8aacb5d60a01da52c6cb5b19137d3a1cc",
+          "selected_percentile_max": 0.29975189835350724,
+          "selected_percentile_mean": 0.20210405582374463,
+          "selected_percentile_min": 0.10164649274490639,
+          "selected_similarity_max": -0.17570295929908752,
+          "selected_similarity_mean": -0.317679215078206,
+          "selected_similarity_min": -0.4846609830856323,
+          "similarity_lower": -0.48790213465690613,
+          "similarity_upper": -0.1753249704837799
+        }
+      },
+      "fold": 4,
+      "group": "U2",
+      "label_invariance": {
+        "pairs_equal": true,
+        "sampling_pairs_equal": true,
+        "sampling_targets_equal": true,
+        "supervision_loss_equal": true,
+        "supervision_loss_max_abs": 0.0,
+        "targets_equal": true,
+        "test_labels_read_by_sampler": false,
+        "total_loss_equal": true,
+        "total_loss_max_abs": 0.0
+      },
+      "pair_sha256": "828df036f81eac0f2cd3ec0404592629fb94920c2118181a2c3624e2f2d15b92",
+      "patient_exposure": {
+        "AD": {
+          "count": 67,
+          "gini": 0.11674159323862615,
+          "max": 27,
+          "mean": 18.582089552238806,
+          "min": 12,
+          "p95": 26.0,
+          "std": 3.813367116879753,
+          "total_endpoint_exposure": 1245
+        },
+        "MCI": {
+          "count": 283,
+          "gini": 0.13738031297324582,
+          "max": 26,
+          "mean": 15.459363957597173,
+          "min": 3,
+          "p95": 22.0,
+          "std": 3.800819460421013,
+          "total_endpoint_exposure": 4375
+        },
+        "NC": {
+          "count": 188,
+          "gini": 0.1403659706826379,
+          "max": 22,
+          "mean": 13.680851063829786,
+          "min": 5,
+          "p95": 20.0,
+          "std": 3.4137169047063045,
+          "total_endpoint_exposure": 2572
+        }
+      },
+      "quotas": [
+        583,
+        1286,
+        179,
+        1161,
+        245,
+        642
+      ],
+      "relation_counts": {
+        "AD-AD": 179,
+        "MCI-AD": 642,
+        "MCI-MCI": 1286,
+        "NC-AD": 245,
+        "NC-MCI": 1161,
+        "NC-NC": 583
+      },
+      "requested_support_count": 205,
+      "support_pool_count": 3410,
+      "support_shortfall_by_relation": {}
+    },
+    {
+      "actual_support_count": 96,
+      "actual_support_fraction": 0.0234375,
+      "common_base_pair_sha256": "3efada0f64e97b91031a2c0b0785b0fd9eaaba4b7a0d6e727a565da278f0ef4d",
+      "difficulty_sampling": {
+        "NC-MCI": {
+          "band_percentiles": [
+            70.0,
+            90.0
+          ],
+          "candidate_count_after_exclusions": 10383,
+          "candidate_count_before_exclusions": 10640,
+          "fallback": "none",
+          "selected_pair_sha256": "a11e2403dbb6975021930c7a3a25bdfcf02ef716020b6ceeca7b753ba53a85b5",
+          "selected_percentile_max": 0.899086534847004,
+          "selected_percentile_mean": 0.7998922170746818,
+          "selected_percentile_min": 0.7001165325915345,
+          "selected_similarity_max": 0.7553517818450928,
+          "selected_similarity_mean": 0.6095485594765894,
+          "selected_similarity_min": 0.4674387276172638,
+          "similarity_lower": 0.46733425557613373,
+          "similarity_upper": 0.7571209371089936
+        }
+      },
+      "fold": 4,
+      "group": "U3",
+      "label_invariance": {
+        "pairs_equal": true,
+        "sampling_pairs_equal": true,
+        "sampling_targets_equal": true,
+        "supervision_loss_equal": true,
+        "supervision_loss_max_abs": 0.0,
+        "targets_equal": true,
+        "test_labels_read_by_sampler": false,
+        "total_loss_equal": true,
+        "total_loss_max_abs": 0.0
+      },
+      "pair_sha256": "dd558a8a7798b6196058d2df3fe0987871c558b620d718ddd25ab2d510c301a5",
+      "patient_exposure": {
+        "AD": {
+          "count": 67,
+          "gini": 0.11674159323862615,
+          "max": 27,
+          "mean": 18.582089552238806,
+          "min": 12,
+          "p95": 26.0,
+          "std": 3.813367116879753,
+          "total_endpoint_exposure": 1245
+        },
+        "MCI": {
+          "count": 283,
+          "gini": 0.13803129732458355,
+          "max": 26,
+          "mean": 15.459363957597173,
+          "min": 5,
+          "p95": 22.0,
+          "std": 3.802678377976956,
+          "total_endpoint_exposure": 4375
+        },
+        "NC": {
+          "count": 188,
+          "gini": 0.14209903709341187,
+          "max": 22,
+          "mean": 13.680851063829786,
+          "min": 5,
+          "p95": 19.650000000000006,
+          "std": 3.4199439026052687,
+          "total_endpoint_exposure": 2572
+        }
+      },
+      "quotas": [
+        583,
+        1286,
+        179,
+        1161,
+        245,
+        642
+      ],
+      "relation_counts": {
+        "AD-AD": 179,
+        "MCI-AD": 642,
+        "MCI-MCI": 1286,
+        "NC-AD": 245,
+        "NC-MCI": 1161,
+        "NC-NC": 583
+      },
+      "requested_support_count": 205,
+      "support_pool_count": 3410,
+      "support_shortfall_by_relation": {}
+    },
+    {
+      "actual_support_count": 99,
+      "actual_support_fraction": 0.024169921875,
+      "common_base_pair_sha256": "3efada0f64e97b91031a2c0b0785b0fd9eaaba4b7a0d6e727a565da278f0ef4d",
+      "difficulty_sampling": {
+        "MCI-AD": {
+          "band_percentiles": [
+            70.0,
+            90.0
+          ],
+          "candidate_count_after_exclusions": 3671,
+          "candidate_count_before_exclusions": 3793,
+          "fallback": "none",
+          "selected_pair_sha256": "67e7f5d4d0b62dbfe488ab921d17b7475a9c5f1b55d8ad81d804fd7d2a755a43",
+          "selected_percentile_max": 0.8983703391171352,
+          "selected_percentile_mean": 0.8132746163177047,
+          "selected_percentile_min": 0.704024049364485,
+          "selected_similarity_max": 0.5651652812957764,
+          "selected_similarity_mean": 0.3965698848478496,
+          "selected_similarity_min": 0.20419982075691223,
+          "similarity_lower": 0.19812680780887604,
+          "similarity_upper": 0.5700836181640625
+        }
+      },
+      "fold": 4,
+      "group": "U4",
+      "label_invariance": {
+        "pairs_equal": true,
+        "sampling_pairs_equal": true,
+        "sampling_targets_equal": true,
+        "supervision_loss_equal": true,
+        "supervision_loss_max_abs": 0.0,
+        "targets_equal": true,
+        "test_labels_read_by_sampler": false,
+        "total_loss_equal": true,
+        "total_loss_max_abs": 0.0
+      },
+      "pair_sha256": "a6530ea6eae33dadd578331c56b07e5f8dd8cea2d0c94d3aab7b5d2b0d474c4f",
+      "patient_exposure": {
+        "AD": {
+          "count": 67,
+          "gini": 0.11086734999700294,
+          "max": 27,
+          "mean": 18.582089552238806,
+          "min": 12,
+          "p95": 24.699999999999996,
+          "std": 3.6165013757685234,
+          "total_endpoint_exposure": 1245
+        },
+        "MCI": {
+          "count": 283,
+          "gini": 0.1384545179202423,
+          "max": 28,
+          "mean": 15.459363957597173,
+          "min": 2,
+          "p95": 22.0,
+          "std": 3.8396677406646718,
+          "total_endpoint_exposure": 4375
+        },
+        "NC": {
+          "count": 188,
+          "gini": 0.1403659706826379,
+          "max": 22,
+          "mean": 13.680851063829786,
+          "min": 5,
+          "p95": 20.0,
+          "std": 3.4137169047063045,
+          "total_endpoint_exposure": 2572
+        }
+      },
+      "quotas": [
+        583,
+        1286,
+        179,
+        1161,
+        245,
+        642
+      ],
+      "relation_counts": {
+        "AD-AD": 179,
+        "MCI-AD": 642,
+        "MCI-MCI": 1286,
+        "NC-AD": 245,
+        "NC-MCI": 1161,
+        "NC-NC": 583
+      },
+      "requested_support_count": 205,
+      "support_pool_count": 3410,
+      "support_shortfall_by_relation": {}
+    },
+    {
+      "actual_support_count": 96,
+      "actual_support_fraction": 0.0234375,
+      "common_base_pair_sha256": "3efada0f64e97b91031a2c0b0785b0fd9eaaba4b7a0d6e727a565da278f0ef4d",
+      "difficulty_sampling": {
+        "MCI-AD": {
+          "band_percentiles": [
+            70.0,
+            90.0
+          ],
+          "candidate_count_after_exclusions": 3671,
+          "candidate_count_before_exclusions": 3793,
+          "fallback": "none",
+          "selected_pair_sha256": "67e7f5d4d0b62dbfe488ab921d17b7475a9c5f1b55d8ad81d804fd7d2a755a43",
+          "selected_percentile_max": 0.8983703391171352,
+          "selected_percentile_mean": 0.8132746163177047,
+          "selected_percentile_min": 0.704024049364485,
+          "selected_similarity_max": 0.5651652812957764,
+          "selected_similarity_mean": 0.3965698848478496,
+          "selected_similarity_min": 0.20419982075691223,
+          "similarity_lower": 0.19812680780887604,
+          "similarity_upper": 0.5700836181640625
+        },
+        "NC-MCI": {
+          "band_percentiles": [
+            70.0,
+            90.0
+          ],
+          "candidate_count_after_exclusions": 10383,
+          "candidate_count_before_exclusions": 10640,
+          "fallback": "none",
+          "selected_pair_sha256": "a11e2403dbb6975021930c7a3a25bdfcf02ef716020b6ceeca7b753ba53a85b5",
+          "selected_percentile_max": 0.899086534847004,
+          "selected_percentile_mean": 0.7998922170746818,
+          "selected_percentile_min": 0.7001165325915345,
+          "selected_similarity_max": 0.7553517818450928,
+          "selected_similarity_mean": 0.6095485594765894,
+          "selected_similarity_min": 0.4674387276172638,
+          "similarity_lower": 0.46733425557613373,
+          "similarity_upper": 0.7571209371089936
+        }
+      },
+      "fold": 4,
+      "group": "U5",
+      "label_invariance": {
+        "pairs_equal": true,
+        "sampling_pairs_equal": true,
+        "sampling_targets_equal": true,
+        "supervision_loss_equal": true,
+        "supervision_loss_max_abs": 0.0,
+        "targets_equal": true,
+        "test_labels_read_by_sampler": false,
+        "total_loss_equal": true,
+        "total_loss_max_abs": 0.0
+      },
+      "pair_sha256": "911c2c403d893ecbb57dc1ce9e068a3a2466c94a339e1db79d1ab6d10e55171d",
+      "patient_exposure": {
+        "AD": {
+          "count": 67,
+          "gini": 0.11086734999700294,
+          "max": 27,
+          "mean": 18.582089552238806,
+          "min": 12,
+          "p95": 24.699999999999996,
+          "std": 3.6165013757685234,
+          "total_endpoint_exposure": 1245
+        },
+        "MCI": {
+          "count": 283,
+          "gini": 0.13779868753154972,
+          "max": 28,
+          "mean": 15.459363957597173,
+          "min": 4,
+          "p95": 22.0,
+          "std": 3.8249149211131415,
+          "total_endpoint_exposure": 4375
+        },
+        "NC": {
+          "count": 188,
+          "gini": 0.14209903709341187,
+          "max": 22,
+          "mean": 13.680851063829786,
+          "min": 5,
+          "p95": 19.650000000000006,
+          "std": 3.4199439026052687,
+          "total_endpoint_exposure": 2572
+        }
+      },
+      "quotas": [
+        583,
+        1286,
+        179,
+        1161,
+        245,
+        642
+      ],
+      "relation_counts": {
+        "AD-AD": 179,
+        "MCI-AD": 642,
+        "MCI-MCI": 1286,
+        "NC-AD": 245,
+        "NC-MCI": 1161,
+        "NC-NC": 583
+      },
+      "requested_support_count": 205,
+      "support_pool_count": 3410,
+      "support_shortfall_by_relation": {}
+    },
+    {
+      "actual_support_count": 288,
+      "actual_support_fraction": 0.0703125,
+      "common_base_pair_sha256": "3efada0f64e97b91031a2c0b0785b0fd9eaaba4b7a0d6e727a565da278f0ef4d",
+      "difficulty_sampling": {
+        "MCI-AD": {
+          "status": "not_applied_in_group"
+        },
+        "MCI-MCI": {
+          "status": "not_applied_in_group"
+        },
+        "NC-MCI": {
+          "status": "not_applied_in_group"
+        }
+      },
+      "fold": 4,
+      "group": "U6",
+      "label_invariance": {
+        "pairs_equal": true,
+        "sampling_pairs_equal": true,
+        "sampling_targets_equal": true,
+        "supervision_loss_equal": true,
+        "supervision_loss_max_abs": 0.0,
+        "targets_equal": true,
+        "test_labels_read_by_sampler": false,
+        "total_loss_equal": true,
+        "total_loss_max_abs": 0.0
+      },
+      "pair_sha256": "33ec0a9fa87f2e02c5f1786db0dd294745c1f0d73d5c6c1c76616832e3f08edf",
+      "patient_exposure": {
+        "AD": {
+          "count": 67,
+          "gini": 0.11822813642630223,
+          "max": 27,
+          "mean": 18.582089552238806,
+          "min": 12,
+          "p95": 26.0,
+          "std": 3.879333893166063,
+          "total_endpoint_exposure": 1245
+        },
+        "MCI": {
+          "count": 283,
+          "gini": 0.1479010600706714,
+          "max": 31,
+          "mean": 15.459363957597173,
+          "min": 3,
+          "p95": 23.0,
+          "std": 4.112500415333892,
+          "total_endpoint_exposure": 4375
+        },
+        "NC": {
+          "count": 188,
+          "gini": 0.14366251944012443,
+          "max": 26,
+          "mean": 13.680851063829786,
+          "min": 4,
+          "p95": 19.0,
+          "std": 3.50899381212944,
+          "total_endpoint_exposure": 2572
+        }
+      },
+      "quotas": [
+        583,
+        1286,
+        179,
+        1161,
+        245,
+        642
+      ],
+      "relation_counts": {
+        "AD-AD": 179,
+        "MCI-AD": 642,
+        "MCI-MCI": 1286,
+        "NC-AD": 245,
+        "NC-MCI": 1161,
+        "NC-NC": 583
+      },
+      "requested_support_count": 205,
+      "support_pool_count": 3410,
+      "support_shortfall_by_relation": {
+        "AD-AD": 0,
+        "MCI-AD": 0,
+        "MCI-MCI": 0,
+        "NC-AD": 12,
+        "NC-MCI": 0,
+        "NC-NC": 0
+      }
+    },
+    {
+      "actual_support_count": 87,
+      "actual_support_fraction": 0.021240234375,
+      "common_base_pair_sha256": "7bc83fdcc23e79e1b1c402848ac6ff1fc0594308445afb7f90ea45327a1f6848",
+      "difficulty_sampling": {
+        "MCI-AD": {
+          "status": "not_applied_in_group"
+        },
+        "MCI-MCI": {
+          "status": "not_applied_in_group"
+        },
+        "NC-MCI": {
+          "status": "not_applied_in_group"
+        }
+      },
+      "fold": 5,
+      "group": "U1",
+      "label_invariance": {
+        "pairs_equal": true,
+        "sampling_pairs_equal": true,
+        "sampling_targets_equal": true,
+        "supervision_loss_equal": true,
+        "supervision_loss_max_abs": 0.0,
+        "targets_equal": true,
+        "test_labels_read_by_sampler": false,
+        "total_loss_equal": true,
+        "total_loss_max_abs": 0.0
+      },
+      "pair_sha256": "a7688d9178549e4e220378ce9c7faf0a8ef5d0d3979903a3d0eb6d9822790389",
+      "patient_exposure": {
+        "AD": {
+          "count": 66,
+          "gini": 0.10783030303030303,
+          "max": 28,
+          "mean": 18.939393939393938,
+          "min": 11,
+          "p95": 24.75,
+          "std": 3.6301714955682183,
+          "total_endpoint_exposure": 1250
+        },
+        "MCI": {
+          "count": 284,
+          "gini": 0.13802675395979358,
+          "max": 25,
+          "mean": 15.77112676056338,
+          "min": 6,
+          "p95": 22.849999999999966,
+          "std": 3.8438368629537574,
+          "total_endpoint_exposure": 4479
+        },
+        "NC": {
+          "count": 188,
+          "gini": 0.1613993486580109,
+          "max": 23,
+          "mean": 13.101063829787234,
+          "min": 5,
+          "p95": 19.0,
+          "std": 3.7239019424223327,
+          "total_endpoint_exposure": 2463
+        }
+      },
+      "quotas": [
+        541,
+        1341,
+        166,
+        1130,
+        251,
+        667
+      ],
+      "relation_counts": {
+        "AD-AD": 166,
+        "MCI-AD": 667,
+        "MCI-MCI": 1341,
+        "NC-AD": 251,
+        "NC-MCI": 1130,
+        "NC-NC": 541
+      },
+      "requested_support_count": 205,
+      "support_pool_count": 3123,
+      "support_shortfall_by_relation": {}
+    },
+    {
+      "actual_support_count": 87,
+      "actual_support_fraction": 0.021240234375,
+      "common_base_pair_sha256": "7bc83fdcc23e79e1b1c402848ac6ff1fc0594308445afb7f90ea45327a1f6848",
+      "difficulty_sampling": {
+        "MCI-MCI": {
+          "band_percentiles": [
+            10.0,
+            30.0
+          ],
+          "candidate_count_after_exclusions": 7804,
+          "candidate_count_before_exclusions": 8037,
+          "fallback": "none",
+          "selected_pair_sha256": "dda13b8555cd03332fee851ae31c64f5e1b12f96e19db6bea6c89fa8bf456226",
+          "selected_percentile_max": 0.29950729109640173,
+          "selected_percentile_mean": 0.2020281066176607,
+          "selected_percentile_min": 0.10043298661225303,
+          "selected_similarity_max": -0.18365907669067383,
+          "selected_similarity_mean": -0.32766329630542157,
+          "selected_similarity_min": -0.4964957535266876,
+          "similarity_lower": -0.49709686636924744,
+          "similarity_upper": -0.18299923837184906
+        }
+      },
+      "fold": 5,
+      "group": "U2",
+      "label_invariance": {
+        "pairs_equal": true,
+        "sampling_pairs_equal": true,
+        "sampling_targets_equal": true,
+        "supervision_loss_equal": true,
+        "supervision_loss_max_abs": 0.0,
+        "targets_equal": true,
+        "test_labels_read_by_sampler": false,
+        "total_loss_equal": true,
+        "total_loss_max_abs": 0.0
+      },
+      "pair_sha256": "09f2e4831bd53833bd5e38dd195857be35f201c9fd2397eb7b8ab7386ebad8aa",
+      "patient_exposure": {
+        "AD": {
+          "count": 66,
+          "gini": 0.10783030303030303,
+          "max": 28,
+          "mean": 18.939393939393938,
+          "min": 11,
+          "p95": 24.75,
+          "std": 3.6301714955682183,
+          "total_endpoint_exposure": 1250
+        },
+        "MCI": {
+          "count": 284,
+          "gini": 0.13859434795870557,
+          "max": 25,
+          "mean": 15.77112676056338,
+          "min": 6,
+          "p95": 23.0,
+          "std": 3.8684910073661287,
+          "total_endpoint_exposure": 4479
+        },
+        "NC": {
+          "count": 188,
+          "gini": 0.1613993486580109,
+          "max": 23,
+          "mean": 13.101063829787234,
+          "min": 5,
+          "p95": 19.0,
+          "std": 3.7239019424223327,
+          "total_endpoint_exposure": 2463
+        }
+      },
+      "quotas": [
+        541,
+        1341,
+        166,
+        1130,
+        251,
+        667
+      ],
+      "relation_counts": {
+        "AD-AD": 166,
+        "MCI-AD": 667,
+        "MCI-MCI": 1341,
+        "NC-AD": 251,
+        "NC-MCI": 1130,
+        "NC-NC": 541
+      },
+      "requested_support_count": 205,
+      "support_pool_count": 3123,
+      "support_shortfall_by_relation": {}
+    },
+    {
+      "actual_support_count": 85,
+      "actual_support_fraction": 0.020751953125,
+      "common_base_pair_sha256": "7bc83fdcc23e79e1b1c402848ac6ff1fc0594308445afb7f90ea45327a1f6848",
+      "difficulty_sampling": {
+        "NC-MCI": {
+          "band_percentiles": [
+            70.0,
+            90.0
+          ],
+          "candidate_count_after_exclusions": 10457,
+          "candidate_count_before_exclusions": 10678,
+          "fallback": "none",
+          "selected_pair_sha256": "74753a5800a245572a4df5e186d3c7d3428f54f998ee1411bcec89770d36178e",
+          "selected_percentile_max": 0.8986926880431525,
+          "selected_percentile_mean": 0.7895823443769376,
+          "selected_percentile_min": 0.7031952352412346,
+          "selected_similarity_max": 0.7470556497573853,
+          "selected_similarity_mean": 0.5905350568020238,
+          "selected_similarity_min": 0.46917441487312317,
+          "similarity_lower": 0.46373461186885834,
+          "similarity_upper": 0.7490883052349091
+        }
+      },
+      "fold": 5,
+      "group": "U3",
+      "label_invariance": {
+        "pairs_equal": true,
+        "sampling_pairs_equal": true,
+        "sampling_targets_equal": true,
+        "supervision_loss_equal": true,
+        "supervision_loss_max_abs": 0.0,
+        "targets_equal": true,
+        "test_labels_read_by_sampler": false,
+        "total_loss_equal": true,
+        "total_loss_max_abs": 0.0
+      },
+      "pair_sha256": "644878f2d9410087e917a1970196ce7f4a8e51257b618daff61dfd61bcb14b4a",
+      "patient_exposure": {
+        "AD": {
+          "count": 66,
+          "gini": 0.10783030303030303,
+          "max": 28,
+          "mean": 18.939393939393938,
+          "min": 11,
+          "p95": 24.75,
+          "std": 3.6301714955682183,
+          "total_endpoint_exposure": 1250
+        },
+        "MCI": {
+          "count": 284,
+          "gini": 0.13988833649362126,
+          "max": 25,
+          "mean": 15.77112676056338,
+          "min": 6,
+          "p95": 22.0,
+          "std": 3.890274637937487,
+          "total_endpoint_exposure": 4479
+        },
+        "NC": {
+          "count": 188,
+          "gini": 0.15998263663928267,
+          "max": 22,
+          "mean": 13.101063829787234,
+          "min": 5,
+          "p95": 19.650000000000006,
+          "std": 3.6880195539026515,
+          "total_endpoint_exposure": 2463
+        }
+      },
+      "quotas": [
+        541,
+        1341,
+        166,
+        1130,
+        251,
+        667
+      ],
+      "relation_counts": {
+        "AD-AD": 166,
+        "MCI-AD": 667,
+        "MCI-MCI": 1341,
+        "NC-AD": 251,
+        "NC-MCI": 1130,
+        "NC-NC": 541
+      },
+      "requested_support_count": 205,
+      "support_pool_count": 3123,
+      "support_shortfall_by_relation": {}
+    },
+    {
+      "actual_support_count": 86,
+      "actual_support_fraction": 0.02099609375,
+      "common_base_pair_sha256": "7bc83fdcc23e79e1b1c402848ac6ff1fc0594308445afb7f90ea45327a1f6848",
+      "difficulty_sampling": {
+        "MCI-AD": {
+          "band_percentiles": [
+            70.0,
+            90.0
+          ],
+          "candidate_count_after_exclusions": 3629,
+          "candidate_count_before_exclusions": 3748,
+          "fallback": "none",
+          "selected_pair_sha256": "6b232844ee31064c212dc036580e84f5a403d74b1659c5d3c851b72e8106bd6a",
+          "selected_percentile_max": 0.8987409304310713,
+          "selected_percentile_mean": 0.8036999700600709,
+          "selected_percentile_min": 0.7004374733247972,
+          "selected_similarity_max": 0.6004383563995361,
+          "selected_similarity_mean": 0.4091844436392855,
+          "selected_similarity_min": 0.21650265157222748,
+          "similarity_lower": 0.21616819798946377,
+          "similarity_upper": 0.6025147080421448
+        }
+      },
+      "fold": 5,
+      "group": "U4",
+      "label_invariance": {
+        "pairs_equal": true,
+        "sampling_pairs_equal": true,
+        "sampling_targets_equal": true,
+        "supervision_loss_equal": true,
+        "supervision_loss_max_abs": 0.0,
+        "targets_equal": true,
+        "test_labels_read_by_sampler": false,
+        "total_loss_equal": true,
+        "total_loss_max_abs": 0.0
+      },
+      "pair_sha256": "d9fd7d10cb221099a3cf6bae667289ce22a4a2cbaaeefe63f8424ce03a2ef39c",
+      "patient_exposure": {
+        "AD": {
+          "count": 66,
+          "gini": 0.10901818181818182,
+          "max": 29,
+          "mean": 18.939393939393938,
+          "min": 11,
+          "p95": 25.0,
+          "std": 3.692247356527112,
+          "total_endpoint_exposure": 1250
+        },
+        "MCI": {
+          "count": 284,
+          "gini": 0.1386855403463424,
+          "max": 25,
+          "mean": 15.77112676056338,
+          "min": 7,
+          "p95": 23.0,
+          "std": 3.8793981126363053,
+          "total_endpoint_exposure": 4479
+        },
+        "NC": {
+          "count": 188,
+          "gini": 0.1613993486580109,
+          "max": 23,
+          "mean": 13.101063829787234,
+          "min": 5,
+          "p95": 19.0,
+          "std": 3.7239019424223327,
+          "total_endpoint_exposure": 2463
+        }
+      },
+      "quotas": [
+        541,
+        1341,
+        166,
+        1130,
+        251,
+        667
+      ],
+      "relation_counts": {
+        "AD-AD": 166,
+        "MCI-AD": 667,
+        "MCI-MCI": 1341,
+        "NC-AD": 251,
+        "NC-MCI": 1130,
+        "NC-NC": 541
+      },
+      "requested_support_count": 205,
+      "support_pool_count": 3123,
+      "support_shortfall_by_relation": {}
+    },
+    {
+      "actual_support_count": 84,
+      "actual_support_fraction": 0.0205078125,
+      "common_base_pair_sha256": "7bc83fdcc23e79e1b1c402848ac6ff1fc0594308445afb7f90ea45327a1f6848",
+      "difficulty_sampling": {
+        "MCI-AD": {
+          "band_percentiles": [
+            70.0,
+            90.0
+          ],
+          "candidate_count_after_exclusions": 3629,
+          "candidate_count_before_exclusions": 3748,
+          "fallback": "none",
+          "selected_pair_sha256": "6b232844ee31064c212dc036580e84f5a403d74b1659c5d3c851b72e8106bd6a",
+          "selected_percentile_max": 0.8987409304310713,
+          "selected_percentile_mean": 0.8036999700600709,
+          "selected_percentile_min": 0.7004374733247972,
+          "selected_similarity_max": 0.6004383563995361,
+          "selected_similarity_mean": 0.4091844436392855,
+          "selected_similarity_min": 0.21650265157222748,
+          "similarity_lower": 0.21616819798946377,
+          "similarity_upper": 0.6025147080421448
+        },
+        "NC-MCI": {
+          "band_percentiles": [
+            70.0,
+            90.0
+          ],
+          "candidate_count_after_exclusions": 10457,
+          "candidate_count_before_exclusions": 10678,
+          "fallback": "none",
+          "selected_pair_sha256": "74753a5800a245572a4df5e186d3c7d3428f54f998ee1411bcec89770d36178e",
+          "selected_percentile_max": 0.8986926880431525,
+          "selected_percentile_mean": 0.7895823443769376,
+          "selected_percentile_min": 0.7031952352412346,
+          "selected_similarity_max": 0.7470556497573853,
+          "selected_similarity_mean": 0.5905350568020238,
+          "selected_similarity_min": 0.46917441487312317,
+          "similarity_lower": 0.46373461186885834,
+          "similarity_upper": 0.7490883052349091
+        }
+      },
+      "fold": 5,
+      "group": "U5",
+      "label_invariance": {
+        "pairs_equal": true,
+        "sampling_pairs_equal": true,
+        "sampling_targets_equal": true,
+        "supervision_loss_equal": true,
+        "supervision_loss_max_abs": 0.0,
+        "targets_equal": true,
+        "test_labels_read_by_sampler": false,
+        "total_loss_equal": true,
+        "total_loss_max_abs": 0.0
+      },
+      "pair_sha256": "edbc75567d476eca9d23f5ac6e9e30c2720821830a0024f929626ab37f4afa73",
+      "patient_exposure": {
+        "AD": {
+          "count": 66,
+          "gini": 0.10901818181818182,
+          "max": 29,
+          "mean": 18.939393939393938,
+          "min": 11,
+          "p95": 25.0,
+          "std": 3.692247356527112,
+          "total_endpoint_exposure": 1250
+        },
+        "MCI": {
+          "count": 284,
+          "gini": 0.14029084082525967,
+          "max": 26,
+          "mean": 15.77112676056338,
+          "min": 6,
+          "p95": 23.0,
+          "std": 3.91553570500528,
+          "total_endpoint_exposure": 4479
+        },
+        "NC": {
+          "count": 188,
+          "gini": 0.15998263663928267,
+          "max": 22,
+          "mean": 13.101063829787234,
+          "min": 5,
+          "p95": 19.650000000000006,
+          "std": 3.6880195539026515,
+          "total_endpoint_exposure": 2463
+        }
+      },
+      "quotas": [
+        541,
+        1341,
+        166,
+        1130,
+        251,
+        667
+      ],
+      "relation_counts": {
+        "AD-AD": 166,
+        "MCI-AD": 667,
+        "MCI-MCI": 1341,
+        "NC-AD": 251,
+        "NC-MCI": 1130,
+        "NC-NC": 541
+      },
+      "requested_support_count": 205,
+      "support_pool_count": 3123,
+      "support_shortfall_by_relation": {}
+    },
+    {
+      "actual_support_count": 273,
+      "actual_support_fraction": 0.066650390625,
+      "common_base_pair_sha256": "7bc83fdcc23e79e1b1c402848ac6ff1fc0594308445afb7f90ea45327a1f6848",
+      "difficulty_sampling": {
+        "MCI-AD": {
+          "status": "not_applied_in_group"
+        },
+        "MCI-MCI": {
+          "status": "not_applied_in_group"
+        },
+        "NC-MCI": {
+          "status": "not_applied_in_group"
+        }
+      },
+      "fold": 5,
+      "group": "U6",
+      "label_invariance": {
+        "pairs_equal": true,
+        "sampling_pairs_equal": true,
+        "sampling_targets_equal": true,
+        "supervision_loss_equal": true,
+        "supervision_loss_max_abs": 0.0,
+        "targets_equal": true,
+        "test_labels_read_by_sampler": false,
+        "total_loss_equal": true,
+        "total_loss_max_abs": 0.0
+      },
+      "pair_sha256": "a5167e7ef8fcaf9f0b2c1c17cd9463632e445851b305059104bf2695c348971b",
+      "patient_exposure": {
+        "AD": {
+          "count": 66,
+          "gini": 0.10601212121212121,
+          "max": 29,
+          "mean": 18.939393939393938,
+          "min": 11,
+          "p95": 24.75,
+          "std": 3.596626314313422,
+          "total_endpoint_exposure": 1250
+        },
+        "MCI": {
+          "count": 284,
+          "gini": 0.1507087849714945,
+          "max": 31,
+          "mean": 15.77112676056338,
+          "min": 7,
+          "p95": 23.0,
+          "std": 4.236878351691296,
+          "total_endpoint_exposure": 4479
+        },
+        "NC": {
+          "count": 188,
+          "gini": 0.1657056348856696,
+          "max": 24,
+          "mean": 13.101063829787234,
+          "min": 5,
+          "p95": 19.0,
+          "std": 3.8239723881996053,
+          "total_endpoint_exposure": 2463
+        }
+      },
+      "quotas": [
+        541,
+        1341,
+        166,
+        1130,
+        251,
+        667
+      ],
+      "relation_counts": {
+        "AD-AD": 166,
+        "MCI-AD": 667,
+        "MCI-MCI": 1341,
+        "NC-AD": 251,
+        "NC-MCI": 1130,
+        "NC-NC": 541
+      },
+      "requested_support_count": 205,
+      "support_pool_count": 3123,
+      "support_shortfall_by_relation": {
+        "AD-AD": 0,
+        "MCI-AD": 0,
+        "MCI-MCI": 0,
+        "NC-AD": 13,
+        "NC-MCI": 0,
+        "NC-NC": 0
+      }
+    },
+    {
+      "actual_support_count": 87,
+      "actual_support_fraction": 0.021240234375,
+      "common_base_pair_sha256": "ea296992250dff0c686c9120194b7f88c5f0b94ec0e2f61be8c71df4c1e4d455",
+      "difficulty_sampling": {
+        "MCI-AD": {
+          "status": "not_applied_in_group"
+        },
+        "MCI-MCI": {
+          "status": "not_applied_in_group"
+        },
+        "NC-MCI": {
+          "status": "not_applied_in_group"
+        }
+      },
+      "fold": 6,
+      "group": "U1",
+      "label_invariance": {
+        "pairs_equal": true,
+        "sampling_pairs_equal": true,
+        "sampling_targets_equal": true,
+        "supervision_loss_equal": true,
+        "supervision_loss_max_abs": 0.0,
+        "targets_equal": true,
+        "test_labels_read_by_sampler": false,
+        "total_loss_equal": true,
+        "total_loss_max_abs": 0.0
+      },
+      "pair_sha256": "d8a016244cad12cc5d522b5b69e032457c32decce71566036b479d69990df138",
+      "patient_exposure": {
+        "AD": {
+          "count": 66,
+          "gini": 0.12991867632238863,
+          "max": 29,
+          "mean": 19.59090909090909,
+          "min": 7,
+          "p95": 27.0,
+          "std": 4.502448063830733,
+          "total_endpoint_exposure": 1293
+        },
+        "MCI": {
+          "count": 284,
+          "gini": 0.13157011854171327,
+          "max": 26,
+          "mean": 15.742957746478874,
+          "min": 7,
+          "p95": 22.849999999999966,
+          "std": 3.686784504704626,
+          "total_endpoint_exposure": 4471
+        },
+        "NC": {
+          "count": 188,
+          "gini": 0.15730484769883277,
+          "max": 26,
+          "mean": 12.914893617021276,
+          "min": 6,
+          "p95": 19.0,
+          "std": 3.6104445841288912,
+          "total_endpoint_exposure": 2428
+        }
+      },
+      "quotas": [
+        537,
+        1322,
+        189,
+        1133,
+        221,
+        694
+      ],
+      "relation_counts": {
+        "AD-AD": 189,
+        "MCI-AD": 694,
+        "MCI-MCI": 1322,
+        "NC-AD": 221,
+        "NC-MCI": 1133,
+        "NC-NC": 537
+      },
+      "requested_support_count": 205,
+      "support_pool_count": 3481,
+      "support_shortfall_by_relation": {}
+    },
+    {
+      "actual_support_count": 87,
+      "actual_support_fraction": 0.021240234375,
+      "common_base_pair_sha256": "ea296992250dff0c686c9120194b7f88c5f0b94ec0e2f61be8c71df4c1e4d455",
+      "difficulty_sampling": {
+        "MCI-MCI": {
+          "band_percentiles": [
+            10.0,
+            30.0
+          ],
+          "candidate_count_after_exclusions": 7779,
+          "candidate_count_before_exclusions": 8037,
+          "fallback": "none",
+          "selected_pair_sha256": "5970e46f4cba02569b50e468abd33ae6baff0b644566be78e888e68aadf30225",
+          "selected_percentile_max": 0.29273876474394067,
+          "selected_percentile_mean": 0.19785855619852533,
+          "selected_percentile_min": 0.1036181754839994,
+          "selected_similarity_max": -0.20180553197860718,
+          "selected_similarity_mean": -0.3456008858752973,
+          "selected_similarity_min": -0.5033281445503235,
+          "similarity_lower": -0.509787529706955,
+          "similarity_upper": -0.19248592853546143
+        }
+      },
+      "fold": 6,
+      "group": "U2",
+      "label_invariance": {
+        "pairs_equal": true,
+        "sampling_pairs_equal": true,
+        "sampling_targets_equal": true,
+        "supervision_loss_equal": true,
+        "supervision_loss_max_abs": 0.0,
+        "targets_equal": true,
+        "test_labels_read_by_sampler": false,
+        "total_loss_equal": true,
+        "total_loss_max_abs": 0.0
+      },
+      "pair_sha256": "33f43329d60e7697bedd91ee5eff03cf6a993fdc1c305a17a8fa5b9e4fca0519",
+      "patient_exposure": {
+        "AD": {
+          "count": 66,
+          "gini": 0.12991867632238863,
+          "max": 29,
+          "mean": 19.59090909090909,
+          "min": 7,
+          "p95": 27.0,
+          "std": 4.502448063830733,
+          "total_endpoint_exposure": 1293
+        },
+        "MCI": {
+          "count": 284,
+          "gini": 0.13169140092174608,
+          "max": 26,
+          "mean": 15.742957746478874,
+          "min": 6,
+          "p95": 22.0,
+          "std": 3.684873875329776,
+          "total_endpoint_exposure": 4471
+        },
+        "NC": {
+          "count": 188,
+          "gini": 0.15730484769883277,
+          "max": 26,
+          "mean": 12.914893617021276,
+          "min": 6,
+          "p95": 19.0,
+          "std": 3.6104445841288912,
+          "total_endpoint_exposure": 2428
+        }
+      },
+      "quotas": [
+        537,
+        1322,
+        189,
+        1133,
+        221,
+        694
+      ],
+      "relation_counts": {
+        "AD-AD": 189,
+        "MCI-AD": 694,
+        "MCI-MCI": 1322,
+        "NC-AD": 221,
+        "NC-MCI": 1133,
+        "NC-NC": 537
+      },
+      "requested_support_count": 205,
+      "support_pool_count": 3481,
+      "support_shortfall_by_relation": {}
+    },
+    {
+      "actual_support_count": 85,
+      "actual_support_fraction": 0.020751953125,
+      "common_base_pair_sha256": "ea296992250dff0c686c9120194b7f88c5f0b94ec0e2f61be8c71df4c1e4d455",
+      "difficulty_sampling": {
+        "NC-MCI": {
+          "band_percentiles": [
+            70.0,
+            90.0
+          ],
+          "candidate_count_after_exclusions": 10444,
+          "candidate_count_before_exclusions": 10678,
+          "fallback": "none",
+          "selected_pair_sha256": "b82a8995b087acc6b27ae165ad473d857942cff01d78f0a73ad3333a43d87ea6",
+          "selected_percentile_max": 0.8974190890020977,
+          "selected_percentile_mean": 0.8128921571227401,
+          "selected_percentile_min": 0.7018467186095295,
+          "selected_similarity_max": 0.7534192204475403,
+          "selected_similarity_mean": 0.6296526995380368,
+          "selected_similarity_min": 0.469112753868103,
+          "similarity_lower": 0.46625151336193077,
+          "similarity_upper": 0.7576353490352631
+        }
+      },
+      "fold": 6,
+      "group": "U3",
+      "label_invariance": {
+        "pairs_equal": true,
+        "sampling_pairs_equal": true,
+        "sampling_targets_equal": true,
+        "supervision_loss_equal": true,
+        "supervision_loss_max_abs": 0.0,
+        "targets_equal": true,
+        "test_labels_read_by_sampler": false,
+        "total_loss_equal": true,
+        "total_loss_max_abs": 0.0
+      },
+      "pair_sha256": "68855608183e38b0a1e4c5e95a94385e1572dd44b76fc8c0a5dd1ed0469c1a58",
+      "patient_exposure": {
+        "AD": {
+          "count": 66,
+          "gini": 0.12991867632238863,
+          "max": 29,
+          "mean": 19.59090909090909,
+          "min": 7,
+          "p95": 27.0,
+          "std": 4.502448063830733,
+          "total_endpoint_exposure": 1293
+        },
+        "MCI": {
+          "count": 284,
+          "gini": 0.13578034973428132,
+          "max": 26,
+          "mean": 15.742957746478874,
+          "min": 7,
+          "p95": 22.0,
+          "std": 3.7829472429952102,
+          "total_endpoint_exposure": 4471
+        },
+        "NC": {
+          "count": 188,
+          "gini": 0.15198131725612535,
+          "max": 24,
+          "mean": 12.914893617021276,
+          "min": 6,
+          "p95": 19.0,
+          "std": 3.479910656923827,
+          "total_endpoint_exposure": 2428
+        }
+      },
+      "quotas": [
+        537,
+        1322,
+        189,
+        1133,
+        221,
+        694
+      ],
+      "relation_counts": {
+        "AD-AD": 189,
+        "MCI-AD": 694,
+        "MCI-MCI": 1322,
+        "NC-AD": 221,
+        "NC-MCI": 1133,
+        "NC-NC": 537
+      },
+      "requested_support_count": 205,
+      "support_pool_count": 3481,
+      "support_shortfall_by_relation": {}
+    },
+    {
+      "actual_support_count": 86,
+      "actual_support_fraction": 0.02099609375,
+      "common_base_pair_sha256": "ea296992250dff0c686c9120194b7f88c5f0b94ec0e2f61be8c71df4c1e4d455",
+      "difficulty_sampling": {
+        "MCI-AD": {
+          "band_percentiles": [
+            70.0,
+            90.0
+          ],
+          "candidate_count_after_exclusions": 3591,
+          "candidate_count_before_exclusions": 3748,
+          "fallback": "none",
+          "selected_pair_sha256": "7acea992856a0e256c9d781852ccf5d86c2d194b74816a7fb9442efa4e26fc6a",
+          "selected_percentile_max": 0.8849765258215962,
+          "selected_percentile_mean": 0.7933754260300496,
+          "selected_percentile_min": 0.7028915919760991,
+          "selected_similarity_max": 0.5774937868118286,
+          "selected_similarity_mean": 0.40336587549983594,
+          "selected_similarity_min": 0.24329763650894165,
+          "similarity_lower": 0.2388376787304878,
+          "similarity_upper": 0.6092374563217163
+        }
+      },
+      "fold": 6,
+      "group": "U4",
+      "label_invariance": {
+        "pairs_equal": true,
+        "sampling_pairs_equal": true,
+        "sampling_targets_equal": true,
+        "supervision_loss_equal": true,
+        "supervision_loss_max_abs": 0.0,
+        "targets_equal": true,
+        "test_labels_read_by_sampler": false,
+        "total_loss_equal": true,
+        "total_loss_max_abs": 0.0
+      },
+      "pair_sha256": "bd09e6c229fb66ed7f2449dc1a40ca92e785f25a6710ade78e1fcefe5492a187",
+      "patient_exposure": {
+        "AD": {
+          "count": 66,
+          "gini": 0.1312779769856336,
+          "max": 30,
+          "mean": 19.59090909090909,
+          "min": 8,
+          "p95": 26.75,
+          "std": 4.539314034171513,
+          "total_endpoint_exposure": 1293
+        },
+        "MCI": {
+          "count": 284,
+          "gini": 0.13400836690912643,
+          "max": 26,
+          "mean": 15.742957746478874,
+          "min": 5,
+          "p95": 22.0,
+          "std": 3.76054195014203,
+          "total_endpoint_exposure": 4471
+        },
+        "NC": {
+          "count": 188,
+          "gini": 0.15730484769883277,
+          "max": 26,
+          "mean": 12.914893617021276,
+          "min": 6,
+          "p95": 19.0,
+          "std": 3.6104445841288912,
+          "total_endpoint_exposure": 2428
+        }
+      },
+      "quotas": [
+        537,
+        1322,
+        189,
+        1133,
+        221,
+        694
+      ],
+      "relation_counts": {
+        "AD-AD": 189,
+        "MCI-AD": 694,
+        "MCI-MCI": 1322,
+        "NC-AD": 221,
+        "NC-MCI": 1133,
+        "NC-NC": 537
+      },
+      "requested_support_count": 205,
+      "support_pool_count": 3481,
+      "support_shortfall_by_relation": {}
+    },
+    {
+      "actual_support_count": 84,
+      "actual_support_fraction": 0.0205078125,
+      "common_base_pair_sha256": "ea296992250dff0c686c9120194b7f88c5f0b94ec0e2f61be8c71df4c1e4d455",
+      "difficulty_sampling": {
+        "MCI-AD": {
+          "band_percentiles": [
+            70.0,
+            90.0
+          ],
+          "candidate_count_after_exclusions": 3591,
+          "candidate_count_before_exclusions": 3748,
+          "fallback": "none",
+          "selected_pair_sha256": "7acea992856a0e256c9d781852ccf5d86c2d194b74816a7fb9442efa4e26fc6a",
+          "selected_percentile_max": 0.8849765258215962,
+          "selected_percentile_mean": 0.7933754260300496,
+          "selected_percentile_min": 0.7028915919760991,
+          "selected_similarity_max": 0.5774937868118286,
+          "selected_similarity_mean": 0.40336587549983594,
+          "selected_similarity_min": 0.24329763650894165,
+          "similarity_lower": 0.2388376787304878,
+          "similarity_upper": 0.6092374563217163
+        },
+        "NC-MCI": {
+          "band_percentiles": [
+            70.0,
+            90.0
+          ],
+          "candidate_count_after_exclusions": 10444,
+          "candidate_count_before_exclusions": 10678,
+          "fallback": "none",
+          "selected_pair_sha256": "b82a8995b087acc6b27ae165ad473d857942cff01d78f0a73ad3333a43d87ea6",
+          "selected_percentile_max": 0.8974190890020977,
+          "selected_percentile_mean": 0.8128921571227401,
+          "selected_percentile_min": 0.7018467186095295,
+          "selected_similarity_max": 0.7534192204475403,
+          "selected_similarity_mean": 0.6296526995380368,
+          "selected_similarity_min": 0.469112753868103,
+          "similarity_lower": 0.46625151336193077,
+          "similarity_upper": 0.7576353490352631
+        }
+      },
+      "fold": 6,
+      "group": "U5",
+      "label_invariance": {
+        "pairs_equal": true,
+        "sampling_pairs_equal": true,
+        "sampling_targets_equal": true,
+        "supervision_loss_equal": true,
+        "supervision_loss_max_abs": 0.0,
+        "targets_equal": true,
+        "test_labels_read_by_sampler": false,
+        "total_loss_equal": true,
+        "total_loss_max_abs": 0.0
+      },
+      "pair_sha256": "10cd5e742a6a470ad7726eaabbf0473d9e3756e711c66dbac260b17f9e0a2154",
+      "patient_exposure": {
+        "AD": {
+          "count": 66,
+          "gini": 0.1312779769856336,
+          "max": 30,
+          "mean": 19.59090909090909,
+          "min": 8,
+          "p95": 26.75,
+          "std": 4.539314034171513,
+          "total_endpoint_exposure": 1293
+        },
+        "MCI": {
+          "count": 284,
+          "gini": 0.1372121118570065,
+          "max": 26,
+          "mean": 15.742957746478874,
+          "min": 5,
+          "p95": 22.0,
+          "std": 3.8236826487320625,
+          "total_endpoint_exposure": 4471
+        },
+        "NC": {
+          "count": 188,
+          "gini": 0.15198131725612535,
+          "max": 24,
+          "mean": 12.914893617021276,
+          "min": 6,
+          "p95": 19.0,
+          "std": 3.479910656923827,
+          "total_endpoint_exposure": 2428
+        }
+      },
+      "quotas": [
+        537,
+        1322,
+        189,
+        1133,
+        221,
+        694
+      ],
+      "relation_counts": {
+        "AD-AD": 189,
+        "MCI-AD": 694,
+        "MCI-MCI": 1322,
+        "NC-AD": 221,
+        "NC-MCI": 1133,
+        "NC-NC": 537
+      },
+      "requested_support_count": 205,
+      "support_pool_count": 3481,
+      "support_shortfall_by_relation": {}
+    },
+    {
+      "actual_support_count": 276,
+      "actual_support_fraction": 0.0673828125,
+      "common_base_pair_sha256": "ea296992250dff0c686c9120194b7f88c5f0b94ec0e2f61be8c71df4c1e4d455",
+      "difficulty_sampling": {
+        "MCI-AD": {
+          "status": "not_applied_in_group"
+        },
+        "MCI-MCI": {
+          "status": "not_applied_in_group"
+        },
+        "NC-MCI": {
+          "status": "not_applied_in_group"
+        }
+      },
+      "fold": 6,
+      "group": "U6",
+      "label_invariance": {
+        "pairs_equal": true,
+        "sampling_pairs_equal": true,
+        "sampling_targets_equal": true,
+        "supervision_loss_equal": true,
+        "supervision_loss_max_abs": 0.0,
+        "targets_equal": true,
+        "test_labels_read_by_sampler": false,
+        "total_loss_equal": true,
+        "total_loss_max_abs": 0.0
+      },
+      "pair_sha256": "0005d68cb4085fee6ec832fb0da040199775b39e28aadff2787f062ac5f76b87",
+      "patient_exposure": {
+        "AD": {
+          "count": 66,
+          "gini": 0.13050458178068386,
+          "max": 29,
+          "mean": 19.59090909090909,
+          "min": 9,
+          "p95": 27.0,
+          "std": 4.502448063830733,
+          "total_endpoint_exposure": 1293
+        },
+        "MCI": {
+          "count": 284,
+          "gini": 0.14461663742238715,
+          "max": 34,
+          "mean": 15.742957746478874,
+          "min": 7,
+          "p95": 23.0,
+          "std": 4.134293166205093,
+          "total_endpoint_exposure": 4471
+        },
+        "NC": {
+          "count": 188,
+          "gini": 0.1625801815696309,
+          "max": 27,
+          "mean": 12.914893617021276,
+          "min": 5,
+          "p95": 19.0,
+          "std": 3.7292962500447127,
+          "total_endpoint_exposure": 2428
+        }
+      },
+      "quotas": [
+        537,
+        1322,
+        189,
+        1133,
+        221,
+        694
+      ],
+      "relation_counts": {
+        "AD-AD": 189,
+        "MCI-AD": 694,
+        "MCI-MCI": 1322,
+        "NC-AD": 221,
+        "NC-MCI": 1133,
+        "NC-NC": 537
+      },
+      "requested_support_count": 205,
+      "support_pool_count": 3481,
+      "support_shortfall_by_relation": {
+        "AD-AD": 0,
+        "MCI-AD": 0,
+        "MCI-MCI": 0,
+        "NC-AD": 11,
+        "NC-MCI": 0,
+        "NC-NC": 0
+      }
+    },
+    {
+      "actual_support_count": 100,
+      "actual_support_fraction": 0.0244140625,
+      "common_base_pair_sha256": "f42a6e498dbc62dfb8c345e229f72d0c0a6abb4e383b0ff81f81d4883d2f765c",
+      "difficulty_sampling": {
+        "MCI-AD": {
+          "status": "not_applied_in_group"
+        },
+        "MCI-MCI": {
+          "status": "not_applied_in_group"
+        },
+        "NC-MCI": {
+          "status": "not_applied_in_group"
+        }
+      },
+      "fold": 7,
+      "group": "U1",
+      "label_invariance": {
+        "pairs_equal": true,
+        "sampling_pairs_equal": true,
+        "sampling_targets_equal": true,
+        "supervision_loss_equal": true,
+        "supervision_loss_max_abs": 0.0,
+        "targets_equal": true,
+        "test_labels_read_by_sampler": false,
+        "total_loss_equal": true,
+        "total_loss_max_abs": 0.0
+      },
+      "pair_sha256": "95ea71ee1dc5b2bfdad5bb5b3edbb08e59ec80476c4a350c94d79c7310e5c278",
+      "patient_exposure": {
+        "AD": {
+          "count": 66,
+          "gini": 0.12840044822735616,
+          "max": 31,
+          "mean": 19.257575757575758,
+          "min": 9,
+          "p95": 25.75,
+          "std": 4.380779666530266,
+          "total_endpoint_exposure": 1271
+        },
+        "MCI": {
+          "count": 284,
+          "gini": 0.14383244806459336,
+          "max": 29,
+          "mean": 15.330985915492958,
+          "min": 6,
+          "p95": 22.0,
+          "std": 3.9436556840996153,
+          "total_endpoint_exposure": 4354
+        },
+        "NC": {
+          "count": 188,
+          "gini": 0.13686188861905196,
+          "max": 22,
+          "mean": 13.654255319148936,
+          "min": 5,
+          "p95": 19.0,
+          "std": 3.289673232612219,
+          "total_endpoint_exposure": 2567
+        }
+      },
+      "quotas": [
+        589,
+        1288,
+        171,
+        1119,
+        270,
+        659
+      ],
+      "relation_counts": {
+        "AD-AD": 171,
+        "MCI-AD": 659,
+        "MCI-MCI": 1288,
+        "NC-AD": 270,
+        "NC-MCI": 1119,
+        "NC-NC": 589
+      },
+      "requested_support_count": 205,
+      "support_pool_count": 3543,
+      "support_shortfall_by_relation": {}
+    },
+    {
+      "actual_support_count": 100,
+      "actual_support_fraction": 0.0244140625,
+      "common_base_pair_sha256": "f42a6e498dbc62dfb8c345e229f72d0c0a6abb4e383b0ff81f81d4883d2f765c",
+      "difficulty_sampling": {
+        "MCI-MCI": {
+          "band_percentiles": [
+            10.0,
+            30.0
+          ],
+          "candidate_count_after_exclusions": 7798,
+          "candidate_count_before_exclusions": 8037,
+          "fallback": "none",
+          "selected_pair_sha256": "7e46076bb1a0f1a2278bf1b9b5a4b199895dd8ed11ba2f8c0ec277a5eacbeee1",
+          "selected_percentile_max": 0.29913402677549394,
+          "selected_percentile_mean": 0.19897264541587045,
+          "selected_percentile_min": 0.10050763947643458,
+          "selected_similarity_max": -0.18187277019023895,
+          "selected_similarity_mean": -0.3328016704136087,
+          "selected_similarity_min": -0.5012674927711487,
+          "similarity_lower": -0.5020904242992401,
+          "similarity_upper": -0.1809164360165596
+        }
+      },
+      "fold": 7,
+      "group": "U2",
+      "label_invariance": {
+        "pairs_equal": true,
+        "sampling_pairs_equal": true,
+        "sampling_targets_equal": true,
+        "supervision_loss_equal": true,
+        "supervision_loss_max_abs": 0.0,
+        "targets_equal": true,
+        "test_labels_read_by_sampler": false,
+        "total_loss_equal": true,
+        "total_loss_max_abs": 0.0
+      },
+      "pair_sha256": "7f5763e8992a1858069024237f0d9901c4b4363456b38c5dd03e1947aa64d03d",
+      "patient_exposure": {
+        "AD": {
+          "count": 66,
+          "gini": 0.12840044822735616,
+          "max": 31,
+          "mean": 19.257575757575758,
+          "min": 9,
+          "p95": 25.75,
+          "std": 4.380779666530266,
+          "total_endpoint_exposure": 1271
+        },
+        "MCI": {
+          "count": 284,
+          "gini": 0.14797951697322198,
+          "max": 30,
+          "mean": 15.330985915492958,
+          "min": 6,
+          "p95": 22.0,
+          "std": 4.048511865333395,
+          "total_endpoint_exposure": 4354
+        },
+        "NC": {
+          "count": 188,
+          "gini": 0.13686188861905196,
+          "max": 22,
+          "mean": 13.654255319148936,
+          "min": 5,
+          "p95": 19.0,
+          "std": 3.289673232612219,
+          "total_endpoint_exposure": 2567
+        }
+      },
+      "quotas": [
+        589,
+        1288,
+        171,
+        1119,
+        270,
+        659
+      ],
+      "relation_counts": {
+        "AD-AD": 171,
+        "MCI-AD": 659,
+        "MCI-MCI": 1288,
+        "NC-AD": 270,
+        "NC-MCI": 1119,
+        "NC-NC": 589
+      },
+      "requested_support_count": 205,
+      "support_pool_count": 3543,
+      "support_shortfall_by_relation": {}
+    },
+    {
+      "actual_support_count": 98,
+      "actual_support_fraction": 0.02392578125,
+      "common_base_pair_sha256": "f42a6e498dbc62dfb8c345e229f72d0c0a6abb4e383b0ff81f81d4883d2f765c",
+      "difficulty_sampling": {
+        "NC-MCI": {
+          "band_percentiles": [
+            70.0,
+            90.0
+          ],
+          "candidate_count_after_exclusions": 10433,
+          "candidate_count_before_exclusions": 10678,
+          "fallback": "none",
+          "selected_pair_sha256": "1e1cef13ef55bd676072d9223687c36678b76f9a252c78815919c086d95cb3af",
+          "selected_percentile_max": 0.8994418639496554,
+          "selected_percentile_mean": 0.7971847039684918,
+          "selected_percentile_min": 0.7012848366796524,
+          "selected_similarity_max": 0.7577376365661621,
+          "selected_similarity_mean": 0.6013607324234077,
+          "selected_similarity_min": 0.4568958282470703,
+          "similarity_lower": 0.45462670624256124,
+          "similarity_upper": 0.7585912466049195
+        }
+      },
+      "fold": 7,
+      "group": "U3",
+      "label_invariance": {
+        "pairs_equal": true,
+        "sampling_pairs_equal": true,
+        "sampling_targets_equal": true,
+        "supervision_loss_equal": true,
+        "supervision_loss_max_abs": 0.0,
+        "targets_equal": true,
+        "test_labels_read_by_sampler": false,
+        "total_loss_equal": true,
+        "total_loss_max_abs": 0.0
+      },
+      "pair_sha256": "a8e9669a42299e9b3f5b9698f9be421a5af963ef5141e472db2ed92409062bd6",
+      "patient_exposure": {
+        "AD": {
+          "count": 66,
+          "gini": 0.12840044822735616,
+          "max": 31,
+          "mean": 19.257575757575758,
+          "min": 9,
+          "p95": 25.75,
+          "std": 4.380779666530266,
+          "total_endpoint_exposure": 1271
+        },
+        "MCI": {
+          "count": 284,
+          "gini": 0.14381465642730984,
+          "max": 29,
+          "mean": 15.330985915492958,
+          "min": 6,
+          "p95": 22.0,
+          "std": 3.931135790765237,
+          "total_endpoint_exposure": 4354
+        },
+        "NC": {
+          "count": 188,
+          "gini": 0.13670440699881475,
+          "max": 23,
+          "mean": 13.654255319148936,
+          "min": 6,
+          "p95": 19.0,
+          "std": 3.2864377951850305,
+          "total_endpoint_exposure": 2567
+        }
+      },
+      "quotas": [
+        589,
+        1288,
+        171,
+        1119,
+        270,
+        659
+      ],
+      "relation_counts": {
+        "AD-AD": 171,
+        "MCI-AD": 659,
+        "MCI-MCI": 1288,
+        "NC-AD": 270,
+        "NC-MCI": 1119,
+        "NC-NC": 589
+      },
+      "requested_support_count": 205,
+      "support_pool_count": 3543,
+      "support_shortfall_by_relation": {}
+    },
+    {
+      "actual_support_count": 100,
+      "actual_support_fraction": 0.0244140625,
+      "common_base_pair_sha256": "f42a6e498dbc62dfb8c345e229f72d0c0a6abb4e383b0ff81f81d4883d2f765c",
+      "difficulty_sampling": {
+        "MCI-AD": {
+          "band_percentiles": [
+            70.0,
+            90.0
+          ],
+          "candidate_count_after_exclusions": 3617,
+          "candidate_count_before_exclusions": 3748,
+          "fallback": "none",
+          "selected_pair_sha256": "37d9c020f48b3fb1a60bbbd625144935c4cffbae30038fa1d59174f18268b90a",
+          "selected_percentile_max": 0.8988476312419974,
+          "selected_percentile_mean": 0.8033843557211033,
+          "selected_percentile_min": 0.7045988049509176,
+          "selected_similarity_max": 0.5956252217292786,
+          "selected_similarity_mean": 0.4053665559851762,
+          "selected_similarity_min": 0.22422273457050323,
+          "similarity_lower": 0.21609335839748356,
+          "similarity_upper": 0.5981223940849305
+        }
+      },
+      "fold": 7,
+      "group": "U4",
+      "label_invariance": {
+        "pairs_equal": true,
+        "sampling_pairs_equal": true,
+        "sampling_targets_equal": true,
+        "supervision_loss_equal": true,
+        "supervision_loss_max_abs": 0.0,
+        "targets_equal": true,
+        "test_labels_read_by_sampler": false,
+        "total_loss_equal": true,
+        "total_loss_max_abs": 0.0
+      },
+      "pair_sha256": "1b6de122641020b4080c5678343debb65ebcadd3332b959ca5b405a544fdbcf3",
+      "patient_exposure": {
+        "AD": {
+          "count": 66,
+          "gini": 0.13159526023412726,
+          "max": 29,
+          "mean": 19.257575757575758,
+          "min": 8,
+          "p95": 26.75,
+          "std": 4.4867164414612795,
+          "total_endpoint_exposure": 1271
+        },
+        "MCI": {
+          "count": 284,
+          "gini": 0.14512153305686207,
+          "max": 29,
+          "mean": 15.330985915492958,
+          "min": 5,
+          "p95": 22.0,
+          "std": 3.983631705263667,
+          "total_endpoint_exposure": 4354
+        },
+        "NC": {
+          "count": 188,
+          "gini": 0.13686188861905196,
+          "max": 22,
+          "mean": 13.654255319148936,
+          "min": 5,
+          "p95": 19.0,
+          "std": 3.289673232612219,
+          "total_endpoint_exposure": 2567
+        }
+      },
+      "quotas": [
+        589,
+        1288,
+        171,
+        1119,
+        270,
+        659
+      ],
+      "relation_counts": {
+        "AD-AD": 171,
+        "MCI-AD": 659,
+        "MCI-MCI": 1288,
+        "NC-AD": 270,
+        "NC-MCI": 1119,
+        "NC-NC": 589
+      },
+      "requested_support_count": 205,
+      "support_pool_count": 3543,
+      "support_shortfall_by_relation": {}
+    },
+    {
+      "actual_support_count": 98,
+      "actual_support_fraction": 0.02392578125,
+      "common_base_pair_sha256": "f42a6e498dbc62dfb8c345e229f72d0c0a6abb4e383b0ff81f81d4883d2f765c",
+      "difficulty_sampling": {
+        "MCI-AD": {
+          "band_percentiles": [
+            70.0,
+            90.0
+          ],
+          "candidate_count_after_exclusions": 3617,
+          "candidate_count_before_exclusions": 3748,
+          "fallback": "none",
+          "selected_pair_sha256": "37d9c020f48b3fb1a60bbbd625144935c4cffbae30038fa1d59174f18268b90a",
+          "selected_percentile_max": 0.8988476312419974,
+          "selected_percentile_mean": 0.8033843557211033,
+          "selected_percentile_min": 0.7045988049509176,
+          "selected_similarity_max": 0.5956252217292786,
+          "selected_similarity_mean": 0.4053665559851762,
+          "selected_similarity_min": 0.22422273457050323,
+          "similarity_lower": 0.21609335839748356,
+          "similarity_upper": 0.5981223940849305
+        },
+        "NC-MCI": {
+          "band_percentiles": [
+            70.0,
+            90.0
+          ],
+          "candidate_count_after_exclusions": 10433,
+          "candidate_count_before_exclusions": 10678,
+          "fallback": "none",
+          "selected_pair_sha256": "1e1cef13ef55bd676072d9223687c36678b76f9a252c78815919c086d95cb3af",
+          "selected_percentile_max": 0.8994418639496554,
+          "selected_percentile_mean": 0.7971847039684918,
+          "selected_percentile_min": 0.7012848366796524,
+          "selected_similarity_max": 0.7577376365661621,
+          "selected_similarity_mean": 0.6013607324234077,
+          "selected_similarity_min": 0.4568958282470703,
+          "similarity_lower": 0.45462670624256124,
+          "similarity_upper": 0.7585912466049195
+        }
+      },
+      "fold": 7,
+      "group": "U5",
+      "label_invariance": {
+        "pairs_equal": true,
+        "sampling_pairs_equal": true,
+        "sampling_targets_equal": true,
+        "supervision_loss_equal": true,
+        "supervision_loss_max_abs": 0.0,
+        "targets_equal": true,
+        "test_labels_read_by_sampler": false,
+        "total_loss_equal": true,
+        "total_loss_max_abs": 0.0
+      },
+      "pair_sha256": "90a8b8569722940f7952b5cb0cb84348380648a2a530a9a23c6b92e05b156735",
+      "patient_exposure": {
+        "AD": {
+          "count": 66,
+          "gini": 0.13159526023412726,
+          "max": 29,
+          "mean": 19.257575757575758,
+          "min": 8,
+          "p95": 26.75,
+          "std": 4.4867164414612795,
+          "total_endpoint_exposure": 1271
+        },
+        "MCI": {
+          "count": 284,
+          "gini": 0.14384862228030562,
+          "max": 29,
+          "mean": 15.330985915492958,
+          "min": 6,
+          "p95": 22.0,
+          "std": 3.9382948891118406,
+          "total_endpoint_exposure": 4354
+        },
+        "NC": {
+          "count": 188,
+          "gini": 0.13670440699881475,
+          "max": 23,
+          "mean": 13.654255319148936,
+          "min": 6,
+          "p95": 19.0,
+          "std": 3.2864377951850305,
+          "total_endpoint_exposure": 2567
+        }
+      },
+      "quotas": [
+        589,
+        1288,
+        171,
+        1119,
+        270,
+        659
+      ],
+      "relation_counts": {
+        "AD-AD": 171,
+        "MCI-AD": 659,
+        "MCI-MCI": 1288,
+        "NC-AD": 270,
+        "NC-MCI": 1119,
+        "NC-NC": 589
+      },
+      "requested_support_count": 205,
+      "support_pool_count": 3543,
+      "support_shortfall_by_relation": {}
+    },
+    {
+      "actual_support_count": 287,
+      "actual_support_fraction": 0.070068359375,
+      "common_base_pair_sha256": "f42a6e498dbc62dfb8c345e229f72d0c0a6abb4e383b0ff81f81d4883d2f765c",
+      "difficulty_sampling": {
+        "MCI-AD": {
+          "status": "not_applied_in_group"
+        },
+        "MCI-MCI": {
+          "status": "not_applied_in_group"
+        },
+        "NC-MCI": {
+          "status": "not_applied_in_group"
+        }
+      },
+      "fold": 7,
+      "group": "U6",
+      "label_invariance": {
+        "pairs_equal": true,
+        "sampling_pairs_equal": true,
+        "sampling_targets_equal": true,
+        "supervision_loss_equal": true,
+        "supervision_loss_max_abs": 0.0,
+        "targets_equal": true,
+        "test_labels_read_by_sampler": false,
+        "total_loss_equal": true,
+        "total_loss_max_abs": 0.0
+      },
+      "pair_sha256": "704ed1d8b5911544ad1561461a4ef00c62ece5141f6878055aa0ac818f126f7c",
+      "patient_exposure": {
+        "AD": {
+          "count": 66,
+          "gini": 0.12813818754023318,
+          "max": 32,
+          "mean": 19.257575757575758,
+          "min": 9,
+          "p95": 25.0,
+          "std": 4.408361909951277,
+          "total_endpoint_exposure": 1271
+        },
+        "MCI": {
+          "count": 284,
+          "gini": 0.15340434892312071,
+          "max": 30,
+          "mean": 15.330985915492958,
+          "min": 6,
+          "p95": 22.0,
+          "std": 4.228044916590059,
+          "total_endpoint_exposure": 4354
+        },
+        "NC": {
+          "count": 188,
+          "gini": 0.1488139147444239,
+          "max": 23,
+          "mean": 13.654255319148936,
+          "min": 4,
+          "p95": 19.0,
+          "std": 3.5911583176562556,
+          "total_endpoint_exposure": 2567
+        }
+      },
+      "quotas": [
+        589,
+        1288,
+        171,
+        1119,
+        270,
+        659
+      ],
+      "relation_counts": {
+        "AD-AD": 171,
+        "MCI-AD": 659,
+        "MCI-MCI": 1288,
+        "NC-AD": 270,
+        "NC-MCI": 1119,
+        "NC-NC": 589
+      },
+      "requested_support_count": 205,
+      "support_pool_count": 3543,
+      "support_shortfall_by_relation": {
+        "AD-AD": 0,
+        "MCI-AD": 0,
+        "MCI-MCI": 0,
+        "NC-AD": 14,
+        "NC-MCI": 0,
+        "NC-NC": 0
+      }
+    },
+    {
+      "actual_support_count": 100,
+      "actual_support_fraction": 0.0244140625,
+      "common_base_pair_sha256": "0b821b45045cf7b7542979ea3f92e864891d9ef800ca755b28ded30997e074db",
+      "difficulty_sampling": {
+        "MCI-AD": {
+          "status": "not_applied_in_group"
+        },
+        "MCI-MCI": {
+          "status": "not_applied_in_group"
+        },
+        "NC-MCI": {
+          "status": "not_applied_in_group"
+        }
+      },
+      "fold": 8,
+      "group": "U1",
+      "label_invariance": {
+        "pairs_equal": true,
+        "sampling_pairs_equal": true,
+        "sampling_targets_equal": true,
+        "supervision_loss_equal": true,
+        "supervision_loss_max_abs": 0.0,
+        "targets_equal": true,
+        "test_labels_read_by_sampler": false,
+        "total_loss_equal": true,
+        "total_loss_max_abs": 0.0
+      },
+      "pair_sha256": "8496a7c9313a4a0996f4f3c99af64e5b3c542ca73340bd63884eb5817c6ad4df",
+      "patient_exposure": {
+        "AD": {
+          "count": 66,
+          "gini": 0.12463343108504399,
+          "max": 30,
+          "mean": 19.257575757575758,
+          "min": 9,
+          "p95": 25.75,
+          "std": 4.265117874887519,
+          "total_endpoint_exposure": 1271
+        },
+        "MCI": {
+          "count": 284,
+          "gini": 0.1379314173328258,
+          "max": 28,
+          "mean": 15.633802816901408,
+          "min": 4,
+          "p95": 22.0,
+          "std": 3.837323879042284,
+          "total_endpoint_exposure": 4440
+        },
+        "NC": {
+          "count": 188,
+          "gini": 0.14193616163695147,
+          "max": 24,
+          "mean": 13.196808510638299,
+          "min": 4,
+          "p95": 19.0,
+          "std": 3.3467339470397097,
+          "total_endpoint_exposure": 2481
+        }
+      },
+      "quotas": [
+        570,
+        1310,
+        168,
+        1113,
+        228,
+        707
+      ],
+      "relation_counts": {
+        "AD-AD": 168,
+        "MCI-AD": 707,
+        "MCI-MCI": 1310,
+        "NC-AD": 228,
+        "NC-MCI": 1113,
+        "NC-NC": 570
+      },
+      "requested_support_count": 205,
+      "support_pool_count": 3326,
+      "support_shortfall_by_relation": {}
+    },
+    {
+      "actual_support_count": 100,
+      "actual_support_fraction": 0.0244140625,
+      "common_base_pair_sha256": "0b821b45045cf7b7542979ea3f92e864891d9ef800ca755b28ded30997e074db",
+      "difficulty_sampling": {
+        "MCI-MCI": {
+          "band_percentiles": [
+            10.0,
+            30.0
+          ],
+          "candidate_count_after_exclusions": 7766,
+          "candidate_count_before_exclusions": 8037,
+          "fallback": "none",
+          "selected_pair_sha256": "03446020c79438bf11bf5e01367ad2467e0ab68c89b5a5598c5c27cca9d18eb7",
+          "selected_percentile_max": 0.2934106405215747,
+          "selected_percentile_mean": 0.2017008315911166,
+          "selected_percentile_min": 0.10436470412581496,
+          "selected_similarity_max": -0.19259436428546906,
+          "selected_similarity_mean": -0.3308966925353494,
+          "selected_similarity_min": -0.4914720952510834,
+          "similarity_lower": -0.5001426935195923,
+          "similarity_upper": -0.1842106282711029
+        }
+      },
+      "fold": 8,
+      "group": "U2",
+      "label_invariance": {
+        "pairs_equal": true,
+        "sampling_pairs_equal": true,
+        "sampling_targets_equal": true,
+        "supervision_loss_equal": true,
+        "supervision_loss_max_abs": 0.0,
+        "targets_equal": true,
+        "test_labels_read_by_sampler": false,
+        "total_loss_equal": true,
+        "total_loss_max_abs": 0.0
+      },
+      "pair_sha256": "7b85ad1b00ebffe0fff4890447fc593128cba470efaa866421a2a9e8ccbd008e",
+      "patient_exposure": {
+        "AD": {
+          "count": 66,
+          "gini": 0.12463343108504399,
+          "max": 30,
+          "mean": 19.257575757575758,
+          "min": 9,
+          "p95": 25.75,
+          "std": 4.265117874887519,
+          "total_endpoint_exposure": 1271
+        },
+        "MCI": {
+          "count": 284,
+          "gini": 0.1412875904073087,
+          "max": 27,
+          "mean": 15.633802816901408,
+          "min": 6,
+          "p95": 22.0,
+          "std": 3.9181392415339715,
+          "total_endpoint_exposure": 4440
+        },
+        "NC": {
+          "count": 188,
+          "gini": 0.14193616163695147,
+          "max": 24,
+          "mean": 13.196808510638299,
+          "min": 4,
+          "p95": 19.0,
+          "std": 3.3467339470397097,
+          "total_endpoint_exposure": 2481
+        }
+      },
+      "quotas": [
+        570,
+        1310,
+        168,
+        1113,
+        228,
+        707
+      ],
+      "relation_counts": {
+        "AD-AD": 168,
+        "MCI-AD": 707,
+        "MCI-MCI": 1310,
+        "NC-AD": 228,
+        "NC-MCI": 1113,
+        "NC-NC": 570
+      },
+      "requested_support_count": 205,
+      "support_pool_count": 3326,
+      "support_shortfall_by_relation": {}
+    },
+    {
+      "actual_support_count": 97,
+      "actual_support_fraction": 0.023681640625,
+      "common_base_pair_sha256": "0b821b45045cf7b7542979ea3f92e864891d9ef800ca755b28ded30997e074db",
+      "difficulty_sampling": {
+        "NC-MCI": {
+          "band_percentiles": [
+            70.0,
+            90.0
+          ],
+          "candidate_count_after_exclusions": 10484,
+          "candidate_count_before_exclusions": 10678,
+          "fallback": "none",
+          "selected_pair_sha256": "18bea63d65875c595c43a141b6174be8c8d2b02cca76428d3ab387f29f46302b",
+          "selected_percentile_max": 0.8994793227449805,
+          "selected_percentile_mean": 0.8021407870261632,
+          "selected_percentile_min": 0.7021651183697932,
+          "selected_similarity_max": 0.753520667552948,
+          "selected_similarity_mean": 0.6122039610201174,
+          "selected_similarity_min": 0.4696975648403168,
+          "similarity_lower": 0.46632231771945953,
+          "similarity_upper": 0.7544990956783295
+        }
+      },
+      "fold": 8,
+      "group": "U3",
+      "label_invariance": {
+        "pairs_equal": true,
+        "sampling_pairs_equal": true,
+        "sampling_targets_equal": true,
+        "supervision_loss_equal": true,
+        "supervision_loss_max_abs": 0.0,
+        "targets_equal": true,
+        "test_labels_read_by_sampler": false,
+        "total_loss_equal": true,
+        "total_loss_max_abs": 0.0
+      },
+      "pair_sha256": "066a7987498f1b9f445f2215980e8ce856bd6c1278aa58d7a3c0ca330fdf25b8",
+      "patient_exposure": {
+        "AD": {
+          "count": 66,
+          "gini": 0.12463343108504399,
+          "max": 30,
+          "mean": 19.257575757575758,
+          "min": 9,
+          "p95": 25.75,
+          "std": 4.265117874887519,
+          "total_endpoint_exposure": 1271
+        },
+        "MCI": {
+          "count": 284,
+          "gini": 0.13828987438142368,
+          "max": 30,
+          "mean": 15.633802816901408,
+          "min": 4,
+          "p95": 22.0,
+          "std": 3.8702164899949314,
+          "total_endpoint_exposure": 4440
+        },
+        "NC": {
+          "count": 188,
+          "gini": 0.13350613599526615,
+          "max": 25,
+          "mean": 13.196808510638299,
+          "min": 5,
+          "p95": 18.0,
+          "std": 3.180490800063611,
+          "total_endpoint_exposure": 2481
+        }
+      },
+      "quotas": [
+        570,
+        1310,
+        168,
+        1113,
+        228,
+        707
+      ],
+      "relation_counts": {
+        "AD-AD": 168,
+        "MCI-AD": 707,
+        "MCI-MCI": 1310,
+        "NC-AD": 228,
+        "NC-MCI": 1113,
+        "NC-NC": 570
+      },
+      "requested_support_count": 205,
+      "support_pool_count": 3326,
+      "support_shortfall_by_relation": {}
+    },
+    {
+      "actual_support_count": 99,
+      "actual_support_fraction": 0.024169921875,
+      "common_base_pair_sha256": "0b821b45045cf7b7542979ea3f92e864891d9ef800ca755b28ded30997e074db",
+      "difficulty_sampling": {
+        "MCI-AD": {
+          "band_percentiles": [
+            70.0,
+            90.0
+          ],
+          "candidate_count_after_exclusions": 3610,
+          "candidate_count_before_exclusions": 3748,
+          "fallback": "none",
+          "selected_pair_sha256": "0e42d5ad4baa1558b9e000165a3df1cc2b35aa9942fe4e7ebff3c09fd46348d6",
+          "selected_percentile_max": 0.8990076824583867,
+          "selected_percentile_mean": 0.8043332551862605,
+          "selected_percentile_min": 0.7003841229193342,
+          "selected_similarity_max": 0.6032145023345947,
+          "selected_similarity_mean": 0.40944670833332436,
+          "selected_similarity_min": 0.2139960527420044,
+          "similarity_lower": 0.21362968236207955,
+          "similarity_upper": 0.6048635363578797
+        }
+      },
+      "fold": 8,
+      "group": "U4",
+      "label_invariance": {
+        "pairs_equal": true,
+        "sampling_pairs_equal": true,
+        "sampling_targets_equal": true,
+        "supervision_loss_equal": true,
+        "supervision_loss_max_abs": 0.0,
+        "targets_equal": true,
+        "test_labels_read_by_sampler": false,
+        "total_loss_equal": true,
+        "total_loss_max_abs": 0.0
+      },
+      "pair_sha256": "39efcde2fd5484f256f56708eed6115dc8ef17991ba17aeb31e83948f7f29a96",
+      "patient_exposure": {
+        "AD": {
+          "count": 66,
+          "gini": 0.1214386190782729,
+          "max": 33,
+          "mean": 19.257575757575758,
+          "min": 10,
+          "p95": 25.75,
+          "std": 4.225860522231146,
+          "total_endpoint_exposure": 1271
+        },
+        "MCI": {
+          "count": 284,
+          "gini": 0.13720340058368227,
+          "max": 27,
+          "mean": 15.633802816901408,
+          "min": 6,
+          "p95": 22.0,
+          "std": 3.8059976265034394,
+          "total_endpoint_exposure": 4440
+        },
+        "NC": {
+          "count": 188,
+          "gini": 0.14193616163695147,
+          "max": 24,
+          "mean": 13.196808510638299,
+          "min": 4,
+          "p95": 19.0,
+          "std": 3.3467339470397097,
+          "total_endpoint_exposure": 2481
+        }
+      },
+      "quotas": [
+        570,
+        1310,
+        168,
+        1113,
+        228,
+        707
+      ],
+      "relation_counts": {
+        "AD-AD": 168,
+        "MCI-AD": 707,
+        "MCI-MCI": 1310,
+        "NC-AD": 228,
+        "NC-MCI": 1113,
+        "NC-NC": 570
+      },
+      "requested_support_count": 205,
+      "support_pool_count": 3326,
+      "support_shortfall_by_relation": {}
+    },
+    {
+      "actual_support_count": 96,
+      "actual_support_fraction": 0.0234375,
+      "common_base_pair_sha256": "0b821b45045cf7b7542979ea3f92e864891d9ef800ca755b28ded30997e074db",
+      "difficulty_sampling": {
+        "MCI-AD": {
+          "band_percentiles": [
+            70.0,
+            90.0
+          ],
+          "candidate_count_after_exclusions": 3610,
+          "candidate_count_before_exclusions": 3748,
+          "fallback": "none",
+          "selected_pair_sha256": "0e42d5ad4baa1558b9e000165a3df1cc2b35aa9942fe4e7ebff3c09fd46348d6",
+          "selected_percentile_max": 0.8990076824583867,
+          "selected_percentile_mean": 0.8043332551862605,
+          "selected_percentile_min": 0.7003841229193342,
+          "selected_similarity_max": 0.6032145023345947,
+          "selected_similarity_mean": 0.40944670833332436,
+          "selected_similarity_min": 0.2139960527420044,
+          "similarity_lower": 0.21362968236207955,
+          "similarity_upper": 0.6048635363578797
+        },
+        "NC-MCI": {
+          "band_percentiles": [
+            70.0,
+            90.0
+          ],
+          "candidate_count_after_exclusions": 10484,
+          "candidate_count_before_exclusions": 10678,
+          "fallback": "none",
+          "selected_pair_sha256": "18bea63d65875c595c43a141b6174be8c8d2b02cca76428d3ab387f29f46302b",
+          "selected_percentile_max": 0.8994793227449805,
+          "selected_percentile_mean": 0.8021407870261632,
+          "selected_percentile_min": 0.7021651183697932,
+          "selected_similarity_max": 0.753520667552948,
+          "selected_similarity_mean": 0.6122039610201174,
+          "selected_similarity_min": 0.4696975648403168,
+          "similarity_lower": 0.46632231771945953,
+          "similarity_upper": 0.7544990956783295
+        }
+      },
+      "fold": 8,
+      "group": "U5",
+      "label_invariance": {
+        "pairs_equal": true,
+        "sampling_pairs_equal": true,
+        "sampling_targets_equal": true,
+        "supervision_loss_equal": true,
+        "supervision_loss_max_abs": 0.0,
+        "targets_equal": true,
+        "test_labels_read_by_sampler": false,
+        "total_loss_equal": true,
+        "total_loss_max_abs": 0.0
+      },
+      "pair_sha256": "ad81929665d62437122753a2f3c43d796330a0d44de176dcca97a80943a278e5",
+      "patient_exposure": {
+        "AD": {
+          "count": 66,
+          "gini": 0.1214386190782729,
+          "max": 33,
+          "mean": 19.257575757575758,
+          "min": 10,
+          "p95": 25.75,
+          "std": 4.225860522231146,
+          "total_endpoint_exposure": 1271
+        },
+        "MCI": {
+          "count": 284,
+          "gini": 0.1368306686968659,
+          "max": 29,
+          "mean": 15.633802816901408,
+          "min": 6,
+          "p95": 22.0,
+          "std": 3.8078474811882983,
+          "total_endpoint_exposure": 4440
+        },
+        "NC": {
+          "count": 188,
+          "gini": 0.13350613599526615,
+          "max": 25,
+          "mean": 13.196808510638299,
+          "min": 5,
+          "p95": 18.0,
+          "std": 3.180490800063611,
+          "total_endpoint_exposure": 2481
+        }
+      },
+      "quotas": [
+        570,
+        1310,
+        168,
+        1113,
+        228,
+        707
+      ],
+      "relation_counts": {
+        "AD-AD": 168,
+        "MCI-AD": 707,
+        "MCI-MCI": 1310,
+        "NC-AD": 228,
+        "NC-MCI": 1113,
+        "NC-NC": 570
+      },
+      "requested_support_count": 205,
+      "support_pool_count": 3326,
+      "support_shortfall_by_relation": {}
+    },
+    {
+      "actual_support_count": 289,
+      "actual_support_fraction": 0.070556640625,
+      "common_base_pair_sha256": "0b821b45045cf7b7542979ea3f92e864891d9ef800ca755b28ded30997e074db",
+      "difficulty_sampling": {
+        "MCI-AD": {
+          "status": "not_applied_in_group"
+        },
+        "MCI-MCI": {
+          "status": "not_applied_in_group"
+        },
+        "NC-MCI": {
+          "status": "not_applied_in_group"
+        }
+      },
+      "fold": 8,
+      "group": "U6",
+      "label_invariance": {
+        "pairs_equal": true,
+        "sampling_pairs_equal": true,
+        "sampling_targets_equal": true,
+        "supervision_loss_equal": true,
+        "supervision_loss_max_abs": 0.0,
+        "targets_equal": true,
+        "test_labels_read_by_sampler": false,
+        "total_loss_equal": true,
+        "total_loss_max_abs": 0.0
+      },
+      "pair_sha256": "27e454babf6066d9d38030e66df9753f24ba537d5662a3dcc144f1eb6e863f97",
+      "patient_exposure": {
+        "AD": {
+          "count": 66,
+          "gini": 0.133288033760103,
+          "max": 31,
+          "mean": 19.257575757575758,
+          "min": 9,
+          "p95": 26.0,
+          "std": 4.53708826017573,
+          "total_endpoint_exposure": 1271
+        },
+        "MCI": {
+          "count": 284,
+          "gini": 0.1533752061921076,
+          "max": 35,
+          "mean": 15.633802816901408,
+          "min": 4,
+          "p95": 22.0,
+          "std": 4.365322493030851,
+          "total_endpoint_exposure": 4440
+        },
+        "NC": {
+          "count": 188,
+          "gini": 0.14736465220784345,
+          "max": 22,
+          "mean": 13.196808510638299,
+          "min": 4,
+          "p95": 19.0,
+          "std": 3.431486004251566,
+          "total_endpoint_exposure": 2481
+        }
+      },
+      "quotas": [
+        570,
+        1310,
+        168,
+        1113,
+        228,
+        707
+      ],
+      "relation_counts": {
+        "AD-AD": 168,
+        "MCI-AD": 707,
+        "MCI-MCI": 1310,
+        "NC-AD": 228,
+        "NC-MCI": 1113,
+        "NC-NC": 570
+      },
+      "requested_support_count": 205,
+      "support_pool_count": 3326,
+      "support_shortfall_by_relation": {
+        "AD-AD": 0,
+        "MCI-AD": 0,
+        "MCI-MCI": 0,
+        "NC-AD": 11,
+        "NC-MCI": 0,
+        "NC-NC": 0
+      }
+    },
+    {
+      "actual_support_count": 99,
+      "actual_support_fraction": 0.024169921875,
+      "common_base_pair_sha256": "47c1ec2f4aaad4eafe22ac35f27fecd465ce9c3d3bfc067a7c7d106b20363ecb",
+      "difficulty_sampling": {
+        "MCI-AD": {
+          "status": "not_applied_in_group"
+        },
+        "MCI-MCI": {
+          "status": "not_applied_in_group"
+        },
+        "NC-MCI": {
+          "status": "not_applied_in_group"
+        }
+      },
+      "fold": 9,
+      "group": "U1",
+      "label_invariance": {
+        "pairs_equal": true,
+        "sampling_pairs_equal": true,
+        "sampling_targets_equal": true,
+        "supervision_loss_equal": true,
+        "supervision_loss_max_abs": 0.0,
+        "targets_equal": true,
+        "test_labels_read_by_sampler": false,
+        "total_loss_equal": true,
+        "total_loss_max_abs": 0.0
+      },
+      "pair_sha256": "120f136a068421c437d46f9d78e38a72060ae568c339bd7b9c60caa28c27ae51",
+      "patient_exposure": {
+        "AD": {
+          "count": 67,
+          "gini": 0.10592804005053104,
+          "max": 27,
+          "mean": 19.044776119402986,
+          "min": 10,
+          "p95": 24.699999999999996,
+          "std": 3.567819836078231,
+          "total_endpoint_exposure": 1276
+        },
+        "MCI": {
+          "count": 284,
+          "gini": 0.15417476978758565,
+          "max": 32,
+          "mean": 15.785211267605634,
+          "min": 5,
+          "p95": 23.0,
+          "std": 4.345913527900172,
+          "total_endpoint_exposure": 4483
+        },
+        "NC": {
+          "count": 188,
+          "gini": 0.1491220015566108,
+          "max": 27,
+          "mean": 12.941489361702128,
+          "min": 4,
+          "p95": 19.0,
+          "std": 3.5267642204871175,
+          "total_endpoint_exposure": 2433
+        }
+      },
+      "quotas": [
+        530,
+        1337,
+        181,
+        1134,
+        239,
+        675
+      ],
+      "relation_counts": {
+        "AD-AD": 181,
+        "MCI-AD": 675,
+        "MCI-MCI": 1337,
+        "NC-AD": 239,
+        "NC-MCI": 1134,
+        "NC-NC": 530
+      },
+      "requested_support_count": 205,
+      "support_pool_count": 3361,
+      "support_shortfall_by_relation": {}
+    },
+    {
+      "actual_support_count": 99,
+      "actual_support_fraction": 0.024169921875,
+      "common_base_pair_sha256": "47c1ec2f4aaad4eafe22ac35f27fecd465ce9c3d3bfc067a7c7d106b20363ecb",
+      "difficulty_sampling": {
+        "MCI-MCI": {
+          "band_percentiles": [
+            10.0,
+            30.0
+          ],
+          "candidate_count_after_exclusions": 7766,
+          "candidate_count_before_exclusions": 8037,
+          "fallback": "none",
+          "selected_pair_sha256": "c3fd2dd46d0a995cf557ce0b3239f268cfac6bd4a5141df193973c97a1ce70a9",
+          "selected_percentile_max": 0.29898472104713086,
+          "selected_percentile_mean": 0.19892537016307008,
+          "selected_percentile_min": 0.10192604389588414,
+          "selected_similarity_max": -0.18799233436584473,
+          "selected_similarity_mean": -0.3363759489869004,
+          "selected_similarity_min": -0.4975934326648712,
+          "similarity_lower": -0.5009247958660126,
+          "similarity_upper": -0.18670278787612915
+        }
+      },
+      "fold": 9,
+      "group": "U2",
+      "label_invariance": {
+        "pairs_equal": true,
+        "sampling_pairs_equal": true,
+        "sampling_targets_equal": true,
+        "supervision_loss_equal": true,
+        "supervision_loss_max_abs": 0.0,
+        "targets_equal": true,
+        "test_labels_read_by_sampler": false,
+        "total_loss_equal": true,
+        "total_loss_max_abs": 0.0
+      },
+      "pair_sha256": "5d018cf79ff59899bf47df0fc97bd5ac42707bc1c6372d33745e0377ac6a514a",
+      "patient_exposure": {
+        "AD": {
+          "count": 67,
+          "gini": 0.10592804005053104,
+          "max": 27,
+          "mean": 19.044776119402986,
+          "min": 10,
+          "p95": 24.699999999999996,
+          "std": 3.567819836078231,
+          "total_endpoint_exposure": 1276
+        },
+        "MCI": {
+          "count": 284,
+          "gini": 0.1562043463098466,
+          "max": 32,
+          "mean": 15.785211267605634,
+          "min": 5,
+          "p95": 23.0,
+          "std": 4.405461514137775,
+          "total_endpoint_exposure": 4483
+        },
+        "NC": {
+          "count": 188,
+          "gini": 0.1491220015566108,
+          "max": 27,
+          "mean": 12.941489361702128,
+          "min": 4,
+          "p95": 19.0,
+          "std": 3.5267642204871175,
+          "total_endpoint_exposure": 2433
+        }
+      },
+      "quotas": [
+        530,
+        1337,
+        181,
+        1134,
+        239,
+        675
+      ],
+      "relation_counts": {
+        "AD-AD": 181,
+        "MCI-AD": 675,
+        "MCI-MCI": 1337,
+        "NC-AD": 239,
+        "NC-MCI": 1134,
+        "NC-NC": 530
+      },
+      "requested_support_count": 205,
+      "support_pool_count": 3361,
+      "support_shortfall_by_relation": {}
+    },
+    {
+      "actual_support_count": 96,
+      "actual_support_fraction": 0.0234375,
+      "common_base_pair_sha256": "47c1ec2f4aaad4eafe22ac35f27fecd465ce9c3d3bfc067a7c7d106b20363ecb",
+      "difficulty_sampling": {
+        "NC-MCI": {
+          "band_percentiles": [
+            70.0,
+            90.0
+          ],
+          "candidate_count_after_exclusions": 10459,
+          "candidate_count_before_exclusions": 10678,
+          "fallback": "none",
+          "selected_pair_sha256": "16af77245b23494648511c9082cd168e81bb24e6102a1eef312b7efacc17b21b",
+          "selected_percentile_max": 0.8977374887623614,
+          "selected_percentile_mean": 0.7930010395644438,
+          "selected_percentile_min": 0.7012661072819898,
+          "selected_similarity_max": 0.7500437498092651,
+          "selected_similarity_mean": 0.5953566004744674,
+          "selected_similarity_min": 0.45909225940704346,
+          "similarity_lower": 0.45698674917221066,
+          "similarity_upper": 0.7535066246986389
+        }
+      },
+      "fold": 9,
+      "group": "U3",
+      "label_invariance": {
+        "pairs_equal": true,
+        "sampling_pairs_equal": true,
+        "sampling_targets_equal": true,
+        "supervision_loss_equal": true,
+        "supervision_loss_max_abs": 0.0,
+        "targets_equal": true,
+        "test_labels_read_by_sampler": false,
+        "total_loss_equal": true,
+        "total_loss_max_abs": 0.0
+      },
+      "pair_sha256": "95b48b48c4da21fded6717ff1e0b93e5d02861dd505b618167a71f07a89bec78",
+      "patient_exposure": {
+        "AD": {
+          "count": 67,
+          "gini": 0.10592804005053104,
+          "max": 27,
+          "mean": 19.044776119402986,
+          "min": 10,
+          "p95": 24.699999999999996,
+          "std": 3.567819836078231,
+          "total_endpoint_exposure": 1276
+        },
+        "MCI": {
+          "count": 284,
+          "gini": 0.15360611135023391,
+          "max": 32,
+          "mean": 15.785211267605634,
+          "min": 4,
+          "p95": 23.0,
+          "std": 4.364508703505084,
+          "total_endpoint_exposure": 4483
+        },
+        "NC": {
+          "count": 188,
+          "gini": 0.1513782126959974,
+          "max": 27,
+          "mean": 12.941489361702128,
+          "min": 4,
+          "p95": 19.650000000000006,
+          "std": 3.5672538330572015,
+          "total_endpoint_exposure": 2433
+        }
+      },
+      "quotas": [
+        530,
+        1337,
+        181,
+        1134,
+        239,
+        675
+      ],
+      "relation_counts": {
+        "AD-AD": 181,
+        "MCI-AD": 675,
+        "MCI-MCI": 1337,
+        "NC-AD": 239,
+        "NC-MCI": 1134,
+        "NC-NC": 530
+      },
+      "requested_support_count": 205,
+      "support_pool_count": 3361,
+      "support_shortfall_by_relation": {}
+    },
+    {
+      "actual_support_count": 99,
+      "actual_support_fraction": 0.024169921875,
+      "common_base_pair_sha256": "47c1ec2f4aaad4eafe22ac35f27fecd465ce9c3d3bfc067a7c7d106b20363ecb",
+      "difficulty_sampling": {
+        "MCI-AD": {
+          "band_percentiles": [
+            70.0,
+            90.0
+          ],
+          "candidate_count_after_exclusions": 3676,
+          "candidate_count_before_exclusions": 3806,
+          "fallback": "none",
+          "selected_pair_sha256": "f046ec80455b5cd71c51760c6264c6909239bf184d704c1d98e69991410b53e8",
+          "selected_percentile_max": 0.8993588396047929,
+          "selected_percentile_mean": 0.7999836154768823,
+          "selected_percentile_min": 0.7011772125289047,
+          "selected_similarity_max": 0.6049250364303589,
+          "selected_similarity_mean": 0.41168321471880465,
+          "selected_similarity_min": 0.23180970549583435,
+          "similarity_lower": 0.23011011779308319,
+          "similarity_upper": 0.6067036032676696
+        }
+      },
+      "fold": 9,
+      "group": "U4",
+      "label_invariance": {
+        "pairs_equal": true,
+        "sampling_pairs_equal": true,
+        "sampling_targets_equal": true,
+        "supervision_loss_equal": true,
+        "supervision_loss_max_abs": 0.0,
+        "targets_equal": true,
+        "test_labels_read_by_sampler": false,
+        "total_loss_equal": true,
+        "total_loss_max_abs": 0.0
+      },
+      "pair_sha256": "7df9c98f374c0a69fe141df02d1defc2508ac0fee2e13c2928a8941388058be2",
+      "patient_exposure": {
+        "AD": {
+          "count": 67,
+          "gini": 0.11376503064614232,
+          "max": 29,
+          "mean": 19.044776119402986,
+          "min": 10,
+          "p95": 24.699999999999996,
+          "std": 3.8378820178209363,
+          "total_endpoint_exposure": 1276
+        },
+        "MCI": {
+          "count": 284,
+          "gini": 0.15692066743535044,
+          "max": 32,
+          "mean": 15.785211267605634,
+          "min": 5,
+          "p95": 23.0,
+          "std": 4.414244662598743,
+          "total_endpoint_exposure": 4483
+        },
+        "NC": {
+          "count": 188,
+          "gini": 0.1491220015566108,
+          "max": 27,
+          "mean": 12.941489361702128,
+          "min": 4,
+          "p95": 19.0,
+          "std": 3.5267642204871175,
+          "total_endpoint_exposure": 2433
+        }
+      },
+      "quotas": [
+        530,
+        1337,
+        181,
+        1134,
+        239,
+        675
+      ],
+      "relation_counts": {
+        "AD-AD": 181,
+        "MCI-AD": 675,
+        "MCI-MCI": 1337,
+        "NC-AD": 239,
+        "NC-MCI": 1134,
+        "NC-NC": 530
+      },
+      "requested_support_count": 205,
+      "support_pool_count": 3361,
+      "support_shortfall_by_relation": {}
+    },
+    {
+      "actual_support_count": 96,
+      "actual_support_fraction": 0.0234375,
+      "common_base_pair_sha256": "47c1ec2f4aaad4eafe22ac35f27fecd465ce9c3d3bfc067a7c7d106b20363ecb",
+      "difficulty_sampling": {
+        "MCI-AD": {
+          "band_percentiles": [
+            70.0,
+            90.0
+          ],
+          "candidate_count_after_exclusions": 3676,
+          "candidate_count_before_exclusions": 3806,
+          "fallback": "none",
+          "selected_pair_sha256": "f046ec80455b5cd71c51760c6264c6909239bf184d704c1d98e69991410b53e8",
+          "selected_percentile_max": 0.8993588396047929,
+          "selected_percentile_mean": 0.7999836154768823,
+          "selected_percentile_min": 0.7011772125289047,
+          "selected_similarity_max": 0.6049250364303589,
+          "selected_similarity_mean": 0.41168321471880465,
+          "selected_similarity_min": 0.23180970549583435,
+          "similarity_lower": 0.23011011779308319,
+          "similarity_upper": 0.6067036032676696
+        },
+        "NC-MCI": {
+          "band_percentiles": [
+            70.0,
+            90.0
+          ],
+          "candidate_count_after_exclusions": 10459,
+          "candidate_count_before_exclusions": 10678,
+          "fallback": "none",
+          "selected_pair_sha256": "16af77245b23494648511c9082cd168e81bb24e6102a1eef312b7efacc17b21b",
+          "selected_percentile_max": 0.8977374887623614,
+          "selected_percentile_mean": 0.7930010395644438,
+          "selected_percentile_min": 0.7012661072819898,
+          "selected_similarity_max": 0.7500437498092651,
+          "selected_similarity_mean": 0.5953566004744674,
+          "selected_similarity_min": 0.45909225940704346,
+          "similarity_lower": 0.45698674917221066,
+          "similarity_upper": 0.7535066246986389
+        }
+      },
+      "fold": 9,
+      "group": "U5",
+      "label_invariance": {
+        "pairs_equal": true,
+        "sampling_pairs_equal": true,
+        "sampling_targets_equal": true,
+        "supervision_loss_equal": true,
+        "supervision_loss_max_abs": 0.0,
+        "targets_equal": true,
+        "test_labels_read_by_sampler": false,
+        "total_loss_equal": true,
+        "total_loss_max_abs": 0.0
+      },
+      "pair_sha256": "2fdc4184464e65d8019f73b31b1b4b9b27bbfe5bbc95a51084b86301b243d615",
+      "patient_exposure": {
+        "AD": {
+          "count": 67,
+          "gini": 0.11376503064614232,
+          "max": 29,
+          "mean": 19.044776119402986,
+          "min": 10,
+          "p95": 24.699999999999996,
+          "std": 3.8378820178209363,
+          "total_endpoint_exposure": 1276
+        },
+        "MCI": {
+          "count": 284,
+          "gini": 0.1554676037487472,
+          "max": 32,
+          "mean": 15.785211267605634,
+          "min": 5,
+          "p95": 23.0,
+          "std": 4.407059752214775,
+          "total_endpoint_exposure": 4483
+        },
+        "NC": {
+          "count": 188,
+          "gini": 0.1513782126959974,
+          "max": 27,
+          "mean": 12.941489361702128,
+          "min": 4,
+          "p95": 19.650000000000006,
+          "std": 3.5672538330572015,
+          "total_endpoint_exposure": 2433
+        }
+      },
+      "quotas": [
+        530,
+        1337,
+        181,
+        1134,
+        239,
+        675
+      ],
+      "relation_counts": {
+        "AD-AD": 181,
+        "MCI-AD": 675,
+        "MCI-MCI": 1337,
+        "NC-AD": 239,
+        "NC-MCI": 1134,
+        "NC-NC": 530
+      },
+      "requested_support_count": 205,
+      "support_pool_count": 3361,
+      "support_shortfall_by_relation": {}
+    },
+    {
+      "actual_support_count": 287,
+      "actual_support_fraction": 0.070068359375,
+      "common_base_pair_sha256": "47c1ec2f4aaad4eafe22ac35f27fecd465ce9c3d3bfc067a7c7d106b20363ecb",
+      "difficulty_sampling": {
+        "MCI-AD": {
+          "status": "not_applied_in_group"
+        },
+        "MCI-MCI": {
+          "status": "not_applied_in_group"
+        },
+        "NC-MCI": {
+          "status": "not_applied_in_group"
+        }
+      },
+      "fold": 9,
+      "group": "U6",
+      "label_invariance": {
+        "pairs_equal": true,
+        "sampling_pairs_equal": true,
+        "sampling_targets_equal": true,
+        "supervision_loss_equal": true,
+        "supervision_loss_max_abs": 0.0,
+        "targets_equal": true,
+        "test_labels_read_by_sampler": false,
+        "total_loss_equal": true,
+        "total_loss_max_abs": 0.0
+      },
+      "pair_sha256": "fb8335c87d146e77e2cb9793f12b41951a489777ee9209397ba83646debc1b48",
+      "patient_exposure": {
+        "AD": {
+          "count": 67,
+          "gini": 0.10424367192251907,
+          "max": 27,
+          "mean": 19.044776119402986,
+          "min": 9,
+          "p95": 24.699999999999996,
+          "std": 3.5594433399305556,
+          "total_endpoint_exposure": 1276
+        },
+        "MCI": {
+          "count": 284,
+          "gini": 0.162509857269874,
+          "max": 33,
+          "mean": 15.785211267605634,
+          "min": 5,
+          "p95": 23.0,
+          "std": 4.580999447858676,
+          "total_endpoint_exposure": 4483
+        },
+        "NC": {
+          "count": 188,
+          "gini": 0.1557682049129435,
+          "max": 26,
+          "mean": 12.941489361702128,
+          "min": 3,
+          "p95": 19.0,
+          "std": 3.67304469837624,
+          "total_endpoint_exposure": 2433
+        }
+      },
+      "quotas": [
+        530,
+        1337,
+        181,
+        1134,
+        239,
+        675
+      ],
+      "relation_counts": {
+        "AD-AD": 181,
+        "MCI-AD": 675,
+        "MCI-MCI": 1337,
+        "NC-AD": 239,
+        "NC-MCI": 1134,
+        "NC-NC": 530
+      },
+      "requested_support_count": 205,
+      "support_pool_count": 3361,
+      "support_shortfall_by_relation": {
+        "AD-AD": 0,
+        "MCI-AD": 0,
+        "MCI-MCI": 0,
+        "NC-AD": 12,
+        "NC-MCI": 0,
+        "NC-NC": 0
+      }
+    },
+    {
+      "actual_support_count": 103,
+      "actual_support_fraction": 0.025146484375,
+      "common_base_pair_sha256": "5f76ac9a22464fbcd5def08cef104ea82b5eabea1893a3815c6e8be396a159a3",
+      "difficulty_sampling": {
+        "MCI-AD": {
+          "status": "not_applied_in_group"
+        },
+        "MCI-MCI": {
+          "status": "not_applied_in_group"
+        },
+        "NC-MCI": {
+          "status": "not_applied_in_group"
+        }
+      },
+      "fold": 10,
+      "group": "U1",
+      "label_invariance": {
+        "pairs_equal": true,
+        "sampling_pairs_equal": true,
+        "sampling_targets_equal": true,
+        "supervision_loss_equal": true,
+        "supervision_loss_max_abs": 0.0,
+        "targets_equal": true,
+        "test_labels_read_by_sampler": false,
+        "total_loss_equal": true,
+        "total_loss_max_abs": 0.0
+      },
+      "pair_sha256": "09eeacec550fdc82c303a26d8b79b57fc332311c950c1a72b62eab1020e0481a",
+      "patient_exposure": {
+        "AD": {
+          "count": 67,
+          "gini": 0.0857823669579031,
+          "max": 27,
+          "mean": 18.791044776119403,
+          "min": 12,
+          "p95": 24.0,
+          "std": 2.9297104611300417,
+          "total_endpoint_exposure": 1259
+        },
+        "MCI": {
+          "count": 283,
+          "gini": 0.1406173109953362,
+          "max": 27,
+          "mean": 15.731448763250883,
+          "min": 5,
+          "p95": 22.899999999999977,
+          "std": 3.9347999378954097,
+          "total_endpoint_exposure": 4452
+        },
+        "NC": {
+          "count": 189,
+          "gini": 0.16657389813375303,
+          "max": 24,
+          "mean": 13.126984126984127,
+          "min": 5,
+          "p95": 20.0,
+          "std": 3.9028902470055864,
+          "total_endpoint_exposure": 2481
+        }
+      },
+      "quotas": [
+        558,
+        1325,
+        165,
+        1119,
+        246,
+        683
+      ],
+      "relation_counts": {
+        "AD-AD": 165,
+        "MCI-AD": 683,
+        "MCI-MCI": 1325,
+        "NC-AD": 246,
+        "NC-MCI": 1119,
+        "NC-NC": 558
+      },
+      "requested_support_count": 205,
+      "support_pool_count": 3487,
+      "support_shortfall_by_relation": {}
+    },
+    {
+      "actual_support_count": 103,
+      "actual_support_fraction": 0.025146484375,
+      "common_base_pair_sha256": "5f76ac9a22464fbcd5def08cef104ea82b5eabea1893a3815c6e8be396a159a3",
+      "difficulty_sampling": {
+        "MCI-MCI": {
+          "band_percentiles": [
+            10.0,
+            30.0
+          ],
+          "candidate_count_after_exclusions": 7735,
+          "candidate_count_before_exclusions": 7980,
+          "fallback": "none",
+          "selected_pair_sha256": "f7ffbb5cd2acadfc5638646a6d95cf50afca7a561448f07c9c950189814d1ef1",
+          "selected_percentile_max": 0.2994762298574042,
+          "selected_percentile_mean": 0.19513418524771056,
+          "selected_percentile_min": 0.10094479111846227,
+          "selected_similarity_max": -0.18588753044605255,
+          "selected_similarity_mean": -0.3376419811763547,
+          "selected_similarity_min": -0.49318012595176697,
+          "similarity_lower": -0.49492083191871644,
+          "similarity_upper": -0.18506006896495816
+        }
+      },
+      "fold": 10,
+      "group": "U2",
+      "label_invariance": {
+        "pairs_equal": true,
+        "sampling_pairs_equal": true,
+        "sampling_targets_equal": true,
+        "supervision_loss_equal": true,
+        "supervision_loss_max_abs": 0.0,
+        "targets_equal": true,
+        "test_labels_read_by_sampler": false,
+        "total_loss_equal": true,
+        "total_loss_max_abs": 0.0
+      },
+      "pair_sha256": "1240dec76564477a7ded69e5cb0c221b8c6bed9165a07c1541468d5332d3ba47",
+      "patient_exposure": {
+        "AD": {
+          "count": 67,
+          "gini": 0.0857823669579031,
+          "max": 27,
+          "mean": 18.791044776119403,
+          "min": 12,
+          "p95": 24.0,
+          "std": 2.9297104611300417,
+          "total_endpoint_exposure": 1259
+        },
+        "MCI": {
+          "count": 283,
+          "gini": 0.14607005546401505,
+          "max": 29,
+          "mean": 15.731448763250883,
+          "min": 4,
+          "p95": 23.0,
+          "std": 4.099293270989494,
+          "total_endpoint_exposure": 4452
+        },
+        "NC": {
+          "count": 189,
+          "gini": 0.16657389813375303,
+          "max": 24,
+          "mean": 13.126984126984127,
+          "min": 5,
+          "p95": 20.0,
+          "std": 3.9028902470055864,
+          "total_endpoint_exposure": 2481
+        }
+      },
+      "quotas": [
+        558,
+        1325,
+        165,
+        1119,
+        246,
+        683
+      ],
+      "relation_counts": {
+        "AD-AD": 165,
+        "MCI-AD": 683,
+        "MCI-MCI": 1325,
+        "NC-AD": 246,
+        "NC-MCI": 1119,
+        "NC-NC": 558
+      },
+      "requested_support_count": 205,
+      "support_pool_count": 3487,
+      "support_shortfall_by_relation": {}
+    },
+    {
+      "actual_support_count": 103,
+      "actual_support_fraction": 0.025146484375,
+      "common_base_pair_sha256": "5f76ac9a22464fbcd5def08cef104ea82b5eabea1893a3815c6e8be396a159a3",
+      "difficulty_sampling": {
+        "NC-MCI": {
+          "band_percentiles": [
+            70.0,
+            90.0
+          ],
+          "candidate_count_after_exclusions": 10464,
+          "candidate_count_before_exclusions": 10697,
+          "fallback": "none",
+          "selected_pair_sha256": "80bf80576f35b72e00d0be479534e07697dc7fc5be3af614ca06c978ca13bcd8",
+          "selected_percentile_max": 0.8970590984725261,
+          "selected_percentile_mean": 0.7949348172720209,
+          "selected_percentile_min": 0.7030119468282012,
+          "selected_similarity_max": 0.7507279515266418,
+          "selected_similarity_mean": 0.5960591142731053,
+          "selected_similarity_min": 0.4555649161338806,
+          "similarity_lower": 0.45064163208007785,
+          "similarity_upper": 0.7550089597702027
+        }
+      },
+      "fold": 10,
+      "group": "U3",
+      "label_invariance": {
+        "pairs_equal": true,
+        "sampling_pairs_equal": true,
+        "sampling_targets_equal": true,
+        "supervision_loss_equal": true,
+        "supervision_loss_max_abs": 0.0,
+        "targets_equal": true,
+        "test_labels_read_by_sampler": false,
+        "total_loss_equal": true,
+        "total_loss_max_abs": 0.0
+      },
+      "pair_sha256": "681dc58ac5bb3c8154d45117e3318e7d853d6232adcb283e4b2092a0e559a200",
+      "patient_exposure": {
+        "AD": {
+          "count": 67,
+          "gini": 0.0857823669579031,
+          "max": 27,
+          "mean": 18.791044776119403,
+          "min": 12,
+          "p95": 24.0,
+          "std": 2.9297104611300417,
+          "total_endpoint_exposure": 1259
+        },
+        "MCI": {
+          "count": 283,
+          "gini": 0.14444296286419095,
+          "max": 26,
+          "mean": 15.731448763250883,
+          "min": 4,
+          "p95": 23.0,
+          "std": 4.029743701135937,
+          "total_endpoint_exposure": 4452
+        },
+        "NC": {
+          "count": 189,
+          "gini": 0.1703272916493392,
+          "max": 25,
+          "mean": 13.126984126984127,
+          "min": 5,
+          "p95": 20.0,
+          "std": 3.942008445836923,
+          "total_endpoint_exposure": 2481
+        }
+      },
+      "quotas": [
+        558,
+        1325,
+        165,
+        1119,
+        246,
+        683
+      ],
+      "relation_counts": {
+        "AD-AD": 165,
+        "MCI-AD": 683,
+        "MCI-MCI": 1325,
+        "NC-AD": 246,
+        "NC-MCI": 1119,
+        "NC-NC": 558
+      },
+      "requested_support_count": 205,
+      "support_pool_count": 3487,
+      "support_shortfall_by_relation": {}
+    },
+    {
+      "actual_support_count": 103,
+      "actual_support_fraction": 0.025146484375,
+      "common_base_pair_sha256": "5f76ac9a22464fbcd5def08cef104ea82b5eabea1893a3815c6e8be396a159a3",
+      "difficulty_sampling": {
+        "MCI-AD": {
+          "band_percentiles": [
+            70.0,
+            90.0
+          ],
+          "candidate_count_after_exclusions": 3670,
+          "candidate_count_before_exclusions": 3793,
+          "fallback": "none",
+          "selected_pair_sha256": "04bccce38e5171632687a505dea5540a0baa656e33d9c0f6dcc544521837566a",
+          "selected_percentile_max": 0.8967354042508306,
+          "selected_percentile_mean": 0.7936173942178527,
+          "selected_percentile_min": 0.7008069194662728,
+          "selected_similarity_max": 0.5967426300048828,
+          "selected_similarity_mean": 0.3994333481087404,
+          "selected_similarity_min": 0.2337356060743332,
+          "similarity_lower": 0.2323344200849533,
+          "similarity_upper": 0.6025457978248596
+        }
+      },
+      "fold": 10,
+      "group": "U4",
+      "label_invariance": {
+        "pairs_equal": true,
+        "sampling_pairs_equal": true,
+        "sampling_targets_equal": true,
+        "supervision_loss_equal": true,
+        "supervision_loss_max_abs": 0.0,
+        "targets_equal": true,
+        "test_labels_read_by_sampler": false,
+        "total_loss_equal": true,
+        "total_loss_max_abs": 0.0
+      },
+      "pair_sha256": "669212a62c669e11f6a5dbd684671602eb606eaea38a70467236dba773b6ea36",
+      "patient_exposure": {
+        "AD": {
+          "count": 67,
+          "gini": 0.08646995364717319,
+          "max": 27,
+          "mean": 18.791044776119403,
+          "min": 12,
+          "p95": 24.0,
+          "std": 2.9246115365610774,
+          "total_endpoint_exposure": 1259
+        },
+        "MCI": {
+          "count": 283,
+          "gini": 0.1390441902476038,
+          "max": 27,
+          "mean": 15.731448763250883,
+          "min": 4,
+          "p95": 22.899999999999977,
+          "std": 3.8941789057320273,
+          "total_endpoint_exposure": 4452
+        },
+        "NC": {
+          "count": 189,
+          "gini": 0.16657389813375303,
+          "max": 24,
+          "mean": 13.126984126984127,
+          "min": 5,
+          "p95": 20.0,
+          "std": 3.9028902470055864,
+          "total_endpoint_exposure": 2481
+        }
+      },
+      "quotas": [
+        558,
+        1325,
+        165,
+        1119,
+        246,
+        683
+      ],
+      "relation_counts": {
+        "AD-AD": 165,
+        "MCI-AD": 683,
+        "MCI-MCI": 1325,
+        "NC-AD": 246,
+        "NC-MCI": 1119,
+        "NC-NC": 558
+      },
+      "requested_support_count": 205,
+      "support_pool_count": 3487,
+      "support_shortfall_by_relation": {}
+    },
+    {
+      "actual_support_count": 103,
+      "actual_support_fraction": 0.025146484375,
+      "common_base_pair_sha256": "5f76ac9a22464fbcd5def08cef104ea82b5eabea1893a3815c6e8be396a159a3",
+      "difficulty_sampling": {
+        "MCI-AD": {
+          "band_percentiles": [
+            70.0,
+            90.0
+          ],
+          "candidate_count_after_exclusions": 3670,
+          "candidate_count_before_exclusions": 3793,
+          "fallback": "none",
+          "selected_pair_sha256": "04bccce38e5171632687a505dea5540a0baa656e33d9c0f6dcc544521837566a",
+          "selected_percentile_max": 0.8967354042508306,
+          "selected_percentile_mean": 0.7936173942178527,
+          "selected_percentile_min": 0.7008069194662728,
+          "selected_similarity_max": 0.5967426300048828,
+          "selected_similarity_mean": 0.3994333481087404,
+          "selected_similarity_min": 0.2337356060743332,
+          "similarity_lower": 0.2323344200849533,
+          "similarity_upper": 0.6025457978248596
+        },
+        "NC-MCI": {
+          "band_percentiles": [
+            70.0,
+            90.0
+          ],
+          "candidate_count_after_exclusions": 10464,
+          "candidate_count_before_exclusions": 10697,
+          "fallback": "none",
+          "selected_pair_sha256": "80bf80576f35b72e00d0be479534e07697dc7fc5be3af614ca06c978ca13bcd8",
+          "selected_percentile_max": 0.8970590984725261,
+          "selected_percentile_mean": 0.7949348172720209,
+          "selected_percentile_min": 0.7030119468282012,
+          "selected_similarity_max": 0.7507279515266418,
+          "selected_similarity_mean": 0.5960591142731053,
+          "selected_similarity_min": 0.4555649161338806,
+          "similarity_lower": 0.45064163208007785,
+          "similarity_upper": 0.7550089597702027
+        }
+      },
+      "fold": 10,
+      "group": "U5",
+      "label_invariance": {
+        "pairs_equal": true,
+        "sampling_pairs_equal": true,
+        "sampling_targets_equal": true,
+        "supervision_loss_equal": true,
+        "supervision_loss_max_abs": 0.0,
+        "targets_equal": true,
+        "test_labels_read_by_sampler": false,
+        "total_loss_equal": true,
+        "total_loss_max_abs": 0.0
+      },
+      "pair_sha256": "d1d202766829b1e69ced4f874c024a1561d6503f9b6153bc722b52f1fc3638f9",
+      "patient_exposure": {
+        "AD": {
+          "count": 67,
+          "gini": 0.08646995364717319,
+          "max": 27,
+          "mean": 18.791044776119403,
+          "min": 12,
+          "p95": 24.0,
+          "std": 2.9246115365610774,
+          "total_endpoint_exposure": 1259
+        },
+        "MCI": {
+          "count": 283,
+          "gini": 0.14204756507576696,
+          "max": 25,
+          "mean": 15.731448763250883,
+          "min": 4,
+          "p95": 22.899999999999977,
+          "std": 3.969668616625325,
+          "total_endpoint_exposure": 4452
+        },
+        "NC": {
+          "count": 189,
+          "gini": 0.1703272916493392,
+          "max": 25,
+          "mean": 13.126984126984127,
+          "min": 5,
+          "p95": 20.0,
+          "std": 3.942008445836923,
+          "total_endpoint_exposure": 2481
+        }
+      },
+      "quotas": [
+        558,
+        1325,
+        165,
+        1119,
+        246,
+        683
+      ],
+      "relation_counts": {
+        "AD-AD": 165,
+        "MCI-AD": 683,
+        "MCI-MCI": 1325,
+        "NC-AD": 246,
+        "NC-MCI": 1119,
+        "NC-NC": 558
+      },
+      "requested_support_count": 205,
+      "support_pool_count": 3487,
+      "support_shortfall_by_relation": {}
+    },
+    {
+      "actual_support_count": 289,
+      "actual_support_fraction": 0.070556640625,
+      "common_base_pair_sha256": "5f76ac9a22464fbcd5def08cef104ea82b5eabea1893a3815c6e8be396a159a3",
+      "difficulty_sampling": {
+        "MCI-AD": {
+          "status": "not_applied_in_group"
+        },
+        "MCI-MCI": {
+          "status": "not_applied_in_group"
+        },
+        "NC-MCI": {
+          "status": "not_applied_in_group"
+        }
+      },
+      "fold": 10,
+      "group": "U6",
+      "label_invariance": {
+        "pairs_equal": true,
+        "sampling_pairs_equal": true,
+        "sampling_targets_equal": true,
+        "supervision_loss_equal": true,
+        "supervision_loss_max_abs": 0.0,
+        "targets_equal": true,
+        "test_labels_read_by_sampler": false,
+        "total_loss_equal": true,
+        "total_loss_max_abs": 0.0
+      },
+      "pair_sha256": "3cc059bd3c8c589b67257ab7adbbbcc0856e81829d228ca13570e8e0e288c704",
+      "patient_exposure": {
+        "AD": {
+          "count": 67,
+          "gini": 0.0929901722523206,
+          "max": 27,
+          "mean": 18.791044776119403,
+          "min": 13,
+          "p95": 25.0,
+          "std": 3.17892929234928,
+          "total_endpoint_exposure": 1259
+        },
+        "MCI": {
+          "count": 283,
+          "gini": 0.16168220738525427,
+          "max": 34,
+          "mean": 15.731448763250883,
+          "min": 5,
+          "p95": 23.0,
+          "std": 4.566582451488646,
+          "total_endpoint_exposure": 4452
+        },
+        "NC": {
+          "count": 189,
+          "gini": 0.17059600050329596,
+          "max": 25,
+          "mean": 13.126984126984127,
+          "min": 5,
+          "p95": 20.599999999999994,
+          "std": 4.005916511235118,
+          "total_endpoint_exposure": 2481
+        }
+      },
+      "quotas": [
+        558,
+        1325,
+        165,
+        1119,
+        246,
+        683
+      ],
+      "relation_counts": {
+        "AD-AD": 165,
+        "MCI-AD": 683,
+        "MCI-MCI": 1325,
+        "NC-AD": 246,
+        "NC-MCI": 1119,
+        "NC-NC": 558
+      },
+      "requested_support_count": 205,
+      "support_pool_count": 3487,
+      "support_shortfall_by_relation": {
+        "AD-AD": 0,
+        "MCI-AD": 0,
+        "MCI-MCI": 0,
+        "NC-AD": 12,
+        "NC-MCI": 0,
+        "NC-NC": 0
+      }
+    }
+  ],
+  "status": "PASS",
+  "support_source_epoch_10_frozen": true,
+  "test_label_permutation_invariant": true
+}

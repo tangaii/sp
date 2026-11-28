@@ -1,0 +1,155 @@
+{
+  "data": {
+    "data_sha256": "0b8a14a9c066752c2d937c93d43c2824c41beaaa7d0a451b083db8dcba07c5bc",
+    "label_counts": [
+      209,
+      315,
+      74
+    ],
+    "modality_dims": [
+      145,
+      148,
+      3,
+      36,
+      24,
+      9
+    ],
+    "patient_count": 598,
+    "shape": [
+      598,
+      365
+    ],
+    "split_sha256": "7c5a4dc9bd8ee7ffc6e5aff8bf841513f26a5ff6cf1b6c110a8153aa6a106ec5",
+    "status": "PASS"
+  },
+  "experiment": "Experiment 83.8.5.5",
+  "formal_training_allowed": true,
+  "groups": {
+    "U1": {
+      "formal_training_allowed": true,
+      "status": "PASS"
+    },
+    "U2": {
+      "formal_training_allowed": true,
+      "status": "PASS"
+    },
+    "U3": {
+      "formal_training_allowed": true,
+      "status": "PASS"
+    },
+    "U4": {
+      "formal_training_allowed": true,
+      "status": "PASS"
+    },
+    "U5": {
+      "formal_training_allowed": true,
+      "status": "PASS"
+    },
+    "U6": {
+      "formal_training_allowed": true,
+      "status": "PASS"
+    }
+  },
+  "historical_b0_best_sha256": {
+    "1": "37f9bc3fedce0d18905af3b66a598deb4ffca10addf9016a07865b227267c8a7",
+    "10": "dc5ce24030352e59c2351d30788ea85e43fc6cc21e0e043c8420da6382eb76e8",
+    "2": "09b66f562b806a4dad8f074ae66cc889a060bf92f83b0ef7b65484a5cb5e9441",
+    "3": "034ccf614bd94478ebd097d54d12a00411a377f3c0ad9e8417d0b27dcf712e1b",
+    "4": "0b952d544b3b5d6467add0e10fbabde6445dff70a93e366460478d38474fc36a",
+    "5": "8d350f5ff217f0f37e0689d3b8d0d7969e154b7a3616c7d26f7b87e76aa21195",
+    "6": "bff9e50782a61f4ecc27200df511065102407ab788d41a94418985214babb16c",
+    "7": "7f03e118e0dc66a154430b61d280a5ca363cfc3fdafc6b8acbc3d2bcf0d4bc9a",
+    "8": "3184800a46676d11d2f3c79c010991e7b29a67d21a9544d1245aa0b9cf28118d",
+    "9": "f6b501e00bb987298400c373e4ad0186b84a04aa1c98941851887cf462c5887f"
+  },
+  "method_fidelity_sha256": "504e709095871335449341727fcce50f504448bc6f466166629fa6c72b4e5aee",
+  "parity_sha256": "50411ab0f5b72d638ac3fe61ff9617a8916f97fc6fa69fab04a8e89a1127d443",
+  "s02_relation_quotas": {
+    "1": [
+      551,
+      1319,
+      178,
+      1107,
+      231,
+      710
+    ],
+    "10": [
+      558,
+      1325,
+      165,
+      1119,
+      246,
+      683
+    ],
+    "2": [
+      528,
+      1337,
+      183,
+      1061,
+      227,
+      760
+    ],
+    "3": [
+      534,
+      1317,
+      197,
+      1135,
+      266,
+      647
+    ],
+    "4": [
+      583,
+      1286,
+      179,
+      1161,
+      245,
+      642
+    ],
+    "5": [
+      541,
+      1341,
+      166,
+      1130,
+      251,
+      667
+    ],
+    "6": [
+      537,
+      1322,
+      189,
+      1133,
+      221,
+      694
+    ],
+    "7": [
+      589,
+      1288,
+      171,
+      1119,
+      270,
+      659
+    ],
+    "8": [
+      570,
+      1310,
+      168,
+      1113,
+      228,
+      707
+    ],
+    "9": [
+      530,
+      1337,
+      181,
+      1134,
+      239,
+      675
+    ]
+  },
+  "sampler_audit_sha256": "7302e846a867a9c4ce3243f7d52ed87b1e1046e2dc4da7826131f22c8aca5132",
+  "sampler_rows": 60,
+  "source_review_sha256": "43fa767212967553867bfdce37b77950619ff50f179c7c440ca5cc0be4ea2fd3",
+  "status": "PASS",
+  "warmup_pairing_sha256": "a10e4ef6bc484fec2e343d6fbbf532dcc10be4b528d5c468d8784c26db18f271",
+  "warmup_rows": 10
+}

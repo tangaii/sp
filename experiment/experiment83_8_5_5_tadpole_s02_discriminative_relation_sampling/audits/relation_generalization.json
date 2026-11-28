@@ -1,0 +1,28 @@
+{
+  "csv_sha256": "a1af8fc269aba72d27979bf52564209039c0a43053378d0208349e258b334596",
+  "experiment": "Experiment 83.8.5.5",
+  "folds": 80,
+  "groups": [
+    "H0",
+    "H1",
+    "U1",
+    "U2",
+    "U3",
+    "U4",
+    "U5",
+    "U6"
+  ],
+  "held_out_pair_definition": "both endpoints are in the outer test fold, so neither patient occurs in this fold's DARG relation training pairs",
+  "modalities": [
+    "UCSFFSX",
+    "UCBERKELEYAV45",
+    "UPENNBIOMK9",
+    "RISK_FACTOR",
+    "COGNITIVE_TEST",
+    "ROI_AVERAGE"
+  ],
+  "relation_ovr_score_definition": "the existing binary DARG RelationScorer sigmoid output ranks each of six observed diagnosis-pair types one-vs-rest; the model has no six-way relation head",
+  "rows": 6240,
+  "status": "PASS",
+  "support_definition": "the shared epoch-10 frozen original COGNITIVE_TEST GraphLearn non-diagonal edges, restricted to outer test-test pairs for the support-stratified diagnostic"
+}

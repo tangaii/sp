@@ -1,0 +1,18 @@
+{
+  "best_checkpoint": "/model/spromptgl/experiment/experiment83_8_5_tadpole_cognitive_anchored_darg_dpsl/groups/R0/best_checkpoints/fold07.pt",
+  "best_checkpoint_sha256": "7f03e118e0dc66a154430b61d280a5ca363cfc3fdafc6b8acbc3d2bcf0d4bc9a",
+  "best_replay_prediction_exact": true,
+  "experiment": "Experiment 83.8.5.5",
+  "fold": 7,
+  "group": "H0",
+  "latest_checkpoint": "/model/spromptgl/experiment/experiment83_8_5_tadpole_cognitive_anchored_darg_dpsl/groups/R0/latest_checkpoints/fold07.pt",
+  "latest_checkpoint_sha256": "533f4d476fd331fbce50e68db334ecfda0c9cd2ad23468db6cbb15e8e9d9cd72",
+  "latest_replay_finite": true,
+  "source_audit": "/model/spromptgl/experiment/experiment83_8_5_tadpole_cognitive_anchored_darg_dpsl/groups/R0/audits/fold07.json",
+  "source_audit_sha256": "97ae77951aa80534324d6356ecabe63cadad112db555bbccea66a42142ed502b",
+  "source_group": "R0",
+  "source_prediction": "/model/spromptgl/experiment/experiment83_8_5_tadpole_cognitive_anchored_darg_dpsl/groups/R0/predictions/fold07.csv",
+  "source_prediction_sha256": "57e428467c42a5507f6b0085458f77067277cdcfee0b3c41bce95695edf51a26",
+  "source_root": "/model/spromptgl/experiment/experiment83_8_5_tadpole_cognitive_anchored_darg_dpsl",
+  "status": "PASS"
+}

@@ -1,0 +1,198 @@
+{
+  "comparisons": [
+    {
+      "failures": [],
+      "max_peak_memory_bytes": 446337024,
+      "rows": [
+        {
+          "finite": true,
+          "fold": 1,
+          "peak_memory_bytes": 446337024,
+          "seconds": 4.299292020499706,
+          "task": 0
+        },
+        {
+          "finite": true,
+          "fold": 2,
+          "peak_memory_bytes": 446337024,
+          "seconds": 4.237933326512575,
+          "task": 1
+        },
+        {
+          "finite": true,
+          "fold": 3,
+          "peak_memory_bytes": 446337024,
+          "seconds": 4.3887799680233,
+          "task": 2
+        },
+        {
+          "finite": true,
+          "fold": 4,
+          "peak_memory_bytes": 446337024,
+          "seconds": 4.42533341050148,
+          "task": 3
+        }
+      ],
+      "status": "PASS",
+      "steps": 4,
+      "throughput_steps_per_second": 0.3007009863708208,
+      "wall_seconds": 13.302251011133194,
+      "worker_count": 4
+    },
+    {
+      "failures": [],
+      "max_peak_memory_bytes": 446337024,
+      "rows": [
+        {
+          "finite": true,
+          "fold": 1,
+          "peak_memory_bytes": 446337024,
+          "seconds": 4.307533271610737,
+          "task": 0
+        },
+        {
+          "finite": true,
+          "fold": 2,
+          "peak_memory_bytes": 446337024,
+          "seconds": 4.351846221834421,
+          "task": 1
+        },
+        {
+          "finite": true,
+          "fold": 3,
+          "peak_memory_bytes": 446337024,
+          "seconds": 4.454806115478277,
+          "task": 2
+        },
+        {
+          "finite": true,
+          "fold": 4,
+          "peak_memory_bytes": 446337024,
+          "seconds": 4.510369423776865,
+          "task": 3
+        },
+        {
+          "finite": true,
+          "fold": 5,
+          "peak_memory_bytes": 446337024,
+          "seconds": 4.29106505587697,
+          "task": 4
+        },
+        {
+          "finite": true,
+          "fold": 6,
+          "peak_memory_bytes": 446337024,
+          "seconds": 4.303810883313417,
+          "task": 5
+        },
+        {
+          "finite": true,
+          "fold": 7,
+          "peak_memory_bytes": 446337024,
+          "seconds": 4.571075711399317,
+          "task": 6
+        },
+        {
+          "finite": true,
+          "fold": 8,
+          "peak_memory_bytes": 446337024,
+          "seconds": 4.334750708192587,
+          "task": 7
+        }
+      ],
+      "status": "PASS",
+      "steps": 8,
+      "throughput_steps_per_second": 0.5211138148386842,
+      "wall_seconds": 15.351732715964317,
+      "worker_count": 8
+    },
+    {
+      "failures": [],
+      "max_peak_memory_bytes": 446348288,
+      "rows": [
+        {
+          "finite": true,
+          "fold": 1,
+          "peak_memory_bytes": 446337024,
+          "seconds": 4.299008868634701,
+          "task": 0
+        },
+        {
+          "finite": true,
+          "fold": 2,
+          "peak_memory_bytes": 446337024,
+          "seconds": 4.510140635073185,
+          "task": 1
+        },
+        {
+          "finite": true,
+          "fold": 3,
+          "peak_memory_bytes": 446337024,
+          "seconds": 4.407735876739025,
+          "task": 2
+        },
+        {
+          "finite": true,
+          "fold": 4,
+          "peak_memory_bytes": 446337024,
+          "seconds": 4.366466637700796,
+          "task": 3
+        },
+        {
+          "finite": true,
+          "fold": 5,
+          "peak_memory_bytes": 446337024,
+          "seconds": 8.883552879095078,
+          "task": 4
+        },
+        {
+          "finite": true,
+          "fold": 6,
+          "peak_memory_bytes": 446337024,
+          "seconds": 8.81166085600853,
+          "task": 5
+        },
+        {
+          "finite": true,
+          "fold": 7,
+          "peak_memory_bytes": 446337024,
+          "seconds": 9.316897477954626,
+          "task": 6
+        },
+        {
+          "finite": true,
+          "fold": 8,
+          "peak_memory_bytes": 446337024,
+          "seconds": 9.27075046300888,
+          "task": 7
+        },
+        {
+          "finite": true,
+          "fold": 9,
+          "peak_memory_bytes": 446348288,
+          "seconds": 4.284861382097006,
+          "task": 8
+        },
+        {
+          "finite": true,
+          "fold": 10,
+          "peak_memory_bytes": 446348288,
+          "seconds": 9.229558624327183,
+          "task": 9
+        }
+      ],
+      "status": "PASS",
+      "steps": 10,
+      "throughput_steps_per_second": 0.47800927135581156,
+      "wall_seconds": 20.920096322894096,
+      "worker_count": 10
+    }
+  ],
+  "device": "PPU-ZW810E",
+  "device_count": 1,
+  "experiment": "Experiment 83.8.5.5",
+  "max_memory_bytes": 446348288,
+  "selection_rule": "highest measured representative-step throughput among stable 4/8/10 probes",
+  "status": "PASS",
+  "worker_count": 8
+}
